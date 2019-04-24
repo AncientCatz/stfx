@@ -2,7 +2,7 @@ image: node:4.2.2
 pages:
   script:
     - npm install pug
-    - pug index.pug --out public
+    - /node_modules/.bin/pug index.pug --out public
   artifacts:
     paths:
       - public
