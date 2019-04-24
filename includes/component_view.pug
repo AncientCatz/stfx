@@ -1,0 +1,14 @@
+script(type="text/x-template")#component-view
+    div.item.componentitem
+        div.ui.image.tiny
+            img(:src="img_get_component(component)")
+            p {{component.name}}
+        div.content
+            div.meta
+                div.ui.horizontal.list
+                    div.item(v-for="prop in parse_component_props(component)")
+                        img.ui.avatar.image(:src="prop.img")
+                        div.content
+                            span {{prop.val}}
+            div.description
+                p {{parse_component_description(component)}}

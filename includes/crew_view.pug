@@ -1,0 +1,8 @@
+div.ui.grid(v-if="current")
+    div.ui.cards
+        div(v-for="job in jobs").ui.card.crewcard
+            img(:src="img_get_job(job)").ui.image
+            .content
+                .description
+                    p {{job.name}}
+                .extra.content

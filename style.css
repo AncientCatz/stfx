@@ -1,0 +1,32 @@
+.componentcard {
+    overflow: hidden;
+    font-size: smaller;
+    text-overflow: ellipsis;
+    max-width: 100px !important;
+    white-space: nowrap;
+}
+.componentcard > .content {
+    font-size:x-small !important;
+    text-align: center !important;
+}
+
+.crewcard {
+    max-width: 150px !important;
+}
+.crewcard > .image  {
+    background-color: #1f262d !important;
+    object-fit: scale-down !important;
+}
+
+.crewcard > .content {
+    font-size:x-small !important;
+    text-align: center !important;
+}
+
+.componentitem {
+    padding: 0 !important;
+}
+
+.componentitem.current {
+    background-color: rgb(240,240,240) !important;
+}

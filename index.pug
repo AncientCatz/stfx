@@ -1,0 +1,35 @@
+html
+    head
+        meta(charset='utf-8')
+        meta(name=viewport, content="width=device-width")
+        script(src="https://code.jquery.com/jquery-3.1.1.min.js")
+        script(src="https://unpkg.com/fomantic-ui@2.7.4/dist/semantic.min.js")
+        script(src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js")
+        script(src="https://unpkg.com/semantic-ui-vue/dist/umd/semantic-ui-vue.min.js")
+        link(rel="stylesheet", href="https://unpkg.com/fomantic-ui@2.7.4/dist/semantic.min.css")
+        link(rel="stylesheet", href="/style.css")
+    body
+        include includes/component_modal.pug
+        include includes/component_card.pug
+        include includes/component_view.pug
+        include includes/component_table.pug
+        div#app
+            component-modal(v-if="current", v-bind:components="components", v-on:set_component="set_component")
+            div
+            div.ui.menu
+                div.header.item EBIN
+                div.active.item #[a Save]
+                div.active.item #[a Load]
+                div.active.item #[a Export]
+                div.active.item #[a Import]
+            include includes/total_view.pug
+
+            sui-tab
+                sui-tab-pane(title='Ship')
+                    sui-dropdown(fluid, placeholder="Ships" search selection, :options="update_ships_dropdown()", v-model="current_id")
+                    include includes/ship_view.pug
+                sui-tab-pane(title='Crew')
+                    include includes/crew_view.pug
+
+
+script(src="code.js")
