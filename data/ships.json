@@ -25,7 +25,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 10,
+    "fuel": 55,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "2": {
     "_id": 2,
@@ -57,7 +63,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 7,
+    "fuel": 40,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "3": {
     "_id": 3,
@@ -93,7 +105,13 @@
       25,
       95,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 8,
+    "fuel": 60,
+    "max_craft": 3,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "4": {
     "_id": 4,
@@ -122,7 +140,13 @@
       18,
       27,
       30
-    ]
+    ],
+    "armor": 12,
+    "shield": 12,
+    "fuel": 60,
+    "max_craft": 0,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "5": {
     "_id": 5,
@@ -159,7 +183,13 @@
       40,
       95,
       30
-    ]
+    ],
+    "armor": 5,
+    "shield": 4,
+    "fuel": 80,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 6
   },
   "6": {
     "_id": 6,
@@ -195,7 +225,13 @@
       4,
       4,
       30
-    ]
+    ],
+    "armor": 5,
+    "shield": 4,
+    "fuel": 90,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 6
   },
   "7": {
     "_id": 7,
@@ -226,7 +262,13 @@
       95,
       4,
       63
-    ]
+    ],
+    "armor": 7,
+    "shield": 8,
+    "fuel": 55,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "8": {
     "_id": 8,
@@ -262,7 +304,13 @@
       38,
       95,
       30
-    ]
+    ],
+    "armor": 6,
+    "shield": 6,
+    "fuel": 60,
+    "max_craft": 3,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "9": {
     "_id": 9,
@@ -304,7 +352,13 @@
       5,
       40,
       30
-    ]
+    ],
+    "armor": 5,
+    "shield": 3,
+    "fuel": 60,
+    "max_craft": 4,
+    "max_crew": 42,
+    "max_officers": 7
   },
   "10": {
     "_id": 10,
@@ -336,7 +390,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 5,
+    "fuel": 30,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "11": {
     "_id": 11,
@@ -365,7 +425,13 @@
       11,
       40,
       30
-    ]
+    ],
+    "armor": 12,
+    "shield": 10,
+    "fuel": 25,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "12": {
     "_id": 12,
@@ -399,7 +465,13 @@
       11,
       38,
       30
-    ]
+    ],
+    "armor": 9,
+    "shield": 8,
+    "fuel": 25,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "13": {
     "_id": 13,
@@ -435,7 +507,13 @@
       38,
       95,
       30
-    ]
+    ],
+    "armor": 2,
+    "shield": 10,
+    "fuel": 80,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 6
   },
   "14": {
     "_id": 14,
@@ -468,7 +546,13 @@
       11,
       11,
       63
-    ]
+    ],
+    "armor": 7,
+    "shield": 9,
+    "fuel": 80,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "15": {
     "_id": 15,
@@ -505,7 +589,13 @@
       25,
       95,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 3,
+    "fuel": 45,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 6
   },
   "16": {
     "_id": 16,
@@ -548,7 +638,13 @@
       40,
       40,
       30
-    ]
+    ],
+    "armor": 3,
+    "shield": 9,
+    "fuel": 35,
+    "max_craft": 4,
+    "max_crew": 42,
+    "max_officers": 7
   },
   "17": {
     "_id": 17,
@@ -577,7 +673,13 @@
       7,
       11,
       30
-    ]
+    ],
+    "armor": 15,
+    "shield": 8,
+    "fuel": 45,
+    "max_craft": 1,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "18": {
     "_id": 18,
@@ -613,7 +715,13 @@
       25,
       95,
       30
-    ]
+    ],
+    "armor": 5,
+    "shield": 9,
+    "fuel": 75,
+    "max_craft": 3,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "19": {
     "_id": 19,
@@ -645,7 +753,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 5,
+    "fuel": 50,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "21": {
     "_id": 21,
@@ -690,7 +804,13 @@
       40,
       38,
       30
-    ]
+    ],
+    "armor": 9,
+    "shield": 7,
+    "fuel": 115,
+    "max_craft": 5,
+    "max_crew": 42,
+    "max_officers": 7
   },
   "22": {
     "_id": 22,
@@ -733,7 +853,13 @@
       40,
       38,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 4,
+    "fuel": 160,
+    "max_craft": 5,
+    "max_crew": 42,
+    "max_officers": 7
   },
   "24": {
     "_id": 24,
@@ -763,7 +889,13 @@
       7,
       7,
       63
-    ]
+    ],
+    "armor": 12,
+    "shield": 10,
+    "fuel": 75,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "25": {
     "_id": 25,
@@ -795,7 +927,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 12,
+    "shield": 6,
+    "fuel": 30,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "26": {
     "_id": 26,
@@ -826,7 +964,13 @@
       7,
       25,
       30
-    ]
+    ],
+    "armor": 5,
+    "shield": 12,
+    "fuel": 50,
+    "max_craft": 1,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "27": {
     "_id": 27,
@@ -860,7 +1004,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 12,
+    "shield": 9,
+    "fuel": 100,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "28": {
     "_id": 28,
@@ -894,7 +1044,13 @@
       18,
       11,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 11,
+    "fuel": 40,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "29": {
     "_id": 29,
@@ -923,7 +1079,13 @@
       11,
       37,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 12,
+    "fuel": 85,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "30": {
     "_id": 30,
@@ -951,7 +1113,13 @@
       37,
       95,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 14,
+    "fuel": 95,
+    "max_craft": 0,
+    "max_crew": 24,
+    "max_officers": 4
   },
   "31": {
     "_id": 31,
@@ -982,7 +1150,13 @@
       40,
       37,
       30
-    ]
+    ],
+    "armor": 11,
+    "shield": 12,
+    "fuel": 80,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "32": {
     "_id": 32,
@@ -1012,7 +1186,13 @@
       354,
       37,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 15,
+    "fuel": 45,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "34": {
     "_id": 34,
@@ -1041,7 +1221,13 @@
       37,
       95,
       30
-    ]
+    ],
+    "armor": 6,
+    "shield": 12,
+    "fuel": 45,
+    "max_craft": 0,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "35": {
     "_id": 35,
@@ -1075,7 +1261,13 @@
       7,
       11,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 7,
+    "fuel": 50,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "36": {
     "_id": 36,
@@ -1104,7 +1296,13 @@
       37,
       95,
       30
-    ]
+    ],
+    "armor": 14,
+    "shield": 10,
+    "fuel": 70,
+    "max_craft": 0,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "37": {
     "_id": 37,
@@ -1134,7 +1332,13 @@
       37,
       95,
       65
-    ]
+    ],
+    "armor": 8,
+    "shield": 8,
+    "fuel": 50,
+    "max_craft": 0,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "39": {
     "_id": 39,
@@ -1163,7 +1367,13 @@
       427,
       38,
       30
-    ]
+    ],
+    "armor": 11,
+    "shield": 11,
+    "fuel": 70,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "40": {
     "_id": 40,
@@ -1193,7 +1403,13 @@
       11,
       37,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 10,
+    "fuel": 55,
+    "max_craft": 1,
+    "max_crew": 24,
+    "max_officers": 5
   },
   "42": {
     "_id": 42,
@@ -1225,7 +1441,13 @@
       25,
       25,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 8,
+    "fuel": 70,
+    "max_craft": 1,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "43": {
     "_id": 43,
@@ -1257,7 +1479,13 @@
       25,
       88,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 6,
+    "fuel": 100,
+    "max_craft": 1,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "45": {
     "_id": 45,
@@ -1291,7 +1519,13 @@
       354,
       354,
       30
-    ]
+    ],
+    "armor": 10,
+    "shield": 10,
+    "fuel": 55,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "46": {
     "_id": 46,
@@ -1325,7 +1559,13 @@
       25,
       25,
       30
-    ]
+    ],
+    "armor": 8,
+    "shield": 12,
+    "fuel": 60,
+    "max_craft": 3,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "48": {
     "_id": 48,
@@ -1359,7 +1599,13 @@
       95,
       95,
       30
-    ]
+    ],
+    "armor": 12,
+    "shield": 8,
+    "fuel": 75,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "50": {
     "_id": 50,
@@ -1393,7 +1639,13 @@
       354,
       354,
       30
-    ]
+    ],
+    "armor": 9,
+    "shield": 8,
+    "fuel": 50,
+    "max_craft": 2,
+    "max_crew": 30,
+    "max_officers": 5
   },
   "51": {
     "_id": 51,
@@ -1429,7 +1681,13 @@
       427,
       95,
       30
-    ]
+    ],
+    "armor": 9,
+    "shield": 5,
+    "fuel": 65,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 6
   },
   "54": {
     "_id": 54,
@@ -1465,7 +1723,13 @@
       427,
       32,
       30
-    ]
+    ],
+    "armor": 4,
+    "shield": 9,
+    "fuel": 40,
+    "max_craft": 3,
+    "max_crew": 30,
+    "max_officers": 6
   },
   "57": {
     "_id": 57,
@@ -1504,7 +1768,13 @@
       25,
       25,
       30
-    ]
+    ],
+    "armor": 6,
+    "shield": 5,
+    "fuel": 120,
+    "max_craft": 3,
+    "max_crew": 42,
+    "max_officers": 6
   },
   "58": {
     "_id": 58,
@@ -1543,7 +1813,13 @@
       447,
       95,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 9,
+    "fuel": 75,
+    "max_craft": 3,
+    "max_crew": 36,
+    "max_officers": 7
   },
   "60": {
     "_id": 60,
@@ -1584,7 +1860,13 @@
       447,
       95,
       30
-    ]
+    ],
+    "armor": 9,
+    "shield": 7,
+    "fuel": 50,
+    "max_craft": 4,
+    "max_crew": 36,
+    "max_officers": 7
   },
   "66": {
     "_id": 66,
@@ -1618,7 +1900,13 @@
       427,
       427,
       30
-    ]
+    ],
+    "armor": 4,
+    "shield": 7,
+    "fuel": 130,
+    "max_craft": 4,
+    "max_crew": 36,
+    "max_officers": 7
   },
   "71": {
     "_id": 71,
@@ -1657,7 +1945,13 @@
       427,
       427,
       30
-    ]
+    ],
+    "armor": 4,
+    "shield": 7,
+    "fuel": 130,
+    "max_craft": 4,
+    "max_crew": 36,
+    "max_officers": 7
   },
   "73": {
     "_id": 73,
@@ -1698,6 +1992,12 @@
       427,
       427,
       30
-    ]
+    ],
+    "armor": 7,
+    "shield": 11,
+    "fuel": 95,
+    "max_craft": 5,
+    "max_crew": 42,
+    "max_officers": 7
   }
 }

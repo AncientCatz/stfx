@@ -363,6 +363,7 @@
     "mass": 125,
     "install_cost": 9500,
     "armor": 1,
+    "medical": 2,
     "skill_shipops": 2,
     "skill_electronics": 1
   },
@@ -613,6 +614,7 @@
     "size": "medium",
     "mass": 325,
     "install_cost": 34880,
+    "medical": 4,
     "skill_shipops": 2,
     "skill_electronics": 2
   },
@@ -946,6 +948,7 @@
     "size": "small",
     "mass": 100,
     "install_cost": 13500,
+    "medical": 1,
     "skill_explorer": 1
   },
   "71": {
@@ -969,6 +972,7 @@
     "mass": 300,
     "install_cost": 30560,
     "shield": 1,
+    "medical": 1,
     "skill_explorer": 3
   },
   "73": {
@@ -990,6 +994,7 @@
     "size": "small",
     "mass": 125,
     "install_cost": 13500,
+    "medical": 1,
     "skill_explorer": 1
   },
   "75": {
@@ -3290,6 +3295,7 @@
     "mass": 125,
     "install_cost": 12000,
     "shield": 1,
+    "medical": 2,
     "skill_shipops": 3,
     "skill_electronics": 3
   },
@@ -3301,6 +3307,7 @@
     "size": "medium",
     "mass": 325,
     "install_cost": 36800,
+    "medical": 5,
     "skill_shipops": 4,
     "skill_electronics": 2
   },
@@ -3313,6 +3320,7 @@
     "mass": 650,
     "install_cost": 110640,
     "jump_cost": 5,
+    "medical": 9,
     "skill_shipops": 5,
     "skill_electronics": 3
   },
@@ -3327,6 +3335,7 @@
     "armor": 2,
     "shield": 2,
     "jump_cost": 5,
+    "medical": 8,
     "skill_shipops": 5,
     "skill_electronics": 3
   },
@@ -3905,6 +3914,7 @@
     "install_cost": 294600,
     "armor": 4,
     "jump_cost": 5,
+    "medical": 8,
     "skill_shipops": 5,
     "skill_electronics": 3
   },
@@ -3918,6 +3928,7 @@
     "install_cost": 277330,
     "shield": 1,
     "jump_cost": 2,
+    "medical": 6,
     "skill_shipops": 3,
     "skill_electronics": 4
   },
@@ -4747,6 +4758,7 @@
     "mass": 275,
     "fuel": 5,
     "install_cost": 20500,
+    "medical": 1,
     "skill_explorer": 1,
     "skill_electronics": 1
   },
@@ -4760,6 +4772,7 @@
     "fuel": 10,
     "install_cost": 41720,
     "shield": 1,
+    "medical": 2,
     "skill_shipops": 1,
     "skill_explorer": 2,
     "skill_electronics": 1
@@ -4774,6 +4787,7 @@
     "fuel": 15,
     "install_cost": 56500,
     "shield": 1,
+    "medical": 2,
     "skill_shipops": 1,
     "skill_explorer": 3,
     "skill_electronics": 2
@@ -4789,6 +4803,7 @@
     "fuel": 20,
     "install_cost": 94000,
     "shield": 2,
+    "medical": 3,
     "skill_shipops": 2,
     "skill_explorer": 4,
     "skill_electronics": 2
@@ -5622,6 +5637,7 @@
     "officers": 1,
     "install_cost": 290640,
     "jump_cost": 5,
+    "medical": 8,
     "skill_shipops": 6,
     "skill_electronics": 2
   },
@@ -5635,6 +5651,7 @@
     "officers": 1,
     "install_cost": 290640,
     "jump_cost": 5,
+    "medical": 9,
     "skill_shipops": 6,
     "skill_electronics": 3
   },
@@ -5650,6 +5667,7 @@
     "armor": 1,
     "shield": 1,
     "jump_cost": 5,
+    "medical": 6,
     "skill_shipops": 3,
     "skill_electronics": 2
   },
