@@ -299,7 +299,7 @@ var app = new Vue({
                     'key': ship._id,
                     'text': ship.name,
                     'value': ship._id,
-                    'image': {'src': this.img_get_ship_front_th(ship)},
+                    'image': {'src': this.img_get_ship_top_th(ship)},
                 }
                 result.push(shipdata)
             }

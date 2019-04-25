@@ -1,6 +1,4 @@
-.ui.grid(v-if="current")
-    .three.wide.column
-        img(:src="img_get_ship_front(current)").ui.medium.centered.image
+.ui.grid.centered(v-if="current")
     .three.wide.column
         h5.ui.header Attack ranges
         sui-progress(indicating, :percent="(ship_damage_perc[1]|0)", size="tiny", :label="'I:   ' + String(ship_damage[1]|0)")
@@ -15,6 +13,10 @@
         sui-progress(indicating, :percent="(crew_ship_pool_perc.gunnery|0)", size="tiny", :label="'Gunnery '     + String(crew_pool.gunnery|0) + '/' + String(ship_pool.gunnery|0)")
         sui-progress(indicating, :percent="(crew_ship_pool_perc.gunnery|0)", size="tiny", :label="'Electronics ' + String(crew_pool.electronics|0) + '/' + String(ship_pool.electronics|0)")
         sui-progress(indicating, :percent="(crew_ship_pool_perc.gunnery|0)", size="tiny", :label="'Navigation '  + String(crew_pool.navigation|0) + '/' + String(ship_pool.navigation|0)")
+    .three.wide.column
+        h5.ui.header Crew
+        sui-progress(indicating, :percent="(crew_ship_pool_perc.gunnery|0)", size="tiny", :label="'Officers '       + String(crew_pool.pilot|0) + '/' + String(ship_pool.pilot|0)")
+        sui-progress(indicating, :percent="(crew_ship_pool_perc.gunnery|0)", size="tiny", :label="'Crew '    + String(crew_pool.shipops|0) + '/' + String(ship_pool.shipops|0)")
 
 
 
@@ -24,6 +26,7 @@
             .content= name
 
     .two.wide.column
+        h5.ui.header Stats
         .ui.list
             +entry("mass", 2)
             +entry("hull", 3)
