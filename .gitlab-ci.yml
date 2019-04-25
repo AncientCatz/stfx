@@ -1,8 +1,8 @@
-image: node:4.2.2
+image: node:11.14
 pages:
   script:
-    - npm install pug
-    - node_modules/.bin/pug index.pug --out public
+    - npm install -g pug-cli
+    - /usr/local/bin/pug index.pug --out public
   artifacts:
     paths:
       - public
