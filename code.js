@@ -305,6 +305,7 @@ var app = new Vue({
                     'components': this.current.components,
                 }
             }
+        },
         component_rolling_stats: function() {
             //todo max
             slots = this.get_components(this.current.components);
