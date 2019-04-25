@@ -114,7 +114,7 @@ Vue.mixin({
         img_get_prop: function(prop_name) {
             return '/assets/icons/icon_prop_' + prop_name + '.png';
         },
-        open_component_modal(cslot) {
+        open_component_modal: function(cslot) {
             bus.$emit(EVT_COMPONENT_MODAL_OPEN, cslot)
         }
 
@@ -127,7 +127,7 @@ Vue.component('component-card', {
     template: '#component-card',
     props: ['cslot', 'components'],
     methods: {
-        toggle() {
+        toggle: function() {
             bus.$emit(EVT_COMPONENT_MODAL_OPEN, this.cslot)
         }
     }
@@ -136,7 +136,7 @@ Vue.component('component-card', {
 Vue.component('component-table', {
     template: '#component-table',
     props: ['slots'],
-    data() {
+    data: function() {
         return {
             sort_key: null
         }
@@ -205,14 +205,14 @@ Vue.component('component-view', {
 Vue.component("component-modal", {
     template: "#component-modal",
     props: ['components'],
-    created() {
+    created: function() {
         that = this;
         bus.$on(EVT_COMPONENT_MODAL_OPEN, function(cslot) {
             that.cslot = cslot;
             that.toggle()
         })
     },
-    data() {
+    data: function() {
         return {
             "open": false,
             "cslot": 0,
@@ -220,39 +220,38 @@ Vue.component("component-modal", {
         }
     },
     methods: {
-      toggle() {
-        this.open = !this.open;
-      },
-    emit_component(slot_id, component_id) {
-        this.$emit('set_component', slot_id, component_id)
-        this.open = false;
-    },
-    matching_components(component, query) {
-        magic_components = ['bridge', 'drive', 'hyperwarp'];
-        matching_components = []
-        _id = component._id
-        type = component.type
-        size = component.size
-        name = component.name
-        drive_mass = component.drive_mass
-        for(var i in this.components) {
-            comp = this.components[i];
-            if(comp.size != size) { continue;}
-            if(drive_mass != comp.drive_mass) {continue}
-            valid = true;
-            for(var i in magic_components) {
-                c = magic_components[i];
-                if(type == c && comp.type != c) {valid=false; continue}
-                if(comp.type == c && type != c) {valid=false;continue}
+        toggle: function() {
+            this.open = !this.open;
+        },
+        emit_component: function(slot_id, component_id) {
+            this.$emit('set_component', slot_id, component_id)
+            this.open = false;
+        },
+        matching_components: function(component, query) {
+            magic_components = ['bridge', 'drive', 'hyperwarp'];
+            matching_components = []
+            _id = component._id
+            type = component.type
+            size = component.size
+            name = component.name
+            drive_mass = component.drive_mass
+            for(var i in this.components) {
+                comp = this.components[i];
+                if(comp.size != size) { continue;}
+                if(drive_mass != comp.drive_mass) {continue}
+                valid = true;
+                for(var i in magic_components) {
+                    c = magic_components[i];
+                    if(type == c && comp.type != c) {valid=false; continue}
+                    if(comp.type == c && type != c) {valid=false;continue}
+                }
+                if(!valid) {continue;}
+                if(_id == comp._id) {}
+                else if(query && !comp.name.toLowerCase().includes(query.toLowerCase())){continue}
+                matching_components.push(comp);
             }
-            if(!valid) {continue;}
-            if(_id == comp._id) {}
-            else if(query && !comp.name.toLowerCase().includes(query.toLowerCase())){continue}
-            matching_components.push(comp);
-        }
-        return matching_components;
-    },
-
+            return matching_components;
+        },
     }
 })
 
@@ -292,7 +291,7 @@ var app = new Vue({
         }
     },
     methods: {
-        update_ships_dropdown() {
+        update_ships_dropdown: function() {
             result = []
             for(var i in this.ships) {
                 ship = this.ships[i]
@@ -307,7 +306,7 @@ var app = new Vue({
             return result;
             // this.ships_dropdown = result;
         },
-        calc_damage() {
+        calc_damage: function() {
             ship_damage = {}
             damage_perc = {}
             max = 0
@@ -326,7 +325,7 @@ var app = new Vue({
             this.ship_damage_perc = damage_perc
 
         },
-        calc_mass() {
+        calc_mass: function() {
             mass = 0
             for(var i in this.current.components) {
                 comp = this.components[this.current.components[i]];
@@ -335,7 +334,7 @@ var app = new Vue({
             this.ship_total_mass = mass;
 
         },
-        calc_pools() {
+        calc_pools: function() {
             var pools = {
                 'pilot': 0,
                 'gunnery': 0,
@@ -354,7 +353,7 @@ var app = new Vue({
             }
             this.ship_pool = pools;
         },
-        set_component(slot_id, component_id) {
+        set_component: function(slot_id, component_id) {
             Vue.set(this.current.components, slot_id, component_id);
         },
 
