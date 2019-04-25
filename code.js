@@ -380,16 +380,16 @@ var app = new Vue({
     },
     beforeCreate: function() {
 
-        fetch("/data/jobs.json")
+        fetch("data/jobs.json")
         .then(r => r.json())
         .then(json => {
             this.jobs = json
         })
-        fetch("/data/components.json")
+        fetch("data/components.json")
         .then(r => r.json())
         .then(json => {
             this.components = json;
-            fetch("/data/ships.json")
+            fetch("data/ships.json")
             .then(r => r.json())
             .then(json => {
                 this.ships = json;
