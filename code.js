@@ -41,6 +41,7 @@ Vue.mixin({
                 "accuracy": '+{accuracy}% accuracy',
                 "range": 'at optimal range of {range}',
                 "crit": '{crit}% crit chance',
+                "effect_chance": '{effect_chance}% crippling chance',
             }
             DESC_ENGINE = {
                 "fuel_map": "Burns {fuel_map} per AU at {safety}% safety",
@@ -146,55 +147,13 @@ Vue.component('component-table', {
             this.sort_key = column;
 
         },
-        component_rolling_stats: function(slots) {
-            rolling_components = []
-            totals = {
-                "mass": 0,
-                "skill_pilot": 0,
-                "skill_ship_ops": 0,
-                "skill_electronics": 0,
-                "skill_navigation": 0,
-                "skill_gunnery": 0,
-                "officers": 0,
-                "armor": 0,
-                "shield": 0,
-                "jump_cost": 0,
-                "install_cost": 0,
-            }
-            for(var i in slots) {
-                component = slots[i].component
-                slot_id = slots[i].id
-                totals.mass += (component.mass|0)
-                totals.skill_pilot += (component.skill_pilot|0)
-                totals.skill_ship_ops += (component.skill_ship_ops|0)
-                totals.skill_electronics += (component.skill_electronics|0)
-                totals.skill_navigation += (component.skill_navigation|0)
-                totals.skill_gunnery += (component.skill_gunnery|0)
-                totals.officers += (component.officers|0)
-                totals.armor += (component.armor|0)
-                totals.shield += (component.shield|0)
-                totals.jump_cost += (component.jump_cost|0)
-                totals.install_cost += (component.install_cost|0)
-                rolling_components.push({
-                    "mass": totals.mass,
-                    "skill_pilot": totals.skill_pilot,
-                    "skill_ship_ops": totals.skill_ship_ops,
-                    "skill_electronics": totals.skill_electronics,
-                    "skill_navigation": totals.skill_navigation,
-                    "skill_gunnery": totals.skill_gunnery,
-                    "officers": totals.officers,
-                    "armor": totals.armor,
-                    "shield": totals.shield,
-                    "jump_cost": totals.jump_cost,
-                    "install_cost": totals.install_cost,
-                    "component": component,
-                    "id": slot_id,
-                });
-            }
-            return rolling_components;
-
-            }
+    },
+    computed: {
+        component_rolling_stats: function() {
+            return this.$root.component_rolling_stats();
         }
+
+    }
 });
 
 Vue.component('component-view', {
@@ -206,10 +165,9 @@ Vue.component("component-modal", {
     template: "#component-modal",
     props: ['components'],
     created: function() {
-        that = this;
-        bus.$on(EVT_COMPONENT_MODAL_OPEN, function(cslot) {
-            that.cslot = cslot;
-            that.toggle()
+        bus.$on(EVT_COMPONENT_MODAL_OPEN, cslot => {
+            this.cslot = cslot;
+            this.toggle()
         })
     },
     data: function() {
@@ -268,10 +226,10 @@ var app = new Vue({
         ship_damage: {},
         ship_damage_perc: {},
         ship_pool: {},
+        ship_stats: {},
         crew: [],
         crew_pool: {},
         crew_ship_pool_perc: {},
-        ship_total_mass: 0
     },
     watch: {
         current_id: function(val, old_val) {
@@ -285,8 +243,6 @@ var app = new Vue({
             handler: function(val, old_val) {
                 localStorage.current = JSON.stringify(val);
                 this.calc_damage();
-                this.calc_mass();
-                this.calc_pools();
             }
         }
     },
@@ -304,19 +260,87 @@ var app = new Vue({
                 result.push(shipdata)
             }
             return result;
-            // this.ships_dropdown = result;
+        },
+        component_rolling_stats: function() {
+            //todo max
+            slots = this.get_components(this.current.components);
+            rolling_components = []
+            totals = {
+                "hull": this.current.hullpoints,
+                "mass": 0,
+                "skill_pilot": 0,
+                "skill_shipops": 0,
+                "skill_electronics": 0,
+                "skill_navigation": 0,
+                "skill_gunnery": 0,
+                "officers": 0,
+                "passengers": 0,
+                "crew": 0,
+                "prisoners": 0,
+                "medical": 0,
+                "fuel": this.current.fuel,
+                "craft": 0,
+                "armor": this.current.armor,
+                "shield": this.current.shield,
+                "jump_cost": 0,
+                "install_cost": 0,
+            }
+            for(var i in slots) {
+                component = slots[i].component
+                slot_id = slots[i].id
+                for(var i in totals){
+                    totals[i] += (component[i]|0)
+                }
+                rolling_components.push({
+                    "mass": totals.mass,
+                    "skill_pilot": totals.skill_pilot,
+                    "skillshipops": totals.skill_shipops,
+                    "skill_electronics": totals.skill_electronics,
+                    "skill_navigation": totals.skill_navigation,
+                    "skill_gunnery": totals.skill_gunnery,
+                    "officers": totals.officers,
+                    "armor": totals.armor,
+                    "shield": totals.shield,
+                    "jump_cost": totals.jump_cost,
+                    "install_cost": totals.install_cost,
+                    "component": component,
+                    "id": slot_id,
+                });
+            }
+            this.ship_stats = totals;
+            return rolling_components;
+
+
         },
         calc_damage: function() {
             ship_damage = {}
             damage_perc = {}
             max = 0
+            function add_dmg(range, dmg) {
+                current = (ship_damage[range]|0)
+                dmg = current + dmg;
+                if(dmg > max) { max = dmg}
+                ship_damage[range] = dmg;
+
+            }
             for(var i in this.current.components) {
                 comp = this.components[this.current.components[i]];
                 if(comp.type != 'weapon'){ continue}
-                current = (ship_damage[comp.weapon.range]|0)
-                dmg = current + comp.weapon.damage_min;
-                if(dmg > max) { max = dmg}
-                ship_damage[comp.weapon.range] = dmg;
+                range = comp.weapon.range
+                valid_ranges = {
+                    1: [range+1],
+                    2: [range-1, range+1],
+                    3: [range-1, range+1],
+                    4: [range-1, range+1],
+                    5: [range-1, range+1],
+                    6: [range-1, range+1],
+                    7: [range-1],
+                }
+                add_dmg(range, comp.weapon.damage_min)
+                valid_r = valid_ranges[comp.weapon.weapon_type]
+                for(var i in valid_r) {
+                    add_dmg(valid_r[i], comp.weapon.damage_min * 0.8)
+                }
             }
             for(var i in ship_damage) {
                 damage_perc[i] = parseInt(ship_damage[i]/max * 100)
@@ -324,34 +348,6 @@ var app = new Vue({
             this.ship_damage = ship_damage
             this.ship_damage_perc = damage_perc
 
-        },
-        calc_mass: function() {
-            mass = 0
-            for(var i in this.current.components) {
-                comp = this.components[this.current.components[i]];
-                mass += comp.mass
-            }
-            this.ship_total_mass = mass;
-
-        },
-        calc_pools: function() {
-            var pools = {
-                'pilot': 0,
-                'gunnery': 0,
-                'shipops': 0,
-                'electronics': 0,
-                'navigation': 0,
-            }
-
-            for(var i in this.current.components) {
-                comp = this.components[this.current.components[i]];
-                pools.pilot += (comp.skill_pilot|0)
-                pools.gunnery += (comp.skill_gunnery|0)
-                pools.shipops += (comp.skill_shipops|0)
-                pools.electronics += (comp.skill_electronics|0)
-                pools.navigation += (comp.skill_navigation|0)
-            }
-            this.ship_pool = pools;
         },
         set_component: function(slot_id, component_id) {
             Vue.set(this.current.components, slot_id, component_id);
