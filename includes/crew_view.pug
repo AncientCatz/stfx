@@ -1,8 +1,56 @@
 div.ui.grid(v-if="current")
-    div.ui.cards
-        div(v-for="job in jobs").ui.card.crewcard
-            img(:src="img_get_job(job)").ui.image
-            .content
-                .description
-                    p {{job.name}}
-                .extra.content
+    .row
+        h5.header Captain
+    .row
+        div.ui.cards
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+    .row
+        h5.header Officers
+    .row
+        div.ui.cards
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+            .ui.card.officercard
+                .image
+                    img(src="https://semantic-ui.com/images/wireframe/image.png")
+                .content
+                    p test
+
+crew-table(v-bind:crew="crew" v-if="crew")

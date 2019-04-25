@@ -4,6 +4,7 @@
     text-overflow: ellipsis;
     max-width: 100px !important;
     white-space: nowrap;
+    cursor: pointer;
 }
 .componentcard > .content {
     font-size:x-small !important;
@@ -12,6 +13,10 @@
 
 .crewcard {
     max-width: 150px !important;
+}
+
+.officercard {
+    max-width: 200px !important;
 }
 .crewcard > .image  {
     background-color: #1f262d !important;
@@ -25,6 +30,7 @@
 
 .componentitem {
     padding: 0 !important;
+    cursor: pointer;
 }
 
 .componentitem.current {
@@ -33,4 +39,20 @@
 
 .red {
     color: red !important;
+}
+.navy {
+    background-color: #1f262d !important;
+    color: white !important;
+}
+
+td.navy:hover {
+    background-color: #2f364d !important;
+}
+td.navy {
+    border-color:rgba(255,255,255,0.1) !important;
+    cursor: pointer;
+}
+
+th.navy {
+    border-color:rgba(255,255,255,0.1) !important;
 }

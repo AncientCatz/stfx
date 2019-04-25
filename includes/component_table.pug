@@ -6,8 +6,7 @@ script(type="text/x-template")#component-table
     table.ui.celled.table.compact
         thead
             tr
-                th
-                    span Component
+                th.two.wide.navy Component
                 th(v-on:click="sortBy('mass')") 
                     img(:src="img_get_prop('mass')")
                 th 
@@ -32,7 +31,7 @@ script(type="text/x-template")#component-table
                     img(:src="img_get_prop('credits')")
         tbody
             tr(v-for="data in component_rolling_stats")
-                td.ui.yellow(@click="open_component_modal(data)")
+                td.ui.navy(@click="open_component_modal(data)")
                     img(:src="img_get_component(data.component)").ui.mini.image.middle.aligned
                     span {{data.component.name}}
                 +component_td("mass")

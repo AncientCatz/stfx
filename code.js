@@ -24,11 +24,26 @@ var EVT_COMPONENT_MODAL_OPEN = 'EVT_COMPONENT_MODAL_OPEN'
 
 Vue.mixin({
     methods: {
+
+        crew_get_skills: function(crewman) {
+            skills = {}
+            skill_names = crewman.job.skills
+            for(var i in skill_names) {
+                    name = skill_names[i];
+                    skills[name] = crewman.job.levels[crewman.level-1][i];
+            }
+            return skills
+
+        },
+        crew_get_skill: function(crewman, skill) {
+            skills = this.crew_get_skills(crewman)
+            return skills[skill]
+        },
         parse_component_description: function(component) {
             DESC = {
                 'armor': '+{armor}% armor',
                 'shield': '+{shield}% shielding',
-                'jump_cost': '+{jump_cost} jump cost',
+                'jump_cost': '{jump_cost} jump cost',
                 'officers': 'Quarters for {officers} officers',
                 'crew': 'Quarters for {crew} crew',
                 'cargo': 'Stores {cargo} Cargo',
@@ -134,6 +149,16 @@ Vue.component('component-card', {
     }
 });
 
+Vue.component('crew-table', {
+    template: '#crew-table',
+    props: ['crew'],
+    data: function() {
+        return {
+            sort_key: null
+        }
+    },
+});
+
 Vue.component('component-table', {
     template: '#component-table',
     props: ['slots'],
@@ -225,9 +250,10 @@ var app = new Vue({
         ships_dropdown: [],
         ship_damage: {},
         ship_damage_perc: {},
-        ship_pool: {},
         ship_stats: {},
         crew: [],
+        officers: [],
+        crafts: [],
         crew_pool: {},
         crew_ship_pool_perc: {},
     },
@@ -243,8 +269,18 @@ var app = new Vue({
             handler: function(val, old_val) {
                 localStorage.current = JSON.stringify(val);
                 this.calc_damage();
+                this.component_rolling_stats();
+                this.generate_default_crew()
+                this.calc_crew_perc();
             }
-        }
+        },
+        crew: {
+            deep: true,
+            handler: function(val, old_val) {
+                this.calc_crew();
+                this.calc_crew_perc();
+            }
+        },
     },
     methods: {
         update_ships_dropdown: function() {
@@ -261,6 +297,14 @@ var app = new Vue({
             }
             return result;
         },
+        stfx_export: function() {
+            //TODO
+            data = {
+                "ship": {
+                    'id': this.current._id,
+                    'components': this.current.components,
+                }
+            }
         component_rolling_stats: function() {
             //todo max
             slots = this.get_components(this.current.components);
@@ -311,6 +355,53 @@ var app = new Vue({
             return rolling_components;
 
 
+        },
+
+        make_crewman: function(job_id, level) {
+                return {
+                    'job': this.jobs[job_id],
+                    'level': level
+                }
+        },
+
+        generate_default_crew: function() {
+            crew = []
+            for(var i in this.jobs) {
+                crew.push(this.make_crewman(this.jobs[i]._id, 5))
+            }
+            this.crew = crew
+        },
+        calc_crew: function() {
+            total = {
+                'pilot': 0,
+                'shipops': 0,
+                'repair': 0,
+                'gunnery': 0,
+                'electronics': 0,
+                'navigation': 0,
+                'doctor': 0,
+                'command': 0,
+                'negotiate': 0,
+                'intimidate': 0,
+                'explore': 0,
+            }
+            for(var i in this.crew) {
+                skills = this.crew_get_skills(this.crew[i])
+                for(var s in skills) {
+                    total[s] += skills[s]
+                }
+            }
+            this.crew_pool = total;
+        },
+        calc_crew_perc: function() {
+            if(!this.ship_stats){ console.log("enoship_pool"); return;}
+            pool_perc = {}
+            for(var i in this.crew_pool) {
+                pool_perc[i] = this.crew_pool[i]/(this.ship_stats['skill_' + i]*2) * 100
+            }
+            console.log("pool")
+            console.log(pool_perc)
+            this.crew_ship_pool_perc = pool_perc
         },
         calc_damage: function() {
             ship_damage = {}
