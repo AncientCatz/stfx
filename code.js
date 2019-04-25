@@ -294,7 +294,7 @@ var app = new Vue({
                 rolling_components.push({
                     "mass": totals.mass,
                     "skill_pilot": totals.skill_pilot,
-                    "skillshipops": totals.skill_shipops,
+                    "skill_shipops": totals.skill_shipops,
                     "skill_electronics": totals.skill_electronics,
                     "skill_navigation": totals.skill_navigation,
                     "skill_gunnery": totals.skill_gunnery,

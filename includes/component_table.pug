@@ -1,7 +1,7 @@
 mixin component_td(attr)
     td
-        span(v-if=`data.component.${attr}`)= `({{data.component.${attr}}})`
         span= `{{data.${attr}}}`
+        small(v-if=`data.component.${attr}`)= ` ({{data.component.${attr}}})`
 script(type="text/x-template")#component-table
     table.ui.celled.table.compact
         thead
