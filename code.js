@@ -109,10 +109,10 @@ Vue.mixin({
             return 'assets/banners/' + banner_name + '.png';
         },
         img_get_component: function(component) {
-            return '/assets/components/' + component.img + '.png';
+            return 'assets/components/' + component.img + '.png';
         },
         img_get_prop: function(prop_name) {
-            return '/assets/icons/icon_prop_' + prop_name + '.png';
+            return 'assets/icons/icon_prop_' + prop_name + '.png';
         },
         open_component_modal: function(cslot) {
             bus.$emit(EVT_COMPONENT_MODAL_OPEN, cslot)
