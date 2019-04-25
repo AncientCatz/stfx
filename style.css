@@ -30,3 +30,7 @@
 .componentitem.current {
     background-color: rgb(240,240,240) !important;
 }
+
+.red {
+    color: red !important;
+}

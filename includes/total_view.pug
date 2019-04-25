@@ -27,10 +27,15 @@
             .right.floated.content= value
             .content= name
 
+    mixin entry_max(name, value, max)
+        .item
+            .right.floated.content(v-bind:class=`{red: ${value} > ${max}}`)= `{{${value}}} / {{${max}}}`
+            .content= name
+
     .two.wide.column
         h5.ui.header Stats
         .ui.list
-            +entry("mass", "{{ship_stats.mass}}/{{current.basemass}}")
+            +entry_max("mass", "ship_stats.mass", "current.basemass")
             +entry("hull", "{{ship_stats.hull}}")
             +entry("fuel", "{{ship_stats.fuel}}")
             +entry("shield", "{{ship_stats.shield}}")
