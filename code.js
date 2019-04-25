@@ -1,3 +1,5 @@
+protobuf.load('proto.json').then(x => proto = x)
+
 String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
 function () {
     "use strict";
@@ -267,10 +269,9 @@ var app = new Vue({
         current: {
             deep: true,
             handler: function(val, old_val) {
-                localStorage.current = JSON.stringify(val);
+                // localStorage.current = JSON.stringify(val);
                 this.calc_damage();
                 this.component_rolling_stats();
-                this.generate_default_crew()
                 this.calc_crew_perc();
             }
         },
@@ -283,6 +284,9 @@ var app = new Vue({
         },
     },
     methods: {
+        get_ship_stat: function(stat_name) {
+                return this.ship_stats[stat_name] | this.ship_stats['skill_' +stat_name]
+        },
         update_ships_dropdown: function() {
             result = []
             for(var i in this.ships) {
@@ -297,14 +301,66 @@ var app = new Vue({
             }
             return result;
         },
-        stfx_export: function() {
-            //TODO
-            data = {
-                "ship": {
-                    'id': this.current._id,
-                    'components': this.current.components,
-                }
+        stfx_export_crew: function() {
+            crew_export = []
+            for(var i in this.crew) {
+                c = this.crew[i]
+                crew_export.push({
+                    'job': c.job._id,
+                    'level': c.level,
+                    'talents': [],
+                })
             }
+            return crew_export
+        },
+        stfx_export: function() {
+            data = {
+                'ver': 1,
+                'shipId': this.current._id,
+                'components': this.current.components,
+                'crew': this.stfx_export_crew()
+            }
+            data = proto.STFX.encode(data).finish()
+            data_c = new Uint8Array(LZMA.compress(data))
+            console.log(data)
+            console.log(data_c)
+            data_base = base64js.fromByteArray(data_c)
+            document.location.hash = data_base
+        },
+        stfx_import: function(data_base) {
+            data_c = base64js.toByteArray(data_base)
+            console.log(data_c)
+            data = LZMA.decompress(data_c)
+            if(typeof(data) == 'string') {
+                byte_data = new Uint8Array(data.length)
+                for(var i in data) {
+                    byte_data[i] = data.charCodeAt(i)
+                }
+                data = byte_data;
+            }
+            else {
+                data = new Uint8Array(data);
+            }
+            console.log(data)
+            stfx = proto.STFX.decode(data)
+            console.log(stfx.shipId)
+            console.log(stfx)
+            this.stfx_import_ship(stfx.shipId, stfx.components)
+            this.stfx_import_crew(stfx.crew)
+        },
+        stfx_import_ship: function(ship_id, components) {
+            this.current = this.ships[ship_id]
+            this.current_id = ship_id
+            this.current.components = components
+        },
+
+        stfx_import_crew: function(crewmen) {
+            crew = []
+            for(var i in crewmen) {
+                c = crewmen[i]
+                crew.push(this.make_crewman(c.job, c.level))
+            }
+            this.crew = crew;
         },
         component_rolling_stats: function() {
             //todo max
@@ -396,9 +452,15 @@ var app = new Vue({
         },
         calc_crew_perc: function() {
             if(!this.ship_stats){ console.log("enoship_pool"); return;}
-            pool_perc = {}
-            for(var i in this.crew_pool) {
-                pool_perc[i] = this.crew_pool[i]/(this.ship_stats['skill_' + i]*2) * 100
+            pool_perc = {
+                'pilot': 0,
+                'shipops': 0,
+                'gunnery': 0,
+                'electronics': 0,
+                'navigation': 0,
+            }
+            for(var i in this.pool_perc) {
+                pool_perc[i] = (this.crew_pool[i]|0)/(this.get_ship_stat(i)*2) * 100
             }
             console.log("pool")
             console.log(pool_perc)
@@ -467,7 +529,6 @@ var app = new Vue({
         },
     },
     beforeCreate: function() {
-
         fetch("data/jobs.json")
         .then(r => r.json())
         .then(json => {
@@ -481,11 +542,16 @@ var app = new Vue({
             .then(r => r.json())
             .then(json => {
                 this.ships = json;
-                // this.update_ships_dropdown();
-                if(localStorage.current) {
-                    this.current = JSON.parse(localStorage.current);
-                    this.current_id = this.current._id
+                hash = document.location.hash.slice(1)
+                if(hash) {
+                    data = this.stfx_import(hash)
+                    console.log(data)
                 }
+                // this.update_ships_dropdown();
+                // if(localStorage.current) {
+                //     this.current = JSON.parse(localStorage.current);
+                //     this.current_id = this.current._id
+                // }
             })
         })
     },

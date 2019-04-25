@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Officers{
+    int32 job1 = 1;
+    int32 job2 = 2;
+    int32 job3 = 3;
+    int32 level = 4;
+    repeated int32 talents = 5;
+}
+
+message Crew{
+    int32 job = 1;
+    int32 level = 2;
+    repeated int32 talents = 3;
+}
+
+message STFX {
+    int32 ver = 1;
+    int32 ship_id = 2;
+    repeated int32 components = 3;
+    repeated Crew crew = 4;
+    repeated Officers officers = 5;
+
+}
