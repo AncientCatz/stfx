@@ -276,7 +276,7 @@ Vue.component('crew-wizard', {
                 ship_stat = Math.round(this.get_ship_stat(this.ship_stats, i) * 1);
                 stat_delta = ship_stat - crew_stats[i]
                 if(stat_delta <= 0){continue;}
-                crew_no = Math.round(stat_delta/crewman_skill)
+                crew_no = Math.ceil(stat_delta/crewman_skill)
                 console.log(stat_delta, crewman_skills)
                 for(var cs in crewman_skills) {
                     crew_stats[cs] += crewman_skills[cs]
