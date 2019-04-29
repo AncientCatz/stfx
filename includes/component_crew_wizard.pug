@@ -1,0 +1,15 @@
+script(type="text/x-template")#crew-wizard
+  div
+    <sui-button @click.native="toggle">Show Modal</sui-button>
+    sui-modal(v-model="open")
+      <sui-modal-header>Fill pools wizard™</sui-modal-header>
+      sui-modal-content
+          sui-modal-description
+            span
+                input(type="range" min="1", max="40", step="1", v-model="level")
+                span {{level}}
+            p(v-for="c in new_crew") {{c.job.name}} {{c.count}}
+      sui-modal-actions
+        <sui-button positive @click.native="fill">
+          span OK
+        </sui-button>

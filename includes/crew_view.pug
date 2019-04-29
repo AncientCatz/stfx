@@ -52,5 +52,8 @@ div.ui.grid(v-if="current")
                     img(src="https://semantic-ui.com/images/wireframe/image.png")
                 .content
                     p test
-
-crew-table(v-bind:crew="crew" v-if="crew")
+    .row
+        h5.header Officers
+    .row
+        crew-wizard(v-bind:ship_stats="ship_stats", v-bind:crew="crew", v-bind:jobs="jobs")
+        crew-table(v-bind:crew="crew" v-if="crew", v-bind:jobs="jobs")

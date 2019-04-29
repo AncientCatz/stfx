@@ -22,9 +22,24 @@ function () {
 Vue.use(SemanticUIVue);
 var bus = new Vue();
 var EVT_COMPONENT_MODAL_OPEN = 'EVT_COMPONENT_MODAL_OPEN'
+var EVT_FILL_SHIP_POOLS = 'EVT_FILL_SHIP_POOLS'
 
+
+function killme() {
+    asd = []
+    for(var i=1; i<33; i++) {
+        asd.push({'key': i, 'text': i.toString(), 'value': i})
+    }
+    return asd
+}
 
 Vue.mixin({
+    data: function() {
+        return {
+            DROPDOWN_LEVELS: killme()
+        }
+
+    },
     methods: {
 
         crew_get_skills: function(crewman) {
@@ -40,6 +55,24 @@ Vue.mixin({
         crew_get_skill: function(crewman, skill) {
             skills = this.crew_get_skills(crewman)
             return skills[skill]
+        },
+
+        get_ship_stat: function(ship_stats, stat_name) {
+                return ship_stats[stat_name] | ship_stats['skill_' +stat_name]
+        },
+        calc_crew_perc: function(ship_stats, crew_pool) {
+            pool_perc = {
+                'pilot': 0,
+                'shipops': 0,
+                'gunnery': 0,
+                'electronics': 0,
+                'navigation': 0,
+            }
+            for(var i in pool_perc) {
+                pool_perc[i] = (crew_pool[i]|0)/(this.get_ship_stat(ship_stats, i)*2) * 100
+            }
+            return pool_perc
+
         },
         parse_component_description: function(component) {
             DESC = {
@@ -141,6 +174,66 @@ Vue.mixin({
 })
 
 
+Vue.component('crew-wizard', {
+    template: '#crew-wizard',
+    props: ['ship_stats', 'crew', 'jobs'],
+    data: function() {
+        return {
+            "open": false,
+            "level": 1,
+            "new_crew": {},
+        }
+    },
+    watch: {
+        level: function() {
+            this.gen_crew()
+        },
+    },
+    methods: {
+        toggle: function() {
+            this.open = !this.open;
+        },
+        gen_crew: function() {
+            new_crew = []
+            stat_job = {
+                'pilot': 24,
+                'shipops': 1,
+                'gunnery': 4,
+                'electronics': 3,
+                'navigation': 16,
+
+            }
+            crew_stats = {
+                'pilot' : 0,
+                'shipops': 0,
+                'gunnery': 0,
+                'electronics': 0,
+                'navigation': 0
+            }
+            for(var i in crew_stats) {
+                crewman = {'job': this.jobs[stat_job[i]], 'level': this.level}
+                crewman_skills = this.crew_get_skills(crewman)
+                crewman_skill = crewman_skills[i]
+
+                ship_stat = Math.round(this.get_ship_stat(this.ship_stats, i) * 1);
+                stat_delta = ship_stat - crew_stats[i]
+                if(stat_delta <= 0){continue;}
+                crew_no = Math.round(stat_delta/crewman_skill)
+                console.log(stat_delta, crewman_skills)
+                for(var cs in crewman_skills) {
+                    crew_stats[cs] += crewman_skills[cs]
+                }
+                new_crew.push({'job': crewman.job, 'count': crew_no, 'level':this.level})
+            }
+            this.new_crew = new_crew
+        },
+        fill: function() {
+            bus.$emit(EVT_FILL_SHIP_POOLS, this.new_crew)
+            this.open = false;
+        }
+    }
+});
+
 Vue.component('component-card', {
     template: '#component-card',
     props: ['cslot', 'components'],
@@ -153,11 +246,36 @@ Vue.component('component-card', {
 
 Vue.component('crew-table', {
     template: '#crew-table',
-    props: ['crew'],
+    props: ['crew', "jobs"],
     data: function() {
         return {
-            sort_key: null
+            sort_key: null,
+            job_dropdown_current: null,
+            new_crewman_job: null,
+            new_crewman_level: null,
         }
+    },
+    watch: {
+        new_crewman_job: function(){
+            job = this.jobs[this.new_crewman_job]
+            this.new_crewman_job = null
+            new_crew = [{'job': job, 'count': 1, 'level': 1}]
+            bus.$emit(EVT_FILL_SHIP_POOLS, new_crew)
+        }
+    },
+    methods: {
+        get_dropdown_jobs : function() {
+            var d_jobs = [];
+            for(var i in this.jobs) {
+                d_jobs.push({
+                    'key': this.jobs[i]._id,
+                    'text': this.jobs[i].name,
+                    'value': this.jobs[i]._id,
+                    'image': {'src': this.img_get_job(this.jobs[i])},
+                })
+            }
+            return d_jobs;
+        },
     },
 });
 
@@ -272,21 +390,18 @@ var app = new Vue({
                 // localStorage.current = JSON.stringify(val);
                 this.calc_damage();
                 this.component_rolling_stats();
-                this.calc_crew_perc();
+                this.update_crew_perc();
             }
         },
         crew: {
             deep: true,
             handler: function(val, old_val) {
                 this.calc_crew();
-                this.calc_crew_perc();
+                this.update_crew_perc();
             }
         },
     },
     methods: {
-        get_ship_stat: function(stat_name) {
-                return this.ship_stats[stat_name] | this.ship_stats['skill_' +stat_name]
-        },
         update_ships_dropdown: function() {
             result = []
             for(var i in this.ships) {
@@ -450,18 +565,12 @@ var app = new Vue({
             }
             this.crew_pool = total;
         },
-        calc_crew_perc: function() {
+        update_crew_perc: function() {
             if(!this.ship_stats){ console.log("enoship_pool"); return;}
-            pool_perc = {
-                'pilot': 0,
-                'shipops': 0,
-                'gunnery': 0,
-                'electronics': 0,
-                'navigation': 0,
-            }
-            for(var i in this.pool_perc) {
-                pool_perc[i] = (this.crew_pool[i]|0)/(this.get_ship_stat(i)*2) * 100
-            }
+            pool_perc = this.calc_crew_perc(
+                this.ship_stats,
+                this.crew_pool
+            )
             console.log("pool")
             console.log(pool_perc)
             this.crew_ship_pool_perc = pool_perc
@@ -527,6 +636,18 @@ var app = new Vue({
             }
             return size_components;
         },
+    },
+    created: function() {
+        bus.$on(EVT_FILL_SHIP_POOLS, fill_crew => {
+            for(var i in fill_crew) {
+                entry = fill_crew[i];
+                for(var i=0; i<entry.count;i++) {
+                    this.crew.push(
+                        this.make_crewman(entry.job._id, entry.level)
+                    )
+                }
+            }
+        })
     },
     beforeCreate: function() {
         fetch("data/jobs.json")

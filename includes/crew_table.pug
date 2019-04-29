@@ -9,7 +9,7 @@ script(type="text/x-template")#crew-table
                 th Pilot
                 th Ship Ops
                 th Repair
-                th gunnery
+                th Gunnery
                 th Electronics
                 th Navigation
 
@@ -23,7 +23,8 @@ script(type="text/x-template")#crew-table
                 td.ui.navy
                     img(:src="img_get_job(crewman.job)").ui.mini.image.middle.aligned
                     span {{crewman.job.name}}
-                td {{crewman.level}}
+                td
+                    sui-dropdown(placeholder="Level" selection :options="DROPDOWN_LEVELS", v-model="crewman.level")
                 td
                 td {{crew_get_skill(crewman, 'pilot')}}
                 td {{crew_get_skill(crewman, 'shipops')}}
@@ -36,3 +37,8 @@ script(type="text/x-template")#crew-table
                 td {{crew_get_skill(crewman, 'negotiate')}}
                 td {{crew_get_skill(crewman, 'intimidate')}}
                 td {{crew_get_skill(crewman, 'explore')}}
+
+            tr
+                td.ui.navy
+                    sui-dropdown(placeholder="Job" search selection :options="get_dropdown_jobs()", v-model="new_crewman_job")
+                td(colspan=13)
