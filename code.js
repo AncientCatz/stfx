@@ -342,6 +342,12 @@ Vue.component('crew-table', {
             }
             return d_jobs;
         },
+        del_crewman: function(key) {
+            this.crew.splice(key, 1)
+        },
+        copy_crewman: function(key) {
+            this.crew.push(this.crew[key])
+        }
     },
 });
 

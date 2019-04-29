@@ -19,10 +19,15 @@ script(type="text/x-template")#crew-table
                 th Intimidate
                 th Explore
         tbody
-            tr(v-for="crewman in crew")
+            tr(v-for="(crewman, key) in crew" :key="key")
                 td.ui.navy
                     img(:src="img_get_job(crewman.job)").ui.mini.image.middle.aligned
-                    span {{crewman.job.name}}
+                    sui-dropdown(:text="crewman.job.name" floating)
+                      <sui-dropdown-menu>
+                        <sui-dropdown-item v-on:click="copy_crewman(key)"><sui-icon name="copy" />Copy</sui-dropdown-item>
+                        <sui-dropdown-item v-on:click="del_crewman(key)"><sui-icon name="delete" />Space</sui-dropdown-item>
+                      </sui-dropdown-menu>
+                    </sui-dropdown>
                 td
                     sui-dropdown(placeholder="Level" selection :options="DROPDOWN_LEVELS", v-model="crewman.level")
                 td
