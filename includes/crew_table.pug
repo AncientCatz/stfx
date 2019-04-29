@@ -42,3 +42,8 @@ script(type="text/x-template")#crew-table
                 td.ui.navy
                     sui-dropdown(placeholder="Job" search selection :options="get_dropdown_jobs()", v-model="new_crewman_job")
                 td(colspan=13)
+        tfoot
+            tr
+                td
+                td
+                    sui-dropdown(placeholder="Level All" selection :options="DROPDOWN_LEVELS", v-model="global_crewman_level")
