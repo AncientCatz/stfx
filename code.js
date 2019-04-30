@@ -723,30 +723,13 @@ var app = new Vue({
         })
     },
     beforeCreate: function() {
-        fetch("data/jobs.json")
+        fetch("data/data.json")
         .then(r => r.json())
         .then(json => {
-            this.jobs = json
-        })
-        fetch("data/components.json")
-        .then(r => r.json())
-        .then(json => {
-            this.components = json;
-            fetch("data/ships.json")
-            .then(r => r.json())
-            .then(json => {
-                this.ships = json;
-                hash = document.location.hash.slice(1)
-                if(hash) {
-                    data = this.stfx_import(hash)
-                    console.log(data)
-                }
-                // this.update_ships_dropdown();
-                // if(localStorage.current) {
-                //     this.current = JSON.parse(localStorage.current);
-                //     this.current_id = this.current._id
-                // }
-            })
+            this.talents = json.talents
+            this.components = json.components
+            this.jobs = json.jobs
+            this.ships = json.ships
         })
     },
 })
