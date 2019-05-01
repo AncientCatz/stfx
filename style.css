@@ -44,6 +44,10 @@
     justify-content: space-between !important;
 }
 
+.componentitem > .content > .meta {
+    min-height: 1rem !important;
+}
+
 .componentitem.current {
     background-color: rgb(240,240,240) !important;
 }
