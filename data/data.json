@@ -5551,7 +5551,8 @@
       "install_cost": 22060,
       "armor": 2,
       "shield": 1,
-      "jump_cost": 3
+      "jump_cost": 3,
+      "rad_res": 4
     },
     "23": {
       "_id": 23,
@@ -5588,7 +5589,9 @@
       "mass": 50,
       "install_cost": 13500,
       "skill_navigation": 2,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "acc": 4,
+      "acc_craft": 2
     },
     "26": {
       "_id": 26,
@@ -5633,13 +5636,15 @@
       "mass": 150,
       "install_cost": 13500,
       "skill_pilot": 2,
-      "skill_shipops": 4
+      "skill_shipops": 4,
+      "boarding": 10
     },
     "30": {
       "_id": 30,
       "img": "ship_comp_weaponslocker",
       "type": "weaponlocker",
       "name": "Weapons Locker A1",
+      "base_desc": "Provides standard weaponry and armor for all crew",
       "size": "small",
       "mass": 175,
       "install_cost": 13500
@@ -5693,7 +5698,7 @@
     "35": {
       "_id": 35,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Adv. Mass Dampener 1",
       "size": "medium",
       "mass": -300,
@@ -5778,7 +5783,8 @@
       "install_cost": 87500,
       "armor": 6,
       "shield": 2,
-      "jump_cost": 3
+      "jump_cost": 3,
+      "void_res": 6
     },
     "41": {
       "_id": 41,
@@ -6081,6 +6087,7 @@
       "img": "ship_comp_weaponslocker",
       "type": "weaponlocker",
       "name": "Weapons Locker A2",
+      "base_desc": "Provides improved Falcon-class weaponry and armor for all crew",
       "size": "small",
       "mass": 175,
       "install_cost": 26500
@@ -6090,6 +6097,7 @@
       "img": "ship_comp_weaponslocker",
       "type": "weaponlocker",
       "name": "Weapons Locker A3",
+      "base_desc": "Provides improved Delta-class weaponry and armor for all crew. Adds Heavy and Stealth armor options",
       "size": "small",
       "mass": 175,
       "install_cost": 38500
@@ -6099,6 +6107,7 @@
       "img": "ship_comp_weaponslocker",
       "type": "weaponlocker",
       "name": "Weapons Locker A4",
+      "base_desc": "Provides improved XE Falcon-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options",
       "size": "small",
       "mass": 175,
       "install_cost": 58000
@@ -6108,6 +6117,7 @@
       "img": "ship_comp_extractor",
       "type": "mining",
       "name": "Extraction Drill",
+      "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +6 during Exploration",
       "size": "medium",
       "mass": 300,
       "cargo": 10,
@@ -6119,6 +6129,7 @@
       "img": "ship_comp_extractor",
       "type": "mining",
       "name": "Harvester Bay",
+      "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +12 during Exploration",
       "size": "medium",
       "mass": 300,
       "cargo": 15,
@@ -6131,6 +6142,7 @@
       "img": "ship_comp_extractor",
       "type": "mining",
       "name": "Resource Processor",
+      "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +16 during Exploration",
       "size": "medium",
       "mass": 300,
       "cargo": 20,
@@ -6144,6 +6156,7 @@
       "img": "ship_comp_extractor",
       "type": "mining",
       "name": "Javat Mechi-Reaper",
+      "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +20 during Exploration",
       "size": "large",
       "mass": 500,
       "cargo": 25,
@@ -6157,6 +6170,7 @@
       "img": "talent_empty_normal",
       "type": "crew_exploration",
       "name": "Matchweave EVA Suits",
+      "base_desc": "Reduces crew damage by 25% during Exploration",
       "size": "small",
       "mass": 100,
       "install_cost": 13500,
@@ -6168,6 +6182,7 @@
       "img": "talent_empty_normal",
       "type": "crew_exploration",
       "name": "L-Support Rover",
+      "base_desc": "Reduces crew damage by 30% during Exploration",
       "size": "medium",
       "mass": 300,
       "fuel": 15,
@@ -6180,6 +6195,7 @@
       "img": "talent_empty_normal",
       "type": "crew_exploration",
       "name": "Hyperion Exo-Suits",
+      "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Exploration",
       "size": "medium",
       "mass": 300,
       "install_cost": 30560,
@@ -6192,6 +6208,7 @@
       "img": "talent_empty_normal",
       "type": "crew_exploration",
       "name": "Exo-Crawler",
+      "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Exploration",
       "size": "large",
       "mass": 500,
       "fuel": 25,
@@ -6203,6 +6220,7 @@
       "img": "talent_empty_normal",
       "type": "ship_exploration",
       "name": "EVA Airlock",
+      "base_desc": "Reduces ship damage by 20% during Exploration",
       "size": "small",
       "mass": 125,
       "install_cost": 13500,
@@ -6214,6 +6232,7 @@
       "img": "talent_empty_normal",
       "type": "ship_exploration",
       "name": "Weather Seals",
+      "base_desc": "Reduces ship damage by 30% during Exploration",
       "size": "medium",
       "mass": 300,
       "install_cost": 25940,
@@ -6225,6 +6244,7 @@
       "img": "talent_empty_normal",
       "type": "ship_exploration",
       "name": "Radiation Seals",
+      "base_desc": "Reduces ship damage 35% during Exploration",
       "size": "medium",
       "mass": 300,
       "install_cost": 30560,
@@ -6238,6 +6258,7 @@
       "img": "talent_empty_normal",
       "type": "ship_exploration",
       "name": "Mesa Radiate-Seal",
+      "base_desc": "Reduces ship damage 40% during Exploration",
       "size": "medium",
       "mass": 300,
       "install_cost": 37250,
@@ -6250,6 +6271,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "data_exploration",
       "name": "Surface Scanner",
+      "base_desc": "Increases Data Records gathered when Exploring by 15%",
       "size": "small",
       "mass": 125,
       "install_cost": 13500,
@@ -6261,6 +6283,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "data_exploration",
       "name": "Wide-Arc Scanner",
+      "base_desc": "Increases Data Records gathered when Exploring by 25%",
       "size": "small",
       "mass": 125,
       "install_cost": 17500,
@@ -6273,6 +6296,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "data_exploration",
       "name": "Depth Scanner Omega",
+      "base_desc": "Increases Data Records gathered when Exploring by 50%",
       "size": "small",
       "mass": 125,
       "install_cost": 24000,
@@ -6285,6 +6309,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "data_exploration",
       "name": "Depth Scanner Omega-X",
+      "base_desc": "Increases Data Records gathered when Exploring by 60%",
       "size": "medium",
       "mass": 300,
       "install_cost": 42000,
@@ -6296,6 +6321,7 @@
       "img": "ship_comp_fuelscoop",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 1",
+      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1",
       "size": "medium",
       "mass": 275,
       "fuel": 10,
@@ -6307,6 +6333,7 @@
       "img": "ship_comp_fuelscoop",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 2",
+      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1-3",
       "size": "medium",
       "mass": 275,
       "fuel": 20,
@@ -6319,6 +6346,7 @@
       "img": "ship_comp_fuelscoop",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 3",
+      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-4",
       "size": "medium",
       "mass": 275,
       "fuel": 25,
@@ -6331,6 +6359,7 @@
       "img": "ship_comp_fuelscoop",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 4",
+      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-5",
       "size": "medium",
       "mass": 275,
       "fuel": 30,
@@ -6342,6 +6371,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "signal_array",
       "name": "Signal Array",
+      "base_desc": "Increases Data Records gathered when Spying by 10%",
       "size": "small",
       "mass": 100,
       "install_cost": 13500,
@@ -6353,6 +6383,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "signal_array",
       "name": "Dual-Arc Signal Array",
+      "base_desc": "Increases Data Records gathered when Spying by 20%",
       "size": "small",
       "mass": 100,
       "install_cost": 18000,
@@ -6364,6 +6395,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "signal_array",
       "name": "Triple-Arc Signal Array",
+      "base_desc": "Increases Data Records gathered when Spying by 25%",
       "size": "small",
       "mass": 100,
       "install_cost": 26000,
@@ -6376,6 +6408,7 @@
       "img": "ship_comp_intel_bonus",
       "type": "signal_array",
       "name": "Multi-Signal Array",
+      "base_desc": "Increases Data Records gathered when Spying by 33%",
       "size": "medium",
       "mass": 250,
       "install_cost": 50000,
@@ -6684,7 +6717,7 @@
     "105": {
       "_id": 105,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Dampener 1",
       "size": "small",
       "mass": -150,
@@ -7782,7 +7815,10 @@
       "install_cost": 22060,
       "jump_cost": 2,
       "skill_gunnery": 4,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "acc": 5,
+      "acc_craft": 5,
+      "dmg": 5
     },
     "252": {
       "_id": 252,
@@ -7807,7 +7843,9 @@
       "install_cost": 31120,
       "jump_cost": 2,
       "skill_gunnery": 2,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "dmg": 5,
+      "crit": 6
     },
     "254": {
       "_id": 254,
@@ -7826,32 +7864,34 @@
       "_id": 255,
       "img": "ship_comp_boosters",
       "type": "assist",
-      "name": "Radi-Shield Pulse Booster",
+      "name": "Radi-Pulse Booster",
       "size": "small",
       "mass": 125,
       "install_cost": 18250,
       "armor": 1,
       "jump_cost": 2,
       "skill_shipops": 2,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "rad_res": 20
     },
     "256": {
       "_id": 256,
       "img": "ship_comp_boosters",
       "type": "assist",
-      "name": "Void-Shield Pulse Booster",
+      "name": "Void-Pulse Booster",
       "size": "small",
       "mass": 125,
       "install_cost": 18250,
       "armor": 1,
       "jump_cost": 2,
       "skill_shipops": 2,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "void_res": 20
     },
     "257": {
       "_id": 257,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Modulator 1",
       "size": "small",
       "mass": -100,
@@ -7862,7 +7902,7 @@
     "258": {
       "_id": 258,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Reducer 1",
       "size": "medium",
       "mass": -225,
@@ -7971,7 +8011,8 @@
       "install_cost": 43000,
       "armor": 2,
       "shield": 2,
-      "jump_cost": 5
+      "jump_cost": 5,
+      "rad_res": 8
     },
     "268": {
       "_id": 268,
@@ -7983,7 +8024,8 @@
       "install_cost": 85000,
       "armor": 3,
       "shield": 3,
-      "jump_cost": 7
+      "jump_cost": 7,
+      "rad_res": 16
     },
     "269": {
       "_id": 269,
@@ -7995,7 +8037,8 @@
       "install_cost": 98000,
       "armor": 4,
       "shield": 3,
-      "jump_cost": 8
+      "jump_cost": 8,
+      "rad_res": 24
     },
     "270": {
       "_id": 270,
@@ -8007,7 +8050,8 @@
       "install_cost": 152300,
       "armor": 7,
       "shield": 3,
-      "jump_cost": 5
+      "jump_cost": 5,
+      "void_res": 12
     },
     "271": {
       "_id": 271,
@@ -8019,7 +8063,8 @@
       "install_cost": 192800,
       "armor": 8,
       "shield": 3,
-      "jump_cost": 7
+      "jump_cost": 7,
+      "void_res": 18
     },
     "272": {
       "_id": 272,
@@ -8031,7 +8076,8 @@
       "install_cost": 241130,
       "armor": 9,
       "shield": 4,
-      "jump_cost": 8
+      "jump_cost": 8,
+      "void_res": 30
     },
     "273": {
       "_id": 273,
@@ -8075,7 +8121,7 @@
     "276": {
       "_id": 276,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Dampener 2",
       "size": "small",
       "mass": -180,
@@ -8087,7 +8133,7 @@
     "277": {
       "_id": 277,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Dampener 3",
       "size": "small",
       "mass": -210,
@@ -8099,7 +8145,7 @@
     "278": {
       "_id": 278,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Dampener 4",
       "size": "small",
       "mass": -240,
@@ -8111,7 +8157,7 @@
     "279": {
       "_id": 279,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Modulator 2",
       "size": "small",
       "mass": -125,
@@ -8123,7 +8169,7 @@
     "280": {
       "_id": 280,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Modulator 3",
       "size": "small",
       "mass": -150,
@@ -8135,7 +8181,7 @@
     "281": {
       "_id": 281,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Modulator 4",
       "size": "small",
       "mass": -165,
@@ -8147,7 +8193,7 @@
     "282": {
       "_id": 282,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Reducer 2",
       "size": "medium",
       "mass": -240,
@@ -8159,7 +8205,7 @@
     "283": {
       "_id": 283,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Reducer 3",
       "size": "medium",
       "mass": -260,
@@ -8171,7 +8217,7 @@
     "284": {
       "_id": 284,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Mass Reducer 4",
       "size": "medium",
       "mass": -280,
@@ -8183,7 +8229,7 @@
     "285": {
       "_id": 285,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Adv. Mass Dampener 2",
       "size": "medium",
       "mass": -330,
@@ -8195,7 +8241,7 @@
     "286": {
       "_id": 286,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Adv. Mass Dampener 3",
       "size": "medium",
       "mass": -360,
@@ -8207,7 +8253,7 @@
     "287": {
       "_id": 287,
       "img": "ship_comp_defensive",
-      "type": "combat",
+      "type": "mass",
       "name": "Adv. Mass Dampener 4",
       "size": "medium",
       "mass": -400,
@@ -8653,7 +8699,9 @@
       "mass": 50,
       "install_cost": 22000,
       "skill_navigation": 2,
-      "skill_electronics": 5
+      "skill_electronics": 5,
+      "acc": 5,
+      "acc_craft": 3
     },
     "322": {
       "_id": 322,
@@ -8664,7 +8712,9 @@
       "mass": 50,
       "install_cost": 28640,
       "skill_navigation": 3,
-      "skill_electronics": 5
+      "skill_electronics": 5,
+      "acc": 6,
+      "acc_craft": 4
     },
     "323": {
       "_id": 323,
@@ -8675,7 +8725,9 @@
       "mass": 50,
       "install_cost": 47920,
       "skill_navigation": 3,
-      "skill_electronics": 6
+      "skill_electronics": 6,
+      "acc": 7,
+      "acc_craft": 5
     },
     "324": {
       "_id": 324,
@@ -9065,7 +9117,8 @@
       "mass": 150,
       "install_cost": 18820,
       "skill_pilot": 2,
-      "skill_shipops": 4
+      "skill_shipops": 4,
+      "boarding": 20
     },
     "365": {
       "_id": 365,
@@ -9076,7 +9129,8 @@
       "mass": 150,
       "install_cost": 28000,
       "skill_pilot": 3,
-      "skill_shipops": 3
+      "skill_shipops": 3,
+      "boarding": 25
     },
     "366": {
       "_id": 366,
@@ -9088,7 +9142,8 @@
       "mass": 150,
       "install_cost": 35920,
       "skill_pilot": 3,
-      "skill_shipops": 3
+      "skill_shipops": 3,
+      "boarding": 30
     },
     "367": {
       "_id": 367,
@@ -9273,6 +9328,7 @@
       "img": "ship_comp_weaponslocker",
       "type": "weaponlocker",
       "name": "Weapons Locker A5",
+      "base_desc": "Provides improved Goliath-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options.",
       "size": "small",
       "mass": 175,
       "install_cost": 112000
@@ -9324,7 +9380,8 @@
       "mass": 125,
       "install_cost": 17650,
       "skill_shipops": 4,
-      "skill_navigation": 2
+      "skill_navigation": 2,
+      "void_res": 3
     },
     "383": {
       "_id": 383,
@@ -9335,7 +9392,8 @@
       "mass": 125,
       "install_cost": 34420,
       "skill_shipops": 4,
-      "skill_navigation": 2
+      "skill_navigation": 2,
+      "void_res": 6
     },
     "384": {
       "_id": 384,
@@ -9346,7 +9404,8 @@
       "mass": 125,
       "install_cost": 56500,
       "skill_shipops": 3,
-      "skill_navigation": 3
+      "skill_navigation": 3,
+      "void_res": 9
     },
     "385": {
       "_id": 385,
@@ -9358,7 +9417,8 @@
       "mass": 125,
       "install_cost": 94000,
       "skill_shipops": 3,
-      "skill_navigation": 3
+      "skill_navigation": 3,
+      "void_res": 12
     },
     "386": {
       "_id": 386,
@@ -9370,7 +9430,11 @@
       "install_cost": 34420,
       "jump_cost": 2,
       "skill_gunnery": 4,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "acc": 5,
+      "acc_craft": 6,
+      "dmg": 5,
+      "crit": 1
     },
     "387": {
       "_id": 387,
@@ -9382,7 +9446,11 @@
       "install_cost": 56500,
       "jump_cost": 3,
       "skill_gunnery": 5,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "acc": 6,
+      "acc_craft": 7,
+      "dmg": 5,
+      "crit": 2
     },
     "388": {
       "_id": 388,
@@ -9395,7 +9463,11 @@
       "install_cost": 94000,
       "jump_cost": 4,
       "skill_gunnery": 5,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "acc": 7,
+      "acc_craft": 8,
+      "dmg": 5,
+      "crit": 3
     },
     "389": {
       "_id": 389,
@@ -9447,7 +9519,9 @@
       "install_cost": 34420,
       "jump_cost": 2,
       "skill_gunnery": 2,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "dmg": 6,
+      "crit": 7
     },
     "393": {
       "_id": 393,
@@ -9459,7 +9533,9 @@
       "install_cost": 56500,
       "jump_cost": 3,
       "skill_gunnery": 3,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "dmg": 8,
+      "crit": 9
     },
     "394": {
       "_id": 394,
@@ -9472,13 +9548,16 @@
       "install_cost": 94000,
       "jump_cost": 4,
       "skill_gunnery": 3,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "dmg": 10,
+      "crit": 10
     },
     "395": {
       "_id": 395,
       "img": "talent_empty_normal",
       "type": "plating",
       "name": "Magnamech Plating",
+      "base_desc": "Reduces crew damage by 20% during Spying, Blockade or Patrol",
       "size": "small",
       "mass": 100,
       "install_cost": 37000,
@@ -9491,6 +9570,7 @@
       "img": "talent_empty_normal",
       "type": "plating",
       "name": "Centurion Radiation Array",
+      "base_desc": "Reduces crew damage by 25% during Spying, Blockade or Patrol",
       "size": "small",
       "mass": 100,
       "install_cost": 72000,
@@ -9503,6 +9583,7 @@
       "img": "talent_empty_normal",
       "type": "plating",
       "name": "Ferrochromium Plating",
+      "base_desc": "Reduces crew damage by 40% and 20% fewer crew are harmed  during Spying, Blockade or Patrol",
       "size": "small",
       "mass": 100,
       "install_cost": 104000,
@@ -9515,6 +9596,7 @@
       "img": "talent_empty_normal",
       "type": "coating",
       "name": "Duranium Coating",
+      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 20%",
       "size": "medium",
       "mass": 275,
       "install_cost": 45000,
@@ -9527,6 +9609,7 @@
       "img": "talent_empty_normal",
       "type": "coating",
       "name": "Ferrochromium Mesh",
+      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 25%",
       "size": "medium",
       "mass": 275,
       "install_cost": 85000,
@@ -9539,6 +9622,7 @@
       "img": "talent_empty_normal",
       "type": "coating",
       "name": "Iridlaentine Weave",
+      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 40%",
       "size": "medium",
       "mass": 275,
       "install_cost": 118000,
@@ -9966,6 +10050,7 @@
       "img": "ship_comp_boosters",
       "type": "eva_deck",
       "name": "EVA Deck 1",
+      "base_desc": "Reduces crew damage by 25% during Orbital Salvage, reduces Turns used",
       "size": "medium",
       "mass": 275,
       "fuel": 5,
@@ -9979,6 +10064,7 @@
       "img": "ship_comp_boosters",
       "type": "eva_deck",
       "name": "EVA Deck 2",
+      "base_desc": "Reduces crew damage by 30% during Orbital Salvage, reduces Turns used",
       "size": "medium",
       "mass": 275,
       "fuel": 10,
@@ -9994,6 +10080,7 @@
       "img": "ship_comp_boosters",
       "type": "eva_deck",
       "name": "EVA Deck 3",
+      "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Orbital Salvage, reduces Turns used",
       "size": "medium",
       "mass": 275,
       "fuel": 15,
@@ -10010,6 +10097,7 @@
       "img": "ship_comp_boosters",
       "type": "eva_deck",
       "name": "EVA Deck 4",
+      "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Orbital Salvage, reduces Turns used",
       "size": "medium",
       "mass": 275,
       "fuel": 20,
@@ -10025,6 +10113,7 @@
       "img": "ship_comp_boosters",
       "type": "salvage_bay",
       "name": "Salvage Bay 1",
+      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 15%",
       "size": "large",
       "mass": 500,
       "cargo": 10,
@@ -10038,6 +10127,7 @@
       "img": "ship_comp_boosters",
       "type": "salvage_bay",
       "name": "Salvage Bay 2",
+      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 25%",
       "size": "large",
       "mass": 500,
       "cargo": 15,
@@ -10051,6 +10141,7 @@
       "img": "ship_comp_boosters",
       "type": "salvage_bay",
       "name": "Salvage Bay 3",
+      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 35%",
       "size": "large",
       "mass": 500,
       "cargo": 20,
@@ -10065,6 +10156,7 @@
       "img": "ship_comp_boosters",
       "type": "salvage_bay",
       "name": "Salvage Bay 4",
+      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 49%",
       "size": "large",
       "mass": 500,
       "cargo": 25,
@@ -10681,7 +10773,9 @@
       "install_cost": 167000,
       "armor": 5,
       "shield": 4,
-      "jump_cost": 8
+      "jump_cost": 8,
+      "void_res": 6,
+      "rad_res": 30
     },
     "484": {
       "_id": 484,
@@ -10694,7 +10788,9 @@
       "install_cost": 277000,
       "armor": 10,
       "shield": 5,
-      "jump_cost": 12
+      "jump_cost": 12,
+      "void_res": 30,
+      "rad_res": 6
     },
     "485": {
       "_id": 485,
@@ -13899,7 +13995,7 @@
         {
           "name": "Tag the Beast",
           "desc": "Experienced explorer knows how to stay one step ahead. May only be used against xeno, if any ship weapons hit the alien, this Crippling Attack causes -20% Accuracy, -20% Shield, -15 Range Change for the next 3 Turns",
-          "cool": 180,
+          "cool": 90,
           "type": -2,
           "icon": "talent_explorer_markbeast"
         },

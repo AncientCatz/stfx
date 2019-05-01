@@ -57,30 +57,24 @@ function CopyToClipboard(text) {
   document.body.removeChild(textArea);
 };
 
-String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
-function () {
-    "use strict";
-    var str = this.toString();
-    if (arguments.length) {
-        var t = typeof arguments[0];
-        var key;
-        var args = ("string" === t || "number" === t) ?
-            Array.prototype.slice.call(arguments)
-            : arguments[0];
-
-        for (key in args) {
-            str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
-        }
-    }
-
-    return str;
-};
-
 Vue.use(SemanticUIVue);
 var bus = new Vue();
 var EVT_COMPONENT_MODAL_OPEN = 'EVT_COMPONENT_MODAL_OPEN'
+var EVT_TALENT_MODAL_OPEN = 'EVT_TALENT_MODAL_OPEN'
 var EVT_FILL_SHIP_POOLS = 'EVT_FILL_SHIP_POOLS'
 
+
+function ROUND_2(f) {
+    return Math.round(f * 100);
+}
+
+function COMP_CALC_ARMOR_PC(armor) {
+    return (0.06 * armor) / (1 + ( 0.06 * Math.abs(armor)));
+}
+
+function COMP_CALC_SHIELD_PC(shield) {
+    return (0.03 * shield) / (1 + ( 0.03 * Math.abs(shield)));
+}
 
 function killme() {
     asd = []
@@ -93,12 +87,93 @@ function killme() {
 Vue.mixin({
     data: function() {
         return {
-            DROPDOWN_LEVELS: killme()
+            DROPDOWN_LEVELS: killme(),
         }
-
+    },
+    filters: {
+        shield_pc: function(value) {
+            return ROUND_2(COMP_CALC_SHIELD_PC(value));
+        },
+        armor_pc: function(value) {
+            return ROUND_2(COMP_CALC_ARMOR_PC(value));
+        },
     },
     methods: {
 
+
+        postprocess_comp: function(components) {
+            function process_description(component) {
+                DESC_TYPE = {
+                    'bridge':           c => c.officers == 1 ? "Ship's Command Center; includes Captain's quarters" : '',
+                    'weaponslocker':    c => "Provides weaponry and armor for all crew",
+                    "hyperwarp":        c => `Enables Hyperwarp Jump of a ${c.drive_mass} Mass Ship for ${c.jump_cost} Fuel`,
+                    "engine":           c => `Burns ${c.engine.fuel_map} Fuel per AU at ${c.engine.safety}% safety; Burns ${c.engine.fuel_combat} Fuel per Combat`,
+                    'weapon':           c => `lvl ${c.weapon.level} ${c.weapon._weapon_type_text}; +${c.weapon.accuracy} Accuracy at Optimal Range of ${c.weapon.range}; Strikes with ${c.weapon.crit}% Critical and ${c.weapon.effect_chance}% Crippling Chance`,
+                    'mass':             c => `Reduces mass to allow for other Components,`,
+                    'medical':          c => `${c.medical} Medical Rating`,
+                }
+                DESC = {
+                    'crew':             c => `Quarters for ${c.crew} crew,`,
+                    'passengers':       c => `Houses ${c.passengers} Passenger${c.passengers > 1 ? 's' : ''},`,
+                    'prisoners':        c => `Detains ${c.prisoners} Prisoner${c.prisoners > 1 ? 's' : ''},`,
+
+                    'rad_res':          c => `+${c.rad_res} Radiation Resist,`,
+                    'void_res':         c => `+${c.void_res} Void Resist,`,
+                    'acc':              c => `+${c.acc} Accuracy,`,
+                    'acc_craft':        c => `+${c.acc_craft}% to Hit Craft,`,
+                    'dmg':              c => `+${c.dmg}% Dmg,`,
+                    'crit':             c => `+${c.crit}% Critical,`,
+
+                    'cargo':            c => `Stores ${c.cargo} Cargo,`,
+                    'fuel':             c => `Adds ${c.fuel} Fuel Capacity,`,
+                    'armor':            c => `+${ROUND_2(COMP_CALC_ARMOR_PC(c.armor))}% Armor,`,
+                    'shield':           c => `+${ROUND_2(COMP_CALC_SHIELD_PC(c.shield))}% Shielding,`,
+                    'officers':         c => c.type != 'bridge' ? `Quarters for ${c.officers} officers,`: '',
+                    'craft':            c => `Adds ${c.craft} Craft Hangar,`,
+                    'jump_cost':        c => c.type != 'hyperwarp' ? `${c.jump_cost > 0 ? '+' : '-'}${c.jump_cost} Jump Cost` : '',
+
+                }
+                description = [];
+                base_desc = component.base_desc
+                if(base_desc) {
+                    description.push(base_desc + ';')
+                }
+                var type_desc_fmt = DESC_TYPE[component.type]
+                if(type_desc_fmt) {
+                    description.push(type_desc_fmt(component))
+                }
+                for(var tag in DESC) {
+                    value = component[tag]
+                    if(value === undefined) {continue;}
+                    text = DESC[tag](component)
+                    description.push(text)
+                }
+                comp._description = description.join(' ')
+        }
+            function process_weapon(comp) {
+                var weapon_types = {
+                    1: "Autocannon",
+                    2: "Lance",
+                    3: "Plasma Cannon",
+                    4: "Railgun",
+                    5: "Gravity Driver",
+                    6: "Missile System",
+                    7: "Torpedo",
+                }
+                comp.weapon._weapon_type_text = weapon_types[comp.weapon.weapon_type]
+
+            }
+            for(var i in components) {
+                comp = components[i]
+                if(comp.type == 'weapon'){
+                    process_weapon(comp)
+                }
+
+                process_description(comp)
+
+            }
+            return components;
+        },
         crew_get_skills: function(crewman) {
             skills = {}
             skill_names = crewman.job.skills
@@ -131,53 +206,11 @@ Vue.mixin({
             return pool_perc
 
         },
-        parse_component_description: function(component) {
-            DESC = {
-                'armor': '+{armor}% armor',
-                'shield': '+{shield}% shielding',
-                'jump_cost': '{jump_cost} jump cost',
-                'officers': 'Quarters for {officers} officers',
-                'crew': 'Quarters for {crew} crew',
-                'cargo': 'Stores {cargo} Cargo',
-                'fuel': 'Adds {fuel} Fuel Capacity',
-                'craft': 'Adds {craft} Craft Hangar',
-
-            }
-            DESC_WEAPON = {
-                "level": "lvl {level}",
-                "accuracy": '+{accuracy}% accuracy',
-                "range": 'at optimal range of {range}',
-                "crit": '{crit}% crit chance',
-                "effect_chance": '{effect_chance}% crippling chance',
-            }
-            DESC_ENGINE = {
-                "fuel_map": "Burns {fuel_map} per AU at {safety}% safety",
-                "fuel_combat": 'Burns {fuel_combat} per Combat',
-            }
-            description = [];
-            for(var tag in DESC) {
-                value = component[tag]
-                if(value === undefined) {continue;}
-                text = DESC[tag].formatUnicorn(component)
-                description.push(text)
-            }
-            if(component.engine) {
-                for(var tag in DESC_ENGINE) {
-                    value = component.engine[tag]
-                    text = DESC_ENGINE[tag].formatUnicorn(component.engine)
-                    description.push(text)
-                }
-            }
-            if(component.weapon) {
-                for(var tag in DESC_WEAPON) {
-                    value = component.weapon[tag]
-                    text = DESC_WEAPON[tag].formatUnicorn(component.weapon)
-                    description.push(text)
-                }
-            }
-            return description.join(', ')
+        comp_get_description: function(component) {
+            return component._description;
         },
-        parse_component_props: function(component) {
+
+        comp_parse_props: function(component) {
             props = []
             for(var i in component) {
                 if(!i.startsWith('skill_')) {continue;}
@@ -727,9 +760,13 @@ var app = new Vue({
         .then(r => r.json())
         .then(json => {
             this.talents = json.talents
-            this.components = json.components
+            this.components = this.postprocess_comp(json.components)
             this.jobs = json.jobs
             this.ships = json.ships
+            hash = document.location.hash.slice(1)
+            if(hash) {
+                this.stfx_import(hash)
+            }
         })
     },
 })
