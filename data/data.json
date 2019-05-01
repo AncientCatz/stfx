@@ -5483,8 +5483,7 @@
       "passengers": 1,
       "install_cost": 30250,
       "armor": 1,
-      "shield": 1,
-      "skill_explorer": 1
+      "shield": 1
     },
     "18": {
       "_id": 18,
@@ -8320,8 +8319,7 @@
       "mass": 500,
       "passengers": 3,
       "install_cost": 82080,
-      "shield": 2,
-      "skill_explorer": 1
+      "shield": 2
     },
     "291": {
       "_id": 291,
