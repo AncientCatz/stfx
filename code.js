@@ -76,6 +76,11 @@ function COMP_CALC_SHIELD_PC(shield) {
     return (0.03 * shield) / (1 + ( 0.03 * Math.abs(shield)));
 }
 
+function PROP_DISP(skillname) {
+    if(skillname == 'shipops'){return 'Ship Ops'}
+    return skillname[0].toUpperCase() + skillname.slice(1)
+}
+
 function killme() {
     asd = []
     for(var i=1; i<33; i++) {
@@ -97,6 +102,10 @@ Vue.mixin({
         armor_pc: function(value) {
             return ROUND_2(COMP_CALC_ARMOR_PC(value));
         },
+        comp_disp_name: function(comp) {
+            if(comp.shortname) {return comp.shortname}
+            return comp.name
+        }
     },
     methods: {
 
@@ -209,7 +218,33 @@ Vue.mixin({
         comp_get_description: function(component) {
             return component._description;
         },
+        comp_parse_extra_props: function(component) {
+            var img = this.img_get_prop
+            if(component.type == 'engine') {
+                var engine = component.engine;
+                return [
+                    {'val': `${engine.speed} Speed`, 'img': img('speed')},
+                    {'val': `${engine.agility} Agility`, 'img': img('agility')},
+                    {'val': `${engine.ap} AP / ${engine.ap_cost} Change Range`, 'img': img('engine')}
+                ]
 
+            }
+            if(component.type == 'weapon') {
+                var weap = component.weapon;
+                var data = [
+                    {'val': `${weap.ap} RP to Fire`, 'img': img('engine')},
+                    {'val': `${weap.damage_min}-${weap.damage_max} Damage`, 'img': img('damage')},
+                ]
+                if(weap.effect) {
+                    data.push(
+                        {'val': `${weap.effect_min}-${weap.effect_max} ${weap.effect[0].toUpperCase() + weap.effect.slice(1)} Dmg`, 'img': img(weap.effect)},
+                    )
+                }
+                return data;
+
+            }
+            return []
+        },
         comp_parse_props: function(component) {
             props = []
             for(var i in component) {
@@ -217,14 +252,9 @@ Vue.mixin({
                 img = this.img_get_prop(i.replace('skill_', ''));
                 name = i.replace('skill_', '').replace('_', ' ');
                 val = component[i];
-                props.push({'img': img, 'name': name, 'val': val})
+                props.push({'img': img, 'val': `${val} ${PROP_DISP(name)}`} )
 
             }
-            props.push({
-                'img': this.img_get_prop('mass'),
-                'name': 'mass',
-                'val': component.mass
-            })
             return props;
         },
         img_get_ship_top: function(ship) {

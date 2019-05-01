@@ -5260,7 +5260,8 @@
         "safety": 60,
         "speed": 27,
         "agility": 27
-      }
+      },
+      "shortname": "Balanced"
     },
     "4": {
       "_id": 4,
@@ -5331,7 +5332,8 @@
       "shield": 1,
       "jump_cost": 14,
       "skill_navigation": 6,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "shortname": "Basic"
     },
     "9": {
       "_id": 9,
@@ -5368,7 +5370,8 @@
         "safety": 70,
         "speed": 27,
         "agility": 27
-      }
+      },
+      "shortname": "Longhaul"
     },
     "11": {
       "_id": 11,
@@ -5432,7 +5435,8 @@
       "shield": 1,
       "jump_cost": 10,
       "skill_navigation": 8,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Longhaul"
     },
     "15": {
       "_id": 15,
@@ -5466,7 +5470,8 @@
         "safety": 70,
         "speed": 24,
         "agility": 29
-      }
+      },
+      "shortname": "Traveler"
     },
     "17": {
       "_id": 17,
@@ -5822,7 +5827,8 @@
         "safety": 60,
         "speed": 29,
         "agility": 24
-      }
+      },
+      "shortname": "Chaser"
     },
     "43": {
       "_id": 43,
@@ -5858,7 +5864,8 @@
         "safety": 50,
         "speed": 24,
         "agility": 24
-      }
+      },
+      "shortname": "Balanced"
     },
     "45": {
       "_id": 45,
@@ -5882,7 +5889,8 @@
         "safety": 80,
         "speed": 23,
         "agility": 23
-      }
+      },
+      "shortname": "Longhaul"
     },
     "46": {
       "_id": 46,
@@ -5904,7 +5912,8 @@
         "safety": 90,
         "speed": 16,
         "agility": 23
-      }
+      },
+      "shortname": "Traveler"
     },
     "47": {
       "_id": 47,
@@ -5926,7 +5935,8 @@
         "safety": 70,
         "speed": 19,
         "agility": 19
-      }
+      },
+      "shortname": "Balanced"
     },
     "48": {
       "_id": 48,
@@ -5948,7 +5958,8 @@
         "safety": 80,
         "speed": 22,
         "agility": 18
-      }
+      },
+      "shortname": "Chaser"
     },
     "49": {
       "_id": 49,
@@ -5970,7 +5981,8 @@
         "safety": 80,
         "speed": 15,
         "agility": 15
-      }
+      },
+      "shortname": "Longhaul"
     },
     "50": {
       "_id": 50,
@@ -5992,7 +6004,8 @@
         "safety": 80,
         "speed": 15,
         "agility": 15
-      }
+      },
+      "shortname": "Balanced"
     },
     "51": {
       "_id": 51,
@@ -6014,7 +6027,8 @@
         "safety": 100,
         "speed": 14,
         "agility": 10
-      }
+      },
+      "shortname": "Chaser"
     },
     "52": {
       "_id": 52,
@@ -6036,7 +6050,8 @@
         "safety": 100,
         "speed": 9,
         "agility": 15
-      }
+      },
+      "shortname": "Traveler"
     },
     "53": {
       "_id": 53,
@@ -6058,7 +6073,8 @@
         "safety": 90,
         "speed": 12,
         "agility": 12
-      }
+      },
+      "shortname": "Balanced"
     },
     "54": {
       "_id": 54,
@@ -6080,7 +6096,8 @@
         "safety": 100,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Balanced"
     },
     "63": {
       "_id": 63,
@@ -6595,7 +6612,8 @@
       "shield": 2,
       "jump_cost": 18,
       "skill_navigation": 10,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Basic"
     },
     "97": {
       "_id": 97,
@@ -6634,7 +6652,8 @@
       "shield": 1,
       "jump_cost": 14,
       "skill_navigation": 12,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Longhaul"
     },
     "99": {
       "_id": 99,
@@ -6647,7 +6666,8 @@
       "install_cost": 41060,
       "jump_cost": 22,
       "skill_navigation": 12,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Basic"
     },
     "100": {
       "_id": 100,
@@ -6660,7 +6680,8 @@
       "install_cost": 44840,
       "jump_cost": 18,
       "skill_navigation": 14,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "shortname": "Longhaul"
     },
     "101": {
       "_id": 101,
@@ -6673,7 +6694,8 @@
       "install_cost": 44300,
       "jump_cost": 26,
       "skill_navigation": 14,
-      "skill_electronics": 6
+      "skill_electronics": 6,
+      "shortname": "Basic"
     },
     "102": {
       "_id": 102,
@@ -6686,7 +6708,8 @@
       "install_cost": 51860,
       "jump_cost": 22,
       "skill_navigation": 17,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "shortname": "Longhaul"
     },
     "103": {
       "_id": 103,
@@ -6699,7 +6722,8 @@
       "install_cost": 77520,
       "jump_cost": 28,
       "skill_navigation": 15,
-      "skill_electronics": 5
+      "skill_electronics": 5,
+      "shortname": "Basic"
     },
     "104": {
       "_id": 104,
@@ -6712,7 +6736,8 @@
       "install_cost": 88320,
       "jump_cost": 25,
       "skill_navigation": 18,
-      "skill_electronics": 7
+      "skill_electronics": 7,
+      "shortname": "Longhaul"
     },
     "105": {
       "_id": 105,
@@ -8645,7 +8670,8 @@
       "install_cost": 83280,
       "jump_cost": 32,
       "skill_navigation": 18,
-      "skill_electronics": 8
+      "skill_electronics": 8,
+      "shortname": "Basic"
     },
     "317": {
       "_id": 317,
@@ -8658,7 +8684,8 @@
       "install_cost": 95880,
       "jump_cost": 28,
       "skill_navigation": 20,
-      "skill_electronics": 7
+      "skill_electronics": 7,
+      "shortname": "Longhaul"
     },
     "318": {
       "_id": 318,
@@ -8742,7 +8769,8 @@
       "shield": 2,
       "jump_cost": 12,
       "skill_navigation": 7,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Kickstarter"
     },
     "325": {
       "_id": 325,
@@ -8757,7 +8785,8 @@
       "shield": 1,
       "jump_cost": 16,
       "skill_navigation": 11,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "shortname": "Kickstarter"
     },
     "326": {
       "_id": 326,
@@ -8771,7 +8800,8 @@
       "armor": 1,
       "jump_cost": 20,
       "skill_navigation": 13,
-      "skill_electronics": 4
+      "skill_electronics": 4,
+      "shortname": "Kickstarter"
     },
     "327": {
       "_id": 327,
@@ -8784,7 +8814,8 @@
       "install_cost": 47000,
       "jump_cost": 24,
       "skill_navigation": 15,
-      "skill_electronics": 5
+      "skill_electronics": 5,
+      "shortname": "Kickstarter"
     },
     "328": {
       "_id": 328,
@@ -8799,7 +8830,8 @@
       "shield": 1,
       "jump_cost": 26,
       "skill_navigation": 16,
-      "skill_electronics": 6
+      "skill_electronics": 6,
+      "shortname": "Kickstarter"
     },
     "329": {
       "_id": 329,
@@ -8812,7 +8844,8 @@
       "install_cost": 87240,
       "jump_cost": 30,
       "skill_navigation": 17,
-      "skill_electronics": 10
+      "skill_electronics": 10,
+      "shortname": "Kickstarter"
     },
     "348": {
       "_id": 348,
@@ -8927,7 +8960,8 @@
         "safety": 100,
         "speed": 27,
         "agility": 30
-      }
+      },
+      "shortname": "Traveler"
     },
     "356": {
       "_id": 356,
@@ -8952,7 +8986,8 @@
         "safety": 80,
         "speed": 30,
         "agility": 27
-      }
+      },
+      "shortname": "Chaser"
     },
     "357": {
       "_id": 357,
@@ -8974,7 +9009,8 @@
         "safety": 120,
         "speed": 18,
         "agility": 20
-      }
+      },
+      "shortname": "Longhaul"
     },
     "358": {
       "_id": 358,
@@ -8996,7 +9032,8 @@
         "safety": 120,
         "speed": 13,
         "agility": 19
-      }
+      },
+      "shortname": "Traveler"
     },
     "359": {
       "_id": 359,
@@ -9018,7 +9055,8 @@
         "safety": 110,
         "speed": 18,
         "agility": 13
-      }
+      },
+      "shortname": "Chaser"
     },
     "360": {
       "_id": 360,
@@ -9040,7 +9078,8 @@
         "safety": 100,
         "speed": 11,
         "agility": 12
-      }
+      },
+      "shortname": "Longhaul"
     },
     "361": {
       "_id": 361,
@@ -9062,7 +9101,8 @@
         "safety": 90,
         "speed": 6,
         "agility": 10
-      }
+      },
+      "shortname": "Longhaul"
     },
     "362": {
       "_id": 362,
@@ -9084,7 +9124,8 @@
         "safety": 150,
         "speed": 8,
         "agility": 15
-      }
+      },
+      "shortname": "Traveler"
     },
     "363": {
       "_id": 363,
@@ -9106,7 +9147,8 @@
         "safety": 100,
         "speed": 10,
         "agility": 10
-      }
+      },
+      "shortname": "Chaser"
     },
     "364": {
       "_id": 364,
@@ -9229,7 +9271,8 @@
         "safety": 90,
         "speed": 6,
         "agility": 10
-      }
+      },
+      "shortname": "Longhaul"
     },
     "373": {
       "_id": 373,
@@ -9251,7 +9294,8 @@
         "safety": 150,
         "speed": 8,
         "agility": 15
-      }
+      },
+      "shortname": "Traveler"
     },
     "374": {
       "_id": 374,
@@ -9273,7 +9317,8 @@
         "safety": 100,
         "speed": 10,
         "agility": 10
-      }
+      },
+      "shortname": "Chaser"
     },
     "375": {
       "_id": 375,
@@ -9295,7 +9340,8 @@
         "safety": 100,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Balanced"
     },
     "376": {
       "_id": 376,
@@ -9308,7 +9354,8 @@
       "install_cost": 173000,
       "jump_cost": 36,
       "skill_navigation": 19,
-      "skill_electronics": 10
+      "skill_electronics": 10,
+      "shortname": "Basic"
     },
     "377": {
       "_id": 377,
@@ -9321,7 +9368,8 @@
       "install_cost": 211000,
       "jump_cost": 30,
       "skill_navigation": 21,
-      "skill_electronics": 8
+      "skill_electronics": 8,
+      "shortname": "Longhaul"
     },
     "378": {
       "_id": 378,
@@ -9853,7 +9901,8 @@
       "jump_cost": 18,
       "skill_pilot": 2,
       "skill_navigation": 7,
-      "skill_electronics": 2
+      "skill_electronics": 2,
+      "shortname": "Combat"
     },
     "430": {
       "_id": 430,
@@ -9869,7 +9918,8 @@
       "jump_cost": 20,
       "skill_pilot": 2,
       "skill_navigation": 9,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Combat"
     },
     "431": {
       "_id": 431,
@@ -9885,7 +9935,8 @@
       "jump_cost": 25,
       "skill_pilot": 3,
       "skill_navigation": 11,
-      "skill_electronics": 3
+      "skill_electronics": 3,
+      "shortname": "Combat"
     },
     "432": {
       "_id": 432,
@@ -9901,7 +9952,8 @@
       "jump_cost": 29,
       "skill_pilot": 3,
       "skill_navigation": 13,
-      "skill_electronics": 6
+      "skill_electronics": 6,
+      "shortname": "Combat"
     },
     "433": {
       "_id": 433,
@@ -9917,7 +9969,8 @@
       "jump_cost": 32,
       "skill_pilot": 4,
       "skill_navigation": 14,
-      "skill_electronics": 5
+      "skill_electronics": 5,
+      "shortname": "Combat"
     },
     "434": {
       "_id": 434,
@@ -9933,7 +9986,8 @@
       "jump_cost": 36,
       "skill_pilot": 4,
       "skill_navigation": 16,
-      "skill_electronics": 8
+      "skill_electronics": 8,
+      "shortname": "Combat"
     },
     "435": {
       "_id": 435,
@@ -9949,7 +10003,8 @@
       "jump_cost": 40,
       "skill_pilot": 4,
       "skill_navigation": 17,
-      "skill_electronics": 10
+      "skill_electronics": 10,
+      "shortname": "Combat"
     },
     "436": {
       "_id": 436,
@@ -10202,7 +10257,8 @@
         "safety": 50,
         "speed": 27,
         "agility": 27
-      }
+      },
+      "shortname": "Warhammer"
     },
     "454": {
       "_id": 454,
@@ -10228,7 +10284,8 @@
         "safety": 40,
         "speed": 24,
         "agility": 24
-      }
+      },
+      "shortname": "Warhammer"
     },
     "455": {
       "_id": 455,
@@ -10254,7 +10311,8 @@
         "safety": 60,
         "speed": 19,
         "agility": 19
-      }
+      },
+      "shortname": "Warhammer"
     },
     "456": {
       "_id": 456,
@@ -10280,7 +10338,8 @@
         "safety": 70,
         "speed": 15,
         "agility": 15
-      }
+      },
+      "shortname": "Warhammer"
     },
     "457": {
       "_id": 457,
@@ -10306,7 +10365,8 @@
         "safety": 80,
         "speed": 12,
         "agility": 12
-      }
+      },
+      "shortname": "Warhammer"
     },
     "458": {
       "_id": 458,
@@ -10332,7 +10392,8 @@
         "safety": 80,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Warhammer"
     },
     "459": {
       "_id": 459,
@@ -10358,7 +10419,8 @@
         "safety": 80,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Warhammer"
     },
     "460": {
       "_id": 460,
@@ -10385,7 +10447,8 @@
         "safety": 50,
         "speed": 27,
         "agility": 27
-      }
+      },
+      "shortname": "Behemoth"
     },
     "461": {
       "_id": 461,
@@ -10412,7 +10475,8 @@
         "safety": 40,
         "speed": 24,
         "agility": 24
-      }
+      },
+      "shortname": "Behemoth"
     },
     "462": {
       "_id": 462,
@@ -10439,7 +10503,8 @@
         "safety": 60,
         "speed": 19,
         "agility": 19
-      }
+      },
+      "shortname": "Behemoth"
     },
     "463": {
       "_id": 463,
@@ -10466,7 +10531,8 @@
         "safety": 70,
         "speed": 15,
         "agility": 15
-      }
+      },
+      "shortname": "Behemoth"
     },
     "464": {
       "_id": 464,
@@ -10493,7 +10559,8 @@
         "safety": 80,
         "speed": 12,
         "agility": 12
-      }
+      },
+      "shortname": "Behemoth"
     },
     "465": {
       "_id": 465,
@@ -10520,7 +10587,8 @@
         "safety": 80,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Behemoth"
     },
     "466": {
       "_id": 466,
@@ -10547,7 +10615,8 @@
         "safety": 80,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Behemoth"
     },
     "467": {
       "_id": 467,
@@ -10816,7 +10885,8 @@
         "safety": 60,
         "speed": 27,
         "agility": 27
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "486": {
       "_id": 486,
@@ -10841,7 +10911,8 @@
         "safety": 50,
         "speed": 24,
         "agility": 24
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "487": {
       "_id": 487,
@@ -10864,7 +10935,8 @@
         "safety": 70,
         "speed": 19,
         "agility": 19
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "488": {
       "_id": 488,
@@ -10887,7 +10959,8 @@
         "safety": 80,
         "speed": 15,
         "agility": 15
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "489": {
       "_id": 489,
@@ -10910,7 +10983,8 @@
         "safety": 90,
         "speed": 12,
         "agility": 12
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "490": {
       "_id": 490,
@@ -10933,7 +11007,8 @@
         "safety": 100,
         "speed": 9,
         "agility": 9
-      }
+      },
+      "shortname": "Dual-Field"
     },
     "491": {
       "_id": 491,

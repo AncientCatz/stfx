@@ -2,38 +2,34 @@ mixin component_td(attr)
     td
         span= `{{data.${attr}}}`
         small(v-if=`data.component.${attr}`)= ` ({{data.component.${attr}}})`
+
+mixin component_th(prop, name)
+    th(v-on:click=`sortBy('${prop}')`)
+        p
+            span=  `${name}`
+            img.ui.mini.image(:src=`img_get_prop('${prop}')`)
+
 script(type="text/x-template")#component-table
     table.ui.celled.table.compact
         thead
             tr
                 th.two.wide.navy Component
-                th(v-on:click="sortBy('mass')") 
-                    img(:src="img_get_prop('mass')")
-                th 
-                    img(:src="img_get_prop('pilot')")
-                th 
-                    img(:src="img_get_prop('shipops')")
-                th 
-                    img(:src="img_get_prop('electronics')")
-                th 
-                    img(:src="img_get_prop('navigation')")
-                th 
-                    img(:src="img_get_prop('gunnery')")
-                th 
-                    img(:src="img_get_prop('officer')")
-                th 
-                    img(:src="img_get_prop('armor')")
-                th 
-                    img(:src="img_get_prop('shield')")
-                th 
-                    img(:src="img_get_prop('starport')")
-                th 
-                    img(:src="img_get_prop('credits')")
+                +component_th('mass', "Mass")
+                +component_th('pilot', "Pilot")
+                +component_th('shipops', "Ship Ops")
+                +component_th('electronics', "Electronics")
+                +component_th('navigation', "Navigation")
+                +component_th('gunnery', "Gunnery")
+                +component_th('officer', "Officers")
+                +component_th('armor', "Armor")
+                +component_th('shield', "Shield")
+                +component_th('jump_cost', "Jump Cost")
+                +component_th('install_cost', "Install Cost")
         tbody
             tr(v-for="data in component_rolling_stats")
                 td.ui.navy(@click="open_component_modal(data)")
                     img(:src="img_get_component(data.component)").ui.mini.image.middle.aligned
-                    span {{data.component.name}}
+                    span {{data.component | comp_disp_name}}
                 +component_td("mass")
                 +component_td('skill_pilot')
                 +component_td('skill_shipops')

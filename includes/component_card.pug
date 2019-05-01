@@ -3,4 +3,4 @@ script(type="text/x-template")#component-card
             img(:src="img_get_component(cslot.component)").ui.image
             div.content
                 div.description
-                    p {{cslot.component.name}}
+                    p {{cslot.component | comp_disp_name}}

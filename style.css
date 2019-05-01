@@ -33,6 +33,17 @@
     cursor: pointer;
 }
 
+
+.componentitem > .image {
+    margin: auto !important;
+}
+.componentitem > .content > .header {
+    font-size: 1em !important;
+    min-width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
 .componentitem.current {
     background-color: rgb(240,240,240) !important;
 }
@@ -55,4 +66,8 @@ td.navy {
 
 th.navy {
     border-color:rgba(255,255,255,0.1) !important;
+}
+
+.ui.mini.image {
+    width: 20px !important;
 }
