@@ -23,11 +23,13 @@ script(type="text/x-template")#crew-table
                 td.ui.navy
                     img(:src="img_get_job(crewman.job)").ui.mini.image.middle.aligned
                     sui-dropdown(:text="crewman.job.name" floating)
-                      <sui-dropdown-menu>
-                        <sui-dropdown-item v-on:click="copy_crewman(key)"><sui-icon name="copy" />Copy</sui-dropdown-item>
-                        <sui-dropdown-item v-on:click="del_crewman(key)"><sui-icon name="delete" />Space</sui-dropdown-item>
-                      </sui-dropdown-menu>
-                    </sui-dropdown>
+                      sui-dropdown-menu
+                          sui-dropdown-item(v-on:click="copy_crewman(key)")
+                              sui-icon(name="copy")
+                              span Copy
+                          sui-dropdown-item(v-on:click="del_crewman(key)")
+                              sui-icon(name="delete")
+                              span Space
                 td
                     sui-dropdown(placeholder="Level" selection :options="DROPDOWN_LEVELS", v-model="crewman.level")
                 td

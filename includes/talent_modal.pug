@@ -1,0 +1,16 @@
+script(type="text/x-template")#talent-modal
+    sui-modal(v-model="open", v-if="open")
+        div.header(style="font-size: 1rem; font-weight: 400;")
+            sui-input(placeholder="Search..." v-model="query")
+        sui-modal-content(scrolling)
+            sui-modal-description
+            div.ui.divided.items
+                component-view(
+                    v-for="component in matching_components(cslot.component, query)",
+                    v-on:click.native="emit_component(cslot.id, component._id)",
+                    v-bind:component="component",
+                    v-bind:key="component._id",
+                    v-bind:class="{current: component._id == cslot.component._id}"
+                )
+        sui-modal-actions
+            sui-button(negative @click.native="toggle") Close

@@ -20,8 +20,8 @@ function CopyToClipboard(text) {
 
   // Place in top-left corner of screen regardless of scroll position.
   textArea.style.position = 'fixed';
-  textArea.style.top = 0;
-  textArea.style.left = 0;
+  textArea.style.top = '0';
+  textArea.style.left = '0';
 
   // Ensure it has a small width and height. Setting to 1px / 1em
   // doesn't work as this gives a negative w/h on some browsers.
@@ -29,7 +29,7 @@ function CopyToClipboard(text) {
   textArea.style.height = '2em';
 
   // We don't need padding, reducing the size if it does flash render.
-  textArea.style.padding = 0;
+  textArea.style.padding = '0';
 
   // Clean up any borders.
   textArea.style.border = 'none';
@@ -440,6 +440,61 @@ Vue.component('component-view', {
     template: '#component-view',
     props: ['component', 'highlight'],
 });
+
+
+Vue.component("talent-modal", {
+    template: "#talent-modal",
+    props: ['talents'],
+    created: function() {
+        bus.$on(EVT_COMPONENT_MODAL_OPEN, idx, crewman => {
+            this.idx=idx;
+            this.crewman=crewman
+            this.toggle()
+        })
+    },
+    data: function() {
+        return {
+            "open": false,
+            "idx": 0,
+            "crewman": null,
+            "query": "",
+        }
+    },
+    methods: {
+        toggle: function() {
+            this.open = !this.open;
+        },
+        emit_component: function(slot_id, component_id) {
+            this.$emit('set_component', slot_id, component_id)
+            this.open = false;
+        },
+        matching_components: function(component, query) {
+            magic_components = ['bridge', 'drive', 'hyperwarp'];
+            matching_components = []
+            _id = component._id
+            type = component.type
+            size = component.size
+            name = component.name
+            drive_mass = component.drive_mass
+            for(var i in this.components) {
+                comp = this.components[i];
+                if(comp.size != size) { continue;}
+                if(drive_mass != comp.drive_mass) {continue}
+                valid = true;
+                for(var i in magic_components) {
+                    c = magic_components[i];
+                    if(type == c && comp.type != c) {valid=false; continue}
+                    if(comp.type == c && type != c) {valid=false;continue}
+                }
+                if(!valid) {continue;}
+                if(_id == comp._id) {}
+                else if(query && !comp.name.toLowerCase().includes(query.toLowerCase())){continue}
+                matching_components.push(comp);
+            }
+            return matching_components;
+        },
+    }
+})
 
 Vue.component("component-modal", {
     template: "#component-modal",
