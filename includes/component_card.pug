@@ -1,6 +1,0 @@
-script(type="text/x-template")#component-card
-        div(@click="toggle").ui.card.componentcard
-            img(:src="img_get_component(cslot.component)").ui.image
-            div.content
-                div.description
-                    p {{cslot.component | comp_disp_name}}

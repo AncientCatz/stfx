@@ -1,23 +1,20 @@
-div(v-if="current")
+div(v-if="renderShip")
     h3.ui.header Large components
     div.ui.cards
         component-card(
-            v-for="slot in get_slots(get_components(current.components), 'large')"
+            v-for="slot in current_large_slots"
             v-bind:cslot="slot",
-            v-bind:components="components",
             :key="slot.id")
     h3.ui.header Medium components
     div.ui.cards
         component-card(
-            v-for="slot in get_slots(get_components(current.components), 'medium')"
+            v-for="slot in current_medium_slots"
             v-bind:cslot="slot",
-            v-bind:components="components",
             :key="slot.id")
     h3.ui.header Small components
     div.ui.cards
         component-card(
-            v-for="slot in get_slots(get_components(current.components), 'small')"
+            v-for="slot in current_small_slots"
             v-bind:cslot="slot",
-            v-bind:components="components",
             :key="slot.id")
-component-table(v-bind:slots="get_components(current.components)" v-if="current")
+component-table(v-bind:current="current" v-if="renderShip")

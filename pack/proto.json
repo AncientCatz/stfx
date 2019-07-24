@@ -1,0 +1,73 @@
+{
+  "nested": {
+    "Officers": {
+      "fields": {
+        "job1": {
+          "type": "int32",
+          "id": 1
+        },
+        "job2": {
+          "type": "int32",
+          "id": 2
+        },
+        "job3": {
+          "type": "int32",
+          "id": 3
+        },
+        "level": {
+          "type": "int32",
+          "id": 4
+        },
+        "talents": {
+          "rule": "repeated",
+          "type": "int32",
+          "id": 5
+        }
+      }
+    },
+    "Crew": {
+      "fields": {
+        "job": {
+          "type": "int32",
+          "id": 1
+        },
+        "level": {
+          "type": "int32",
+          "id": 2
+        },
+        "talents": {
+          "rule": "repeated",
+          "type": "int32",
+          "id": 3
+        }
+      }
+    },
+    "STFX": {
+      "fields": {
+        "ver": {
+          "type": "int32",
+          "id": 1
+        },
+        "shipId": {
+          "type": "int32",
+          "id": 2
+        },
+        "components": {
+          "rule": "repeated",
+          "type": "int32",
+          "id": 3
+        },
+        "crew": {
+          "rule": "repeated",
+          "type": "Crew",
+          "id": 4
+        },
+        "officers": {
+          "rule": "repeated",
+          "type": "Officers",
+          "id": 5
+        }
+      }
+    }
+  }
+}

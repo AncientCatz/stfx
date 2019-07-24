@@ -1,10 +1,11 @@
-image: node:11.14
+image: registry.gitlab.com/tswift/stfx:latest
 pages:
+  before_script:
+    - export DIR=${PWD}
   script:
-    - npm install -g pug-cli
-    - /usr/local/bin/pug index.pug --out public
-    - cp -r data public
-    - cp -r code.js proto.json lzma_worker-min.js base64.min.js style.css assets public
+    - pug index.pug -o dist/
+    - echo 
+    - cd pack && webpack --mode=development --output-path ${DIR}
   artifacts:
     paths:
       - public
