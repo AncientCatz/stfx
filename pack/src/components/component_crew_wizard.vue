@@ -1,11 +1,12 @@
 <template lang="pug">
   div
-    <sui-button @click.native="toggle">Show Modal</sui-button>
+    <sui-button @click.native="toggle">Wizard™®</sui-button>
     sui-modal(v-model="open")
-      <sui-modal-header>Fill pools wizard™</sui-modal-header>
+      <sui-modal-header></sui-modal-header>
       sui-modal-content
           sui-modal-description
             span
+                span Crew level
                 input(type="range" min="1", max="40", step="1", v-model="level")
                 span {{level}}
             p(v-for="c in new_crew") {{c.job.name}} {{c.count}}
