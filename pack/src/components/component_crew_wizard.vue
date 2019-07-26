@@ -7,7 +7,7 @@
           sui-modal-description
             span
                 span Crew level
-                input(type="range" min="1", max="40", step="1", v-model="level")
+                input(type="range" min="1", max="32", step="1", v-model="level")
                 span {{level}}
             p(v-for="c in new_crew") {{c.job.name}} {{c.count}}
       sui-modal-actions
