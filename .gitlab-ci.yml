@@ -6,7 +6,7 @@ pages:
     - pug index.pug -o dist/
     - echo 
     - cd pack && webpack --mode=development --output-path ${DIR}
-    - cp -r dist public
+    - cp -r ${PWD}/dist ${PWD}/public
   artifacts:
     paths:
       - public
