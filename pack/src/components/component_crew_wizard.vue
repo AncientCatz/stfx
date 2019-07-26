@@ -67,7 +67,7 @@ export default Vue.extend({
                     'level': level,
                     'talents': []
                 }
-                let crewman_skills = utils.crew_get_skills(crewman)
+                let crewman_skills = utils.job_get_skills(crewman.job, crewman.level);
                 let crewman_skill = crewman_skills[i]
 
                 let ship_stat = Math.round(utils.get_ship_stat(this.ship_stats, i) * 1);

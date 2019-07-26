@@ -32,8 +32,9 @@
                               span Space
                 td
                     sui-dropdown(placeholder="Level" selection :options="DROPDOWN_LEVELS", v-model="crewman.job.level")
-                td(@click="open_talent_modal(key)")
+                td
                     img(v-for="t in crewman.talents" :src="img_get_talent(t)").ui.mini.image.middle.aligned
+                    i.plus.circle.icon(@click="open_talent_modal(key)")
                 td {{crew_get_skill(crewman, 'pilot')}}
                 td {{crew_get_skill(crewman, 'shipops')}}
                 td {{crew_get_skill(crewman, 'repair')}}

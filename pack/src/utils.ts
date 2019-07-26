@@ -83,14 +83,19 @@ export function killme() {
     return asd
 }
 
-export function crew_get_skills(crewman:types.Crewman) {
+export function job_get_skills(job: types.Job, level:number) {
     var skills: {[index:string]: number}= {}
-    var skill_names = crewman.job.type.skills
+    var skill_names = job.skills
     for(var i in skill_names) {
         var name = skill_names[i];
-        skills[name] = crewman.job.type.levels[crewman.job.level-1][i];
+        skills[name] = job.levels[level-1][i];
     }
-    return skills
+    return skills;
+
+}
+
+export function crew_get_skills(crewman:types.Crewman) {
+  return job_get_skills(crewman.job.type, crewman.job.level);
 }
 
 export function crew_get_skill(crewman:types.Crewman, skill:string) {
