@@ -365,7 +365,7 @@ var app = new Vue({
             for(var entry of fill_crew) {
                 for(var i=0; i<entry.count;i++) {
                     this.crew.push(
-                        this.make_crewman(entry.job.type._id, entry.level, [])
+                        this.make_crewman(entry.job._id, entry.level, [])
                     )
                 }
             }
