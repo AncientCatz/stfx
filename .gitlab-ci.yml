@@ -5,7 +5,7 @@ pages:
   script:
     - pug index.pug -o dist/
     - echo 
-    - cd pack && webpack --mode=development --output-path ${DIR}
+    - cd pack && webpack --mode=development
   artifacts:
     paths:
       - public
