@@ -139,7 +139,7 @@ export interface ImportCrewman {
 }
 
 export interface FillCrewman {
-    job: CrewJob
+    job: Job
     level: number
     count: number
 }
