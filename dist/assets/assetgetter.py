@@ -22,6 +22,12 @@ def get_components():
         components = json.load(f)
     magic_getter(components, 'components')
 
+def get_crafts():
+    with open("./craftnames.json") as f:
+        crafts = json.load(f)
+    magic_getter(crafts, 'crafts')
+    magic_getter(crafts, 'crafts_top', lambda s: f"{s}_top")
+
 
 def get_talents():
     with open("./talentnames.json") as f:
@@ -60,3 +66,4 @@ get_talents()
 get_ships()
 get_components()
 
+get_crafts()
