@@ -1,4 +1,11 @@
-div(v-if="renderShip")
+div(v-if="renderShip")#components
+    h3.ui.header Crafts
+    div.ui.cards
+        craft-card(
+            v-for="craft in current_crafts"
+            v-bind:cslot="craft",
+            :key="craft.id")
+        add-craft-card
     h3.ui.header Large components
     div.ui.cards
         component-card(

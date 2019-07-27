@@ -9,7 +9,7 @@
             p
                 span=  `${name}`
                 img.ui.mini.image(:src=`img_get_prop('${prop}')`)
-    table.ui.celled.table.compact
+    table.ui.celled.table.compact#tour-step-3
         thead
             tr
                 th.two.wide.navy Component

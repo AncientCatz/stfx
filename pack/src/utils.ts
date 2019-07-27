@@ -200,6 +200,10 @@ export function img_get_banner(banner_name: string) {
 export function img_get_component(component:types.Component) {
     return 'assets/components/' + component.img + '.png';
 }
+
+export function img_get_craft(craft: types.Craft) {
+    return 'assets/crafts_top/' + craft.img + '.png'
+}
 export function img_get_prop(prop_name:string) {
     return 'assets/icons/icon_prop_' + prop_name + '.png';
 }
@@ -286,6 +290,17 @@ export function postprocess_comp(components:types.Component[]) {
     return components;
 }
 
+export function get_craft_slots(crafts: types.Craft[]): types.CraftSlot[] {
+  var craft_slots: types.CraftSlot[] = [];
+  for(var i in crafts) {
+    craft_slots.push({
+      'id': parseInt(i),
+      'craft': crafts[i]
+    } as types.CraftSlot)
+  }
+  return craft_slots;
+}
+
 export function get_component_slots(components:types.Component[]): types.ComponentSlot[] {
   var componentSlots: types.ComponentSlot[] = [];
   for(var i in components) {
@@ -318,9 +333,15 @@ export function components_to_ids(components: types.Component[]): number[] {
     for(let c of components) {
         component_ids.push(c._id);
     }
-
     return component_ids;
+}
 
+export function crafts_to_ids(crafts: types.Craft[]): number[] {
+    let component_ids = []
+    for(let c of crafts) {
+        component_ids.push(c._id);
+    }
+    return component_ids;
 }
 
 export function component_rolling_stats(ship:types.Ship): [types.ShipStats, any] {

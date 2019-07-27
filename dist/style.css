@@ -75,3 +75,7 @@ th.navy {
 .ui.mini.image {
     width: 20px !important;
 }
+
+.v-step {
+  z-index: 1;
+}

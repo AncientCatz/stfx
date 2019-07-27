@@ -8,9 +8,11 @@ html
         script(src="vendor/base64.js")
         script(src="vendor/protobuf.js")
         link(rel="stylesheet", href="vendor/semantic.min.css")
+        link(rel="stylesheet", href="vendor/vue-tour.css")
         link(rel="stylesheet", href="style.css")
     body
         div#app
+            v-tour(name="myTour", :steps="steps")
             component-modal(
                 v-if="current",
                 v-bind:components="components",
@@ -22,15 +24,24 @@ html
               v-bind:job_talents="job_talents",
               v-on:set_talent="set_talent",
             )
+            craft-modal(
+              v-if="current",
+              v-bind:crafts="crafts"
+              v-on:set_craft="set_craft"
+              v-on:add_craft="add_craft"
+            )
+
             div
-            div.ui.menu
-                div.header.item STFX
-                div.active.item #[a(v-on:click='stfx_export()') Copy]
+            .ui.menu
+                #test.header.item STFX
+                .active.item #[a(v-on:click='stfx_export()') Copy]
+                .active.item #[a(v-on:click='stfx_tour()') Tour]
             include includes/total_view.pug
 
-            sui-tab
+            sui-tab#tabs
                 sui-tab-pane(title='Ship')
-                    sui-dropdown(fluid, placeholder="Ships" search selection, :options="ships_dropdown", v-model="current_id")
+                    #tour-step-1
+                      sui-dropdown(fluid, placeholder="Ships" search selection, :options="ships_dropdown", v-model="current_id")
                     include includes/ship_view.pug
                 sui-tab-pane(title='Crew')
                     include includes/crew_view.pug

@@ -66,6 +66,11 @@
           "rule": "repeated",
           "type": "Officers",
           "id": 5
+        },
+        "crafts": {
+          "rule": "repeated",
+          "type": "int32",
+          "id": 6
         }
       }
     }

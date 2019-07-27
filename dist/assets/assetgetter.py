@@ -61,9 +61,8 @@ def get_ships():
     magic_getter(shipnames, 'ships_top', lambda s: f"{s}_top")
 # get_talents()
 
-get_jobs()
+# get_jobs()
 get_talents()
 get_ships()
 get_components()
-
 get_crafts()

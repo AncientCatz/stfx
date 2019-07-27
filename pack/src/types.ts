@@ -33,6 +33,37 @@ export interface ComponentSlot {
     id: number
     component: Component
 }
+
+export interface Craft {
+  _id: number
+  name: string
+  desc: string
+  img: string
+
+  cost: number
+  hull: number
+  armor: number
+  shield: number
+  lcost: number
+
+  pilot: number
+  electronics: number
+  gunnery: number
+
+  ap: number
+  agility: number
+  speed: number
+  dodge: number
+
+  hitcraft: number
+  hitship: number
+  type: number
+}
+
+export interface CraftSlot {
+  id: number
+  craft: Craft
+}
 export interface CrewmanSlot {
     id: number
     crewman: Crewman
@@ -49,6 +80,7 @@ export interface Ship {
     mediumslots: number
     largeslots: number
     components: Component[]
+    crafts: Craft[]
     armor: number
     shield: number
     fuel: number

@@ -20,5 +20,5 @@ message STFX {
     repeated int32 components = 3;
     repeated Crew crew = 4;
     repeated Officers officers = 5;
-
+    repeated int32 crafts = 6;
 }

@@ -3,6 +3,8 @@ import Vue from "vue";
 import SuiVue from "semantic-ui-vue";
 import { GlobalMixin } from 'vue-typed'
 
+import VueTour from 'vue-tour';
+
 import * as utils from "./utils";
 import * as types from "./types";
 import * as events from "./events";
@@ -12,8 +14,13 @@ import CrewWizard from "./components/component_crew_wizard.vue";
 import ComponentModal from "./components/component_modal.vue";
 import ComponentTable from "./components/component_table.vue";
 import ComponentView from "./components/component_view.vue";
-import CrewTable  from "./components/crew_table.vue";
+import CrewTable from "./components/crew_table.vue";
 import CrewView from "./components/crew_view.vue";
+import CraftCard from "./components/craft_card.vue";
+import CraftModal from "./components/craft_modal.vue";
+import AddCraftCard from "./components/add_craft_card.vue";
+
+
 import TalentModal from "./components/talent_modal.vue";
 import bus from "./eventbus";
 
@@ -36,6 +43,7 @@ class Global {
     img_get_banner(banner_name: string) { return utils.img_get_banner(banner_name)}
     img_get_component(component:types.Component) { return utils.img_get_component(component)}
     img_get_prop(prop_name:string) { return utils.img_get_prop(prop_name)}
+    img_get_craft(craft: types.Craft) { return utils.img_get_craft(craft)}
     comp_get_description(comp: types.Component) { return utils.comp_get_description(comp)}
     comp_parse_props(comp: types.Component) { return utils.comp_parse_props(comp)}
     comp_parse_extra_props(comp: types.Component) { return utils.comp_parse_extra_props(comp)}
@@ -45,6 +53,7 @@ class Global {
 
 
 Vue.use(SuiVue);
+Vue.use(VueTour);
 const Component = {
     data: function() {
         return {
@@ -77,9 +86,38 @@ var app = new Vue({
         ComponentView,
         CrewTable,
         CrewView,
-        TalentModal
+        TalentModal,
+
+        CraftCard,
+        CraftModal,
+        AddCraftCard,
     },
     data: {
+        steps: [
+            {
+                target: "#tour-step-1",
+                content: "Select your ship",
+                params: {placement: 'bottom', enableScrolling: false}
+            },
+
+            {
+                target: ".componentcard",
+                content: "You can change components here",
+                params: {placement: 'bottom', enableScrolling: false}
+            },
+
+            {
+                target: "#tour-step-3 td",
+                content: "Or here",
+                params: {placement: 'top'}
+            },
+            {
+                target: "#tabs a.item:nth-child(2)",
+                content: "you can manage your crew",
+                params: {placement: 'top'}
+            },
+
+        ],
         message: "EBIN",
         jobs: [] as types.Job[],
         ships: [] as types.JSONShip[],
@@ -94,7 +132,7 @@ var app = new Vue({
         ship_stats: {} as types.ShipStats,
         crew: [] as types.Crewman[],
         officers: [],
-        crafts: [],
+        crafts: [] as types.Craft[],
         crew_pool: {} as types.CrewStats,
         crew_ship_pool_perc: {},
     },
@@ -117,7 +155,6 @@ var app = new Vue({
         current_small_slots(): types.ComponentSlot[] {
           let components = utils.get_component_slots(this.current.components);
           let slots = utils.get_slots(components, 'small')
-          console.log('slots', slots);
           return slots;
         },
         current_medium_slots(): types.ComponentSlot[]  {
@@ -128,6 +165,11 @@ var app = new Vue({
             let components = utils.get_component_slots(this.current.components);
             return utils.get_slots(components, 'large')
         },
+        current_crafts(): types.CraftSlot[] {
+            let crafts = utils.get_craft_slots(this.current.crafts);
+            return crafts;
+        },
+
     },
     watch: {
         current_id: function(val:number, old_val:number) {
@@ -135,13 +177,13 @@ var app = new Vue({
               return;
           }
           let ship = this.ships[val]
-          this.load_ship(ship, ship.components);
+          this.load_ship(ship, ship.components, []);
           // this.current = this.process_ship(this.ships[val]);
         },
         current: {
             deep: true,
-            handler: function(val:number, old_val:number) {
-                localStorage.current = JSON.stringify(val);
+            handler: function() {
+                console.log("current");
                 this.calc_damage();
                 this.component_rolling_stats();
                 this.update_crew_perc();
@@ -158,7 +200,9 @@ var app = new Vue({
         },
     },
     methods: {
-        update_ships_dropdown: function() {
+        stfx_tour: function() {
+          // @ts-ignore
+          this.$tours['myTour'].start()
         },
         stfx_export_crew: function() {
             var crew_export = []
@@ -175,13 +219,14 @@ var app = new Vue({
             }
             return crew_export
         },
-        process_ship: function(ship: types.JSONShip, components: number[]): types.Ship {
+        process_ship: function(ship: types.JSONShip, components: number[], crafts: number[]): types.Ship {
             var yolo = ship as any;
             yolo.components = this.get_components(components);
+            yolo.crafts = this.get_crafts(crafts)
             return yolo as types.Ship;
         },
-        load_ship: function(ship: types.JSONShip, components: number[]) {
-            var final_ship = this.process_ship(ship, components);
+        load_ship: function(ship: types.JSONShip, components: number[], crafts: number[]) {
+            var final_ship = this.process_ship(ship, components, crafts);
             this.current_id = final_ship._id;
             this.current = final_ship;
             this.renderShip = true;
@@ -192,8 +237,10 @@ var app = new Vue({
                 'ver': 1,
                 'shipId': this.current._id,
                 'components': utils.components_to_ids(this.current.components),
+                'crafts': utils.crafts_to_ids(this.current.crafts),
                 'crew': this.stfx_export_crew()
             }
+            console.log(ship_data);
             var data_proto = proto.STFX.encode(ship_data).finish()
             var data_c = new Uint8Array(LZMA.compress(data_proto))
             var data_base = base64js.fromByteArray(data_c)
@@ -214,12 +261,12 @@ var app = new Vue({
                 data = new Uint8Array(data);
             }
             var stfx = proto.STFX.decode(data)
-            this.stfx_import_ship(stfx.shipId, stfx.components)
+            this.stfx_import_ship(stfx.shipId, stfx.components, stfx.crafts)
             this.stfx_import_crew(stfx.crew)
         },
-        stfx_import_ship: function(ship_id:number, components:number[]) {
+        stfx_import_ship: function(ship_id:number, components:number[], crafts: number[]) {
             let ship = this.ships[ship_id]
-            this.load_ship(ship, components);
+            this.load_ship(ship, components, crafts);
         },
 
         stfx_import_crew: function(crewmen: types.ImportCrewman[]) {
@@ -330,6 +377,19 @@ var app = new Vue({
             Vue.set(this.current.components, slot_id, component);
         },
 
+        add_craft: function(craft_id: number) {
+            console.log("add_craft", craft_id);
+            let craft = this.crafts[craft_id]
+            let slot_id = this.current.crafts.length
+            Vue.set(this.current.crafts, slot_id, craft);
+        },
+
+        set_craft: function(slot_id:number, craft_id: number) {
+            console.log("set_craft", slot_id, craft_id);
+            let craft = this.crafts[craft_id];
+            Vue.set(this.current.crafts, slot_id, craft);
+        },
+
       set_talent: function(crew_id: number, talent_id: number) {
         let crewman = this.crew[crew_id]
         let talent = this.talents[talent_id]
@@ -342,10 +402,18 @@ var app = new Vue({
                 var component_id = id_list[i];
                 var comp = this.components[component_id];
                 components.push(comp);
-                // components.push({"id": i, "component": comp} as types.Component);
             }
             return components
         },
+        get_crafts: function(id_list: number[]): types.Craft[] {
+            let crafts = []
+            for(let i in id_list) {
+                let craft_id = id_list[i];
+                let craft = this.crafts[craft_id]
+                crafts.push(craft)
+            }
+            return crafts;
+        }
     },
     created: function() {
         fetch("data/data.json")
@@ -356,6 +424,7 @@ var app = new Vue({
             this.components = utils.postprocess_comp(json.components)
             this.jobs = json.jobs
             this.ships = json.ships
+            this.crafts = json.crafts
             var hash = document.location.hash.slice(1)
             if(hash) {
                 this.stfx_import(hash)

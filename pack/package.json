@@ -30,6 +30,7 @@
     "@types/utf8": "^2.1.6",
     "protobufjs": "^6.8.8",
     "tsc": "^1.20150623.0",
+    "vue-tour": "^1.1.0",
     "vue-typed": "^2.1.4",
     "vuetype": "^0.3.2"
   }
