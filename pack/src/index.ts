@@ -221,8 +221,8 @@ var app = new Vue({
         },
         process_ship: function(ship: types.JSONShip, components: number[], crafts: number[]): types.Ship {
             var yolo = ship as any;
-            yolo.components = this.get_components(components);
-            yolo.crafts = this.get_crafts(crafts)
+            Vue.set(yolo, 'components', this.get_components(components));
+            Vue.set(yolo, 'crafts', this.get_crafts(crafts));
             return yolo as types.Ship;
         },
         load_ship: function(ship: types.JSONShip, components: number[], crafts: number[]) {
