@@ -82,6 +82,7 @@ th.navy {
 
 .componentimage {
     position: relative;
+    min-width: 100px;
 }
 
 .compmod {
