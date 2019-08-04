@@ -3,6 +3,7 @@ export interface ComponentWeapon {
     _weapon_type_text?:string
     ap: number
     range: number
+    level: number
     damage_min: number
     damage_max: number
     effect_min: number

@@ -318,14 +318,19 @@ export function get_component_slots(components:types.Component[]): types.Compone
 
 }
 
+
+let all_props = new Set(['install_cost', 'navigation', 'shipops', 'gunnery', 'electronics', 'pilot'])
+
 export function comp_parse_props(component:types.Component) {
     var props = []
     for(var i in component) {
-        // TODO: borked
-        if(!i.startsWith('skill_')) {continue;}
+        if(!all_props.has(i)) {continue;}
         var img = img_get_prop(i.replace('skill_', ''));
         var name = i.replace('skill_', '').replace('_', ' ');
         var val = component[i];
+        if(i == 'install_cost') {
+            val = `${Math.floor(val/1000)}K`;
+        }
         props.push({'img': img, 'val': `${val} ${PROP_DISP(name)}`} )
     }
     return props;
