@@ -5268,6 +5268,7 @@
     "1": {
       "_id": 1,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_1",
       "type": "bridge",
       "name": "Bridge",
       "size": "medium",
@@ -5282,6 +5283,7 @@
     "2": {
       "_id": 2,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_1",
       "type": "cargo",
       "name": "Cargo Hold 1",
       "size": "large",
@@ -5320,6 +5322,7 @@
     "4": {
       "_id": 4,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Valiant Autocannon",
       "size": "small",
@@ -5345,6 +5348,7 @@
     "5": {
       "_id": 5,
       "img": "ship_comp_spikes",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Reactor Spike Module 1",
       "size": "small",
@@ -5357,6 +5361,7 @@
     "6": {
       "_id": 6,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
       "type": "crew",
       "name": "Barracks 2",
       "size": "medium",
@@ -5392,6 +5397,7 @@
     "9": {
       "_id": 9,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_2",
       "type": "cargo",
       "name": "Cargo Hold 2",
       "size": "large",
@@ -5430,6 +5436,7 @@
     "11": {
       "_id": 11,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Phoenix Lance",
       "size": "small",
@@ -5458,6 +5465,7 @@
     "12": {
       "_id": 12,
       "img": "ship_comp_spikes",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Reactor Spike Module 2",
       "size": "small",
@@ -5470,6 +5478,7 @@
     "13": {
       "_id": 13,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_3",
       "type": "crew",
       "name": "Barracks 3",
       "size": "medium",
@@ -5495,6 +5504,7 @@
     "15": {
       "_id": 15,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "crew",
       "name": "Barracks 1",
       "size": "medium",
@@ -5575,6 +5585,7 @@
     "21": {
       "_id": 21,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Hellfire Torpedo",
       "size": "small",
@@ -5603,6 +5614,7 @@
     "22": {
       "_id": 22,
       "img": "ship_comp_armor",
+      "imgmod": "ship_comp_over_1",
       "type": "combat",
       "name": "Armored Bulkheads 1",
       "size": "small",
@@ -5616,6 +5628,7 @@
     "23": {
       "_id": 23,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_1",
       "type": "combat",
       "name": "Deflector Array 1",
       "size": "medium",
@@ -5643,6 +5656,7 @@
     "25": {
       "_id": 25,
       "img": "ship_comp_sensor",
+      "imgmod": "ship_comp_over_1",
       "type": "sensors",
       "name": "Sensor Array 1",
       "size": "small",
@@ -5667,6 +5681,7 @@
     "27": {
       "_id": 27,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Pilot Assist Module 1",
       "size": "small",
@@ -5678,6 +5693,7 @@
     "28": {
       "_id": 28,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Nav Assist Module 1",
       "size": "small",
@@ -5690,6 +5706,7 @@
     "29": {
       "_id": 29,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Boarding Assault System 1",
       "size": "small",
@@ -5702,6 +5719,7 @@
     "30": {
       "_id": 30,
       "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_1",
       "type": "weaponlocker",
       "name": "Weapons Locker A1",
       "base_desc": "Provides standard weaponry and armor for all crew",
@@ -5722,6 +5740,7 @@
     "32": {
       "_id": 32,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_1",
       "type": "sensors",
       "name": "Sig Dampener 1",
       "size": "small",
@@ -5735,6 +5754,7 @@
     "33": {
       "_id": 33,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel",
       "name": "Fuel Tank 1",
       "size": "medium",
@@ -5747,6 +5767,7 @@
     "34": {
       "_id": 34,
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel",
       "name": "Water-Fuel Reclamation 1",
       "size": "medium",
@@ -5761,6 +5782,7 @@
     "35": {
       "_id": 35,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_1",
       "type": "mass",
       "name": "Adv. Mass Dampener 1",
       "size": "medium",
@@ -5786,6 +5808,7 @@
     "37": {
       "_id": 37,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_1",
       "type": "bridge",
       "name": "Scout Bridge",
       "size": "small",
@@ -5800,6 +5823,7 @@
     "38": {
       "_id": 38,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Starshot Lance Array",
       "size": "medium",
@@ -5828,6 +5852,7 @@
     "39": {
       "_id": 39,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_3",
       "type": "cargo",
       "name": "Cargo Hold 3",
       "size": "large",
@@ -5840,6 +5865,7 @@
     "40": {
       "_id": 40,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_1",
       "type": "combat",
       "name": "Reinforced Structures 1",
       "size": "medium",
@@ -5853,6 +5879,7 @@
     "41": {
       "_id": 41,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_1",
       "type": "bridge",
       "name": "Capital Bridge",
       "size": "large",
@@ -6161,6 +6188,7 @@
     "63": {
       "_id": 63,
       "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_2",
       "type": "weaponlocker",
       "name": "Weapons Locker A2",
       "base_desc": "Provides improved Falcon-class weaponry and armor for all crew",
@@ -6171,6 +6199,7 @@
     "64": {
       "_id": 64,
       "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_3",
       "type": "weaponlocker",
       "name": "Weapons Locker A3",
       "base_desc": "Provides improved Delta-class weaponry and armor for all crew. Adds Heavy and Stealth armor options",
@@ -6181,6 +6210,7 @@
     "65": {
       "_id": 65,
       "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_4",
       "type": "weaponlocker",
       "name": "Weapons Locker A4",
       "base_desc": "Provides improved XE Falcon-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options",
@@ -6395,6 +6425,7 @@
     "82": {
       "_id": 82,
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 1",
       "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1",
@@ -6407,6 +6438,7 @@
     "83": {
       "_id": 83,
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_2",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 2",
       "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1-3",
@@ -6420,6 +6452,7 @@
       "_id": 84,
       "faction": "thulun",
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_3",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 3",
       "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-4",
@@ -6433,6 +6466,7 @@
       "_id": 85,
       "faction": "thulun",
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_4",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 4",
       "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-5",
@@ -6445,6 +6479,7 @@
     "86": {
       "_id": 86,
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_1",
       "type": "signal_array",
       "name": "Oni-Signal Array",
       "base_desc": "Increases Data Records gathered when Spying by 10%",
@@ -6457,6 +6492,7 @@
     "87": {
       "_id": 87,
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_2",
       "type": "signal_array",
       "name": "Dual-Arc Signal Array",
       "base_desc": "Increases Data Records gathered when Spying by 20%",
@@ -6469,6 +6505,7 @@
     "88": {
       "_id": 88,
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_3",
       "type": "signal_array",
       "name": "Triple-Arc Signal Array",
       "base_desc": "Increases Data Records gathered when Spying by 25%",
@@ -6495,6 +6532,7 @@
     "90": {
       "_id": 90,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Imperator PC-1",
       "size": "small",
@@ -6523,6 +6561,7 @@
     "91": {
       "_id": 91,
       "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Light Railgun",
       "size": "small",
@@ -6551,6 +6590,7 @@
     "92": {
       "_id": 92,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Archangel Railgun",
       "size": "medium",
@@ -6579,6 +6619,7 @@
     "93": {
       "_id": 93,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Vengence Gravcannon",
       "size": "medium",
@@ -6604,6 +6645,7 @@
     "94": {
       "_id": 94,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_1",
       "type": "weapon",
       "name": "Ares Missile System",
       "size": "medium",
@@ -6633,6 +6675,7 @@
     "95": {
       "_id": 95,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Torpedo Mk-Alpha",
       "size": "medium",
@@ -6677,6 +6720,7 @@
     "97": {
       "_id": 97,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "M90 Barrel-Cannon ",
       "size": "medium",
@@ -6801,6 +6845,7 @@
     "105": {
       "_id": 105,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_1",
       "type": "mass",
       "name": "Mass Dampener 1",
       "size": "small",
@@ -6812,6 +6857,7 @@
     "106": {
       "_id": 106,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_5",
       "type": "crew",
       "name": "Barracks 5",
       "size": "medium",
@@ -6822,6 +6868,7 @@
     "107": {
       "_id": 107,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "M92 Barrel-Cannon",
       "size": "small",
@@ -6847,6 +6894,7 @@
     "108": {
       "_id": 108,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "M94 Barrel-Cannon",
       "size": "medium",
@@ -6872,6 +6920,7 @@
     "109": {
       "_id": 109,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Dual-Linked Autocannon",
       "size": "small",
@@ -6897,6 +6946,7 @@
     "110": {
       "_id": 110,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Vanguard Autocannon",
       "size": "small",
@@ -6922,6 +6972,7 @@
     "111": {
       "_id": 111,
       "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Lionheart Cannon",
       "size": "small",
@@ -6947,6 +6998,7 @@
     "127": {
       "_id": 127,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "HX-Cycle Lance",
       "size": "small",
@@ -6976,6 +7028,7 @@
     "128": {
       "_id": 128,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "HX-2 Lance",
       "size": "small",
@@ -7005,6 +7058,7 @@
     "129": {
       "_id": 129,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Starfall Lance Array",
       "size": "medium",
@@ -7034,6 +7088,7 @@
     "130": {
       "_id": 130,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Cloudstrike Lance",
       "size": "small",
@@ -7063,6 +7118,7 @@
     "131": {
       "_id": 131,
       "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Thunder XK3 Lance Array",
       "size": "medium",
@@ -7092,6 +7148,7 @@
     "147": {
       "_id": 147,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Stalwart PC-1",
       "size": "small",
@@ -7121,6 +7178,7 @@
     "148": {
       "_id": 148,
       "img": "ship_comp_weapon_plasmacannon2",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Imperator Plasma Artillery",
       "size": "medium",
@@ -7150,6 +7208,7 @@
     "149": {
       "_id": 149,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "Commander PC-1",
       "size": "small",
@@ -7179,6 +7238,7 @@
     "150": {
       "_id": 150,
       "img": "ship_comp_weapon_plasmacannon2",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "MK Plasma Ordnance",
       "size": "medium",
@@ -7208,6 +7268,7 @@
     "151": {
       "_id": 151,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "X2 Plasma Battery",
       "size": "small",
@@ -7237,6 +7298,7 @@
     "152": {
       "_id": 152,
       "img": "ship_comp_weapon_plasmacannon2",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Commander Plasma Artillery",
       "size": "medium",
@@ -7266,6 +7328,7 @@
     "168": {
       "_id": 168,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Helios Railgun",
       "size": "medium",
@@ -7295,6 +7358,7 @@
     "169": {
       "_id": 169,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "Helios X Railgun",
       "size": "medium",
@@ -7324,6 +7388,7 @@
     "170": {
       "_id": 170,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Archangel Dual-R Railgun",
       "size": "medium",
@@ -7353,6 +7418,7 @@
     "171": {
       "_id": 171,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Elomag Railgun",
       "size": "medium",
@@ -7382,6 +7448,7 @@
     "172": {
       "_id": 172,
       "img": "ship_comp_weapon_railgun2",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Helios X2 Railgun Array",
       "size": "medium",
@@ -7411,6 +7478,7 @@
     "188": {
       "_id": 188,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Retaliation Gravcannon",
       "size": "medium",
@@ -7436,6 +7504,7 @@
     "189": {
       "_id": 189,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "JUK Gravity Array",
       "size": "medium",
@@ -7461,6 +7530,7 @@
     "190": {
       "_id": 190,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "JUK Gravcannon",
       "size": "medium",
@@ -7486,6 +7556,7 @@
     "191": {
       "_id": 191,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "JUK-22 Gravcannon",
       "size": "medium",
@@ -7511,6 +7582,7 @@
     "192": {
       "_id": 192,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "JUK-24 Gravcannon",
       "size": "medium",
@@ -7536,6 +7608,7 @@
     "193": {
       "_id": 193,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Retribution Gravcannon",
       "size": "large",
@@ -7561,6 +7634,7 @@
     "209": {
       "_id": 209,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_2",
       "type": "weapon",
       "name": "Hydra Missile Array",
       "size": "small",
@@ -7590,6 +7664,7 @@
     "210": {
       "_id": 210,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Arratech Missile Pod",
       "size": "small",
@@ -7619,6 +7694,7 @@
     "211": {
       "_id": 211,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "Aramech Missile Pod",
       "size": "small",
@@ -7648,6 +7724,7 @@
     "212": {
       "_id": 212,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Dracos Missile Array",
       "size": "small",
@@ -7677,6 +7754,7 @@
     "213": {
       "_id": 213,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Dracos X2 Missile Battery",
       "size": "small",
@@ -7706,6 +7784,7 @@
     "214": {
       "_id": 214,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Aramech X2 Missile Battery",
       "size": "small",
@@ -7735,6 +7814,7 @@
     "230": {
       "_id": 230,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Firestorm Torpedo",
       "size": "small",
@@ -7764,6 +7844,7 @@
     "231": {
       "_id": 231,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_4",
       "type": "weapon",
       "name": "Void-Lance Torpedo",
       "size": "medium",
@@ -7793,6 +7874,7 @@
     "232": {
       "_id": 232,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Inferno Torpedo",
       "size": "small",
@@ -7822,6 +7904,7 @@
     "233": {
       "_id": 233,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Torpedo MK2-Alpha",
       "size": "medium",
@@ -7851,6 +7934,7 @@
     "234": {
       "_id": 234,
       "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Torpedo Dual-Laced Array",
       "size": "small",
@@ -7880,6 +7964,7 @@
     "250": {
       "_id": 250,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel",
       "name": "Small Fuel Tank 1",
       "size": "small",
@@ -7892,6 +7977,7 @@
     "251": {
       "_id": 251,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Targeting Matrix 1",
       "size": "small",
@@ -7907,6 +7993,7 @@
     "252": {
       "_id": 252,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Defense Pattern Matrix 1",
       "size": "small",
@@ -7920,6 +8007,7 @@
     "253": {
       "_id": 253,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "Interlocking Sensor Matrix 1",
       "size": "small",
@@ -7975,6 +8063,7 @@
     "257": {
       "_id": 257,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_1",
       "type": "mass",
       "name": "Mass Modulator 1",
       "size": "small",
@@ -7986,6 +8075,7 @@
     "258": {
       "_id": 258,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_1",
       "type": "mass",
       "name": "Mass Reducer 1",
       "size": "medium",
@@ -7998,6 +8088,7 @@
     "259": {
       "_id": 259,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_4",
       "type": "crew",
       "name": "Barracks 4",
       "size": "medium",
@@ -8008,6 +8099,7 @@
     "260": {
       "_id": 260,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Pilot Assist Module 2",
       "size": "small",
@@ -8019,6 +8111,7 @@
     "261": {
       "_id": 261,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Pilot Assist Module 3",
       "size": "small",
@@ -8030,6 +8123,7 @@
     "262": {
       "_id": 262,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Pilot Assist Module 4",
       "size": "small",
@@ -8041,6 +8135,7 @@
     "263": {
       "_id": 263,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Nav Assist Module 2",
       "size": "small",
@@ -8053,6 +8148,7 @@
     "264": {
       "_id": 264,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Nav Assist Module 3",
       "size": "small",
@@ -8065,6 +8161,7 @@
     "265": {
       "_id": 265,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Nav Assist Module 4",
       "size": "small",
@@ -8077,6 +8174,7 @@
     "266": {
       "_id": 266,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel",
       "name": "Large Fuel Tank 1",
       "size": "large",
@@ -8089,6 +8187,7 @@
     "267": {
       "_id": 267,
       "img": "ship_comp_armor",
+      "imgmod": "ship_comp_over_2",
       "type": "combat",
       "name": "Armored Bulkheads 2",
       "size": "small",
@@ -8102,6 +8201,7 @@
     "268": {
       "_id": 268,
       "img": "ship_comp_armor",
+      "imgmod": "ship_comp_over_3",
       "type": "combat",
       "name": "Armored Bulkheads 3",
       "size": "small",
@@ -8115,6 +8215,7 @@
     "269": {
       "_id": 269,
       "img": "ship_comp_armor",
+      "imgmod": "ship_comp_over_4",
       "type": "combat",
       "name": "Armored Bulkheads 4",
       "size": "small",
@@ -8128,6 +8229,7 @@
     "270": {
       "_id": 270,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_2",
       "type": "combat",
       "name": "Reinforced Structures 2",
       "size": "medium",
@@ -8141,6 +8243,7 @@
     "271": {
       "_id": 271,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_3",
       "type": "combat",
       "name": "Reinforced Structures 3",
       "size": "medium",
@@ -8154,6 +8257,7 @@
     "272": {
       "_id": 272,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_4",
       "type": "combat",
       "name": "Reinforced Structures 4",
       "size": "medium",
@@ -8167,6 +8271,7 @@
     "273": {
       "_id": 273,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_2",
       "type": "combat",
       "name": "Deflector Array 2",
       "size": "medium",
@@ -8181,6 +8286,7 @@
     "274": {
       "_id": 274,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_3",
       "type": "combat",
       "name": "Deflector Array 3",
       "size": "medium",
@@ -8195,6 +8301,7 @@
     "275": {
       "_id": 275,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
       "type": "combat",
       "name": "Deflector Array 4",
       "size": "medium",
@@ -8209,6 +8316,7 @@
     "276": {
       "_id": 276,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_2",
       "type": "mass",
       "name": "Mass Dampener 2",
       "size": "small",
@@ -8221,6 +8329,7 @@
     "277": {
       "_id": 277,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_3",
       "type": "mass",
       "name": "Mass Dampener 3",
       "size": "small",
@@ -8233,6 +8342,7 @@
     "278": {
       "_id": 278,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Mass Dampener 4",
       "size": "small",
@@ -8245,6 +8355,7 @@
     "279": {
       "_id": 279,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_2",
       "type": "mass",
       "name": "Mass Modulator 2",
       "size": "small",
@@ -8257,6 +8368,7 @@
     "280": {
       "_id": 280,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_3",
       "type": "mass",
       "name": "Mass Modulator 3",
       "size": "small",
@@ -8269,6 +8381,7 @@
     "281": {
       "_id": 281,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Mass Modulator 4",
       "size": "small",
@@ -8281,6 +8394,7 @@
     "282": {
       "_id": 282,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_2",
       "type": "mass",
       "name": "Mass Reducer 2",
       "size": "medium",
@@ -8293,6 +8407,7 @@
     "283": {
       "_id": 283,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_3",
       "type": "mass",
       "name": "Mass Reducer 3",
       "size": "medium",
@@ -8305,6 +8420,7 @@
     "284": {
       "_id": 284,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Mass Reducer 4",
       "size": "medium",
@@ -8317,6 +8433,7 @@
     "285": {
       "_id": 285,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_2",
       "type": "mass",
       "name": "Adv. Mass Dampener 2",
       "size": "medium",
@@ -8329,6 +8446,7 @@
     "286": {
       "_id": 286,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_3",
       "type": "mass",
       "name": "Adv. Mass Dampener 3",
       "size": "medium",
@@ -8341,6 +8459,7 @@
     "287": {
       "_id": 287,
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Adv. Mass Dampener 4",
       "size": "medium",
@@ -8353,6 +8472,7 @@
     "288": {
       "_id": 288,
       "img": "ship_comp_spikes",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Reactor Spike Module 3",
       "size": "small",
@@ -8365,6 +8485,7 @@
     "289": {
       "_id": 289,
       "img": "ship_comp_spikes",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Reactor Spike Module 4",
       "size": "small",
@@ -8389,6 +8510,7 @@
     "291": {
       "_id": 291,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_2",
       "type": "fuel",
       "name": "Small Fuel Tank 2",
       "size": "small",
@@ -8401,6 +8523,7 @@
     "292": {
       "_id": 292,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_3",
       "type": "fuel",
       "name": "Small Fuel Tank 3",
       "size": "small",
@@ -8413,6 +8536,7 @@
     "293": {
       "_id": 293,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_4",
       "type": "fuel",
       "name": "Small Fuel Tank 4",
       "size": "small",
@@ -8425,6 +8549,7 @@
     "294": {
       "_id": 294,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_2",
       "type": "fuel",
       "name": "Fuel Tank 2",
       "size": "medium",
@@ -8437,6 +8562,7 @@
     "295": {
       "_id": 295,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_3",
       "type": "fuel",
       "name": "Fuel Tank 3",
       "size": "medium",
@@ -8449,6 +8575,7 @@
     "296": {
       "_id": 296,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_4",
       "type": "fuel",
       "name": "Fuel Tank 4",
       "size": "medium",
@@ -8461,6 +8588,7 @@
     "297": {
       "_id": 297,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_2",
       "type": "fuel",
       "name": "Large Fuel Tank 2",
       "size": "large",
@@ -8473,6 +8601,7 @@
     "298": {
       "_id": 298,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_3",
       "type": "fuel",
       "name": "Large Fuel Tank 3",
       "size": "large",
@@ -8485,6 +8614,7 @@
     "299": {
       "_id": 299,
       "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_4",
       "type": "fuel",
       "name": "Large Fuel Tank 4",
       "size": "large",
@@ -8497,6 +8627,7 @@
     "300": {
       "_id": 300,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
       "type": "bridge",
       "name": "Bridge 2",
       "size": "medium",
@@ -8511,6 +8642,7 @@
     "301": {
       "_id": 301,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_3",
       "type": "bridge",
       "name": "Bridge 3",
       "size": "medium",
@@ -8526,6 +8658,7 @@
     "302": {
       "_id": 302,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_4",
       "type": "bridge",
       "name": "Bridge 4",
       "size": "medium",
@@ -8541,6 +8674,7 @@
     "303": {
       "_id": 303,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
       "type": "bridge",
       "name": "Scout Bridge 2",
       "size": "small",
@@ -8556,6 +8690,7 @@
     "304": {
       "_id": 304,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_3",
       "type": "bridge",
       "name": "Scout Bridge 3",
       "size": "small",
@@ -8573,6 +8708,7 @@
     "305": {
       "_id": 305,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_4",
       "type": "bridge",
       "name": "Scout Bridge 4",
       "size": "small",
@@ -8590,6 +8726,7 @@
     "306": {
       "_id": 306,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
       "type": "bridge",
       "name": "Capital Bridge 2",
       "size": "large",
@@ -8604,6 +8741,7 @@
     "307": {
       "_id": 307,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_3",
       "type": "bridge",
       "name": "Capital Bridge 3",
       "size": "large",
@@ -8619,6 +8757,7 @@
     "308": {
       "_id": 308,
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_4",
       "type": "bridge",
       "name": "Capital Bridge 4",
       "size": "large",
@@ -8783,6 +8922,7 @@
     "321": {
       "_id": 321,
       "img": "ship_comp_sensor",
+      "imgmod": "ship_comp_over_2",
       "type": "sensors",
       "name": "Sensor Array 2",
       "size": "small",
@@ -8796,6 +8936,7 @@
     "322": {
       "_id": 322,
       "img": "ship_comp_sensor",
+      "imgmod": "ship_comp_over_3",
       "type": "sensors",
       "name": "Sensor Array 3",
       "size": "small",
@@ -8809,6 +8950,7 @@
     "323": {
       "_id": 323,
       "img": "ship_comp_sensor",
+      "imgmod": "ship_comp_over_4",
       "type": "sensors",
       "name": "Sensor Array 4",
       "size": "small",
@@ -8913,6 +9055,7 @@
     "348": {
       "_id": 348,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_1",
       "type": "combat",
       "name": "Battle Prow 1",
       "size": "large",
@@ -8926,6 +9069,7 @@
     "349": {
       "_id": 349,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_2",
       "type": "combat",
       "name": "Battle Prow 2",
       "size": "large",
@@ -8939,6 +9083,7 @@
     "350": {
       "_id": 350,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_3",
       "type": "combat",
       "name": "Battle Prow 3",
       "size": "large",
@@ -8952,6 +9097,7 @@
     "351": {
       "_id": 351,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_1",
       "type": "combat",
       "name": "Hull Plating 1",
       "size": "large",
@@ -8967,6 +9113,7 @@
     "352": {
       "_id": 352,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_2",
       "type": "combat",
       "name": "Hull Plating 2",
       "size": "large",
@@ -8982,6 +9129,7 @@
     "353": {
       "_id": 353,
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_3",
       "type": "combat",
       "name": "Hull Plating 3",
       "size": "large",
@@ -9223,6 +9371,7 @@
     "364": {
       "_id": 364,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Boarding Assault System 2",
       "size": "small",
@@ -9235,6 +9384,7 @@
     "365": {
       "_id": 365,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Boarding Assault System 3",
       "size": "small",
@@ -9248,6 +9398,7 @@
       "_id": 366,
       "faction": "steel_song",
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Boarding Assault System 4",
       "size": "small",
@@ -9260,6 +9411,7 @@
     "367": {
       "_id": 367,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_5",
       "type": "crew",
       "name": "Reinforced Barracks 5",
       "size": "medium",
@@ -9444,6 +9596,7 @@
     "378": {
       "_id": 378,
       "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_5",
       "type": "weaponlocker",
       "name": "Weapons Locker A5",
       "base_desc": "Provides improved Goliath-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options.",
@@ -9454,6 +9607,7 @@
     "379": {
       "_id": 379,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_4",
       "type": "crew",
       "name": "Reinforced Barracks 4",
       "size": "medium",
@@ -9480,6 +9634,7 @@
     "381": {
       "_id": 381,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_4",
       "type": "cargo",
       "name": "Cargo Hold 4",
       "size": "large",
@@ -9492,6 +9647,7 @@
     "382": {
       "_id": 382,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "ECCM Screen Matrix 1",
       "size": "small",
@@ -9504,6 +9660,7 @@
     "383": {
       "_id": 383,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "ECCM Screen Matrix 2",
       "size": "small",
@@ -9516,6 +9673,7 @@
     "384": {
       "_id": 384,
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "ECCM Screen Matrix 3",
       "size": "small",
@@ -9529,6 +9687,7 @@
       "_id": 385,
       "faction": "de_valtos",
       "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "ECCM Screen Matrix 4",
       "size": "small",
@@ -9541,6 +9700,7 @@
     "386": {
       "_id": 386,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Targeting Matrix 2",
       "size": "small",
@@ -9557,6 +9717,7 @@
     "387": {
       "_id": 387,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Targeting Matrix 3",
       "size": "small",
@@ -9574,6 +9735,7 @@
       "_id": 388,
       "faction": "moklumnue",
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Targeting Matrix 4",
       "size": "small",
@@ -9590,6 +9752,7 @@
     "389": {
       "_id": 389,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Defense Pattern Matrix 2",
       "size": "small",
@@ -9603,6 +9766,7 @@
     "390": {
       "_id": 390,
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Defense Pattern Matrix 3",
       "size": "small",
@@ -9617,6 +9781,7 @@
       "_id": 391,
       "faction": "javat",
       "img": "ship_comp_boosters_pilot",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Defense Pattern Matrix 4",
       "size": "small",
@@ -9630,6 +9795,7 @@
     "392": {
       "_id": 392,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "Interlocking Sensor Matrix 2",
       "size": "small",
@@ -9644,6 +9810,7 @@
     "393": {
       "_id": 393,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_3",
       "type": "assist",
       "name": "Interlocking Sensor Matrix 3",
       "size": "small",
@@ -9659,6 +9826,7 @@
       "_id": 394,
       "faction": "cadar",
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_4",
       "type": "assist",
       "name": "Interlocking Sensor Matrix 4",
       "size": "small",
@@ -9751,6 +9919,7 @@
     "420": {
       "_id": 420,
       "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Lightspear Railgun",
       "size": "small",
@@ -9780,6 +9949,7 @@
     "421": {
       "_id": 421,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_3",
       "type": "weapon",
       "name": "Vector Missile System",
       "size": "medium",
@@ -9809,6 +9979,7 @@
     "422": {
       "_id": 422,
       "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Blazelight Railgun",
       "size": "small",
@@ -9838,6 +10009,7 @@
     "423": {
       "_id": 423,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Dual-Linked Vector Missile",
       "size": "medium",
@@ -9867,6 +10039,7 @@
     "424": {
       "_id": 424,
       "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Radiance Railgun",
       "size": "small",
@@ -9896,6 +10069,7 @@
     "425": {
       "_id": 425,
       "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Goliath Missile Battery",
       "size": "medium",
@@ -10094,6 +10268,7 @@
       "_id": 437,
       "faction": "cadar",
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
       "type": "combat",
       "name": "Battle Prow 4",
       "size": "large",
@@ -10109,6 +10284,7 @@
       "_id": 438,
       "faction": "javat",
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_4",
       "type": "combat",
       "name": "Hull Plating 4",
       "size": "large",
@@ -10126,6 +10302,7 @@
       "_id": 439,
       "faction": "moklumnue",
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_5",
       "type": "cargo",
       "name": "Cargo Hold 5",
       "size": "large",
@@ -10140,6 +10317,7 @@
       "_id": 440,
       "faction": "cadar",
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_4",
       "type": "crew",
       "name": "Shielded Barracks 4",
       "size": "medium",
@@ -10182,6 +10360,7 @@
     "443": {
       "_id": 443,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_1",
       "type": "eva_deck",
       "name": "EVA Deck 1",
       "base_desc": "Reduces crew damage by 25% during Orbital Salvage, reduces Turns used",
@@ -10196,6 +10375,7 @@
     "444": {
       "_id": 444,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_2",
       "type": "eva_deck",
       "name": "EVA Deck 2",
       "base_desc": "Reduces crew damage by 30% during Orbital Salvage, reduces Turns used",
@@ -10212,6 +10392,7 @@
     "445": {
       "_id": 445,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_3",
       "type": "eva_deck",
       "name": "EVA Deck 3",
       "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Orbital Salvage, reduces Turns used",
@@ -10229,6 +10410,7 @@
       "_id": 446,
       "faction": "de_valtos",
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_4",
       "type": "eva_deck",
       "name": "EVA Deck 4",
       "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Orbital Salvage, reduces Turns used",
@@ -10245,6 +10427,7 @@
     "447": {
       "_id": 447,
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_1",
       "type": "salvage_bay",
       "name": "Salvage Bay 1",
       "base_desc": "Increases Rewards salvaging enemy ship or orbital by 15%",
@@ -10259,6 +10442,7 @@
     "448": {
       "_id": 448,
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_2",
       "type": "salvage_bay",
       "name": "Salvage Bay 2",
       "base_desc": "Increases Rewards salvaging enemy ship or orbital by 25%",
@@ -10273,6 +10457,7 @@
     "449": {
       "_id": 449,
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_3",
       "type": "salvage_bay",
       "name": "Salvage Bay 3",
       "base_desc": "Increases Rewards salvaging enemy ship or orbital by 35%",
@@ -10288,6 +10473,7 @@
       "_id": 450,
       "faction": "thulun",
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_4",
       "type": "salvage_bay",
       "name": "Salvage Bay 4",
       "base_desc": "Increases Rewards salvaging enemy ship or orbital by 49%",
@@ -10302,6 +10488,7 @@
     "451": {
       "_id": 451,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_3",
       "type": "crew",
       "name": "Reinforced Barracks 3",
       "size": "medium",
@@ -10700,6 +10887,7 @@
     "467": {
       "_id": 467,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Obliterator PK-1",
       "size": "large",
@@ -10729,6 +10917,7 @@
     "468": {
       "_id": 468,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Obliterator PK-2",
       "size": "large",
@@ -10758,6 +10947,7 @@
     "469": {
       "_id": 469,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Obliterator PKX-3",
       "size": "large",
@@ -10787,6 +10977,7 @@
     "470": {
       "_id": 470,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Ruut 82 Gravcannon",
       "size": "large",
@@ -10812,6 +11003,7 @@
     "471": {
       "_id": 471,
       "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_6",
       "type": "weapon",
       "name": "Ruut 84 Gravcannon",
       "size": "large",
@@ -10855,6 +11047,7 @@
       "_id": 479,
       "faction": "cadar",
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_5",
       "type": "combat",
       "name": "Battle Prow 5",
       "size": "large",
@@ -10871,6 +11064,7 @@
       "_id": 480,
       "faction": "javat",
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_5",
       "type": "combat",
       "name": "Hull Plating 5",
       "size": "large",
@@ -10888,6 +11082,7 @@
       "_id": 481,
       "faction": "thulun",
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_4",
       "type": "cargo",
       "name": "Armored Cargo Hold 4",
       "size": "large",
@@ -10904,6 +11099,7 @@
       "_id": 482,
       "faction": "de_valtos",
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_4",
       "type": "cargo",
       "name": "Fuel-Cargo Hold 4",
       "size": "large",
@@ -10917,6 +11113,7 @@
       "_id": 483,
       "faction": "zenrin",
       "img": "ship_comp_armor",
+      "imgmod": "ship_comp_over_5",
       "type": "combat",
       "name": "Armored Bulkheads 5",
       "size": "small",
@@ -10932,6 +11129,7 @@
       "_id": 484,
       "faction": "zenrin",
       "img": "ship_comp_shield",
+      "imgmod": "ship_comp_over_5",
       "type": "combat",
       "name": "Reinforced Structures 5",
       "size": "medium",
@@ -11217,6 +11415,7 @@
       "_id": 501,
       "faction": "alta_mesa",
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Hawk Mass Reducer 4",
       "size": "medium",
@@ -11231,6 +11430,7 @@
       "_id": 502,
       "faction": "thulun",
       "img": "ship_comp_msasredux",
+      "imgmod": "ship_comp_over_4",
       "type": "mass",
       "name": "Lion Mass Reducer 4",
       "size": "medium",
@@ -11259,6 +11459,7 @@
       "_id": 518,
       "faction": "javat",
       "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_2",
       "type": "fuel",
       "name": "Water-Fuel Reclamation 2",
       "size": "medium",
@@ -11301,6 +11502,7 @@
     "521": {
       "_id": 521,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_2",
       "type": "sensors",
       "name": "Sig Dampener 2",
       "size": "small",
@@ -11315,6 +11517,7 @@
     "522": {
       "_id": 522,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_3",
       "type": "sensors",
       "name": "Sig Dampener 3",
       "size": "small",
@@ -11330,6 +11533,7 @@
       "_id": 523,
       "faction": "rychart",
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
       "type": "sensors",
       "name": "Sig Veil Field",
       "size": "small",
@@ -11432,6 +11636,7 @@
     "530": {
       "_id": 530,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Interceder PCX-5",
       "size": "large",
@@ -11461,6 +11666,7 @@
     "531": {
       "_id": 531,
       "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Interceder PCX-1",
       "size": "large",
