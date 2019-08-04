@@ -201,6 +201,10 @@ export function img_get_component(component:types.Component) {
     return 'assets/components/' + component.img + '.png';
 }
 
+export function img_get_component_mod(component:types.Component) {
+    return 'assets/component_mods/' + component.imgmod + '.png';
+}
+
 export function img_get_craft(craft: types.Craft) {
     return 'assets/crafts_top/' + craft.img + '.png'
 }

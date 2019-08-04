@@ -1,6 +1,6 @@
 <template lang="pug">
     div(@click="toggle").ui.card.componentcard
-        img(:src="img_get_component(cslot.component)").ui.image
+        component-img(v-bind:component="cslot.component")
         div.content
             div.description
                 p {{cslot.component | comp_disp_name}}
@@ -12,8 +12,12 @@ import Vue from "vue";
 import bus from "../eventbus";
 import * as events from "../events";
 import * as types from "../types";
+import ComponentImg from "./component_img.vue";
 export default Vue.extend({
     props: ['cslot'],
+    components: {
+        ComponentImg,
+    },
     filters: {
       comp_disp_name: function(comp: types.Component) {
           if(comp.shortname) {return comp.shortname}

@@ -42,6 +42,7 @@ class Global {
     img_get_talent(talent: types.Talent) { return utils.img_get_talent(talent)}
     img_get_banner(banner_name: string) { return utils.img_get_banner(banner_name)}
     img_get_component(component:types.Component) { return utils.img_get_component(component)}
+    img_get_component_mod(component:types.Component) { return utils.img_get_component_mod(component)}
     img_get_prop(prop_name:string) { return utils.img_get_prop(prop_name)}
     img_get_craft(craft: types.Craft) { return utils.img_get_craft(craft)}
     comp_get_description(comp: types.Component) { return utils.comp_get_description(comp)}
