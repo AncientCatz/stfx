@@ -5344,9 +5344,9 @@
     },
     "5": {
       "_id": 5,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_spikes",
       "type": "assist",
-      "name": "Reactor Spike Module",
+      "name": "Reactor Spike Module 1",
       "size": "small",
       "mass": 125,
       "fuel": 10,
@@ -5457,7 +5457,7 @@
     },
     "12": {
       "_id": 12,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_spikes",
       "type": "assist",
       "name": "Reactor Spike Module 2",
       "size": "small",
@@ -5602,9 +5602,9 @@
     },
     "22": {
       "_id": 22,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_armor",
       "type": "combat",
-      "name": "Armored Bulkheads",
+      "name": "Armored Bulkheads 1",
       "size": "small",
       "mass": 150,
       "install_cost": 22060,
@@ -5617,7 +5617,7 @@
       "_id": 23,
       "img": "ship_comp_defensive",
       "type": "combat",
-      "name": "Deflector Array",
+      "name": "Deflector Array 1",
       "size": "medium",
       "mass": 350,
       "install_cost": 30920,
@@ -5668,7 +5668,7 @@
       "_id": 27,
       "img": "ship_comp_boosters_pilot",
       "type": "assist",
-      "name": "Pilot Assist Module",
+      "name": "Pilot Assist Module 1",
       "size": "small",
       "mass": 125,
       "install_cost": 13500,
@@ -5679,7 +5679,7 @@
       "_id": 28,
       "img": "ship_comp_boosters_nav",
       "type": "assist",
-      "name": "Nav Assist Module",
+      "name": "Nav Assist Module 1",
       "size": "small",
       "mass": 125,
       "install_cost": 15500,
@@ -5689,9 +5689,9 @@
     },
     "29": {
       "_id": 29,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_boosters_aggro",
       "type": "assist",
-      "name": "Boarding Assault System",
+      "name": "Boarding Assault System 1",
       "size": "small",
       "mass": 150,
       "install_cost": 13500,
@@ -5723,7 +5723,7 @@
       "_id": 32,
       "img": "ship_comp_defensive",
       "type": "sensors",
-      "name": "Sig Dampener",
+      "name": "Sig Dampener 1",
       "size": "small",
       "mass": 125,
       "install_cost": 23500,
@@ -5736,7 +5736,7 @@
       "_id": 33,
       "img": "ship_comp_fuel",
       "type": "fuel",
-      "name": "Fuel Tank",
+      "name": "Fuel Tank 1",
       "size": "medium",
       "mass": 325,
       "fuel": 40,
@@ -5748,7 +5748,7 @@
       "_id": 34,
       "img": "ship_comp_fuelscoop",
       "type": "fuel",
-      "name": "Water-Fuel Reclamation",
+      "name": "Water-Fuel Reclamation 1",
       "size": "medium",
       "mass": 325,
       "fuel": 18,
@@ -5760,7 +5760,7 @@
     },
     "35": {
       "_id": 35,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_msasredux",
       "type": "mass",
       "name": "Adv. Mass Dampener 1",
       "size": "medium",
@@ -5839,9 +5839,9 @@
     },
     "40": {
       "_id": 40,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
-      "name": "Reinforced Structures",
+      "name": "Reinforced Structures 1",
       "size": "medium",
       "mass": 325,
       "install_cost": 87500,
@@ -6243,7 +6243,7 @@
     },
     "70": {
       "_id": 70,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "crew_exploration",
       "name": "Matchweave EVA Suits",
       "base_desc": "Reduces crew damage by 25% during Exploration",
@@ -6255,7 +6255,7 @@
     },
     "71": {
       "_id": 71,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_exocrawler",
       "type": "crew_exploration",
       "name": "L-Support Rover",
       "base_desc": "Reduces crew damage by 30% during Exploration",
@@ -6268,7 +6268,7 @@
     "72": {
       "_id": 72,
       "faction": "steel_song",
-      "img": "talent_empty_normal",
+      "img": "ship_comp_exocrawler",
       "type": "crew_exploration",
       "name": "Hyperion Exo-Suits",
       "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Exploration",
@@ -6281,7 +6281,7 @@
     },
     "73": {
       "_id": 73,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_exocrawler",
       "type": "crew_exploration",
       "name": "Exo-Crawler",
       "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Exploration",
@@ -6293,7 +6293,7 @@
     },
     "74": {
       "_id": 74,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "ship_exploration",
       "name": "EVA Airlock",
       "base_desc": "Reduces ship damage by 20% during Exploration",
@@ -6305,7 +6305,7 @@
     },
     "75": {
       "_id": 75,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "ship_exploration",
       "name": "Weather Seals",
       "base_desc": "Reduces ship damage by 30% during Exploration",
@@ -6317,7 +6317,7 @@
     },
     "76": {
       "_id": 76,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "ship_exploration",
       "name": "Radiation Seals",
       "base_desc": "Reduces ship damage 35% during Exploration",
@@ -6331,7 +6331,7 @@
     "77": {
       "_id": 77,
       "faction": "alta_mesa",
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "ship_exploration",
       "name": "Mesa Radiate-Seal",
       "base_desc": "Reduces ship damage 40% during Exploration",
@@ -6446,7 +6446,7 @@
       "_id": 86,
       "img": "ship_comp_intel_bonus",
       "type": "signal_array",
-      "name": "Signal Array",
+      "name": "Oni-Signal Array",
       "base_desc": "Increases Data Records gathered when Spying by 10%",
       "size": "small",
       "mass": 100,
@@ -6800,7 +6800,7 @@
     },
     "105": {
       "_id": 105,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_msasredux",
       "type": "mass",
       "name": "Mass Dampener 1",
       "size": "small",
@@ -7881,7 +7881,7 @@
       "_id": 250,
       "img": "ship_comp_fuel",
       "type": "fuel",
-      "name": "Small Fuel Tank",
+      "name": "Small Fuel Tank 1",
       "size": "small",
       "mass": 125,
       "fuel": 20,
@@ -7893,7 +7893,7 @@
       "_id": 251,
       "img": "ship_comp_boosters_aggro",
       "type": "assist",
-      "name": "Targeting Matrix",
+      "name": "Targeting Matrix 1",
       "size": "small",
       "mass": 125,
       "install_cost": 22060,
@@ -7908,7 +7908,7 @@
       "_id": 252,
       "img": "ship_comp_boosters_pilot",
       "type": "assist",
-      "name": "Defense Pattern Matrix",
+      "name": "Defense Pattern Matrix 1",
       "size": "small",
       "mass": 125,
       "install_cost": 22240,
@@ -7921,7 +7921,7 @@
       "_id": 253,
       "img": "ship_comp_boosters_aggro",
       "type": "assist",
-      "name": "Interlocking Sensor Matrix",
+      "name": "Interlocking Sensor Matrix 1",
       "size": "small",
       "mass": 125,
       "install_cost": 31120,
@@ -7974,7 +7974,7 @@
     },
     "257": {
       "_id": 257,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_msasredux",
       "type": "mass",
       "name": "Mass Modulator 1",
       "size": "small",
@@ -7985,7 +7985,7 @@
     },
     "258": {
       "_id": 258,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_msasredux",
       "type": "mass",
       "name": "Mass Reducer 1",
       "size": "medium",
@@ -8078,7 +8078,7 @@
       "_id": 266,
       "img": "ship_comp_fuel",
       "type": "fuel",
-      "name": "Large Fuel Tank",
+      "name": "Large Fuel Tank 1",
       "size": "large",
       "mass": 620,
       "fuel": 75,
@@ -8088,7 +8088,7 @@
     },
     "267": {
       "_id": 267,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_armor",
       "type": "combat",
       "name": "Armored Bulkheads 2",
       "size": "small",
@@ -8101,7 +8101,7 @@
     },
     "268": {
       "_id": 268,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_armor",
       "type": "combat",
       "name": "Armored Bulkheads 3",
       "size": "small",
@@ -8114,7 +8114,7 @@
     },
     "269": {
       "_id": 269,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_armor",
       "type": "combat",
       "name": "Armored Bulkheads 4",
       "size": "small",
@@ -8127,7 +8127,7 @@
     },
     "270": {
       "_id": 270,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Reinforced Structures 2",
       "size": "medium",
@@ -8140,7 +8140,7 @@
     },
     "271": {
       "_id": 271,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Reinforced Structures 3",
       "size": "medium",
@@ -8153,7 +8153,7 @@
     },
     "272": {
       "_id": 272,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Reinforced Structures 4",
       "size": "medium",
@@ -8352,7 +8352,7 @@
     },
     "288": {
       "_id": 288,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_spikes",
       "type": "assist",
       "name": "Reactor Spike Module 3",
       "size": "small",
@@ -8364,7 +8364,7 @@
     },
     "289": {
       "_id": 289,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_spikes",
       "type": "assist",
       "name": "Reactor Spike Module 4",
       "size": "small",
@@ -8951,7 +8951,7 @@
     },
     "351": {
       "_id": 351,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Hull Plating 1",
       "size": "large",
@@ -8966,7 +8966,7 @@
     },
     "352": {
       "_id": 352,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Hull Plating 2",
       "size": "large",
@@ -8981,7 +8981,7 @@
     },
     "353": {
       "_id": 353,
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Hull Plating 3",
       "size": "large",
@@ -9222,7 +9222,7 @@
     },
     "364": {
       "_id": 364,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_boosters_aggro",
       "type": "assist",
       "name": "Boarding Assault System 2",
       "size": "small",
@@ -9234,7 +9234,7 @@
     },
     "365": {
       "_id": 365,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_boosters_aggro",
       "type": "assist",
       "name": "Boarding Assault System 3",
       "size": "small",
@@ -9247,7 +9247,7 @@
     "366": {
       "_id": 366,
       "faction": "steel_song",
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_boosters_aggro",
       "type": "assist",
       "name": "Boarding Assault System 4",
       "size": "small",
@@ -9672,7 +9672,7 @@
     },
     "395": {
       "_id": 395,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "plating",
       "name": "Magnamech Plating",
       "base_desc": "Reduces crew damage by 20% during Spying, Blockade or Patrol",
@@ -9685,7 +9685,7 @@
     },
     "396": {
       "_id": 396,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "plating",
       "name": "Centurion Radiation Array",
       "base_desc": "Reduces crew damage by 25% during Spying, Blockade or Patrol",
@@ -9698,7 +9698,7 @@
     },
     "397": {
       "_id": 397,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "plating",
       "name": "Ferrochromium Plating",
       "base_desc": "Reduces crew damage by 40% and 20% fewer crew are harmed  during Spying, Blockade or Patrol",
@@ -9711,7 +9711,7 @@
     },
     "399": {
       "_id": 399,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "coating",
       "name": "Duranium Coating",
       "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 20%",
@@ -9724,7 +9724,7 @@
     },
     "400": {
       "_id": 400,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "coating",
       "name": "Ferrochromium Mesh",
       "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 25%",
@@ -9737,7 +9737,7 @@
     },
     "401": {
       "_id": 401,
-      "img": "talent_empty_normal",
+      "img": "ship_comp_seals",
       "type": "coating",
       "name": "Iridlaentine Weave",
       "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 40%",
@@ -10108,7 +10108,7 @@
     "438": {
       "_id": 438,
       "faction": "javat",
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Hull Plating 4",
       "size": "large",
@@ -10181,7 +10181,7 @@
     },
     "443": {
       "_id": 443,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_seals",
       "type": "eva_deck",
       "name": "EVA Deck 1",
       "base_desc": "Reduces crew damage by 25% during Orbital Salvage, reduces Turns used",
@@ -10195,7 +10195,7 @@
     },
     "444": {
       "_id": 444,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_seals",
       "type": "eva_deck",
       "name": "EVA Deck 2",
       "base_desc": "Reduces crew damage by 30% during Orbital Salvage, reduces Turns used",
@@ -10211,7 +10211,7 @@
     },
     "445": {
       "_id": 445,
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_seals",
       "type": "eva_deck",
       "name": "EVA Deck 3",
       "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Orbital Salvage, reduces Turns used",
@@ -10228,7 +10228,7 @@
     "446": {
       "_id": 446,
       "faction": "de_valtos",
-      "img": "ship_comp_boosters",
+      "img": "ship_comp_seals",
       "type": "eva_deck",
       "name": "EVA Deck 4",
       "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Orbital Salvage, reduces Turns used",
@@ -10314,7 +10314,7 @@
     },
     "453": {
       "_id": 453,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M2400 Void Engine: Warhammer",
       "size": "large",
@@ -10341,7 +10341,7 @@
     },
     "454": {
       "_id": 454,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M3400 Void Engine: Warhammer",
       "size": "large",
@@ -10368,7 +10368,7 @@
     },
     "455": {
       "_id": 455,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M5000 Void Engine: Warhammer",
       "size": "large",
@@ -10395,7 +10395,7 @@
     },
     "456": {
       "_id": 456,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M6000 Void Engine: Warhammer",
       "size": "large",
@@ -10422,7 +10422,7 @@
     },
     "457": {
       "_id": 457,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M7000 Void Engine: Warhammer",
       "size": "large",
@@ -10449,7 +10449,7 @@
     },
     "458": {
       "_id": 458,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M8000 Void Engine: Warhammer",
       "size": "large",
@@ -10476,7 +10476,7 @@
     },
     "459": {
       "_id": 459,
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M9000 Void Engine: Warhammer",
       "size": "large",
@@ -10504,7 +10504,7 @@
     "460": {
       "_id": 460,
       "faction": "steel_song",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M2400 Void Engine: Behemoth",
       "size": "large",
@@ -10532,7 +10532,7 @@
     "461": {
       "_id": 461,
       "faction": "javat",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M3400 Void Engine: Behemoth",
       "size": "large",
@@ -10560,7 +10560,7 @@
     "462": {
       "_id": 462,
       "faction": "thulun",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M5000 Void Engine: Behemoth",
       "size": "large",
@@ -10588,7 +10588,7 @@
     "463": {
       "_id": 463,
       "faction": "rychart",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M6000 Void Engine: Behemoth",
       "size": "large",
@@ -10616,7 +10616,7 @@
     "464": {
       "_id": 464,
       "faction": "cadar",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M7000 Void Engine: Behemoth",
       "size": "large",
@@ -10644,7 +10644,7 @@
     "465": {
       "_id": 465,
       "faction": "alta_mesa",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M8000 Void Engine: Behemoth",
       "size": "large",
@@ -10672,7 +10672,7 @@
     "466": {
       "_id": 466,
       "faction": "moklumnue",
-      "img": "ship_comp_engine",
+      "img": "ship_comp_engine_battle",
       "type": "engine",
       "name": "M9000 Void Engine: Behemoth",
       "size": "large",
@@ -10870,7 +10870,7 @@
     "480": {
       "_id": 480,
       "faction": "javat",
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Hull Plating 5",
       "size": "large",
@@ -10916,7 +10916,7 @@
     "483": {
       "_id": 483,
       "faction": "zenrin",
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_armor",
       "type": "combat",
       "name": "Armored Bulkheads 5",
       "size": "small",
@@ -10931,7 +10931,7 @@
     "484": {
       "_id": 484,
       "faction": "zenrin",
-      "img": "ship_comp_defensive",
+      "img": "ship_comp_shield",
       "type": "combat",
       "name": "Reinforced Structures 5",
       "size": "medium",
