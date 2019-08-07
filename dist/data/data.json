@@ -347,11 +347,13 @@
       "name": "Electronics Tech",
       "skills": [
         "electronics",
+        "gunnery",
         "shipops"
       ],
       "levels": [
         [
           4,
+          0,
           2
         ],
         [
@@ -516,12 +518,14 @@
       "name": "Gunner",
       "skills": [
         "gunnery",
-        "shipops"
+        "shipops",
+        "tactics"
       ],
       "levels": [
         [
           4,
-          2
+          2,
+          0
         ],
         [
           4,
@@ -1579,12 +1583,14 @@
       "name": "Doctor",
       "skills": [
         "command",
-        "doctor"
+        "doctor",
+        "tactics"
       ],
       "levels": [
         [
           1,
-          3
+          3,
+          0
         ],
         [
           2,
@@ -2056,11 +2062,13 @@
       "_id": 16,
       "name": "Hyperwarp Navigator",
       "skills": [
+        "command",
         "navigation",
         "tactics"
       ],
       "levels": [
         [
+          0,
           4,
           2
         ],
@@ -3081,16 +3089,19 @@
       "name": "Pilot",
       "skills": [
         "navigation",
-        "pilot"
+        "pilot",
+        "tactics"
       ],
       "levels": [
         [
           2,
-          4
+          4,
+          0
         ],
         [
           2,
-          5
+          5,
+          0
         ],
         [
           2,
