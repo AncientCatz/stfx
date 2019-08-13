@@ -33,8 +33,11 @@ message Officers{
     int32 job1 = 1;
     int32 job2 = 2;
     int32 job3 = 3;
-    int32 level = 4;
-    repeated int32 talents = 5;
+    int32 level1 = 4;
+    int32 level2 = 5;
+    int32 level3 = 6;
+    repeated int32 talents = 7;
+
 }
 
 message Crew{
