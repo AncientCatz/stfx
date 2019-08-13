@@ -1,5 +1,22 @@
 syntax = "proto3";
 
+message CombatSkills {
+    int32 pistols = 1;
+    int32 rifles = 2;
+    int32 blades = 3;
+    int32 evasion = 4;
+    int32 stealth = 5;
+}
+
+message PersonnelSkills {
+    int32 command = 1;
+    int32 intimidate = 2;
+    int32 negotiate = 3;
+    int32 tactics = 4;
+    int32 doctor = 5;
+    int32 explore = 6;
+}
+
 message Officers{
     int32 job1 = 1;
     int32 job2 = 2;
