@@ -221,7 +221,7 @@ var app = new Vue({
             return crew_export
         },
         process_ship: function(ship: types.JSONShip, components: number[], crafts: number[]): types.Ship {
-            var yolo = ship as any;
+            var yolo = JSON.parse(JSON.stringify(ship)) as any;
             Vue.set(yolo, 'components', this.get_components(components));
             Vue.set(yolo, 'crafts', this.get_crafts(crafts));
             return yolo as types.Ship;
