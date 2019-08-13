@@ -17,6 +17,18 @@ message PersonnelSkills {
     int32 explore = 6;
 }
 
+message Captain {
+    int32 job1 = 1;
+    int32 job2 = 2;
+    int32 job3 = 3;
+    int32 level1 = 4;
+    int32 level2 = 5;
+    int32 level3 = 6;
+    repeated int32 talents = 7;
+    CombatSkills combat_skills = 8;
+    PersonnelSkills personnel_skills = 9;
+}
+
 message Officers{
     int32 job1 = 1;
     int32 job2 = 2;
