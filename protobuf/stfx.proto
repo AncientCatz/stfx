@@ -16,6 +16,14 @@ message PersonnelSkills {
     int32 doctor = 5;
     int32 explore = 6;
 }
+message Attributes {
+    int32 strength = 1;
+    int32 quickness = 2;
+    int32 fortitude = 3;
+    int32 charisma = 4;
+    int32 wisdom = 5;
+    int32 resilience = 6;
+}
 
 message Captain {
     int32 job1 = 1;
@@ -27,6 +35,7 @@ message Captain {
     repeated int32 talents = 7;
     CombatSkills combat_skills = 8;
     PersonnelSkills personnel_skills = 9;
+    Attributes attributes = 10;
 }
 
 message Officers{
