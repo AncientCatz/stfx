@@ -5591,7 +5591,9 @@
       "fuel": 45,
       "craft": 1,
       "install_cost": 325000,
-      "jump_cost": 10
+      "jump_cost": 10,
+      "shipops": 4,
+      "electronics": 2
     },
     "21": {
       "_id": 21,
@@ -5814,7 +5816,9 @@
       "craft": 1,
       "install_cost": 375000,
       "shield": 2,
-      "jump_cost": 11
+      "jump_cost": 11,
+      "shipops": 4,
+      "electronics": 3
     },
     "37": {
       "_id": 37,
@@ -6205,7 +6209,7 @@
       "base_desc": "Provides improved Falcon-class weaponry and armor for all crew",
       "size": "small",
       "mass": 175,
-      "install_cost": 26500
+      "install_cost": 36500
     },
     "64": {
       "_id": 64,
@@ -6216,7 +6220,7 @@
       "base_desc": "Provides improved Delta-class weaponry and armor for all crew. Adds Heavy and Stealth armor options",
       "size": "small",
       "mass": 175,
-      "install_cost": 38500
+      "install_cost": 58500
     },
     "65": {
       "_id": 65,
@@ -6227,7 +6231,7 @@
       "base_desc": "Provides improved XE Falcon-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options",
       "size": "small",
       "mass": 175,
-      "install_cost": 58000
+      "install_cost": 108000
     },
     "66": {
       "_id": 66,
@@ -9613,7 +9617,7 @@
       "base_desc": "Provides improved Goliath-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options.",
       "size": "small",
       "mass": 175,
-      "install_cost": 112000
+      "install_cost": 182000
     },
     "379": {
       "_id": 379,
@@ -11355,7 +11359,8 @@
       "craft": 1,
       "install_cost": 205000,
       "jump_cost": 4,
-      "shipops": 3
+      "shipops": 2,
+      "electronics": 1
     },
     "495": {
       "_id": 495,
@@ -11366,7 +11371,9 @@
       "mass": 325,
       "fuel": 15,
       "install_cost": 215000,
-      "jump_cost": 6
+      "jump_cost": 6,
+      "shipops": 2,
+      "electronics": 1
     },
     "496": {
       "_id": 496,
@@ -11379,7 +11386,9 @@
       "craft": 1,
       "install_cost": 380000,
       "armor": 2,
-      "jump_cost": 12
+      "jump_cost": 12,
+      "shipops": 4,
+      "electronics": 3
     },
     "497": {
       "_id": 497,
@@ -11392,7 +11401,9 @@
       "craft": 1,
       "install_cost": 425000,
       "armor": 2,
-      "jump_cost": 8
+      "jump_cost": 8,
+      "shipops": 4,
+      "electronics": 4
     },
     "498": {
       "_id": 498,
@@ -11406,7 +11417,8 @@
       "install_cost": 235000,
       "shield": 2,
       "jump_cost": 6,
-      "shipops": 3
+      "shipops": 3,
+      "electronics": 2
     },
     "499": {
       "_id": 499,
@@ -11420,7 +11432,8 @@
       "install_cost": 237000,
       "armor": 2,
       "jump_cost": 6,
-      "shipops": 3
+      "shipops": 3,
+      "electronics": 2
     },
     "501": {
       "_id": 501,
@@ -11718,6 +11731,56 @@
       "shield": 3,
       "jump_cost": 2,
       "shipops": 5
+    },
+    "533": {
+      "_id": 533,
+      "img": "ship_comp_boosters_aggro",
+      "type": "assist",
+      "name": "Railtrak Guidance Matrix 1",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 68600,
+      "pilot": 3,
+      "gunnery": 4,
+      "acc": 4,
+      "acc_craft": 6
+    },
+    "534": {
+      "_id": 534,
+      "img": "ship_comp_boosters_aggro",
+      "type": "assist",
+      "name": "Railtrak Guidance Matrix 2",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 125600,
+      "pilot": 3,
+      "gunnery": 4,
+      "acc": 8,
+      "acc_craft": 14
+    },
+    "535": {
+      "_id": 535,
+      "img": "ship_comp_defensive",
+      "type": "assist",
+      "name": "C-Tak Interceptor System 1",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 78600,
+      "pilot": 2,
+      "navigation": 2,
+      "void_res": 10
+    },
+    "536": {
+      "_id": 536,
+      "img": "ship_comp_defensive",
+      "type": "assist",
+      "name": "C-Tak Interceptor System 2",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 139250,
+      "pilot": 2,
+      "navigation": 2,
+      "void_res": 20
     }
   },
   "ships": {
@@ -13180,8 +13243,8 @@
       "skin_name": "JackKnife_Red",
       "hullpoints": 1100,
       "basemass": 3400,
-      "smallslots": 10,
-      "mediumslots": 5,
+      "smallslots": 11,
+      "mediumslots": 4,
       "largeslots": 3,
       "components": [
         287,
@@ -13934,8 +13997,8 @@
       "skin_name": "Claymore_Red",
       "hullpoints": 1850,
       "basemass": 8000,
-      "smallslots": 12,
-      "mediumslots": 10,
+      "smallslots": 14,
+      "mediumslots": 8,
       "largeslots": 6,
       "components": [
         94,
@@ -13967,8 +14030,8 @@
         4,
         30
       ],
-      "armor": 11,
-      "shield": 6,
+      "armor": 8,
+      "shield": 10,
       "fuel": 135,
       "max_craft": 5,
       "max_crew": 42,
