@@ -1,4 +1,5 @@
 import * as types from "./types";
+import { all_props } from "./defines";
 export function CopyToClipboard(text:string) {
   var textArea = document.createElement("textarea");
 
@@ -233,6 +234,8 @@ function process_description(component:types.Component) {
         'passengers':       (c:any) => `Houses ${c.passengers} Passenger${c.passengers > 1 ? 's' : ''},`,
         'prisoners':        (c:any) => `Detains ${c.prisoners} Prisoner${c.prisoners > 1 ? 's' : ''},`,
 
+        'init':             (c:any) => `+${c.init} Initiative,`,
+        'res_craft':        (c:any) => `+${c.res_craft}% to Dodge Craft Attacks,`,
         'rad_res':          (c:any) => `+${c.rad_res} Radiation Resist,`,
         'void_res':         (c:any) => `+${c.void_res} Void Resist,`,
         'acc':              (c:any) => `+${c.acc} Accuracy,`,
@@ -319,7 +322,6 @@ export function get_component_slots(components:types.Component[]): types.Compone
 }
 
 
-let all_props = new Set(['install_cost', 'navigation', 'shipops', 'gunnery', 'electronics', 'pilot'])
 
 export function comp_parse_props(component:types.Component) {
     var props = []

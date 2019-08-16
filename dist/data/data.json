@@ -5701,7 +5701,8 @@
       "mass": 125,
       "install_cost": 13500,
       "pilot": 4,
-      "shipops": 2
+      "shipops": 2,
+      "res_craft": 2
     },
     "28": {
       "_id": 28,
@@ -5762,7 +5763,8 @@
       "jump_cost": -1,
       "shipops": 1,
       "navigation": 2,
-      "electronics": 2
+      "electronics": 2,
+      "escape": 2
     },
     "33": {
       "_id": 33,
@@ -8045,7 +8047,8 @@
       "jump_cost": 2,
       "pilot": 2,
       "shipops": 2,
-      "electronics": 2
+      "electronics": 2,
+      "move": 10
     },
     "255": {
       "_id": 255,
@@ -8121,7 +8124,8 @@
       "mass": 125,
       "install_cost": 32000,
       "pilot": 5,
-      "shipops": 2
+      "shipops": 2,
+      "res_craft": 3
     },
     "261": {
       "_id": 261,
@@ -8133,7 +8137,8 @@
       "mass": 125,
       "install_cost": 59800,
       "pilot": 6,
-      "shipops": 3
+      "shipops": 3,
+      "res_craft": 4
     },
     "262": {
       "_id": 262,
@@ -8145,7 +8150,8 @@
       "mass": 125,
       "install_cost": 94600,
       "pilot": 7,
-      "shipops": 3
+      "shipops": 3,
+      "res_craft": 5
     },
     "263": {
       "_id": 263,
@@ -9670,6 +9676,7 @@
       "install_cost": 17650,
       "shipops": 4,
       "navigation": 2,
+      "escape": 4,
       "void_res": 3
     },
     "383": {
@@ -9683,6 +9690,7 @@
       "install_cost": 34420,
       "shipops": 4,
       "navigation": 2,
+      "escape": 5,
       "void_res": 6
     },
     "384": {
@@ -9696,6 +9704,7 @@
       "install_cost": 56500,
       "shipops": 3,
       "navigation": 3,
+      "escape": 5,
       "void_res": 9
     },
     "385": {
@@ -9710,6 +9719,7 @@
       "install_cost": 94000,
       "shipops": 3,
       "navigation": 3,
+      "escape": 6,
       "void_res": 12
     },
     "386": {
@@ -9776,7 +9786,8 @@
       "jump_cost": 2,
       "pilot": 2,
       "shipops": 2,
-      "electronics": 3
+      "electronics": 3,
+      "init": 1
     },
     "390": {
       "_id": 390,
@@ -9790,7 +9801,8 @@
       "jump_cost": 3,
       "pilot": 3,
       "shipops": 3,
-      "electronics": 3
+      "electronics": 3,
+      "init": 2
     },
     "391": {
       "_id": 391,
@@ -9805,7 +9817,8 @@
       "jump_cost": 4,
       "pilot": 3,
       "shipops": 3,
-      "electronics": 4
+      "electronics": 4,
+      "init": 3
     },
     "392": {
       "_id": 392,
@@ -11536,6 +11549,7 @@
       "shipops": 1,
       "navigation": 2,
       "electronics": 3,
+      "escape": 4,
       "void_res": 3
     },
     "522": {
@@ -11551,6 +11565,7 @@
       "shipops": 1,
       "navigation": 2,
       "electronics": 4,
+      "escape": 5,
       "void_res": 5
     },
     "523": {
@@ -11567,6 +11582,7 @@
       "shipops": 2,
       "navigation": 2,
       "electronics": 5,
+      "escape": 5,
       "void_res": 8
     },
     "524": {
@@ -11581,6 +11597,7 @@
       "shipops": 3,
       "navigation": 4,
       "electronics": 4,
+      "escape": 3,
       "void_res": 8,
       "rad_res": 8
     },
@@ -11638,7 +11655,8 @@
       "shipops": 2,
       "explorer": 5,
       "electronics": 6,
-      "acc": 6
+      "acc": 6,
+      "init": 1
     },
     "529": {
       "_id": 529,
@@ -11655,7 +11673,9 @@
       "shipops": 2,
       "navigation": 4,
       "explorer": 5,
-      "electronics": 3
+      "electronics": 3,
+      "init": 1,
+      "move": 4
     },
     "530": {
       "_id": 530,
@@ -11768,6 +11788,8 @@
       "install_cost": 78600,
       "pilot": 2,
       "navigation": 2,
+      "res_craft": 5,
+      "init": 1,
       "void_res": 10
     },
     "536": {
@@ -11780,6 +11802,8 @@
       "install_cost": 139250,
       "pilot": 2,
       "navigation": 2,
+      "res_craft": 12,
+      "init": 1,
       "void_res": 20
     }
   },
