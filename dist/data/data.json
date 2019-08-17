@@ -5764,7 +5764,8 @@
       "shipops": 1,
       "navigation": 2,
       "electronics": 2,
-      "escape": 2
+      "escape": 2,
+      "cloak": 3
     },
     "33": {
       "_id": 33,
@@ -11550,6 +11551,7 @@
       "navigation": 2,
       "electronics": 3,
       "escape": 4,
+      "cloak": 5,
       "void_res": 3
     },
     "522": {
@@ -11566,6 +11568,7 @@
       "navigation": 2,
       "electronics": 4,
       "escape": 5,
+      "cloak": 6,
       "void_res": 5
     },
     "523": {
@@ -11583,6 +11586,7 @@
       "navigation": 2,
       "electronics": 5,
       "escape": 5,
+      "cloak": 6,
       "void_res": 8
     },
     "524": {
@@ -11598,6 +11602,7 @@
       "navigation": 4,
       "electronics": 4,
       "escape": 3,
+      "cloak": 10,
       "void_res": 8,
       "rad_res": 8
     },
@@ -11675,7 +11680,8 @@
       "explorer": 5,
       "electronics": 3,
       "init": 1,
-      "move": 4
+      "move": 4,
+      "cloak": 4
     },
     "530": {
       "_id": 530,

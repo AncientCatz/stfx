@@ -1,5 +1,5 @@
 import * as types from "./types";
-import { all_props } from "./defines";
+import * as defines from "./defines";
 export function CopyToClipboard(text:string) {
   var textArea = document.createElement("textarea");
 
@@ -234,7 +234,9 @@ function process_description(component:types.Component) {
         'passengers':       (c:any) => `Houses ${c.passengers} Passenger${c.passengers > 1 ? 's' : ''},`,
         'prisoners':        (c:any) => `Detains ${c.prisoners} Prisoner${c.prisoners > 1 ? 's' : ''},`,
 
+        'cloak':             (c:any) => `Reduces ship encounters by ${c.cloak}% [${defines.cloak_max}% max] ,`,
         'init':             (c:any) => `+${c.init} Initiative,`,
+        'escape':             (c:any) => `+${c.escape} Initiative,`,
         'res_craft':        (c:any) => `+${c.res_craft}% to Dodge Craft Attacks,`,
         'rad_res':          (c:any) => `+${c.rad_res} Radiation Resist,`,
         'void_res':         (c:any) => `+${c.void_res} Void Resist,`,
@@ -249,7 +251,7 @@ function process_description(component:types.Component) {
         'shield':           (c:any) => `+${ROUND_2(COMP_CALC_SHIELD_PC(c.shield))}% Shielding,`,
         'officers':         (c:any) => c.type != 'bridge' ? `Quarters for ${c.officers} officers,`: '',
         'craft':            (c:any) => `Adds ${c.craft} Craft Hangar,`,
-        'jump_cost':        (c:any) => c.type != 'hyperwarp' ? `${c.jump_cost > 0 ? '+' : '-'}${c.jump_cost} Jump Cost` : '',
+        'jump_cost':        (c:any) => c.type != 'hyperwarp' ? `${c.jump_cost > 0 ? '+' : ''}${c.jump_cost} Jump Cost` : '',
 
     }
     var description = [];
@@ -326,7 +328,7 @@ export function get_component_slots(components:types.Component[]): types.Compone
 export function comp_parse_props(component:types.Component) {
     var props = []
     for(var i in component) {
-        if(!all_props.has(i)) {continue;}
+        if(!defines.all_props.has(i)) {continue;}
         var img = img_get_prop(i.replace('skill_', ''));
         var name = i.replace('skill_', '').replace('_', ' ');
         var val = component[i];
