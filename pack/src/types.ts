@@ -143,6 +143,7 @@ export interface CrewStats {
 export interface JobTalent {
   talent: Talent
   level: number
+  noob: boolean
 }
 
 export interface Talent {

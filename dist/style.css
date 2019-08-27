@@ -85,6 +85,10 @@ th.navy {
     min-width: 100px;
 }
 
+.noob {
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
 .compmod {
   position: absolute !important;
   top: 0;
