@@ -1269,6 +1269,210 @@
         ]
       ]
     },
+    "9": {
+      "_id": 9,
+      "name": "Bodyguard",
+      "skills": [
+        "evasion",
+        "light_firearms",
+        "melee",
+        "tactics"
+      ],
+      "levels": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          3,
+          4,
+          3,
+          2
+        ],
+        [
+          3,
+          4,
+          4,
+          2
+        ],
+        [
+          4,
+          4,
+          4,
+          2
+        ],
+        [
+          4,
+          5,
+          4,
+          2
+        ],
+        [
+          5,
+          5,
+          5,
+          2
+        ],
+        [
+          5,
+          5,
+          5,
+          3
+        ],
+        [
+          5,
+          6,
+          5,
+          3
+        ],
+        [
+          5,
+          6,
+          6,
+          3
+        ],
+        [
+          5,
+          7,
+          7,
+          3
+        ],
+        [
+          6,
+          7,
+          7,
+          3
+        ],
+        [
+          6,
+          8,
+          7,
+          3
+        ],
+        [
+          6,
+          8,
+          8,
+          3
+        ],
+        [
+          7,
+          8,
+          8,
+          3
+        ],
+        [
+          7,
+          9,
+          8,
+          3
+        ],
+        [
+          7,
+          9,
+          9,
+          3
+        ],
+        [
+          7,
+          10,
+          10,
+          3
+        ],
+        [
+          7,
+          10,
+          10,
+          4
+        ],
+        [
+          8,
+          10,
+          10,
+          4
+        ],
+        [
+          8,
+          11,
+          10,
+          4
+        ],
+        [
+          8,
+          11,
+          11,
+          4
+        ],
+        [
+          8,
+          11,
+          11,
+          5
+        ],
+        [
+          9,
+          11,
+          11,
+          5
+        ],
+        [
+          9,
+          11,
+          11,
+          6
+        ],
+        [
+          9,
+          12,
+          12,
+          6
+        ],
+        [
+          10,
+          12,
+          12,
+          6
+        ],
+        [
+          10,
+          13,
+          13,
+          6
+        ]
+      ]
+    },
     "10": {
       "_id": 10,
       "name": "Assassin",
@@ -7013,6 +7217,32 @@
         "effect_chance": 40
       }
     },
+    "112": {
+      "_id": 112,
+      "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "M95 Tracer Cannon",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 220460,
+      "shipops": 3,
+      "gunnery": 8,
+      "weapon": {
+        "accuracy": 11,
+        "hitcraft": 75,
+        "ap": 1,
+        "range": 1,
+        "attack_type": 1,
+        "weapon_type": 1,
+        "crit": 20,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 91,
+        "damage_max": 150,
+        "effect_chance": 45
+      }
+    },
     "127": {
       "_id": 127,
       "img": "ship_comp_weapon_lance",
@@ -7161,6 +7391,36 @@
         "effect_min": 3,
         "effect_max": 10,
         "effect_chance": 55
+      }
+    },
+    "132": {
+      "_id": 132,
+      "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Void-Thunder Lance",
+      "size": "small",
+      "mass": 150,
+      "install_cost": 245320,
+      "shipops": 3,
+      "gunnery": 8,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 9,
+        "hitcraft": 25,
+        "ap": 2,
+        "range": 2,
+        "attack_type": 2,
+        "weapon_type": 2,
+        "crit": 35,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 181,
+        "damage_max": 220,
+        "effect": "rad",
+        "effect_min": 12,
+        "effect_max": 40,
+        "effect_chance": 30
       }
     },
     "147": {
@@ -7343,6 +7603,36 @@
         "effect_chance": 30
       }
     },
+    "153": {
+      "_id": 153,
+      "img": "ship_comp_weapon_plasmacannon",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Azmath Plasma Ordnance",
+      "size": "medium",
+      "mass": 300,
+      "install_cost": 284820,
+      "shipops": 3,
+      "gunnery": 10,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 11,
+        "hitcraft": 5,
+        "ap": 3,
+        "range": 3,
+        "attack_type": 2,
+        "weapon_type": 3,
+        "crit": 30,
+        "level": 8,
+        "priority": 2,
+        "damage_min": 151,
+        "damage_max": 170,
+        "effect": "rad",
+        "effect_min": 50,
+        "effect_max": 160,
+        "effect_chance": 40
+      }
+    },
     "168": {
       "_id": 168,
       "img": "ship_comp_weapon_railgun2",
@@ -7490,6 +7780,36 @@
         "effect": "void",
         "effect_min": 44,
         "effect_max": 140,
+        "effect_chance": 45
+      }
+    },
+    "173": {
+      "_id": 173,
+      "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Tri Helical Rail X3",
+      "size": "medium",
+      "mass": 300,
+      "install_cost": 292680,
+      "shipops": 4,
+      "gunnery": 6,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 14,
+        "hitcraft": 65,
+        "ap": 4,
+        "range": 3,
+        "attack_type": 5,
+        "weapon_type": 4,
+        "crit": 25,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 201,
+        "damage_max": 220,
+        "effect": "void",
+        "effect_min": 59,
+        "effect_max": 190,
         "effect_chance": 45
       }
     },
@@ -7647,6 +7967,32 @@
         "damage_min": 351,
         "damage_max": 450,
         "effect_chance": 40
+      }
+    },
+    "194": {
+      "_id": 194,
+      "img": "ship_comp_weapon_gdriver",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Coronation Gravcannon",
+      "size": "large",
+      "mass": 600,
+      "install_cost": 348260,
+      "shipops": 2,
+      "gunnery": 10,
+      "weapon": {
+        "accuracy": 6,
+        "hitcraft": 0,
+        "ap": 4,
+        "range": 2,
+        "attack_type": 1,
+        "weapon_type": 5,
+        "crit": 20,
+        "level": 8,
+        "priority": 2,
+        "damage_min": 401,
+        "damage_max": 500,
+        "effect_chance": 65
       }
     },
     "209": {
@@ -7829,6 +8175,36 @@
         "effect_chance": 30
       }
     },
+    "215": {
+      "_id": 215,
+      "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Valkri Missile Pods",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 242680,
+      "shipops": 2,
+      "gunnery": 12,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 14,
+        "hitcraft": 30,
+        "ap": 3,
+        "range": 4,
+        "attack_type": 3,
+        "weapon_type": 6,
+        "crit": 30,
+        "level": 8,
+        "priority": 2,
+        "damage_min": 131,
+        "damage_max": 230,
+        "effect": "rad",
+        "effect_min": 25,
+        "effect_max": 80,
+        "effect_chance": 30
+      }
+    },
     "230": {
       "_id": 230,
       "img": "ship_comp_weapon_torps",
@@ -7977,6 +8353,36 @@
         "effect_min": 14,
         "effect_max": 45,
         "effect_chance": 50
+      }
+    },
+    "235": {
+      "_id": 235,
+      "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Firewave Torpedo",
+      "size": "small",
+      "mass": 110,
+      "install_cost": 252240,
+      "shipops": 2,
+      "gunnery": 13,
+      "electronics": 4,
+      "weapon": {
+        "accuracy": 16,
+        "hitcraft": 25,
+        "ap": 2,
+        "range": 5,
+        "attack_type": 4,
+        "weapon_type": 7,
+        "crit": 10,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 41,
+        "damage_max": 100,
+        "effect": "void",
+        "effect_min": 22,
+        "effect_max": 70,
+        "effect_chance": 60
       }
     },
     "250": {
@@ -10117,8 +10523,8 @@
         "crit": 40,
         "level": 7,
         "priority": 2,
-        "damage_min": 161,
-        "damage_max": 260,
+        "damage_min": 171,
+        "damage_max": 270,
         "effect": "rad",
         "effect_min": 25,
         "effect_max": 80,
@@ -11070,7 +11476,10 @@
       "pilot": 6,
       "shipops": 3,
       "navigation": 6,
-      "electronics": 4
+      "electronics": 4,
+      "acc": 10,
+      "void_res": 10,
+      "rad_res": 10
     },
     "479": {
       "_id": 479,
@@ -11686,7 +12095,7 @@
     "530": {
       "_id": 530,
       "img": "ship_comp_weapon_plasmacannon",
-      "imgmod": "ship_comp_over_5",
+      "imgmod": "ship_comp_over_7",
       "type": "weapon",
       "name": "Interceder PCX-5",
       "size": "large",
@@ -11716,7 +12125,7 @@
     "531": {
       "_id": 531,
       "img": "ship_comp_weapon_plasmacannon",
-      "imgmod": "ship_comp_over_7",
+      "imgmod": "ship_comp_over_5",
       "type": "weapon",
       "name": "Interceder PCX-1",
       "size": "large",
@@ -11811,6 +12220,62 @@
       "res_craft": 12,
       "init": 1,
       "void_res": 20
+    },
+    "537": {
+      "_id": 537,
+      "faction": "alta_mesa",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
+      "type": "bridge",
+      "name": "Battle Bridge 2",
+      "size": "medium",
+      "mass": 250,
+      "officers": 1,
+      "install_cost": 325480,
+      "armor": 2,
+      "jump_cost": 3,
+      "pilot": 8,
+      "shipops": 4,
+      "navigation": 8,
+      "electronics": 5,
+      "acc": 10,
+      "move": 4,
+      "void_res": 12,
+      "rad_res": 12
+    },
+    "538": {
+      "_id": 538,
+      "faction": "de_valtos",
+      "img": "ship_comp_boosters_nav",
+      "imgmod": "ship_comp_over_5",
+      "type": "assist",
+      "name": "ECCM Screen Matrix 5",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 222860,
+      "shipops": 4,
+      "navigation": 5,
+      "res_craft": 5,
+      "escape": 10,
+      "void_res": 16
+    },
+    "539": {
+      "_id": 539,
+      "faction": "thulun",
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_5",
+      "type": "assist",
+      "name": "Interlocking Sensor Matrix 5",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 224820,
+      "jump_cost": 3,
+      "gunnery": 5,
+      "electronics": 5,
+      "acc_craft": 4,
+      "dmg": 10,
+      "crit": 12,
+      "init": 1
     }
   },
   "ships": {
@@ -14870,6 +15335,29 @@
       ],
       "11": [
         494
+      ]
+    },
+    "9": {
+      "1": [
+        518,
+        519,
+        520,
+        521,
+        522
+      ],
+      "5": [
+        523,
+        525,
+        527
+      ],
+      "8": [
+        524,
+        528,
+        530
+      ],
+      "11": [
+        526,
+        529
       ]
     }
   },
@@ -18465,6 +18953,110 @@
       "cool": 90,
       "type": 114,
       "icon": "talent_pirate_bonus_cargo"
+    },
+    "518": {
+      "_id": 518,
+      "name": "One Step Ahead",
+      "desc": "Prevent Tactics Failures'",
+      "cool": 3,
+      "type": 5,
+      "icon": "talent_skill_tactics"
+    },
+    "519": {
+      "_id": 519,
+      "name": "Protective Instincts",
+      "desc": "",
+      "cool": 0,
+      "type": 29,
+      "icon": "talent_combat_bodyguard_protector"
+    },
+    "520": {
+      "_id": 520,
+      "name": "Screening Fire",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_screening"
+    },
+    "521": {
+      "_id": 521,
+      "name": "Low Blow",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_bodyguard_combat_lowblow"
+    },
+    "522": {
+      "_id": 522,
+      "name": "Tactical Shove",
+      "desc": "",
+      "cool": 8,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_shove"
+    },
+    "523": {
+      "_id": 523,
+      "name": "Hamstring Slice",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_hamstring"
+    },
+    "524": {
+      "_id": 524,
+      "name": "Inspiring Rally",
+      "desc": "",
+      "cool": 12,
+      "type": -1,
+      "icon": "talent_bodyguard_combat_rally"
+    },
+    "525": {
+      "_id": 525,
+      "name": "Honor Guard",
+      "desc": "",
+      "cool": 10,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_overguard"
+    },
+    "526": {
+      "_id": 526,
+      "name": "Strategic Reset",
+      "desc": "",
+      "cool": 6,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_strat"
+    },
+    "527": {
+      "_id": 527,
+      "name": "Body Shot",
+      "desc": "",
+      "cool": 3,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_bodyshot"
+    },
+    "528": {
+      "_id": 528,
+      "name": "Defensive Striker",
+      "desc": "",
+      "cool": 3,
+      "type": -1,
+      "icon": "talent_combat_bodyguard_honorguard"
+    },
+    "529": {
+      "_id": 529,
+      "name": "Everwatch",
+      "desc": "Saves a life during ship combat, blockade, spying, patrol, salvage or black market. Crew member is restored to HP equal to Tactics Skill + 3 x Medical Rating of onboard medical components",
+      "cool": 90,
+      "type": 49,
+      "icon": "talent_bodyguard_lifesaver"
+    },
+    "530": {
+      "_id": 530,
+      "name": "Preeminent Security",
+      "desc": "When completing Mission steps that pick up or drop off a new Passenger or Prisoner on an urban zone, gain up to 20% + Tactics Skill profit",
+      "cool": 90,
+      "type": 11,
+      "icon": "talent_bodyguard_mission_increase"
     }
   },
   "crafts": {
