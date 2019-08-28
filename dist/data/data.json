@@ -15453,7 +15453,7 @@
     "35": {
       "_id": 35,
       "name": "Scorn",
-      "desc": "In crew combat, intimidating command hits 2 targets causes -4 Initiative, -25% Deflection for 2 Turns",
+      "desc": "In crew combat, intimidating command hits 2 targets causes -4 Initiative, -25% Armor Piercing, -25% Deflection for 2 Turns in addition to (10 + 0 Intimidate) Morale Loss",
       "cool": 8,
       "type": -1,
       "icon": "talent_commander_scorn"
@@ -15461,7 +15461,7 @@
     "36": {
       "_id": 36,
       "name": "Coordinated Fire",
-      "desc": "Buffs Ship with +35% Dmg, +25% Critical for next 3 Turns",
+      "desc": "Buffs Ship with +10% to Hit Craft, +35% Dmg, +25% Critical for next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_commander_coordinatedfire"
@@ -15517,7 +15517,7 @@
     "43": {
       "_id": 43,
       "name": "Broadside Angle",
-      "desc": "Buffs Ship with +25% Accuracy, +40% Dmg, -25% Defense, -15% Armor for next 3 Turns",
+      "desc": "Buffs Ship with +25% Accuracy, +20% to Hit Craft, +40% Dmg, -25% Defense, -15% Armor for next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_pilot_broadside"
@@ -15717,7 +15717,7 @@
     "68": {
       "_id": 68,
       "name": "Garbled Identity",
-      "desc": "Masks ship's signal to prevent identification. When ending a ship encounter in a draw, reduce possible Reputation damage by up to Stealth Skill",
+      "desc": "Masks ship's signal to prevent identification. When ending a ship encounter in a draw, reduce possible Reputation loss by up to Stealth Skill to a minimum of -1",
       "cool": 30,
       "type": 64,
       "icon": "talent_smuggler_signjam"
@@ -16317,7 +16317,7 @@
     "156": {
       "_id": 156,
       "name": "Stormhunter",
-      "desc": "Careful study of readings and conditions allows Engineer to guide the ship through Radiation Storms (quadrant) and Ion Storms (system) while granting additional Experience reward",
+      "desc": "Protects the ship and crew from damage when flying through Radiation Storms (quadrant) and Ion Storms (system) while granting additional Experience reward",
       "cool": 60,
       "type": 20,
       "icon": "talent_eng_shielding"
@@ -16421,7 +16421,7 @@
     "169": {
       "_id": 169,
       "name": "Second Shadow",
-      "desc": "Watching crew like a hawk, saves a life during ship combat, blockade, spying, patrol or black market. Crew member is restored to HP equal to Command Skill + 3 x Medical Rating of onboard medical components",
+      "desc": "Watching crew like a hawk, saves a life during ship combat, blockade, spying, patrol, salvage or black market. Crew member is restored to HP equal to Command Skill + 3 x Medical Rating of onboard medical components",
       "cool": 90,
       "type": 49,
       "icon": "talent_quartermaster_secondshadow"
@@ -16549,7 +16549,7 @@
     "185": {
       "_id": 185,
       "name": "Thrown Wrench",
-      "desc": "After a successful Boarding, sabotages components to cause a ripple effect of damage and death; -3 Reactor Pts, +25 Component Dmg/Turn, +10 Crew Dmg/Turn for next 4 Turns",
+      "desc": "After a successful Boarding, sabotage sets off a chain reaction of damage and death, causing Repair Skill damage to 1 component; -3 Reactor Pts, +25 Component Dmg/Turn, +10 Crew Dmg/Turn for next 4 Turns",
       "cool": 90,
       "type": 77,
       "icon": "talent_boarding_mech_wrench"
@@ -16597,7 +16597,7 @@
     "191": {
       "_id": 191,
       "name": "Signature Jammer",
-      "desc": "Masks ship's signal to prevent identification. When ending a ship encounter in a draw, reduce possible Reputation damage by up to Electronics Skill",
+      "desc": "Masks ship's signal to prevent identification. When ending a ship encounter in a draw, reduce possible Reputation loss by up to Electronics Skill to a minimum of -1",
       "cool": 30,
       "type": 64,
       "icon": "talent_elo_signjam"
@@ -16701,7 +16701,7 @@
     "204": {
       "_id": 204,
       "name": "Disarming Sabotage",
-      "desc": "After a successful Boarding, ruthless sabotage disables best enemy weapon, causing 80% damage",
+      "desc": "After a successful Boarding, ruthless sabotage cripples 2-4 weapons causing up to 40% + Gunnery Skill damage",
       "cool": 90,
       "type": 77,
       "icon": "talent_boarding_gunner_disarm"
@@ -17029,7 +17029,7 @@
     "245": {
       "_id": 245,
       "name": "First Aid",
-      "desc": "Automatically passes a failed Doctor test in any situation, including on board healing, saving lives in accidents, or while exploring",
+      "desc": "Automatically passes a failed Doctor test in any situation, including deep space travel, orbital ops or exploring or during a mission",
       "cool": 30,
       "type": 8,
       "icon": "talent_skill_doctor"
@@ -17045,7 +17045,7 @@
     "247": {
       "_id": 247,
       "name": "E-Suture",
-      "desc": "In crew combat, Heals entire team (6 HP + 0 Doctor) HP",
+      "desc": "In crew combat, Heals entire team (6 + 0 Doctor) HP",
       "cool": 12,
       "type": -1,
       "icon": "talent_medic_esuture"
@@ -17069,7 +17069,7 @@
     "250": {
       "_id": 250,
       "name": "Toxin Terror",
-      "desc": "In crew combat, bio-threat hits 2 targets causes -2 Initiative, -10 Bio-Poison Resist for 3 Turns",
+      "desc": "In crew combat, bio-threat hits 2 targets causes -2 Initiative, -10 Bio-Poison Resist for 3 Turns in addition to (10 + 0 Doctor) Morale Loss",
       "cool": 12,
       "type": -1,
       "icon": "talent_combat_medic_toxinterror"
@@ -17101,7 +17101,7 @@
     "254": {
       "_id": 254,
       "name": "Medical Staff",
-      "desc": "Automatically passes a failed Doctor test in any situation, including on board healing, saving lives in accidents, or while exploring",
+      "desc": "Automatically passes a failed Doctor test in any situation, including deep space travel, orbital ops or exploring or during a mission",
       "cool": 30,
       "type": 8,
       "icon": "talent_skill_doctor"
@@ -17117,7 +17117,7 @@
     "256": {
       "_id": 256,
       "name": "Field Surgery",
-      "desc": "In crew combat, Removes all Debuffs; Heals (20 HP + 0 Doctor) HP",
+      "desc": "In crew combat, Removes all Debuffs; Heals (20 + 0 Doctor) HP",
       "cool": 10,
       "type": -1,
       "icon": "talent_combat_doctor_surgeon"
@@ -17125,7 +17125,7 @@
     "257": {
       "_id": 257,
       "name": "Life Saver",
-      "desc": "Saves a life during ship combat, blockade, spying, patrol or black market. Crew member is restored to HP equal to Doctor Skill + 3 x Medical Rating of onboard medical components",
+      "desc": "Saves a life during ship combat, blockade, spying, patrol, salvage or black market. Crew member is restored to HP equal to Doctor Skill + 3 x Medical Rating of onboard medical components",
       "cool": 90,
       "type": 49,
       "icon": "talent_doctor_lifesaver"
@@ -17197,7 +17197,7 @@
     "266": {
       "_id": 266,
       "name": "Expose Quality",
-      "desc": "Empathetic sense grants Wisdom\u00a0% to reveal a Contact's hidden Traits during any interaction where money changes hands",
+      "desc": "Empathetic sense grants Wisdom\u00a0% chance to reveal a Contact's hidden Traits during any interaction where money changes hands",
       "cool": 180,
       "type": 34,
       "icon": "talent_diplo_quality"
@@ -17277,7 +17277,7 @@
     "276": {
       "_id": 276,
       "name": "Keen Senses",
-      "desc": "When Exploring a Wild Zone, reroll any card",
+      "desc": "When Exploring a Wild Zone, reroll any risk card",
       "cool": 30,
       "type": 51,
       "icon": "talent_explorer_reroll"
@@ -17469,7 +17469,7 @@
     "301": {
       "_id": 301,
       "name": "Cloak and Dagger",
-      "desc": "When Spying in the orbit of a system, replace a risk card with an Mission Success reward card",
+      "desc": "When Spying in the orbit of a system, replace a risk card with a Mission Success reward card",
       "cool": 30,
       "type": 53,
       "icon": "talent_spy_mission"
@@ -17517,7 +17517,7 @@
     "307": {
       "_id": 307,
       "name": "Sneak Attack",
-      "desc": "In crew combat, Crippling Pistol Attack with +10% Ranged Damage, +10% Critical; successful hit 50% Stun target and causes -4 Initiative for 3 Turns; Requires but ends Stealth Mode to use",
+      "desc": "In crew combat, Crippling Pistol Attack with +10% Ranged Damage, +10% Critical; successful hit causes 50% Stun to target and causes -4 Initiative for 3 Turns; Requires but ends Stealth Mode to use",
       "cool": 1,
       "type": -1,
       "icon": "talent_combat_spy_sneak"
@@ -17581,7 +17581,7 @@
     "317": {
       "_id": 317,
       "name": "Bombardment",
-      "desc": "Under continual attack an enemy ship struggles to return fire. If any ship weapons hit, this Crippling Attack causes -15% Accuracy, -10% Dmg, -5% Armor for the next 3 Turns",
+      "desc": "Under continual attack an enemy ship struggles to return fire. If any ship weapons hit, this Crippling Attack causes -15% Accuracy, -10% to Hit Craft, -10% Dmg, -5% Armor for the next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gunner_bombardment"
@@ -17709,7 +17709,7 @@
     "338": {
       "_id": 338,
       "name": "Bullet Trace",
-      "desc": "In crew combat, Crippling Rifle Attack with +10% Ranged Accuracy, +15% Armor Piercing; successful hit causes -15% Deflection, -15% Dodge for 2 Turns",
+      "desc": "In crew combat, Crippling Rifle Attack with +10% Ranged Accuracy, +15% Armor Piercing; successful hit causes -15% Deflection, -15% Dodge for 2 Turns and removes all Buffs from target",
       "cool": 1,
       "type": -1,
       "icon": "talent_combat_sniper_trace"
@@ -17877,7 +17877,7 @@
     "359": {
       "_id": 359,
       "name": "Murderous Tribute",
-      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited ship types by Conflicts). Requires Military Rank or Edict and a tithe of 40% of the ship's value but strike a blow in the Conflict, losing 75 Reputation with the enemy",
+      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited enemy types by Conflicts). Requires Military Rank or Edict and a tithe of 40% of the ship's value but strike a blow in the Conflict, losing 75 Reputation with the enemy",
       "cool": 360,
       "type": 97,
       "icon": "talent_prize_ship_pirate"
@@ -17885,7 +17885,7 @@
     "360": {
       "_id": 360,
       "name": "Fanatical Court",
-      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited ship types by Conflicts). Requires Military Rank or Edict and a tithe of 65% of the ship's value but strike a blow in the Conflict, losing 40 Reputation with the enemy",
+      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited enemy types by Conflicts). Requires Military Rank or Edict and a tithe of 65% of the ship's value but strike a blow in the Conflict, losing 40 Reputation with the enemy",
       "cool": 360,
       "type": 97,
       "icon": "talent_prize_ship_zealot"
@@ -17893,7 +17893,7 @@
     "361": {
       "_id": 361,
       "name": "Military Tribunal",
-      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited ship types by Conflicts). Requires Military Rank or Edict and a tithe of 75% of the ship's value but strike a blow in the Conflict, losing 30 Reputation with the enemy",
+      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited enemy types by Conflicts). Requires Military Rank or Edict and a tithe of 75% of the ship's value but strike a blow in the Conflict, losing 30 Reputation with the enemy",
       "cool": 360,
       "type": 97,
       "icon": "talent_prize_ship_milofficer"
@@ -18069,7 +18069,7 @@
     "384": {
       "_id": 384,
       "name": "Dogged Treatment",
-      "desc": "Automatically passes a failed Doctor test in any situation, including on board healing, saving lives in accidents, or while exploring",
+      "desc": "Automatically passes a failed Doctor test in any situation, including deep space travel, orbital ops or exploring or during a mission",
       "cool": 60,
       "type": 8,
       "icon": "talent_skill_doctor"
@@ -18397,7 +18397,7 @@
     "447": {
       "_id": 447,
       "name": "Breacher's Assault",
-      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (close, board, retreat, land) to make a boarding run against the enemy ship. When attempting boarding causes -10 Boarding, -10% Accuracy, -10% Shield, -10 Escape for the next 3 Turns",
+      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (launch, close, board, land) to make a boarding run against the enemy ship. When attempting boarding causes -10 Boarding, -10% Accuracy, -10% Shield, -10 Escape for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_shuttle_board"
@@ -18453,7 +18453,7 @@
     "454": {
       "_id": 454,
       "name": "Boarder's Storm",
-      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (close, board, retreat, land) to make a boarding run against the enemy ship. When attempting boarding causes -20% Defense, -10% Shield, -10 Range Change for the next 3 Turns",
+      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (launch, close, board, land) to make a boarding run against the enemy ship. When attempting boarding causes -20% Defense, -10% Shield, -10 Range Change for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_shuttle_board_debuff"
@@ -18469,7 +18469,7 @@
     "457": {
       "_id": 457,
       "name": "Grandiose Arrival",
-      "desc": "When completing Mission steps that pick up or drop off a new Passenger or Prisoner on an urban zone, gain up to 20% + Pilot Skill profit",
+      "desc": "When completing Mission steps that pick up or drop off a new Passenger or Prisoner on an urban zone as the pilot of a Shuttle craft, gain up to 20% + Pilot Skill profit",
       "cool": 90,
       "type": 11,
       "icon": "talent_commando_mission_increase"
@@ -18477,7 +18477,7 @@
     "458": {
       "_id": 458,
       "name": "Bombing Run",
-      "desc": "Launch a Bomber craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a bombing run against the enemy ship. If the attack run hits, causes -1 Reactor Pts, -25% Accuracy, -25% Defense for the next 3 Turns",
+      "desc": "Launch a Bomber craft with a 4 Turn flight plan (launch, close, bomb, land) to make a bombing run against the enemy ship. If the attack run hits, causes -1 Reactor Pts, -25% Accuracy, -25% Defense for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_bomber_debuff"
@@ -18485,7 +18485,7 @@
     "459": {
       "_id": 459,
       "name": "Hull Buster",
-      "desc": "Launch a Bomber craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a bombing run against the enemy ship with +40% Dmg. If the attack run hits, causes +10 Component Dmg/Turn for the next 3 Turns",
+      "desc": "Launch a Bomber craft with a 4 Turn flight plan (launch, close, bomb, land) to make a bombing run against the enemy ship with +40% Dmg. If the attack run hits, causes +10 Component Dmg/Turn for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_bomber_bigdmg"
@@ -18525,7 +18525,7 @@
     "464": {
       "_id": 464,
       "name": "Shutter Strike Pattern",
-      "desc": "Launch a Bomber craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a bombing run against the enemy ship. If the attack run hits, causes -1 Reactor Pts, -20% Shield, -20% Armor for the next 3 Turns",
+      "desc": "Launch a Bomber craft with a 4 Turn flight plan (launch, close, bomb, land) to make a bombing run against the enemy ship. If the attack run hits, causes -1 Reactor Pts, -20% Shield, -20% Armor for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_bomber_debuff2"
@@ -18533,7 +18533,7 @@
     "465": {
       "_id": 465,
       "name": "PX Incendiary Payload",
-      "desc": "Launch a Bomber craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a bombing run against the enemy ship. If the attack run hits, causes +25 Component Dmg/Turn, +25 Morale Dmg/Turn, +25 Crew Dmg/Turn for the next 3 Turns",
+      "desc": "Launch a Bomber craft with a 4 Turn flight plan (launch, close, bomb, land) to make a bombing run against the enemy ship. If the attack run hits, causes +25 Component Dmg/Turn, +25 Morale Dmg/Turn, +25 Crew Dmg/Turn for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_bomber_debuff3"
@@ -18541,7 +18541,7 @@
     "466": {
       "_id": 466,
       "name": "Intimidating Fly Over",
-      "desc": "When completing Mission steps in an urban zone, increase faction Reputation bonuses 20% + Pilot Skill with a chance add -1 Rep loss with local faction",
+      "desc": "When completing Mission steps in an urban zone as the pilot of a Bomber craft, increase faction Reputation bonuses 20% + Pilot Skill with a chance add -1 Rep loss with local faction",
       "cool": 90,
       "type": 11,
       "icon": "talent_increase_mission_rep_bomber"
@@ -18573,7 +18573,7 @@
     "470": {
       "_id": 470,
       "name": "Havoc Burst Pattern",
-      "desc": "Launch a Bomber craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a bombing run against the enemy ship with +10% Dmg, +55% Critical. If the attack run hits, causes -10% Shield, -10% Armor for the next 3 Turns",
+      "desc": "Launch a Bomber craft with a 4 Turn flight plan (launch, close, bomb, land) to make a bombing run against the enemy ship with +10% Dmg, +55% Critical. If the attack run hits, causes -10% Shield, -10% Armor for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_bomber_critical"
@@ -18589,7 +18589,7 @@
     "472": {
       "_id": 472,
       "name": "Strafing Run",
-      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a attack run against the enemy ship with +25% Dmg. If the attack run hits, causes -10% Accuracy, -40% to Hit Craft, -10% Dmg for the next 3 Turns",
+      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (launch, close, attack, land) to make a attack run against the enemy ship with +25% Dmg. If the attack run hits, causes -20% Accuracy, -40% to Hit Craft, -20% Dmg, -10 Range Change for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_interdictor_attack"
@@ -18621,7 +18621,7 @@
     "476": {
       "_id": 476,
       "name": "Precise Pursuit",
-      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a attack run against the enemy ship with +50% to Hit Craft. If the attack run hits, causes -20 Escape, -30 Radiation Resist, -30 Void Resist for the next 3 Turns",
+      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (launch, close, attack, land) to make a attack run against the enemy ship with +50% to Hit Craft. If the attack run hits, causes -30 Escape, -35 Radiation Resist, -35 Void Resist, +20 Morale Dmg/Turn for the next 3 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_interdictor_debuff"
@@ -18661,7 +18661,7 @@
     "481": {
       "_id": 481,
       "name": "Interdiction Swarm",
-      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (close, bomb, retreat, land) to make a attack run against the enemy ship with +10% to Hit Craft, +25% Critical. If the attack run hits, causes Inability to Launch Craft, -1 Reactor Pts, -20 Range Change for the next 2 Turns",
+      "desc": "Launch a Interdictor craft with a 4 Turn flight plan (launch, close, attack, land) to make a attack run against the enemy ship with +10% to Hit Craft, +25% Critical. If the attack run hits, causes Inability to Launch Craft, -2 Reactor Pts, -30% Defense, -30 Range Change for the next 2 Turns",
       "cool": 0,
       "type": 113,
       "icon": "talent_plan_interdictor_attack2"
@@ -18693,7 +18693,7 @@
     "485": {
       "_id": 485,
       "name": "Recovery Pod",
-      "desc": "When a craft is destroyed in ship combat, the pilot is saved and restored to HP equal to Doctor Skill + 3 x Medical Rating of onboard medical components",
+      "desc": "When a craft is destroyed in ship combat, the pilot is saved and restored to HP equal to Repair Skill + 3 x Medical Rating of onboard medical components",
       "cool": 30,
       "type": 109,
       "icon": "talent_wingtech_lifesaver"
@@ -18789,7 +18789,7 @@
     "497": {
       "_id": 497,
       "name": "Hostile Tribunal",
-      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited ship types by Conflicts). Requires Military Rank or Edict and a tithe of 50% of the ship's value but strike a blow in the Conflict, losing 60 Reputation with the enemy",
+      "desc": "Seize a defeated enemy ship during a Conflict at a local prize court (limited enemy types by Conflicts). Requires Military Rank or Edict and a tithe of 50% of the ship's value but strike a blow in the Conflict, losing 60 Reputation with the enemy",
       "cool": 360,
       "type": 97,
       "icon": "talent_prize_ship_commando"
@@ -18813,7 +18813,7 @@
     "500": {
       "_id": 500,
       "name": "Hunt and Seek",
-      "desc": "Debuffs launched enemy Craft with -10% Hit Chance, -30% Craft Evasion for next 3 Turns",
+      "desc": "Buffs launched friendly Craft with +20% Hit Chance, +30% Critical for next 3 Turns",
       "cool": 90,
       "type": -2,
       "icon": "talent_etech_ecm_surge"
@@ -18821,7 +18821,7 @@
     "501": {
       "_id": 501,
       "name": "ECCM Surge",
-      "desc": "",
+      "desc": "Debuffs launched enemy Craft with -10% Hit Chance, -30% Craft Evasion for next 3 Turns",
       "cool": 90,
       "type": -2,
       "icon": "talent_etech_huntseek"
@@ -18869,7 +18869,7 @@
     "507": {
       "_id": 507,
       "name": "Bullseye Certainty",
-      "desc": "Tactics save",
+      "desc": "Automatically passes a failed Tactics test in any situation, including on patrol, deep space travel, or during a mission",
       "cool": 30,
       "type": 5,
       "icon": "talent_skill_tactics"
@@ -18877,7 +18877,7 @@
     "508": {
       "_id": 508,
       "name": "Pathfinder's Lead",
-      "desc": "Tactics save",
+      "desc": "Automatically passes a failed Command test in any situation, including deep space travel, mutiny or during a mission",
       "cool": 30,
       "type": 7,
       "icon": "talent_skill_command"
@@ -18885,7 +18885,7 @@
     "509": {
       "_id": 509,
       "name": "Baleful Grimace",
-      "desc": "Prevent Intimidate Failures.",
+      "desc": "Automatically passes a failed Intimidate test in any situation, including deep space travel, mutiny, or during a mission",
       "cool": 30,
       "type": 9,
       "icon": "talent_skill_intimidate"
@@ -18901,7 +18901,7 @@
     "511": {
       "_id": 511,
       "name": "Unyielding Force",
-      "desc": "Prevents Intimidate failure.",
+      "desc": "Automatically passes a failed Intimidate test in any situation, including deep space travel, mutiny, or during a mission",
       "cool": 30,
       "type": 9,
       "icon": "talent_skill_intimidate"
@@ -18909,7 +18909,7 @@
     "512": {
       "_id": 512,
       "name": "Exposed Shot",
-      "desc": "",
+      "desc": "In crew combat, Pistol Attack with +30% Ranged Accuracy, -20% Ranged Damage, +15% Armor Piercing. Successful attack Debuffs yourself with -10% Parry, -10% Dodge for 2 Turns",
       "cool": 1,
       "type": -1,
       "icon": "talent_pistoleer_exposed"
@@ -18917,7 +18917,7 @@
     "513": {
       "_id": 513,
       "name": "Confounding Gunplay",
-      "desc": "",
+      "desc": "In crew combat, Crippling Pistol Attack with +15% Ranged Accuracy, +10% Ranged Damage; successful hit causes 50% Stun to target and causes -10% All Accuracy for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_pistoleer_confound"
@@ -18925,7 +18925,7 @@
     "514": {
       "_id": 514,
       "name": "Incensed Strikes",
-      "desc": "",
+      "desc": "In crew combat, Crippling Blade Attack with +10% Critical; successful hit causes -3 Initiative, -10% Parry, -10 Bleed Resist for 2 Turns and removes all Buffs from target",
       "cool": 3,
       "type": -1,
       "icon": "talent_combat_zealot_incensed"
@@ -18941,7 +18941,7 @@
     "516": {
       "_id": 516,
       "name": "Shrapnel Shell",
-      "desc": "",
+      "desc": "In crew combat, Crippling Rifle Attack with +25% Ranged Damage, -25% Armor Piercing, +20% Critical; successful hit causes +22 Bleeding, -20% Parry for 3 Turns",
       "cool": 1,
       "type": -1,
       "icon": "talent_soldier_shrapnel"
@@ -18957,7 +18957,7 @@
     "518": {
       "_id": 518,
       "name": "One Step Ahead",
-      "desc": "Prevent Tactics Failures'",
+      "desc": "Automatically passes a failed Tactics test in any situation, including on patrol, deep space travel, or during a mission",
       "cool": 3,
       "type": 5,
       "icon": "talent_skill_tactics"
@@ -18965,7 +18965,7 @@
     "519": {
       "_id": 519,
       "name": "Protective Instincts",
-      "desc": "",
+      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with +3 Initiative, +10% Parry, +10% Dodge, +10% Armor for 3 Turns",
       "cool": 0,
       "type": 29,
       "icon": "talent_combat_bodyguard_protector"
@@ -18973,7 +18973,7 @@
     "520": {
       "_id": 520,
       "name": "Screening Fire",
-      "desc": "",
+      "desc": "In crew combat, Crippling Pistol Attack causes -10% All Accuracy, -20% All Damage, -10% Armor Piercing for 3 Turns, knocks target back 1 slot",
       "cool": 1,
       "type": -1,
       "icon": "talent_combat_bodyguard_screening"
@@ -18981,7 +18981,7 @@
     "521": {
       "_id": 521,
       "name": "Low Blow",
-      "desc": "",
+      "desc": "In crew combat, Crippling Blade Attack; successful hit Causes 25% Stun, -15% Armor Piercing, -10% Critical Chance for 3 Turns",
       "cool": 1,
       "type": -1,
       "icon": "talent_bodyguard_combat_lowblow"
@@ -18989,7 +18989,7 @@
     "522": {
       "_id": 522,
       "name": "Tactical Shove",
-      "desc": "",
+      "desc": "In crew combat, Removes all Debuffs; Buffs with +10% Parry, +10% Dodge for 3 Turns, pulls target back 1 slot",
       "cool": 8,
       "type": -1,
       "icon": "talent_combat_bodyguard_shove"
@@ -18997,7 +18997,7 @@
     "523": {
       "_id": 523,
       "name": "Hamstring Slice",
-      "desc": "",
+      "desc": "In crew combat, Crippling Blade Attack; successful hit Pins Target and causes -3 Initiative, -15% All Damage for 3 Turns",
       "cool": 1,
       "type": -1,
       "icon": "talent_combat_bodyguard_hamstring"
@@ -19005,7 +19005,7 @@
     "524": {
       "_id": 524,
       "name": "Inspiring Rally",
-      "desc": "",
+      "desc": "In crew combat, Removes all Debuffs; Restores entire team (25 + 0 Tactics) Morale",
       "cool": 12,
       "type": -1,
       "icon": "talent_bodyguard_combat_rally"
@@ -19013,7 +19013,7 @@
     "525": {
       "_id": 525,
       "name": "Honor Guard",
-      "desc": "",
+      "desc": "In crew combat, Removes all Debuffs; Buffs with +15% Deflection, Auto-Blocks 75% of all attacks, 50% chance to end after each block for 3 Turns",
       "cool": 10,
       "type": -1,
       "icon": "talent_combat_bodyguard_overguard"
@@ -19021,7 +19021,7 @@
     "526": {
       "_id": 526,
       "name": "Strategic Reset",
-      "desc": "",
+      "desc": "In crew combat, Removes all Debuffs; Buffs 2 targets with +1 Initiative, +25% To Resist Debuffs for 2 Turns",
       "cool": 6,
       "type": -1,
       "icon": "talent_combat_bodyguard_strat"
@@ -19029,7 +19029,7 @@
     "527": {
       "_id": 527,
       "name": "Body Shot",
-      "desc": "",
+      "desc": "In crew combat, Crippling Pistol Attack; successful hit Pins Target and causes 25% Stun for 3 Turns, knocks target back 1 slot",
       "cool": 3,
       "type": -1,
       "icon": "talent_combat_bodyguard_bodyshot"
@@ -19037,7 +19037,7 @@
     "528": {
       "_id": 528,
       "name": "Defensive Striker",
-      "desc": "",
+      "desc": "In crew combat, Blade Attack with +25% Melee Accuracy. Successful attack Buffs yourself with +2 Initiative, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_combat_bodyguard_honorguard"
