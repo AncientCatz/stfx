@@ -5763,7 +5763,8 @@
       "passengers": 1,
       "install_cost": 70250,
       "armor": 1,
-      "shield": 1
+      "shield": 1,
+      "shipops": 3
     },
     "18": {
       "_id": 18,
@@ -5773,7 +5774,8 @@
       "size": "small",
       "mass": 125,
       "passengers": 1,
-      "install_cost": 9000
+      "install_cost": 9000,
+      "shipops": 2
     },
     "19": {
       "_id": 19,
@@ -5783,7 +5785,8 @@
       "size": "small",
       "mass": 125,
       "prisoners": 1,
-      "install_cost": 8500
+      "install_cost": 8500,
+      "shipops": 2
     },
     "20": {
       "_id": 20,
@@ -5953,7 +5956,8 @@
       "size": "medium",
       "mass": 325,
       "prisoners": 3,
-      "install_cost": 22960
+      "install_cost": 22960,
+      "shipops": 3
     },
     "32": {
       "_id": 32,
@@ -8188,7 +8192,7 @@
       "gunnery": 12,
       "electronics": 2,
       "weapon": {
-        "accuracy": 14,
+        "accuracy": 18,
         "hitcraft": 30,
         "ap": 3,
         "range": 4,
@@ -8200,8 +8204,8 @@
         "damage_min": 131,
         "damage_max": 230,
         "effect": "rad",
-        "effect_min": 25,
-        "effect_max": 80,
+        "effect_min": 28,
+        "effect_max": 90,
         "effect_chance": 30
       }
     },
@@ -8933,7 +8937,8 @@
       "mass": 500,
       "passengers": 3,
       "install_cost": 172080,
-      "shield": 2
+      "shield": 2,
+      "shipops": 4
     },
     "291": {
       "_id": 291,
@@ -9899,7 +9904,8 @@
       "size": "medium",
       "mass": 325,
       "passengers": 2,
-      "install_cost": 36750
+      "install_cost": 36750,
+      "shipops": 3
     },
     "372": {
       "_id": 372,
@@ -11930,7 +11936,7 @@
       "prisoners": 1,
       "install_cost": 85000,
       "shield": 2,
-      "shipops": 2
+      "shipops": 4
     },
     "520": {
       "_id": 520,
@@ -11944,7 +11950,7 @@
       "prisoners": 3,
       "install_cost": 175000,
       "shield": 4,
-      "shipops": 2
+      "shipops": 4
     },
     "521": {
       "_id": 521,
@@ -12026,7 +12032,8 @@
       "mass": 520,
       "passengers": 3,
       "install_cost": 202800,
-      "shield": 2
+      "shield": 2,
+      "shipops": 5
     },
     "526": {
       "_id": 526,
