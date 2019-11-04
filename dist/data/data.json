@@ -3117,6 +3117,177 @@
         ]
       ]
     },
+    "21": {
+      "_id": 21,
+      "name": "Gundeck Boss",
+      "skills": [
+        "gunnery",
+        "intimidate",
+        "repair"
+      ],
+      "levels": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          3,
+          1
+        ],
+        [
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [
+          5,
+          5,
+          3
+        ],
+        [
+          6,
+          5,
+          3
+        ],
+        [
+          6,
+          5,
+          4
+        ],
+        [
+          7,
+          6,
+          4
+        ],
+        [
+          8,
+          6,
+          4
+        ],
+        [
+          8,
+          6,
+          5
+        ],
+        [
+          8,
+          7,
+          5
+        ],
+        [
+          9,
+          8,
+          5
+        ],
+        [
+          10,
+          8,
+          5
+        ],
+        [
+          10,
+          9,
+          5
+        ],
+        [
+          10,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          5
+        ],
+        [
+          11,
+          10,
+          6
+        ],
+        [
+          12,
+          10,
+          6
+        ],
+        [
+          13,
+          11,
+          6
+        ],
+        [
+          13,
+          12,
+          6
+        ],
+        [
+          13,
+          13,
+          6
+        ],
+        [
+          14,
+          13,
+          6
+        ],
+        [
+          14,
+          14,
+          7
+        ],
+        [
+          14,
+          14,
+          7
+        ],
+        [
+          15,
+          14,
+          7
+        ],
+        [
+          15,
+          15,
+          7
+        ],
+        [
+          16,
+          15,
+          8
+        ],
+        [
+          17,
+          15,
+          8
+        ],
+        [
+          17,
+          16,
+          9
+        ]
+      ]
+    },
     "23": {
       "_id": 23,
       "name": "Commander",
@@ -7127,7 +7298,7 @@
       "mass": 300,
       "install_cost": 41000,
       "shipops": 2,
-      "gunnery": 6,
+      "gunnery": 7,
       "weapon": {
         "accuracy": 5,
         "hitcraft": 80,
@@ -7153,7 +7324,7 @@
       "mass": 100,
       "install_cost": 17920,
       "shipops": 2,
-      "gunnery": 5,
+      "gunnery": 6,
       "weapon": {
         "accuracy": 6,
         "hitcraft": 65,
@@ -7179,7 +7350,7 @@
       "mass": 100,
       "install_cost": 23720,
       "shipops": 3,
-      "gunnery": 6,
+      "gunnery": 9,
       "weapon": {
         "accuracy": 6,
         "hitcraft": 65,
@@ -7205,7 +7376,7 @@
       "mass": 100,
       "install_cost": 30480,
       "shipops": 3,
-      "gunnery": 7,
+      "gunnery": 10,
       "weapon": {
         "accuracy": 10,
         "hitcraft": 65,
@@ -7231,7 +7402,7 @@
       "mass": 100,
       "install_cost": 220460,
       "shipops": 3,
-      "gunnery": 8,
+      "gunnery": 12,
       "weapon": {
         "accuracy": 11,
         "hitcraft": 75,
@@ -7287,7 +7458,7 @@
       "mass": 150,
       "install_cost": 17000,
       "shipops": 2,
-      "gunnery": 6,
+      "gunnery": 7,
       "electronics": 1,
       "weapon": {
         "accuracy": 6,
@@ -7317,7 +7488,7 @@
       "mass": 350,
       "install_cost": 56720,
       "shipops": 2,
-      "gunnery": 8,
+      "gunnery": 9,
       "electronics": 1,
       "weapon": {
         "accuracy": 8,
@@ -7347,7 +7518,7 @@
       "mass": 150,
       "install_cost": 25680,
       "shipops": 3,
-      "gunnery": 6,
+      "gunnery": 9,
       "electronics": 1,
       "weapon": {
         "accuracy": 6,
@@ -7377,7 +7548,7 @@
       "mass": 350,
       "install_cost": 89120,
       "shipops": 3,
-      "gunnery": 7,
+      "gunnery": 10,
       "electronics": 2,
       "weapon": {
         "accuracy": 8,
@@ -7407,7 +7578,7 @@
       "mass": 150,
       "install_cost": 245320,
       "shipops": 3,
-      "gunnery": 8,
+      "gunnery": 12,
       "electronics": 2,
       "weapon": {
         "accuracy": 9,
@@ -7497,7 +7668,7 @@
       "mass": 100,
       "install_cost": 17000,
       "shipops": 2,
-      "gunnery": 6,
+      "gunnery": 7,
       "electronics": 1,
       "weapon": {
         "accuracy": 4,
@@ -7527,7 +7698,7 @@
       "mass": 300,
       "install_cost": 56720,
       "shipops": 2,
-      "gunnery": 8,
+      "gunnery": 9,
       "electronics": 1,
       "weapon": {
         "accuracy": 5,
@@ -7557,7 +7728,7 @@
       "mass": 100,
       "install_cost": 27640,
       "shipops": 3,
-      "gunnery": 6,
+      "gunnery": 9,
       "electronics": 2,
       "weapon": {
         "accuracy": 6,
@@ -7587,7 +7758,7 @@
       "mass": 300,
       "install_cost": 98720,
       "shipops": 3,
-      "gunnery": 9,
+      "gunnery": 11,
       "electronics": 2,
       "weapon": {
         "accuracy": 10,
@@ -7617,7 +7788,7 @@
       "mass": 300,
       "install_cost": 284820,
       "shipops": 3,
-      "gunnery": 10,
+      "gunnery": 12,
       "electronics": 2,
       "weapon": {
         "accuracy": 11,
@@ -7647,7 +7818,7 @@
       "mass": 300,
       "install_cost": 33440,
       "shipops": 3,
-      "gunnery": 4,
+      "gunnery": 6,
       "electronics": 1,
       "weapon": {
         "accuracy": 6,
@@ -7674,10 +7845,10 @@
       "type": "weapon",
       "name": "Helios X Railgun",
       "size": "medium",
-      "mass": 300,
+      "mass": 310,
       "install_cost": 42500,
       "shipops": 3,
-      "gunnery": 5,
+      "gunnery": 6,
       "electronics": 1,
       "weapon": {
         "accuracy": 7,
@@ -7707,7 +7878,7 @@
       "mass": 300,
       "install_cost": 50240,
       "shipops": 3,
-      "gunnery": 5,
+      "gunnery": 6,
       "electronics": 1,
       "weapon": {
         "accuracy": 10,
@@ -7737,7 +7908,7 @@
       "mass": 300,
       "install_cost": 69980,
       "shipops": 4,
-      "gunnery": 5,
+      "gunnery": 9,
       "electronics": 2,
       "weapon": {
         "accuracy": 10,
@@ -7767,7 +7938,7 @@
       "mass": 300,
       "install_cost": 85280,
       "shipops": 4,
-      "gunnery": 5,
+      "gunnery": 9,
       "electronics": 2,
       "weapon": {
         "accuracy": 12,
@@ -7797,7 +7968,7 @@
       "mass": 300,
       "install_cost": 292680,
       "shipops": 4,
-      "gunnery": 6,
+      "gunnery": 10,
       "electronics": 2,
       "weapon": {
         "accuracy": 14,
@@ -7879,7 +8050,7 @@
       "mass": 350,
       "install_cost": 42500,
       "shipops": 2,
-      "gunnery": 7,
+      "gunnery": 8,
       "weapon": {
         "accuracy": 3,
         "hitcraft": 0,
@@ -7905,7 +8076,7 @@
       "mass": 350,
       "install_cost": 52400,
       "shipops": 2,
-      "gunnery": 7,
+      "gunnery": 9,
       "weapon": {
         "accuracy": 3,
         "hitcraft": 0,
@@ -7931,7 +8102,7 @@
       "mass": 350,
       "install_cost": 69980,
       "shipops": 3,
-      "gunnery": 8,
+      "gunnery": 10,
       "weapon": {
         "accuracy": 4,
         "hitcraft": 0,
@@ -7957,7 +8128,7 @@
       "mass": 600,
       "install_cost": 188720,
       "shipops": 3,
-      "gunnery": 9,
+      "gunnery": 11,
       "weapon": {
         "accuracy": 5,
         "hitcraft": 0,
@@ -7983,7 +8154,7 @@
       "mass": 600,
       "install_cost": 348260,
       "shipops": 2,
-      "gunnery": 10,
+      "gunnery": 14,
       "weapon": {
         "accuracy": 6,
         "hitcraft": 0,
@@ -8069,7 +8240,7 @@
       "mass": 125,
       "install_cost": 18000,
       "shipops": 2,
-      "gunnery": 7,
+      "gunnery": 8,
       "electronics": 1,
       "weapon": {
         "accuracy": 11,
@@ -8129,7 +8300,7 @@
       "mass": 125,
       "install_cost": 32540,
       "shipops": 2,
-      "gunnery": 10,
+      "gunnery": 11,
       "electronics": 1,
       "weapon": {
         "accuracy": 15,
@@ -8159,7 +8330,7 @@
       "mass": 125,
       "install_cost": 42000,
       "shipops": 2,
-      "gunnery": 11,
+      "gunnery": 12,
       "electronics": 1,
       "weapon": {
         "accuracy": 17,
@@ -8189,7 +8360,7 @@
       "mass": 125,
       "install_cost": 242680,
       "shipops": 2,
-      "gunnery": 12,
+      "gunnery": 13,
       "electronics": 2,
       "weapon": {
         "accuracy": 18,
@@ -8249,7 +8420,7 @@
       "mass": 325,
       "install_cost": 47000,
       "shipops": 3,
-      "gunnery": 6,
+      "gunnery": 7,
       "electronics": 3,
       "weapon": {
         "accuracy": 11,
@@ -8339,7 +8510,7 @@
       "mass": 110,
       "install_cost": 58640,
       "shipops": 3,
-      "gunnery": 12,
+      "gunnery": 13,
       "electronics": 3,
       "weapon": {
         "accuracy": 14,
@@ -8369,7 +8540,7 @@
       "mass": 110,
       "install_cost": 252240,
       "shipops": 2,
-      "gunnery": 13,
+      "gunnery": 15,
       "electronics": 4,
       "weapon": {
         "accuracy": 16,
@@ -9497,7 +9668,8 @@
       "armor": 10,
       "jump_cost": 9,
       "shipops": 1,
-      "electronics": 1
+      "electronics": 3,
+      "boarding": 3
     },
     "349": {
       "_id": 349,
@@ -9511,7 +9683,8 @@
       "armor": 12,
       "jump_cost": 9,
       "shipops": 1,
-      "electronics": 2
+      "electronics": 4,
+      "boarding": 6
     },
     "350": {
       "_id": 350,
@@ -9525,7 +9698,8 @@
       "armor": 14,
       "jump_cost": 10,
       "shipops": 1,
-      "electronics": 3
+      "electronics": 5,
+      "boarding": 10
     },
     "351": {
       "_id": 351,
@@ -10367,7 +10541,7 @@
       "mass": 125,
       "install_cost": 13840,
       "shipops": 2,
-      "gunnery": 3,
+      "gunnery": 4,
       "electronics": 2,
       "weapon": {
         "accuracy": 5,
@@ -10427,7 +10601,7 @@
       "mass": 125,
       "install_cost": 28640,
       "shipops": 2,
-      "gunnery": 4,
+      "gunnery": 6,
       "electronics": 2,
       "weapon": {
         "accuracy": 7,
@@ -10487,7 +10661,7 @@
       "mass": 125,
       "install_cost": 42540,
       "shipops": 3,
-      "gunnery": 4,
+      "gunnery": 8,
       "electronics": 3,
       "weapon": {
         "accuracy": 8,
@@ -10517,7 +10691,7 @@
       "mass": 300,
       "install_cost": 58600,
       "shipops": 3,
-      "gunnery": 11,
+      "gunnery": 12,
       "electronics": 2,
       "weapon": {
         "accuracy": 14,
@@ -11335,7 +11509,7 @@
       "mass": 550,
       "install_cost": 128400,
       "shipops": 2,
-      "gunnery": 7,
+      "gunnery": 9,
       "electronics": 2,
       "weapon": {
         "accuracy": 7,
@@ -11365,7 +11539,7 @@
       "mass": 550,
       "install_cost": 158400,
       "shipops": 3,
-      "gunnery": 8,
+      "gunnery": 11,
       "electronics": 2,
       "weapon": {
         "accuracy": 9,
@@ -11395,7 +11569,7 @@
       "mass": 550,
       "install_cost": 226800,
       "shipops": 4,
-      "gunnery": 10,
+      "gunnery": 11,
       "electronics": 2,
       "weapon": {
         "accuracy": 11,
@@ -11425,7 +11599,7 @@
       "mass": 600,
       "install_cost": 126800,
       "shipops": 2,
-      "gunnery": 6,
+      "gunnery": 8,
       "weapon": {
         "accuracy": 3,
         "hitcraft": 0,
@@ -11451,7 +11625,7 @@
       "mass": 600,
       "install_cost": 168000,
       "shipops": 2,
-      "gunnery": 8,
+      "gunnery": 12,
       "weapon": {
         "accuracy": 4,
         "hitcraft": 0,
@@ -12109,7 +12283,7 @@
       "mass": 550,
       "install_cost": 280860,
       "shipops": 3,
-      "gunnery": 11,
+      "gunnery": 12,
       "electronics": 3,
       "weapon": {
         "accuracy": 10,
@@ -12139,7 +12313,7 @@
       "mass": 550,
       "install_cost": 148640,
       "shipops": 2,
-      "gunnery": 8,
+      "gunnery": 9,
       "electronics": 2,
       "weapon": {
         "accuracy": 8,
@@ -14606,6 +14780,9 @@
       "11": [
         35,
         36
+      ],
+      "15": [
+        549
       ]
     },
     "30": {
@@ -14961,8 +15138,7 @@
         198,
         202,
         204,
-        392,
-        503
+        392
       ],
       "1": [
         199,
@@ -14978,10 +15154,11 @@
         203,
         205,
         393,
-        502
+        503
       ],
       "11": [
-        206
+        206,
+        502
       ]
     },
     "16": {
@@ -15138,7 +15315,8 @@
         511
       ],
       "11": [
-        271
+        271,
+        550
       ]
     },
     "18": {
@@ -15409,6 +15587,29 @@
       "11": [
         526,
         529
+      ]
+    },
+    "21": {
+      "1": [
+        531,
+        532,
+        533,
+        534,
+        535
+      ],
+      "5": [
+        536,
+        538,
+        539
+      ],
+      "8": [
+        537,
+        540,
+        541
+      ],
+      "11": [
+        542,
+        543
       ]
     }
   },
@@ -16088,7 +16289,7 @@
     "108": {
       "_id": 108,
       "name": "Incite Victory",
-      "desc": "Buffs Ship with +20 Boarding, +25% Accuracy, +25% Dmg, +25% Critical for next 3 Turns, Restores Command Skill worth of Morale to 10 Crew",
+      "desc": "Buffs Ship with +10 Boarding, +10% Accuracy, +20% Dmg, +10% Critical for next 3 Turns, Restores Command Skill worth of Morale to 10 Crew",
       "cool": 30,
       "type": -2,
       "icon": "talent_mo_incitevictory"
@@ -16112,7 +16313,7 @@
     "111": {
       "_id": 111,
       "name": "Vigilant Search",
-      "desc": "When Exploring a Wild Zone, reroll any card",
+      "desc": "When Exploring a Wild Zone, reroll any risk card",
       "cool": 30,
       "type": 51,
       "icon": "talent_explorer_reroll"
@@ -16704,7 +16905,7 @@
     "198": {
       "_id": 198,
       "name": "Meteor Defense",
-      "desc": "Reduces damage caused to your ship and crew from a Meteor Storm in orbit of a system by up to Gunnery Skill",
+      "desc": "Defensive fire protects ship from a Meteor Storm in orbit of a system. Reduces ship and crew damage by Gunnery Skill",
       "cool": 20,
       "type": 46,
       "icon": "talent_gunner_meteor"
@@ -16720,7 +16921,7 @@
     "200": {
       "_id": 200,
       "name": "Targeting Lock",
-      "desc": "Once a lock is established, your enemy is less likely to escape. If any ship weapons hit, this Crippling Attack causes -10% Defense, -20 Escape for the next 3 Turns",
+      "desc": "Once a lock is established, your enemy is less likely to escape. If any ship weapons hit, this Crippling Attack causes -10% Defense, -20 Escape, +10 Morale Dmg/Turn for the next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gunner_targetinglock"
@@ -16760,7 +16961,7 @@
     "205": {
       "_id": 205,
       "name": "Scattershot",
-      "desc": "If any ship weapons hit, this Crippling Attack causes -10% Armor, -25 Range Change, -10 Escape for the next 3 Turns",
+      "desc": "If any ship weapons hit, this Crippling Attack causes -10% Armor, -25 Range Change, -10 Escape, +10 Morale Dmg/Turn for the next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gunner_scattershot"
@@ -16784,7 +16985,7 @@
     "208": {
       "_id": 208,
       "name": "Fast Getaway",
-      "desc": "Rapid Navigation calculations make for a quick escape. Buffs Ship with +5% Shield, +5% Armor, +20 Escape for next 2 Turns",
+      "desc": "Rapid Navigation calculations make for a quick escape. Buffs Ship with +5% Shield, +5% Armor, +20 Escape for next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_nav_fastgetaway"
@@ -17016,7 +17217,7 @@
     "237": {
       "_id": 237,
       "name": "Sharp Counter",
-      "desc": "In crew combat, Blade Attack. Successful attack Buffs yourself with +25% Parry, +10% Armor, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
+      "desc": "In crew combat, Blade Attack. Successful attack Buffs yourself with +25% Parry, +10% Armor for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_swordsman_sharpcounter"
@@ -17416,7 +17617,7 @@
     "287": {
       "_id": 287,
       "name": "Obsessive Defense",
-      "desc": "When Patrolling a system, replace a card with a Pirate reward card",
+      "desc": "When Patrolling a system, replace a risk card with a Pirate reward card",
       "cool": 30,
       "type": 55,
       "icon": "talent_patrol_pirates"
@@ -17512,7 +17713,7 @@
     "300": {
       "_id": 300,
       "name": "Signature Homing",
-      "desc": "Closing in and locking on makes it hard to dodge your fire. If any ship weapons hit, this Crippling Attack causes -25% Defense, -10% Armor for the next 3 Turns",
+      "desc": "Closing in and locking on makes it hard to dodge your fire. If any ship weapons hit, this Crippling Attack causes -25% Defense, -10% Armor, +10 Morale Dmg/Turn for the next 3 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gunner_homingsig"
@@ -18432,7 +18633,7 @@
     "445": {
       "_id": 445,
       "name": "Whirling Blade",
-      "desc": "In crew combat, Blade Attack with +10% Melee Accuracy, +10% Melee Damage, +10% Armor Piercing. Successful attack Buffs yourself with +15% Parry, +15% Dodge, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
+      "desc": "In crew combat, Blade Attack with +10% Melee Accuracy, +10% Melee Damage, +10% Armor Piercing. Successful attack Buffs yourself with +15% Parry, +15% Dodge for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_commando_raiderstrike"
@@ -18568,7 +18769,7 @@
     "463": {
       "_id": 463,
       "name": "Explosive Screen",
-      "desc": "Reduces damage caused to your ship and crew from a Meteor Storm in orbit of a system by up to Electronics Skill",
+      "desc": "Defensive screen protects ship from a Meteor Storm in orbit of a system. Reduces ship and crew damage by Electronics Skill",
       "cool": 20,
       "type": 46,
       "icon": "talent_bomber_meteor"
@@ -18848,8 +19049,8 @@
     "498": {
       "_id": 498,
       "name": "Knock From the Void",
-      "desc": "Overwhelming interference immediately forces one enemy craft to land regardless of the current progress of their flight plan",
-      "cool": 180,
+      "desc": "Overwhelming interference forces one enemy craft to immediately land regardless of the current progress of their flight plan",
+      "cool": 120,
       "type": -2,
       "icon": "talent_etech_knockvoid"
     },
@@ -18888,7 +19089,7 @@
     "503": {
       "_id": 503,
       "name": "Lightning Lock",
-      "desc": "Buffs Ship with +10% Accuracy, +50% to Hit Craft, +5% Critical for next 2 Turns",
+      "desc": "Buffs Ship with +35% to Hit Craft, +5% Critical for next 2 Turns",
       "cool": 90,
       "type": -2,
       "icon": "talent_gunner_lightning_lock"
@@ -19048,7 +19249,7 @@
     "523": {
       "_id": 523,
       "name": "Hamstring Slice",
-      "desc": "In crew combat, Crippling Blade Attack; successful hit Pins Target and causes -3 Initiative, -15% All Damage for 3 Turns",
+      "desc": "In crew combat, Crippling Blade Attack; successful hit Pins Target and causes -2 Initiative, -10% All Damage for 3 Turns",
       "cool": 1,
       "type": -1,
       "icon": "talent_combat_bodyguard_hamstring"
@@ -19088,7 +19289,7 @@
     "528": {
       "_id": 528,
       "name": "Defensive Striker",
-      "desc": "In crew combat, Blade Attack with +25% Melee Accuracy. Successful attack Buffs yourself with +2 Initiative, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
+      "desc": "In crew combat, Blade Attack with +25% Melee Accuracy. Successful attack Buffs yourself with +2 Initiative for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_combat_bodyguard_honorguard"
@@ -19108,6 +19309,126 @@
       "cool": 90,
       "type": 11,
       "icon": "talent_bodyguard_mission_increase"
+    },
+    "531": {
+      "_id": 531,
+      "name": "Dead Eye",
+      "desc": "",
+      "cool": 60,
+      "type": -2,
+      "icon": "talent_gundeck_deadeye"
+    },
+    "532": {
+      "_id": 532,
+      "name": "Point Defense",
+      "desc": "",
+      "cool": 30,
+      "type": -2,
+      "icon": "talent_gundeck_pointdefense"
+    },
+    "533": {
+      "_id": 533,
+      "name": "Snarling Judgment",
+      "desc": "",
+      "cool": 30,
+      "type": 9,
+      "icon": "talent_skill_intimidate"
+    },
+    "534": {
+      "_id": 534,
+      "name": "Strict Orders",
+      "desc": "While Salvaging at an Orbital, reroll a risk card",
+      "cool": 60,
+      "type": 101,
+      "icon": "talent_salvage_reroll"
+    },
+    "535": {
+      "_id": 535,
+      "name": "Uncompromising Tear Down",
+      "desc": "Trained in all ship weaponry systems, looting a captured vessel repairs up to 3 of your Ship's Weapon Components by 10% + Gunnery Skill",
+      "cool": 60,
+      "type": 66,
+      "icon": "talent_victory_deckboss_battle_weapons"
+    },
+    "536": {
+      "_id": 536,
+      "name": "Overwhelming Pressure",
+      "desc": "Extreme targeting lock forces one enemy craft to immediately land regardless of the current progress of their flight plan",
+      "cool": 60,
+      "type": -2,
+      "icon": "talent_gundeck_overwhelmingbarrage"
+    },
+    "537": {
+      "_id": 537,
+      "name": "Deck Discipline",
+      "desc": "",
+      "cool": 60,
+      "type": -2,
+      "icon": "talent_gundeck_discipline"
+    },
+    "538": {
+      "_id": 538,
+      "name": "Relentless Stare",
+      "desc": "When landing in a zone, the highest level crew member who attempts to abandon the ship reconsiders, but their salary increases by $2",
+      "cool": 30,
+      "type": 41,
+      "icon": "talent_gundeck_hard_stare"
+    },
+    "539": {
+      "_id": 539,
+      "name": "Meticulous Care",
+      "desc": "",
+      "cool": 90,
+      "type": 6,
+      "icon": "talent_skill_repair"
+    },
+    "540": {
+      "_id": 540,
+      "name": "Vector Assault",
+      "desc": "",
+      "cool": 30,
+      "type": -2,
+      "icon": "talent_gundeck_vectorassault"
+    },
+    "541": {
+      "_id": 541,
+      "name": "Salvage at Will",
+      "desc": "While Salvaging at an Orbital, increase credit rewards by 20% + Gunnery Skill",
+      "cool": 60,
+      "type": 102,
+      "icon": "talent_salvage_passive"
+    },
+    "542": {
+      "_id": 542,
+      "name": "Flak Attack",
+      "desc": "",
+      "cool": 30,
+      "type": -2,
+      "icon": "talent_gundeck_flak"
+    },
+    "543": {
+      "_id": 543,
+      "name": "Meteor Lockdown",
+      "desc": "Defensive fire protects ship from a Meteor Storm in orbit of a system. Reduces ship and crew damage by Gunnery Skill",
+      "cool": 30,
+      "type": 46,
+      "icon": "talent_gundeck_meteor"
+    },
+    "549": {
+      "_id": 549,
+      "name": "Warning Shots",
+      "desc": "If any ship weapons hit, this Crippling Attack causes -20 Range Change, -10 Escape, +25 Morale Dmg/Turn for the next 3 Turns while debuffing our ship with -25% Dmg for next 2 Turns",
+      "cool": 30,
+      "type": -2,
+      "icon": "talent_commander_warning_shots"
+    },
+    "550": {
+      "_id": 550,
+      "name": "Compelling Conscription",
+      "desc": "When conscripting enemy to serve in your crew after a ship victory, new crew member starts with higher Morale and does not gain new negative Traits",
+      "cool": 30,
+      "type": 84,
+      "icon": "talent_diplomat_conscript"
     }
   },
   "crafts": {
