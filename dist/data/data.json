@@ -6194,12 +6194,12 @@
       "name": "Shielded Launch Bay",
       "size": "large",
       "mass": 650,
-      "fuel": 25,
+      "fuel": 30,
       "craft": 1,
-      "install_cost": 375000,
-      "shield": 2,
+      "install_cost": 385000,
+      "shield": 3,
       "jump_cost": 11,
-      "shipops": 4,
+      "shipops": 5,
       "electronics": 3
     },
     "37": {
@@ -10324,7 +10324,8 @@
       "acc": 7,
       "acc_craft": 6,
       "dmg": 5,
-      "crit": 1
+      "crit": 1,
+      "init": 1
     },
     "387": {
       "_id": 387,
@@ -10341,7 +10342,8 @@
       "acc": 9,
       "acc_craft": 7,
       "dmg": 5,
-      "crit": 2
+      "crit": 2,
+      "init": 2
     },
     "388": {
       "_id": 388,
@@ -10359,7 +10361,8 @@
       "acc": 11,
       "acc_craft": 8,
       "dmg": 5,
-      "crit": 3
+      "crit": 3,
+      "init": 2
     },
     "389": {
       "_id": 389,
@@ -10373,8 +10376,7 @@
       "jump_cost": 2,
       "pilot": 2,
       "shipops": 2,
-      "electronics": 3,
-      "init": 1
+      "electronics": 3
     },
     "390": {
       "_id": 390,
@@ -10388,8 +10390,7 @@
       "jump_cost": 3,
       "pilot": 3,
       "shipops": 3,
-      "electronics": 3,
-      "init": 2
+      "electronics": 3
     },
     "391": {
       "_id": 391,
@@ -10405,7 +10406,7 @@
       "pilot": 3,
       "shipops": 3,
       "electronics": 4,
-      "init": 3
+      "init": 1
     },
     "392": {
       "_id": 392,
@@ -10893,7 +10894,9 @@
       "shield": 2,
       "jump_cost": 9,
       "shipops": 1,
-      "electronics": 4
+      "electronics": 4,
+      "boarding": 10,
+      "init": 1
     },
     "438": {
       "_id": 438,
@@ -10910,8 +10913,8 @@
       "jump_cost": 9,
       "shipops": 2,
       "electronics": 5,
-      "void_res": 12,
-      "rad_res": 12
+      "boarding": 12,
+      "init": 1
     },
     "439": {
       "_id": 439,
@@ -11676,7 +11679,9 @@
       "jump_cost": 12,
       "shipops": 2,
       "navigation": 1,
-      "electronics": 5
+      "electronics": 5,
+      "boarding": 12,
+      "init": 1
     },
     "480": {
       "_id": 480,
@@ -11985,12 +11990,12 @@
       "name": "Reinforced Launch Bay",
       "size": "large",
       "mass": 650,
-      "fuel": 25,
+      "fuel": 30,
       "craft": 1,
       "install_cost": 380000,
-      "armor": 2,
-      "jump_cost": 12,
-      "shipops": 4,
+      "armor": 3,
+      "jump_cost": 14,
+      "shipops": 5,
       "electronics": 3
     },
     "497": {
@@ -12003,10 +12008,10 @@
       "fuel": 60,
       "craft": 1,
       "install_cost": 425000,
-      "armor": 2,
+      "armor": 1,
       "jump_cost": 8,
-      "shipops": 4,
-      "electronics": 4
+      "shipops": 5,
+      "electronics": 5
     },
     "498": {
       "_id": 498,
@@ -12351,6 +12356,7 @@
     "533": {
       "_id": 533,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_1",
       "type": "boosters_aggro",
       "name": "Railtrak Guidance Matrix 1",
       "size": "small",
@@ -12364,6 +12370,7 @@
     "534": {
       "_id": 534,
       "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_2",
       "type": "boosters_aggro",
       "name": "Railtrak Guidance Matrix 2",
       "size": "small",
@@ -12377,6 +12384,7 @@
     "535": {
       "_id": 535,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
       "name": "C-Tak Interceptor System 1",
       "size": "small",
@@ -12391,6 +12399,7 @@
     "536": {
       "_id": 536,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_2",
       "type": "assist",
       "name": "C-Tak Interceptor System 2",
       "size": "small",
@@ -12457,6 +12466,88 @@
       "dmg": 10,
       "crit": 12,
       "init": 1
+    },
+    "567": {
+      "_id": 567,
+      "faction": "thulun",
+      "img": "ship_comp_fighterbay",
+      "type": "hangar2",
+      "name": "Reactive Hangar Bay",
+      "size": "medium",
+      "mass": 300,
+      "fuel": 12,
+      "craft": 1,
+      "install_cost": 240000,
+      "jump_cost": 6,
+      "shipops": 4,
+      "electronics": 1,
+      "res_craft": 4
+    },
+    "568": {
+      "_id": 568,
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_3",
+      "type": "boosters_aggro",
+      "name": "Railtrak Guidance Matrix 3",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 225600,
+      "pilot": 4,
+      "gunnery": 4,
+      "acc": 10,
+      "acc_craft": 18,
+      "init": 1
+    },
+    "569": {
+      "_id": 569,
+      "faction": "steel_song",
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_4",
+      "type": "boosters_aggro",
+      "name": "Railtrak Guidance Matrix 4",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 298200,
+      "pilot": 5,
+      "gunnery": 5,
+      "acc": 10,
+      "acc_craft": 22,
+      "init": 1
+    },
+    "570": {
+      "_id": 570,
+      "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_3",
+      "type": "assist",
+      "name": "C-Tak Interceptor System 3",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 233200,
+      "shield": 1,
+      "pilot": 3,
+      "navigation": 3,
+      "acc_craft": 2,
+      "res_craft": 15,
+      "init": 1,
+      "void_res": 25
+    },
+    "571": {
+      "_id": 571,
+      "faction": "zenrin",
+      "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
+      "type": "assist",
+      "name": "C-Tak Interceptor System 4",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 316800,
+      "shield": 2,
+      "pilot": 3,
+      "navigation": 4,
+      "acc_craft": 4,
+      "res_craft": 22,
+      "init": 1,
+      "void_res": 30
     }
   },
   "ships": {
@@ -15595,7 +15686,8 @@
         532,
         533,
         534,
-        535
+        535,
+        594
       ],
       "5": [
         536,
@@ -16371,7 +16463,7 @@
       "name": "Dredge Artifacts",
       "desc": "Pick over the wreck of a destroyed xeno ship to recover a number of Artifacts up to your Explore Skill",
       "cool": 60,
-      "type": 67,
+      "type": 116,
       "icon": "talent_victory_dredge_artifacts"
     },
     "119": {
@@ -16402,7 +16494,7 @@
       "_id": 122,
       "name": "Tag the Beast",
       "desc": "Experienced explorer knows how to stay one step ahead. May only be used against xeno, if any ship weapons hit the alien, this Crippling Attack causes -20% Accuracy, -20% Shield, -15 Range Change for the next 3 Turns",
-      "cool": 90,
+      "cool": 30,
       "type": -2,
       "icon": "talent_explorer_markbeast"
     },
@@ -19313,15 +19405,15 @@
     "531": {
       "_id": 531,
       "name": "Dead Eye",
-      "desc": "",
-      "cool": 60,
+      "desc": "Buffs Ship with +35% to Hit Craft, +15% Dmg for next 3 Turns",
+      "cool": 30,
       "type": -2,
       "icon": "talent_gundeck_deadeye"
     },
     "532": {
       "_id": 532,
       "name": "Point Defense",
-      "desc": "",
+      "desc": "Debuffs launched enemy Craft with -10 Boarding, -20% Hit Chance, -25% Dmg for next 4 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gundeck_pointdefense"
@@ -19329,7 +19421,7 @@
     "533": {
       "_id": 533,
       "name": "Snarling Judgment",
-      "desc": "",
+      "desc": "Automatically passes a failed Intimidate test in any situation, including deep space travel, mutiny, or during a mission",
       "cool": 30,
       "type": 9,
       "icon": "talent_skill_intimidate"
@@ -19361,7 +19453,7 @@
     "537": {
       "_id": 537,
       "name": "Deck Discipline",
-      "desc": "",
+      "desc": "Purges your Ship's Crew of any Crippling Effects, Restores Gunnery Skill worth of Morale to 20 Crew",
       "cool": 60,
       "type": -2,
       "icon": "talent_gundeck_discipline"
@@ -19377,7 +19469,7 @@
     "539": {
       "_id": 539,
       "name": "Meticulous Care",
-      "desc": "",
+      "desc": "Automatically passes a failed Repair test in any situation, including wild zone repairs or deep space travel",
       "cool": 90,
       "type": 6,
       "icon": "talent_skill_repair"
@@ -19385,7 +19477,7 @@
     "540": {
       "_id": 540,
       "name": "Vector Assault",
-      "desc": "",
+      "desc": "Debuffs launched enemy Craft with -1 Initiative, -10% Dmg, -25% Craft Evasion for next 4 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gundeck_vectorassault"
@@ -19401,7 +19493,7 @@
     "542": {
       "_id": 542,
       "name": "Flak Attack",
-      "desc": "",
+      "desc": "If any ship weapons hit, this Crippling Attack causes Inability to Launch Craft, -15% to Hit Craft, -10% Shield for the next 2 Turns",
       "cool": 30,
       "type": -2,
       "icon": "talent_gundeck_flak"
@@ -19429,6 +19521,14 @@
       "cool": 30,
       "type": 84,
       "icon": "talent_diplomat_conscript"
+    },
+    "594": {
+      "_id": 594,
+      "name": "Take Down",
+      "desc": "Buffs Ship with +10% to Hit Craft, +50% Dmg to Craft, +5% Critical for next 3 Turns",
+      "cool": 30,
+      "type": -2,
+      "icon": "talent_gundeck_takedown"
     }
   },
   "crafts": {
