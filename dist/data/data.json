@@ -5918,8 +5918,8 @@
         "fuel_map": 2,
         "fuel_combat": 9,
         "safety": 70,
-        "speed": 24,
-        "agility": 29
+        "speed": 29,
+        "agility": 24
       },
       "shortname": "Traveler"
     },
@@ -6308,8 +6308,8 @@
         "fuel_map": 2,
         "fuel_combat": 10,
         "safety": 60,
-        "speed": 29,
-        "agility": 24
+        "speed": 24,
+        "agility": 29
       },
       "shortname": "Chaser"
     },
@@ -6393,8 +6393,8 @@
         "fuel_map": 3,
         "fuel_combat": 12,
         "safety": 90,
-        "speed": 16,
-        "agility": 23
+        "speed": 23,
+        "agility": 16
       },
       "shortname": "Traveler"
     },
@@ -6439,8 +6439,8 @@
         "fuel_map": 2,
         "fuel_combat": 15,
         "safety": 80,
-        "speed": 22,
-        "agility": 18
+        "speed": 18,
+        "agility": 22
       },
       "shortname": "Chaser"
     },
@@ -6508,8 +6508,8 @@
         "fuel_map": 3,
         "fuel_combat": 26,
         "safety": 100,
-        "speed": 14,
-        "agility": 10
+        "speed": 10,
+        "agility": 14
       },
       "shortname": "Chaser"
     },
@@ -6531,8 +6531,8 @@
         "fuel_map": 4,
         "fuel_combat": 18,
         "safety": 100,
-        "speed": 9,
-        "agility": 15
+        "speed": 15,
+        "agility": 9
       },
       "shortname": "Traveler"
     },
@@ -9783,8 +9783,8 @@
         "fuel_map": 2,
         "fuel_combat": 8,
         "safety": 100,
-        "speed": 27,
-        "agility": 30
+        "speed": 30,
+        "agility": 27
       },
       "shortname": "Traveler"
     },
@@ -9809,8 +9809,8 @@
         "fuel_map": 1,
         "fuel_combat": 14,
         "safety": 80,
-        "speed": 30,
-        "agility": 27
+        "speed": 27,
+        "agility": 30
       },
       "shortname": "Chaser"
     },
@@ -9832,8 +9832,8 @@
         "fuel_map": 1,
         "fuel_combat": 14,
         "safety": 120,
-        "speed": 18,
-        "agility": 20
+        "speed": 20,
+        "agility": 18
       },
       "shortname": "Longhaul"
     },
@@ -9855,8 +9855,8 @@
         "fuel_map": 3,
         "fuel_combat": 16,
         "safety": 120,
-        "speed": 13,
-        "agility": 19
+        "speed": 19,
+        "agility": 13
       },
       "shortname": "Traveler"
     },
@@ -9878,8 +9878,8 @@
         "fuel_map": 2,
         "fuel_combat": 22,
         "safety": 110,
-        "speed": 18,
-        "agility": 13
+        "speed": 13,
+        "agility": 18
       },
       "shortname": "Chaser"
     },
@@ -9901,8 +9901,8 @@
         "fuel_map": 3,
         "fuel_combat": 16,
         "safety": 100,
-        "speed": 11,
-        "agility": 12
+        "speed": 12,
+        "agility": 11
       },
       "shortname": "Longhaul"
     },
@@ -9924,8 +9924,8 @@
         "fuel_map": 3,
         "fuel_combat": 20,
         "safety": 90,
-        "speed": 6,
-        "agility": 10
+        "speed": 10,
+        "agility": 6
       },
       "shortname": "Longhaul"
     },
@@ -9947,8 +9947,8 @@
         "fuel_map": 5,
         "fuel_combat": 22,
         "safety": 150,
-        "speed": 8,
-        "agility": 15
+        "speed": 15,
+        "agility": 8
       },
       "shortname": "Traveler"
     },
@@ -10099,8 +10099,8 @@
         "fuel_map": 3,
         "fuel_combat": 20,
         "safety": 90,
-        "speed": 6,
-        "agility": 10
+        "speed": 10,
+        "agility": 6
       },
       "shortname": "Longhaul"
     },
@@ -10122,8 +10122,8 @@
         "fuel_map": 5,
         "fuel_combat": 24,
         "safety": 150,
-        "speed": 8,
-        "agility": 15
+        "speed": 15,
+        "agility": 8
       },
       "shortname": "Traveler"
     },
