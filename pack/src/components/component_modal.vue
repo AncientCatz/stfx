@@ -71,7 +71,7 @@ export default Vue.extend({
                 }
                 if(!valid) {continue;}
                 if(_id == comp._id) {}
-                else if(query && !comp.name.toLowerCase().includes(query.toLowerCase())){continue}
+                else if(query && !comp._name.toLowerCase().includes(query.toLowerCase())){continue}
                 matching_components.push(comp);
             }
             return matching_components;

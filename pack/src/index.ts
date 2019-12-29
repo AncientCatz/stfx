@@ -45,6 +45,7 @@ class Global {
     img_get_component_mod(component:types.Component) { return utils.img_get_component_mod(component)}
     img_get_prop(prop_name:string) { return utils.img_get_prop(prop_name)}
     img_get_craft(craft: types.Craft) { return utils.img_get_craft(craft)}
+    comp_get_name(comp: types.Component) { return utils.comp_get_name(comp)}
     comp_get_description(comp: types.Component) { return utils.comp_get_description(comp)}
     comp_parse_props(comp: types.Component) { return utils.comp_parse_props(comp)}
     comp_parse_extra_props(comp: types.Component) { return utils.comp_parse_extra_props(comp)}

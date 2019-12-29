@@ -3,7 +3,7 @@
         component-img(v-bind:component="component")
         .middle.aligned.content
             .ui.header
-                span {{component.name}}
+                span {{component._name}}
                 span {{component.mass}} Mass
             div.meta
                 div.ui.horizontal.list

@@ -84,6 +84,10 @@ export function killme() {
     return asd
 }
 
+function capitalize(string: string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
 export function job_get_skills(job: types.Job, level:number) {
     var skills: {[index:string]: number}= {}
     var skill_names = job.skills
@@ -134,6 +138,14 @@ export function get_slots(slots:types.ComponentSlot[], slot_size:string): types.
     }
     console.log("getSlots", size_components);
     return size_components;
+}
+
+export function comp_get_name(component: types.Component) {
+    var name = component.name;
+    if(component.faction) {
+        name += ` (${capitalize(component.faction)})`
+    }
+    return name;
 }
 
 export function comp_get_description(component: types.Component) {
@@ -219,6 +231,11 @@ export function comp_disp_name(comp: types.Component) {
 }
 
 
+function comp_process_name(component: types.Component) {
+    component._name = comp_get_name(component);
+
+}
+
 function process_description(component:types.Component) {
     var DESC_TYPE: { [index:string] : (c:any) => string} = {
         'bridge':           (c:any) => c.officers == 1 ? "Ship's Command Center; includes Captain's quarters" : '',
@@ -294,6 +311,7 @@ export function postprocess_comp(components:types.Component[]) {
             process_weapon(comp)
         }
         process_description(comp)
+        comp_process_name(comp)
 
     }
     return components;
