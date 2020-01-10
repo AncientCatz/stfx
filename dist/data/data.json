@@ -15101,7 +15101,8 @@
         49,
         50,
         51,
-        52
+        52,
+        598
       ],
       "5": [
         53,
@@ -15130,7 +15131,8 @@
       "8": [
         65,
         69,
-        398
+        398,
+        595
       ],
       "5": [
         66,
@@ -15249,7 +15251,8 @@
         126,
         129,
         130,
-        131
+        131,
+        597
       ],
       "8": [
         132,
@@ -15679,7 +15682,8 @@
         374,
         375,
         376,
-        377
+        377,
+        596
       ],
       "5": [
         379,
@@ -15900,7 +15904,7 @@
     "27": {
       "_id": 27,
       "name": "Loyalty Rousing",
-      "desc": "In the aftermath of a ship battle, give an inspiring speech which causes up to 10 crew gain 10 + Command Skill in Morale",
+      "desc": "In the aftermath of a ship battle, give an inspiring speech which causes up to 10 crew to gain 10 + Command Skill in Morale",
       "cool": 60,
       "type": 83,
       "icon": "talent_commander_loyalty"
@@ -16220,7 +16224,7 @@
     "67": {
       "_id": 67,
       "name": "Forged Permit",
-      "desc": "Well-forged documents can open doors; can be used to reduce the hostility of military ships encountered in travel",
+      "desc": "Well-forged documents can remove barriers; during travel can reduce hostility of Military Officers or Zealots by 2 and Spies by 1",
       "cool": 30,
       "type": 71,
       "icon": "talent_smuggler_forged_permit"
@@ -16620,7 +16624,7 @@
     "117": {
       "_id": 117,
       "name": "Makeshift Repairs",
-      "desc": "Upon landing in a Wild Zone, automatically repair damage to 2 Ship Components equal to Richness rating up to Explore Skill",
+      "desc": "Upon landing in a Wild Zone, automatically repair damage to 2 Ship Components for Richness rating, or up to Explore Skill whichever is greater",
       "cool": 130,
       "type": 47,
       "icon": "talent_explorer_repairs"
@@ -16788,7 +16792,7 @@
     "150": {
       "_id": 150,
       "name": "Port Maintenance",
-      "desc": "Upon landing, automatically repairs damage to 2 to 4 Ship Components equal to 10% up to Repair skill",
+      "desc": "Upon landing, automatically repairs damage to 2 to 4 Ship Components for 10%, or up to Repair Skill if it is greater",
       "cool": 130,
       "type": 15,
       "icon": "talent_engineer_portmaint"
@@ -16884,7 +16888,7 @@
     "163": {
       "_id": 163,
       "name": "Hard Bargain",
-      "desc": "When buying a new ship, gain a discount up to Repair Skill with maximum of 15%",
+      "desc": "When buying a new ship, gain a discount up to half of your Repair Skill with maximum of 10%",
       "cool": 30,
       "type": 45,
       "icon": "talent_money_newship"
@@ -17100,7 +17104,7 @@
     "190": {
       "_id": 190,
       "name": "Alert Scanner",
-      "desc": "Upon entering the orbit of a new system, 10% + Electronics Skill chance to learning a Rumor",
+      "desc": "Upon entering the orbit of a new system, 10% + Electronics Skill chance to learn a Rumor",
       "cool": 90,
       "type": 39,
       "icon": "talent_elo_alertscanner"
@@ -17300,7 +17304,7 @@
     "215": {
       "_id": 215,
       "name": "Skip Off the Void",
-      "desc": "Uses a short-burst of the hyperwarp drive to 'bounce' a short distance and escape ship combat. Causes 30-60% Damage to the drive, mitigated by Navigation Skill and burns Fuel equal to a hyperwarp jump",
+      "desc": "Uses a short-burst of the hyperwarp drive to 'bounce' a short distance and escape ship combat. Causes 30-60% Damage to the drive, mitigated by Navigation Skill and requires Fuel equal to a hyperwarp jump",
       "cool": 90,
       "type": 70,
       "icon": "talent_nav_skipvoid"
@@ -17308,7 +17312,7 @@
     "216": {
       "_id": 216,
       "name": "Ferocity",
-      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with -10% Ranged Accuracy, +30% Ranged Damage, +15% Critical, -25% Dodge for 3 Turns",
+      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with -10% Ranged Accuracy, +30% Ranged Damage, +15% Critical, -25% Dodge for 3 Turns (requires rifle)",
       "cool": 0,
       "type": 29,
       "icon": "talent_combat_soldier_ferocity"
@@ -17324,7 +17328,7 @@
     "218": {
       "_id": 218,
       "name": "Discipline",
-      "desc": "In crew combat, Removes all Debuffs; Buff yourself with +25% Dodge, +10% Armor, +25% To Resist Debuffs for 3 Turns",
+      "desc": "In crew combat, Removes all Debuffs; Buff yourself with +25% Dodge, +10% Armor, +25% To Resist Debuffs for 3 Turns (requires rifle)",
       "cool": 6,
       "type": -1,
       "icon": "talent_soldier_discipline"
@@ -17396,7 +17400,7 @@
     "227": {
       "_id": 227,
       "name": "Raining Steel",
-      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with +3 Initiative, +15% Ranged Damage, +15% Critical for 3 Turns",
+      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with +3 Initiative, +15% Ranged Damage, +15% Critical for 3 Turns (requires pistol)",
       "cool": 0,
       "type": 29,
       "icon": "talent_pistoleer_flashingsteel"
@@ -17428,7 +17432,7 @@
     "231": {
       "_id": 231,
       "name": "Dueler's Stance",
-      "desc": "In crew combat, Removes all Debuffs; Buff yourself with +20% Deflection, +25% Parry, +25% Dodge, +50% To Resist Debuffs for 3 Turns",
+      "desc": "In crew combat, Removes all Debuffs; Buff yourself with +20% Deflection, +25% Parry, +25% Dodge, +50% To Resist Debuffs for 3 Turns (requires pistol)",
       "cool": 6,
       "type": -1,
       "icon": "talent_combat_pistoleer_stance"
@@ -17460,7 +17464,7 @@
     "235": {
       "_id": 235,
       "name": "Rash Courage",
-      "desc": "In crew combat, Buff yourself with +30% Melee Accuracy, +30% Melee Damage, +10% Armor Piercing, -10% Armor for 4 Turns, advances 1 slot",
+      "desc": "In crew combat, Buff yourself with +30% Melee Accuracy, +30% Melee Damage, +10% Armor Piercing, -10% Armor for 4 Turns, advances 1 slot (requires blade)",
       "cool": 6,
       "type": -1,
       "icon": "talent_combat_sword_rash"
@@ -17468,7 +17472,7 @@
     "236": {
       "_id": 236,
       "name": "Bravery Line",
-      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with +3 Initiative, +15% Critical, +15% Parry for 3 Turns",
+      "desc": "When making Initiative Roll in Crew Combat, Buff yourself with +3 Initiative, +15% Critical, +15% Parry for 3 Turns (requires blade)",
       "cool": 0,
       "type": 29,
       "icon": "talent_swordsman_braveryline"
@@ -17476,7 +17480,7 @@
     "237": {
       "_id": 237,
       "name": "Sharp Counter",
-      "desc": "In crew combat, Blade Attack. Successful attack Buffs yourself with +25% Parry, +10% Armor for 3 Turns",
+      "desc": "In crew combat, Blade Attack. Successful attack Buffs yourself with +25% Parry, +10% Armor, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_swordsman_sharpcounter"
@@ -17508,7 +17512,7 @@
     "241": {
       "_id": 241,
       "name": "Strength of Steel",
-      "desc": "In crew combat, Buff yourself with +40% Parry, +50% To Resist Debuffs for 3 Turns, Heals (10 + 0 Blades) HP and Morale",
+      "desc": "In crew combat, Buff yourself with +40% Parry, +50% To Resist Debuffs for 3 Turns, Heals (10 + 0 Blades) HP and Morale (requires blade)",
       "cool": 6,
       "type": -1,
       "icon": "talent_combat_swords_steel"
@@ -17916,7 +17920,7 @@
     "292": {
       "_id": 292,
       "name": "Counterfeit Identity",
-      "desc": "Confusing or forged credentials are enough to throw even the most dogged pursuer; can be used to reduce the hostility of Bounty Hunters",
+      "desc": "A subtle interchange of espionage protocols creates a truce between covert operators; can be used to reduce the hostility of Bounty Hunters",
       "cool": 30,
       "type": 73,
       "icon": "talent_spy_forged"
@@ -17964,7 +17968,7 @@
     "299": {
       "_id": 299,
       "name": "Devoted Service",
-      "desc": "When completing steps in a Mission, increase Faction Reputation bonuses 10% + Command Skill",
+      "desc": "When completing steps in a Mission, increase Faction Reputation bonuses by 10% + Command Skill",
       "cool": 90,
       "type": 11,
       "icon": "talent_increase_mission_rep_commander"
@@ -18340,7 +18344,7 @@
     "353": {
       "_id": 353,
       "name": "Gliding Advance",
-      "desc": "In crew combat, Buff yourself with +20% Melee Damage, +10% Critical, Engages Stealth Mode, +(10% + Stealth) Critical; lasts for 3 Turns, advances 1 slot",
+      "desc": "In crew combat, Buff yourself with +20% Melee Damage, +10% Critical, Engages Stealth Mode, +(10% + Stealth) Critical; lasts for 3 Turns, advances 1 slot (requires blade)",
       "cool": 8,
       "type": -1,
       "icon": "talent_combat_assassin_gliding"
@@ -18892,7 +18896,7 @@
     "445": {
       "_id": 445,
       "name": "Whirling Blade",
-      "desc": "In crew combat, Blade Attack with +10% Melee Accuracy, +10% Melee Damage, +10% Armor Piercing. Successful attack Buffs yourself with +15% Parry, +15% Dodge for 3 Turns",
+      "desc": "In crew combat, Blade Attack with +10% Melee Accuracy, +10% Melee Damage, +10% Armor Piercing. Successful attack Buffs yourself with +15% Parry, +15% Dodge, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_commando_raiderstrike"
@@ -18940,7 +18944,7 @@
     "451": {
       "_id": 451,
       "name": "Knife Work",
-      "desc": "In crew combat, Removes all Debuffs; Buffs 2 targets with +25% Melee Accuracy, +25% Melee Damage, +10% Critical, +20% Parry for 3 Turns",
+      "desc": "In crew combat, Removes all Debuffs; Buffs 2 targets with +25% Melee Accuracy, +25% Melee Damage, +10% Critical, +20% Parry for 3 Turns (requires blade)",
       "cool": 12,
       "type": -1,
       "icon": "talent_commando_knifework"
@@ -19052,7 +19056,7 @@
     "466": {
       "_id": 466,
       "name": "Intimidating Fly Over",
-      "desc": "When completing Mission steps in an urban zone as the pilot of a Bomber craft, increase faction Reputation bonuses 20% + Pilot Skill with a chance add -1 Rep loss with local faction",
+      "desc": "When completing Mission steps in an urban zone as the pilot of a Bomber craft, increase faction Reputation bonuses by 20% + Pilot Skill with a chance add -1 Rep loss with local faction",
       "cool": 90,
       "type": 11,
       "icon": "talent_increase_mission_rep_bomber"
@@ -19548,7 +19552,7 @@
     "528": {
       "_id": 528,
       "name": "Defensive Striker",
-      "desc": "In crew combat, Blade Attack with +25% Melee Accuracy. Successful attack Buffs yourself with +2 Initiative for 3 Turns",
+      "desc": "In crew combat, Blade Attack with +25% Melee Accuracy. Successful attack Buffs yourself with +2 Initiative, Counter-attacks enemy attacker in front 2 rows, 50% chance to end after each counter for 3 Turns",
       "cool": 3,
       "type": -1,
       "icon": "talent_combat_bodyguard_honorguard"
@@ -19696,6 +19700,38 @@
       "cool": 30,
       "type": -2,
       "icon": "talent_gundeck_takedown"
+    },
+    "595": {
+      "_id": 595,
+      "name": "Underport Bribe",
+      "desc": "When refueling your ship, a small side bribe to the dockmaster grants a 15% + Negotiate Skill discount",
+      "cool": 120,
+      "type": 117,
+      "icon": "talent_discount_fuel"
+    },
+    "596": {
+      "_id": 596,
+      "name": "Depot Sweep",
+      "desc": "When refueling your ship, scouring the starport for better deals grants a 15% + Explore Skill discount",
+      "cool": 120,
+      "type": 117,
+      "icon": "talent_discount_fuel"
+    },
+    "597": {
+      "_id": 597,
+      "name": "Covert Signals",
+      "desc": "When encountering a Spy Captain, a subtle exchange of espionage protocols can reduce hostility",
+      "cool": 120,
+      "type": 118,
+      "icon": "talent_spy_covert_handshake"
+    },
+    "598": {
+      "_id": 598,
+      "name": "Fuel Bargain",
+      "desc": "When refueling your ship, tough negotiation at the starport grants a 15% + Negotiation Skill discount",
+      "cool": 120,
+      "type": 117,
+      "icon": "talent_discount_fuel"
     }
   },
   "crafts": {
