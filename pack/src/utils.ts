@@ -251,9 +251,9 @@ function process_description(component:types.Component) {
         'passengers':       (c:any) => `Houses ${c.passengers} Passenger${c.passengers > 1 ? 's' : ''},`,
         'prisoners':        (c:any) => `Detains ${c.prisoners} Prisoner${c.prisoners > 1 ? 's' : ''},`,
 
-        'cloak':             (c:any) => `Reduces ship encounters by ${c.cloak}% [${defines.cloak_max}% max] ,`,
+        'cloak':            (c:any) => `Reduces ship encounters by ${c.cloak}% [${defines.cloak_max}% max] ,`,
         'init':             (c:any) => `+${c.init} Initiative,`,
-        'escape':             (c:any) => `+${c.escape} Initiative,`,
+        'escape':           (c:any) => `+${c.escape} Escape,`,
         'res_craft':        (c:any) => `+${c.res_craft}% to Dodge Craft Attacks,`,
         'rad_res':          (c:any) => `+${c.rad_res} Radiation Resist,`,
         'void_res':         (c:any) => `+${c.void_res} Void Resist,`,
