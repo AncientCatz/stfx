@@ -41,8 +41,6 @@ html
                     #tour-step-1
                       sui-dropdown(fluid, placeholder="Ships" search selection, :options="ships_dropdown", v-model="current_id")
                     include includes/ship_view.pug
-                sui-tab-pane(title='Captain')
-                    include includes/captain_view.pug
                 sui-tab-pane(title='Crew')
                     include includes/crew_view.pug
 
