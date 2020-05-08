@@ -6382,7 +6382,7 @@
       "size": "small",
       "mass": 100,
       "officers": 3,
-      "install_cost": 194000,
+      "install_cost": 124000,
       "pilot": 4,
       "shipops": 2,
       "navigation": 3,
@@ -7509,7 +7509,8 @@
         "damage_min": 86,
         "damage_max": 135,
         "effect_chance": 30
-      }
+      },
+      "res_craft": 2
     },
     "110": {
       "_id": 110,
@@ -7535,7 +7536,8 @@
         "damage_min": 101,
         "damage_max": 150,
         "effect_chance": 25
-      }
+      },
+      "res_craft": 3
     },
     "111": {
       "_id": 111,
@@ -7561,7 +7563,8 @@
         "damage_min": 91,
         "damage_max": 140,
         "effect_chance": 40
-      }
+      },
+      "res_craft": 4
     },
     "112": {
       "_id": 112,
@@ -7587,7 +7590,8 @@
         "damage_min": 91,
         "damage_max": 150,
         "effect_chance": 45
-      }
+      },
+      "res_craft": 5
     },
     "127": {
       "_id": 127,
@@ -15000,6 +15004,52 @@
       "max_crew": 36,
       "max_officers": 7
     },
+    "59": {
+      "_id": 59,
+      "faction": "thulun",
+      "name": "Leo Battlecruiser",
+      "skin_name": "Bulker_Red",
+      "hullpoints": 2000,
+      "basemass": 7000,
+      "smallslots": 12,
+      "mediumslots": 9,
+      "largeslots": 6,
+      "components": [
+        22,
+        481,
+        318,
+        41,
+        382,
+        539,
+        91,
+        91,
+        502,
+        502,
+        489,
+        7,
+        7,
+        426,
+        426,
+        85,
+        19,
+        567,
+        567,
+        25,
+        36,
+        95,
+        95,
+        4,
+        4,
+        576,
+        30
+      ],
+      "armor": 8,
+      "shield": 7,
+      "fuel": 95,
+      "max_craft": 4,
+      "max_crew": 42,
+      "max_officers": 7
+    },
     "60": {
       "_id": 60,
       "faction": "moklumnue",
@@ -15402,6 +15452,78 @@
       "max_craft": 5,
       "max_crew": 42,
       "max_officers": 7
+    },
+    "79": {
+      "_id": 79,
+      "faction": null,
+      "name": "Reach Vindex",
+      "skin_name": "Dart_Liner",
+      "hullpoints": 1000,
+      "basemass": 2400,
+      "smallslots": 11,
+      "mediumslots": 3,
+      "largeslots": 2,
+      "components": [
+        13,
+        8,
+        2,
+        33,
+        21,
+        21,
+        90,
+        3,
+        105,
+        105,
+        28,
+        7,
+        18,
+        11,
+        37,
+        30
+      ],
+      "armor": 10,
+      "shield": 14,
+      "fuel": 95,
+      "max_craft": 0,
+      "max_crew": 24,
+      "max_officers": 4
+    },
+    "80": {
+      "_id": 80,
+      "faction": "javat",
+      "name": "Rim Exocruiser",
+      "skin_name": "Warthog_Blue",
+      "hullpoints": 1100,
+      "basemass": 3400,
+      "smallslots": 11,
+      "mediumslots": 5,
+      "largeslots": 2,
+      "components": [
+        22,
+        96,
+        391,
+        391,
+        391,
+        532,
+        21,
+        21,
+        461,
+        105,
+        105,
+        68,
+        37,
+        440,
+        427,
+        4,
+        518,
+        30
+      ],
+      "armor": 12,
+      "shield": 10,
+      "fuel": 105,
+      "max_craft": 2,
+      "max_crew": 30,
+      "max_officers": 5
     }
   },
   "job_talents": {
