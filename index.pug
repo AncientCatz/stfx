@@ -12,7 +12,6 @@ html
         link(rel="stylesheet", href="style.css")
     body
         div#app
-            v-tour(name="myTour", :steps="steps")
             component-modal(
                 v-if="current",
                 v-bind:components="components",
@@ -35,7 +34,6 @@ html
             .ui.menu
                 #test.header.item STFX
                 .active.item #[a(v-on:click='stfx_export()') Copy]
-                .active.item #[a(v-on:click='stfx_tour()') Tour]
             include includes/total_view.pug
 
             sui-tab#tabs
@@ -43,6 +41,8 @@ html
                     #tour-step-1
                       sui-dropdown(fluid, placeholder="Ships" search selection, :options="ships_dropdown", v-model="current_id")
                     include includes/ship_view.pug
+                sui-tab-pane(title='Captain')
+                    include includes/captain_view.pug
                 sui-tab-pane(title='Crew')
                     include includes/crew_view.pug
 

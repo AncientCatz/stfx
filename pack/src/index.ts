@@ -3,8 +3,6 @@ import Vue from "vue";
 import SuiVue from "semantic-ui-vue";
 import { GlobalMixin } from 'vue-typed'
 
-import VueTour from 'vue-tour';
-
 import * as utils from "./utils";
 import * as types from "./types";
 import * as events from "./events";
@@ -35,15 +33,15 @@ protobuf.load('proto.json').then((x: any) => proto = x)
 @GlobalMixin()
 class Global {
     DROPDOWN_LEVELS: any = utils.killme()
-    img_get_ship_top(ship:types.Ship) { return utils.img_get_ship_top(ship)}
-    img_get_ship_front_th(ship:types.Ship) { return utils.img_get_ship_front_th(ship)}
-    img_get_ship_front(ship:types.Ship) { return utils.img_get_ship_front(ship)}
-    img_get_job(job:types.Job) { return utils.img_get_job(job)}
+    img_get_ship_top(ship: types.Ship) { return utils.img_get_ship_top(ship)}
+    img_get_ship_front_th(ship: types.Ship) { return utils.img_get_ship_front_th(ship)}
+    img_get_ship_front(ship: types.Ship) { return utils.img_get_ship_front(ship)}
+    img_get_job(job: types.Job) { return utils.img_get_job(job)}
     img_get_talent(talent: types.Talent) { return utils.img_get_talent(talent)}
     img_get_banner(banner_name: string) { return utils.img_get_banner(banner_name)}
-    img_get_component(component:types.Component) { return utils.img_get_component(component)}
-    img_get_component_mod(component:types.Component) { return utils.img_get_component_mod(component)}
-    img_get_prop(prop_name:string) { return utils.img_get_prop(prop_name)}
+    img_get_component(component: types.Component) { return utils.img_get_component(component)}
+    img_get_component_mod(component: types.Component) { return utils.img_get_component_mod(component)}
+    img_get_prop(prop_name: string) { return utils.img_get_prop(prop_name)}
     img_get_craft(craft: types.Craft) { return utils.img_get_craft(craft)}
     comp_get_name(comp: types.Component) { return utils.comp_get_name(comp)}
     comp_get_description(comp: types.Component) { return utils.comp_get_description(comp)}
@@ -55,13 +53,7 @@ class Global {
 
 
 Vue.use(SuiVue);
-Vue.use(VueTour);
 const Component = {
-    data: function() {
-        return {
-            DROPDOWN_LEVELS: utils.killme(),
-        }
-    },
     filters: {
         shield_pc: function(value:number) {
             return utils.ROUND_2(utils.COMP_CALC_SHIELD_PC(value));
@@ -95,32 +87,6 @@ var app = new Vue({
         AddCraftCard,
     },
     data: {
-        steps: [
-            {
-                target: "#tour-step-1",
-                content: "Select your ship",
-                params: {placement: 'bottom', enableScrolling: false}
-            },
-
-            {
-                target: ".componentcard",
-                content: "You can change components here",
-                params: {placement: 'bottom', enableScrolling: false}
-            },
-
-            {
-                target: "#tour-step-3 td",
-                content: "Or here",
-                params: {placement: 'top'}
-            },
-            {
-                target: "#tabs a.item:nth-child(2)",
-                content: "you can manage your crew",
-                params: {placement: 'top'}
-            },
-
-        ],
-        message: "EBIN",
         jobs: [] as types.Job[],
         ships: [] as types.JSONShip[],
         talents: {} as types.Talent[],
@@ -187,7 +153,7 @@ var app = new Vue({
             handler: function() {
                 console.log("current");
                 this.calc_damage();
-                this.component_rolling_stats();
+                this.component_total_stats();
                 this.update_crew_perc();
                 this.stfx_export();
             }
@@ -278,10 +244,9 @@ var app = new Vue({
             }
             this.crew = crew;
         },
-        component_rolling_stats: function() {
+        component_total_stats: function() {
             let [total, rolling] = utils.component_rolling_stats(this.current);
             this.ship_stats = total;
-            //todo max
         },
 
         make_crewman: function(job_id:number, level:number, talent_ids:number[]) : types.Crewman {
