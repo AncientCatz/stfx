@@ -168,10 +168,6 @@ var app = new Vue({
         },
     },
     methods: {
-        stfx_tour: function() {
-          // @ts-ignore
-          this.$tours['myTour'].start()
-        },
         stfx_export_crew: function() {
             var crew_export = []
             for(var c of  this.crew) {
