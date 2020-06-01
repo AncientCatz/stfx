@@ -5488,8 +5488,8 @@
       ],
       "levels": [
         [
-          2,
           1,
+          2,
           1
         ],
         [
@@ -5503,8 +5503,8 @@
           2
         ],
         [
+          4,
           3,
-          4,
           2
         ],
         [
@@ -5513,8 +5513,8 @@
           2
         ],
         [
+          5,
           4,
-          5,
           2
         ],
         [
@@ -5523,13 +5523,13 @@
           2
         ],
         [
-          5,
           6,
+          5,
           2
         ],
         [
+          6,
           5,
-          6,
           3
         ],
         [
@@ -5538,113 +5538,113 @@
           3
         ],
         [
-          7,
           6,
-          3
-        ],
-        [
-          7,
           7,
           3
         ],
         [
           7,
-          8,
-          3
-        ],
-        [
           7,
-          9,
           3
         ],
         [
           8,
-          9,
+          7,
           3
         ],
         [
-          8,
-          10,
-          4
-        ],
-        [
-          8,
-          11,
-          4
-        ],
-        [
-          8,
-          12,
-          4
+          9,
+          7,
+          3
         ],
         [
           9,
-          12,
-          4
-        ],
-        [
-          9,
-          13,
-          4
-        ],
-        [
-          9,
-          13,
-          6
+          8,
+          3
         ],
         [
           10,
-          14,
-          6
+          8,
+          4
         ],
         [
           11,
-          14,
-          6
-        ],
-        [
-          11,
-          15,
-          6
-        ],
-        [
-          11,
-          15,
-          7
+          8,
+          4
         ],
         [
           12,
-          15,
-          7
+          8,
+          4
         ],
         [
           12,
-          16,
-          7
+          9,
+          4
         ],
         [
           13,
-          16,
-          7
+          9,
+          4
         ],
         [
           13,
-          17,
-          7
+          9,
+          6
         ],
         [
           14,
-          17,
-          8
+          10,
+          6
         ],
         [
           14,
-          18,
-          8
+          11,
+          6
         ],
         [
           15,
+          11,
+          6
+        ],
+        [
+          15,
+          11,
+          7
+        ],
+        [
+          15,
+          12,
+          7
+        ],
+        [
+          16,
+          12,
+          7
+        ],
+        [
+          16,
+          13,
+          7
+        ],
+        [
+          17,
+          13,
+          7
+        ],
+        [
+          17,
+          14,
+          8
+        ],
+        [
           18,
+          14,
+          8
+        ],
+        [
+          18,
+          15,
           9
         ]
       ]
@@ -12109,9 +12109,9 @@
       "type": "medical",
       "name": "Advanced Medical Clinic",
       "size": "large",
-      "mass": 650,
+      "mass": 600,
       "officers": 1,
-      "install_cost": 315640,
+      "install_cost": 432640,
       "jump_cost": 5,
       "medical": 9,
       "shipops": 6,
@@ -12902,6 +12902,57 @@
       "electronics": 2,
       "boarding": 4,
       "move": 12
+    },
+    "582": {
+      "_id": 582,
+      "img": "ship_comp_fighterbay",
+      "type": "hangar",
+      "name": "Hyperion Launch Bay",
+      "size": "large",
+      "mass": 600,
+      "officers": 1,
+      "fuel": 100,
+      "craft": 1,
+      "install_cost": 4250000,
+      "armor": 5,
+      "shield": 3,
+      "jump_cost": 20,
+      "shipops": 6,
+      "electronics": 6
+    },
+    "583": {
+      "_id": 583,
+      "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
+      "type": "combat",
+      "name": "Deflector Array 5",
+      "size": "medium",
+      "mass": 350,
+      "install_cost": 1867100,
+      "shield": 16,
+      "jump_cost": 21,
+      "shipops": 6,
+      "electronics": 8,
+      "res_craft": 15,
+      "void_res": 20,
+      "rad_res": 10
+    },
+    "584": {
+      "_id": 584,
+      "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_4",
+      "type": "combat",
+      "name": "Deflector Array 6",
+      "size": "medium",
+      "mass": 350,
+      "install_cost": 2867100,
+      "shield": 20,
+      "jump_cost": 32,
+      "shipops": 9,
+      "electronics": 10,
+      "res_craft": 25,
+      "void_res": 30,
+      "rad_res": 20
     }
   },
   "ships": {
@@ -14827,6 +14878,48 @@
       "shield": 9,
       "fuel": 130,
       "max_craft": 4,
+      "max_crew": 36,
+      "max_officers": 7
+    },
+    "53": {
+      "_id": 53,
+      "faction": "rychart",
+      "name": "Lockwood Defender",
+      "skin_name": "SandDemon_Yellow",
+      "hullpoints": 2005,
+      "basemass": 6000,
+      "smallslots": 10,
+      "mediumslots": 8,
+      "largeslots": 5,
+      "components": [
+        497,
+        41,
+        381,
+        381,
+        432,
+        80,
+        21,
+        21,
+        463,
+        395,
+        258,
+        258,
+        28,
+        7,
+        27,
+        529,
+        379,
+        427,
+        427,
+        523,
+        523,
+        38,
+        30
+      ],
+      "armor": 10,
+      "shield": 10,
+      "fuel": 55,
+      "max_craft": 3,
       "max_crew": 36,
       "max_officers": 7
     },
