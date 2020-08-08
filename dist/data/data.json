@@ -5869,7 +5869,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 6,
+        "fuel_combat": 0,
         "safety": 60,
         "speed": 27,
         "agility": 27
@@ -5983,7 +5983,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 1,
-        "fuel_combat": 10,
+        "fuel_combat": 0,
         "safety": 70,
         "speed": 27,
         "agility": 27
@@ -6087,7 +6087,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 9,
+        "fuel_combat": 0,
         "safety": 70,
         "speed": 29,
         "agility": 24
@@ -6477,7 +6477,7 @@
         "ap": 8,
         "ap_cost": 2,
         "fuel_map": 2,
-        "fuel_combat": 10,
+        "fuel_combat": 0,
         "safety": 60,
         "speed": 24,
         "agility": 29
@@ -6514,7 +6514,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 8,
+        "fuel_combat": 0,
         "safety": 50,
         "speed": 24,
         "agility": 24
@@ -6539,7 +6539,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 1,
-        "fuel_combat": 7,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 23,
         "agility": 23
@@ -6562,7 +6562,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 12,
+        "fuel_combat": 0,
         "safety": 90,
         "speed": 23,
         "agility": 16
@@ -6585,7 +6585,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 2,
-        "fuel_combat": 13,
+        "fuel_combat": 0,
         "safety": 70,
         "speed": 19,
         "agility": 19
@@ -6608,7 +6608,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 15,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 18,
         "agility": 22
@@ -6631,7 +6631,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 2,
-        "fuel_combat": 16,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 15,
         "agility": 15
@@ -6654,7 +6654,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 14,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 15,
         "agility": 15
@@ -6677,7 +6677,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 26,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 10,
         "agility": 14
@@ -6700,7 +6700,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 18,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 15,
         "agility": 9
@@ -6723,7 +6723,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 19,
+        "fuel_combat": 0,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -6746,7 +6746,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 9,
         "agility": 9
@@ -9957,7 +9957,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 8,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 30,
         "agility": 27
@@ -9983,7 +9983,7 @@
         "ap": 8,
         "ap_cost": 2,
         "fuel_map": 1,
-        "fuel_combat": 14,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 27,
         "agility": 30
@@ -10006,7 +10006,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 1,
-        "fuel_combat": 14,
+        "fuel_combat": 0,
         "safety": 120,
         "speed": 20,
         "agility": 18
@@ -10029,7 +10029,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 16,
+        "fuel_combat": 0,
         "safety": 120,
         "speed": 19,
         "agility": 13
@@ -10052,7 +10052,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 22,
+        "fuel_combat": 0,
         "safety": 110,
         "speed": 13,
         "agility": 18
@@ -10075,7 +10075,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 16,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 12,
         "agility": 11
@@ -10098,7 +10098,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 90,
         "speed": 10,
         "agility": 6
@@ -10121,7 +10121,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 22,
+        "fuel_combat": 0,
         "safety": 150,
         "speed": 15,
         "agility": 8
@@ -10144,7 +10144,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 4,
-        "fuel_combat": 28,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 10,
         "agility": 10
@@ -10273,7 +10273,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 90,
         "speed": 10,
         "agility": 6
@@ -10296,7 +10296,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 24,
+        "fuel_combat": 0,
         "safety": 150,
         "speed": 15,
         "agility": 8
@@ -10319,7 +10319,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 4,
-        "fuel_combat": 30,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 10,
         "agility": 10
@@ -10342,7 +10342,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 22,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 9,
         "agility": 9
@@ -10596,8 +10596,8 @@
       "jump_cost": 2,
       "gunnery": 2,
       "electronics": 3,
-      "dmg": 6,
-      "crit": 7
+      "dmg": 8,
+      "crit": 8
     },
     "393": {
       "_id": 393,
@@ -10611,8 +10611,8 @@
       "jump_cost": 3,
       "gunnery": 3,
       "electronics": 3,
-      "dmg": 8,
-      "crit": 9
+      "dmg": 10,
+      "crit": 10
     },
     "394": {
       "_id": 394,
@@ -10627,8 +10627,8 @@
       "jump_cost": 4,
       "gunnery": 3,
       "electronics": 4,
-      "dmg": 10,
-      "crit": 10
+      "dmg": 12,
+      "crit": 12
     },
     "395": {
       "_id": 395,
@@ -11313,7 +11313,7 @@
         "ap": 9,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 6,
+        "fuel_combat": 0,
         "safety": 50,
         "speed": 27,
         "agility": 27
@@ -11340,7 +11340,7 @@
         "ap": 9,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 8,
+        "fuel_combat": 0,
         "safety": 40,
         "speed": 24,
         "agility": 24
@@ -11367,7 +11367,7 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 13,
+        "fuel_combat": 0,
         "safety": 60,
         "speed": 19,
         "agility": 19
@@ -11394,7 +11394,7 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 14,
+        "fuel_combat": 0,
         "safety": 70,
         "speed": 15,
         "agility": 15
@@ -11421,7 +11421,7 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 19,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 12,
         "agility": 12
@@ -11448,7 +11448,7 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 9,
         "agility": 9
@@ -11475,7 +11475,7 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 22,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 9,
         "agility": 9
@@ -11503,9 +11503,9 @@
         "ap": 9,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 6,
-        "safety": 50,
-        "speed": 27,
+        "fuel_combat": 0,
+        "safety": 60,
+        "speed": 28,
         "agility": 27
       },
       "shortname": "Behemoth"
@@ -11519,7 +11519,7 @@
       "size": "large",
       "mass": 450,
       "drive_mass": 3400,
-      "install_cost": 2438000,
+      "install_cost": 1838000,
       "armor": 8,
       "shield": 3,
       "jump_cost": 6,
@@ -11531,9 +11531,9 @@
         "ap": 9,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 8,
-        "safety": 40,
-        "speed": 24,
+        "fuel_combat": 0,
+        "safety": 50,
+        "speed": 25,
         "agility": 24
       },
       "shortname": "Behemoth"
@@ -11547,7 +11547,7 @@
       "size": "large",
       "mass": 750,
       "drive_mass": 5000,
-      "install_cost": 2847000,
+      "install_cost": 2447000,
       "armor": 9,
       "shield": 4,
       "jump_cost": 9,
@@ -11559,9 +11559,9 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 13,
-        "safety": 60,
-        "speed": 19,
+        "fuel_combat": 0,
+        "safety": 70,
+        "speed": 20,
         "agility": 19
       },
       "shortname": "Behemoth"
@@ -11575,7 +11575,7 @@
       "size": "large",
       "mass": 1100,
       "drive_mass": 6000,
-      "install_cost": 3006400,
+      "install_cost": 2806400,
       "armor": 10,
       "shield": 5,
       "jump_cost": 15,
@@ -11587,9 +11587,9 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 14,
-        "safety": 70,
-        "speed": 15,
+        "fuel_combat": 0,
+        "safety": 80,
+        "speed": 16,
         "agility": 15
       },
       "shortname": "Behemoth"
@@ -11615,9 +11615,9 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 19,
-        "safety": 80,
-        "speed": 12,
+        "fuel_combat": 0,
+        "safety": 90,
+        "speed": 13,
         "agility": 12
       },
       "shortname": "Behemoth"
@@ -11631,7 +11631,7 @@
       "size": "large",
       "mass": 1500,
       "drive_mass": 8000,
-      "install_cost": 5610000,
+      "install_cost": 5010000,
       "armor": 12,
       "shield": 7,
       "jump_cost": 21,
@@ -11640,12 +11640,12 @@
       "navigation": 4,
       "electronics": 12,
       "engine": {
-        "ap": 10,
+        "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 80,
-        "speed": 9,
+        "speed": 10,
         "agility": 9
       },
       "shortname": "Behemoth"
@@ -11659,7 +11659,7 @@
       "size": "large",
       "mass": 1750,
       "drive_mass": 9000,
-      "install_cost": 6610000,
+      "install_cost": 6310000,
       "armor": 13,
       "shield": 8,
       "jump_cost": 24,
@@ -11668,12 +11668,12 @@
       "navigation": 4,
       "electronics": 12,
       "engine": {
-        "ap": 10,
+        "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 22,
+        "fuel_combat": 0,
         "safety": 80,
-        "speed": 9,
+        "speed": 10,
         "agility": 9
       },
       "shortname": "Behemoth"
@@ -11946,7 +11946,7 @@
       "type": "engine",
       "name": "M2400 Void Engine: Dual-Field",
       "size": "large",
-      "mass": 140,
+      "mass": 100,
       "drive_mass": 2400,
       "install_cost": 358800,
       "armor": 3,
@@ -11960,7 +11960,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 6,
+        "fuel_combat": 0,
         "safety": 60,
         "speed": 27,
         "agility": 27
@@ -11973,7 +11973,7 @@
       "type": "engine",
       "name": "M3400 Void Engine: Dual-Field",
       "size": "large",
-      "mass": 300,
+      "mass": 200,
       "drive_mass": 3400,
       "install_cost": 417200,
       "armor": 2,
@@ -11986,7 +11986,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 8,
+        "fuel_combat": 0,
         "safety": 50,
         "speed": 24,
         "agility": 24
@@ -12010,7 +12010,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 2,
-        "fuel_combat": 13,
+        "fuel_combat": 0,
         "safety": 70,
         "speed": 19,
         "agility": 19
@@ -12034,7 +12034,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 14,
+        "fuel_combat": 0,
         "safety": 80,
         "speed": 15,
         "agility": 15
@@ -12058,7 +12058,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 19,
+        "fuel_combat": 0,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -12082,7 +12082,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 20,
+        "fuel_combat": 0,
         "safety": 100,
         "speed": 9,
         "agility": 9
@@ -12985,9 +12985,110 @@
       "fuel": 15,
       "install_cost": 764000,
       "armor": 5,
+      "jump_cost": 2,
       "shipops": 4,
       "explorer": 4,
       "electronics": 2
+    },
+    "587": {
+      "_id": 587,
+      "faction": "rychart",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_5",
+      "type": "bridge",
+      "name": "Scout-Stealth Bridge 5",
+      "size": "small",
+      "mass": 100,
+      "officers": 3,
+      "install_cost": 1324800,
+      "armor": 3,
+      "shield": 3,
+      "jump_cost": 3,
+      "pilot": 7,
+      "shipops": 4,
+      "navigation": 6,
+      "electronics": 8,
+      "res_craft": 10,
+      "cloak": 10
+    },
+    "588": {
+      "_id": 588,
+      "faction": "alta_mesa",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_5",
+      "type": "bridge",
+      "name": "Scout-Skirmish Bridge 5",
+      "size": "small",
+      "mass": 100,
+      "officers": 3,
+      "install_cost": 1482500,
+      "armor": 4,
+      "shield": 4,
+      "jump_cost": 4,
+      "pilot": 8,
+      "shipops": 4,
+      "navigation": 6,
+      "electronics": 6,
+      "acc": 10,
+      "res_craft": 15
+    },
+    "589": {
+      "_id": 589,
+      "faction": "zenrin",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_5",
+      "type": "mass",
+      "name": "Scout-Hauler Bridge 5",
+      "size": "small",
+      "mass": -100,
+      "officers": 3,
+      "install_cost": 1347420,
+      "armor": 2,
+      "shield": 2,
+      "jump_cost": -5,
+      "pilot": 8,
+      "shipops": 4,
+      "navigation": 8,
+      "electronics": 5,
+      "res_craft": 10,
+      "escape": 10
+    },
+    "590": {
+      "_id": 590,
+      "faction": "cadar",
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_5",
+      "type": "boosters_aggro",
+      "name": "Targeting Matrix 5",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 184000,
+      "jump_cost": 3,
+      "gunnery": 6,
+      "electronics": 6,
+      "acc": 10,
+      "acc_craft": 8,
+      "dmg": 10,
+      "crit": 5,
+      "init": 2,
+      "void_dmg": 15
+    },
+    "591": {
+      "_id": 591,
+      "faction": "thulun",
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_5",
+      "type": "boosters_aggro",
+      "name": "Interlocking Sensor Matrix 5",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 184000,
+      "jump_cost": 3,
+      "gunnery": 4,
+      "electronics": 6,
+      "dmg": 14,
+      "crit": 14,
+      "void_dmg": 10
     }
   },
   "ships": {
@@ -13814,10 +13915,10 @@
       "hullpoints": 2700,
       "basemass": 9000,
       "smallslots": 12,
-      "mediumslots": 12,
+      "mediumslots": 13,
       "largeslots": 6,
       "components": [
-        35,
+        285,
         287,
         92,
         94,
@@ -13828,6 +13929,7 @@
         2,
         9,
         23,
+        294,
         21,
         21,
         21,
@@ -14539,7 +14641,7 @@
         482,
         21,
         21,
-        461,
+        454,
         28,
         426,
         27,
@@ -14859,7 +14961,6 @@
         258,
         28,
         28,
-        7,
         367,
         25,
         427,
@@ -15635,7 +15736,7 @@
         532,
         21,
         21,
-        461,
+        454,
         105,
         105,
         68,
