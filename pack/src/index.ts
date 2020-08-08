@@ -391,6 +391,8 @@ var app = new Vue({
             var hash = document.location.hash.slice(1)
             if(hash) {
                 this.stfx_import(hash)
+            } else {
+                this.current_id = 36
             }
         })
         bus.$on(events.EVT_FILL_SHIP_POOLS, ((fill_crew:types.FillCrewman[]) => {
