@@ -5870,7 +5870,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 60,
+        "safety": 120,
         "speed": 27,
         "agility": 27
       },
@@ -5909,11 +5909,14 @@
       "type": "assist",
       "name": "Reactor Spike Module 1",
       "size": "small",
-      "mass": 125,
-      "fuel": 10,
-      "install_cost": 13500,
+      "mass": 100,
+      "fuel": 5,
+      "install_cost": 17650,
+      "jump_cost": -2,
       "shipops": 1,
-      "electronics": 2
+      "electronics": 2,
+      "escape": 2,
+      "move": 2
     },
     "6": {
       "_id": 6,
@@ -5929,6 +5932,7 @@
     "7": {
       "_id": 7,
       "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_1",
       "type": "crew",
       "name": "Officer Cabin",
       "size": "small",
@@ -5984,7 +5988,7 @@
         "ap_cost": 3,
         "fuel_map": 1,
         "fuel_combat": 0,
-        "safety": 70,
+        "safety": 150,
         "speed": 27,
         "agility": 27
       },
@@ -6026,11 +6030,14 @@
       "type": "assist",
       "name": "Reactor Spike Module 2",
       "size": "small",
-      "mass": 125,
+      "mass": 100,
       "fuel": 15,
-      "install_cost": 21520,
+      "install_cost": 61520,
+      "jump_cost": -4,
       "shipops": 2,
-      "electronics": 3
+      "electronics": 3,
+      "escape": 3,
+      "move": 3
     },
     "13": {
       "_id": 13,
@@ -6088,7 +6095,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 70,
+        "safety": 80,
         "speed": 29,
         "agility": 24
       },
@@ -6097,6 +6104,7 @@
     "17": {
       "_id": 17,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
       "type": "passenger",
       "name": "Luxury Cabin",
       "base_desc": "Grants a +15% bonus to entire mission payment if empty Luxury Cabin is available when picking up a passenger",
@@ -6111,6 +6119,7 @@
     "18": {
       "_id": 18,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Passenger Cabin",
       "size": "small",
@@ -6122,6 +6131,7 @@
     "19": {
       "_id": 19,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Prison Cell",
       "size": "small",
@@ -6133,6 +6143,7 @@
     "20": {
       "_id": 20,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_1",
       "type": "hangar",
       "name": "Launch Bay",
       "size": "large",
@@ -6205,6 +6216,7 @@
     "24": {
       "_id": 24,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_1",
       "type": "medical",
       "name": "Reinforced Medical Chamber",
       "size": "small",
@@ -6232,6 +6244,7 @@
     "26": {
       "_id": 26,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_1",
       "type": "cargo",
       "name": "Storage Cache",
       "size": "small",
@@ -6293,6 +6306,7 @@
     "31": {
       "_id": 31,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Prison Cellblock",
       "size": "medium",
@@ -6361,6 +6375,7 @@
     "36": {
       "_id": 36,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_2",
       "type": "hangar",
       "name": "Shielded Launch Bay",
       "size": "large",
@@ -6478,7 +6493,7 @@
         "ap_cost": 2,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 60,
+        "safety": 80,
         "speed": 24,
         "agility": 29
       },
@@ -6487,6 +6502,7 @@
     "43": {
       "_id": 43,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_1",
       "type": "medical",
       "name": "Basic Medical Bay",
       "size": "medium",
@@ -6515,7 +6531,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 50,
+        "safety": 120,
         "speed": 24,
         "agility": 24
       },
@@ -6540,7 +6556,7 @@
         "ap_cost": 3,
         "fuel_map": 1,
         "fuel_combat": 0,
-        "safety": 80,
+        "safety": 150,
         "speed": 23,
         "agility": 23
       },
@@ -6563,7 +6579,7 @@
         "ap_cost": 4,
         "fuel_map": 3,
         "fuel_combat": 0,
-        "safety": 90,
+        "safety": 80,
         "speed": 23,
         "agility": 16
       },
@@ -6586,7 +6602,7 @@
         "ap_cost": 4,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 70,
+        "safety": 100,
         "speed": 19,
         "agility": 19
       },
@@ -6631,8 +6647,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 2,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 2,
+        "safety": 110,
         "speed": 15,
         "agility": 15
       },
@@ -6654,8 +6670,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 5,
+        "safety": 100,
         "speed": 15,
         "agility": 15
       },
@@ -6677,7 +6693,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 0,
+        "fuel_combat": 1,
         "safety": 100,
         "speed": 10,
         "agility": 14
@@ -6700,8 +6716,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 100,
+        "fuel_combat": 8,
+        "safety": 80,
         "speed": 15,
         "agility": 9
       },
@@ -6723,7 +6739,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
+        "fuel_combat": 5,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -6746,8 +6762,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 100,
+        "fuel_combat": 5,
+        "safety": 90,
         "speed": 9,
         "agility": 9
       },
@@ -6789,6 +6805,7 @@
     "66": {
       "_id": 66,
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_1",
       "type": "mining",
       "name": "Extraction Drill",
       "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +6 during Exploration (does not stack, damaged on use)",
@@ -6801,6 +6818,7 @@
     "67": {
       "_id": 67,
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_2",
       "type": "mining",
       "name": "Harvester Bay",
       "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +12 during Exploration (does not stack, damaged on use)",
@@ -6814,6 +6832,7 @@
       "_id": 68,
       "faction": "javat",
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_3",
       "type": "mining",
       "name": "Resource Processor",
       "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +16 during Exploration (does not stack, damaged on use)",
@@ -6828,6 +6847,7 @@
       "_id": 69,
       "faction": "javat",
       "img": "ship_comp_extractor",
+      "imgmod": "ship_comp_over_4",
       "type": "mining",
       "name": "Javat Mechi-Reaper",
       "base_desc": "Increases yield of Raw and Refined Resource discoveries by up to +20 during Exploration (does not stack, damaged on use)",
@@ -6842,6 +6862,7 @@
     "70": {
       "_id": 70,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_1",
       "type": "crew_exploration",
       "name": "Matchweave EVA Suits",
       "base_desc": "Reduces crew damage by 25% during Exploration (does not stack, damaged on use)",
@@ -6854,6 +6875,7 @@
     "71": {
       "_id": 71,
       "img": "ship_comp_exocrawler",
+      "imgmod": "ship_comp_over_2",
       "type": "crew_exploration",
       "name": "L-Support Rover",
       "base_desc": "Reduces crew damage by 30% during Exploration (does not stack, damaged on use)",
@@ -6867,6 +6889,7 @@
       "_id": 72,
       "faction": "steel_song",
       "img": "ship_comp_exocrawler",
+      "imgmod": "ship_comp_over_3",
       "type": "crew_exploration",
       "name": "Hyperion Exo-Suits",
       "base_desc": "Reduces crew damage by 30% and 50% fewer crew are harmed  during Exploration (does not stack, damaged on use)",
@@ -6880,6 +6903,7 @@
     "73": {
       "_id": 73,
       "img": "ship_comp_exocrawler",
+      "imgmod": "ship_comp_over_4",
       "type": "crew_exploration",
       "name": "Exo-Crawler",
       "base_desc": "Reduces crew damage by 30% and 66% fewer crew are harmed during Exploration (does not stack, damaged on use)",
@@ -6892,6 +6916,7 @@
     "74": {
       "_id": 74,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_1",
       "type": "ship_exploration",
       "name": "EVA Airlock",
       "base_desc": "Reduces ship damage by 20% during Exploration (does not stack, damaged on use)",
@@ -6904,6 +6929,7 @@
     "75": {
       "_id": 75,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_2",
       "type": "ship_exploration",
       "name": "Weather Seals",
       "base_desc": "Reduces ship damage by 30% during Exploration (does not stack, damaged on use)",
@@ -6916,6 +6942,7 @@
     "76": {
       "_id": 76,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_3",
       "type": "ship_exploration",
       "name": "Radiation Seals",
       "base_desc": "Reduces ship damage 35% during Exploration (does not stack, damaged on use)",
@@ -6930,6 +6957,7 @@
       "_id": 77,
       "faction": "alta_mesa",
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_4",
       "type": "ship_exploration",
       "name": "Mesa Radiate-Seal",
       "base_desc": "Reduces ship damage 40% during Exploration (does not stack, damaged on use)",
@@ -6943,9 +6971,10 @@
     "78": {
       "_id": 78,
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_1",
       "type": "data_exploration",
       "name": "Surface Scanner",
-      "base_desc": "Increases Data Records gathered when Exploring by 15% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Exploring by 15% (does not stack, damaged on use)",
       "size": "small",
       "mass": 125,
       "install_cost": 13500,
@@ -6955,9 +6984,10 @@
     "79": {
       "_id": 79,
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_2",
       "type": "data_exploration",
       "name": "Wide-Arc Scanner",
-      "base_desc": "Increases Data Records gathered when Exploring by 25% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Exploring by 25% (does not stack, damaged on use)",
       "size": "small",
       "mass": 125,
       "install_cost": 17500,
@@ -6968,9 +6998,10 @@
       "_id": 80,
       "faction": "rychart",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_3",
       "type": "data_exploration",
       "name": "Depth Scanner Omega",
-      "base_desc": "Increases Data Records gathered when Exploring by 50% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Exploring by 50% (does not stack, damaged on use)",
       "size": "small",
       "mass": 125,
       "install_cost": 24000,
@@ -6981,9 +7012,10 @@
       "_id": 81,
       "faction": "rychart",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_4",
       "type": "data_exploration",
       "name": "Depth Scanner Omega-X",
-      "base_desc": "Increases Data Records gathered when Exploring by 60% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Exploring by 60% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 300,
       "install_cost": 42000,
@@ -6996,7 +7028,7 @@
       "imgmod": "ship_comp_over_1",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 1",
-      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1 (does not stack, damaged on use)",
+      "base_desc": "Reduces fuel cost of Patrol, Spy, Blockade or Orbital Salvage by 1 (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "fuel": 10,
@@ -7009,7 +7041,7 @@
       "imgmod": "ship_comp_over_2",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 2",
-      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 1-3 (does not stack, damaged on use)",
+      "base_desc": "Reduces fuel cost of Patrol, Spy, Blockade or Orbital Salvage by 1-3 (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "fuel": 20,
@@ -7023,7 +7055,7 @@
       "imgmod": "ship_comp_over_3",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 3",
-      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-4 (does not stack, damaged on use)",
+      "base_desc": "Reduces fuel cost of Patrol, Spy, Blockade or Orbital Salvage by 2-4 (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "fuel": 25,
@@ -7037,7 +7069,7 @@
       "imgmod": "ship_comp_over_4",
       "type": "fuel_scoop",
       "name": "Orbital Fuel Scoop 4",
-      "base_desc": "Reduces fuel cost of Patrol, Spy or Blockade by 2-5 (does not stack, damaged on use)",
+      "base_desc": "Reduces fuel cost of Patrol, Spy, Blockade or Orbital Salvage by 2-5 (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "fuel": 30,
@@ -7050,7 +7082,7 @@
       "imgmod": "ship_comp_over_1",
       "type": "signal_array",
       "name": "Oni-Signal Array",
-      "base_desc": "Increases Data Records gathered when Spying by 10% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 10% (does not stack, damaged on use)",
       "size": "small",
       "mass": 100,
       "install_cost": 13500,
@@ -7063,7 +7095,7 @@
       "imgmod": "ship_comp_over_2",
       "type": "signal_array",
       "name": "Dual-Arc Signal Array",
-      "base_desc": "Increases Data Records gathered when Spying by 20% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 20% (does not stack, damaged on use)",
       "size": "small",
       "mass": 100,
       "install_cost": 18000,
@@ -7076,7 +7108,7 @@
       "imgmod": "ship_comp_over_3",
       "type": "signal_array",
       "name": "Triple-Arc Signal Array",
-      "base_desc": "Increases Data Records gathered when Spying by 25% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 25% (does not stack, damaged on use)",
       "size": "small",
       "mass": 100,
       "install_cost": 26000,
@@ -7087,9 +7119,10 @@
       "_id": 89,
       "faction": "rychart",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_4",
       "type": "signal_array",
       "name": "Multi-Signal Array",
-      "base_desc": "Increases Data Records gathered when Spying by 33% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 33% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 250,
       "install_cost": 50000,
@@ -8303,7 +8336,7 @@
       "mass": 600,
       "install_cost": 298280,
       "shipops": 3,
-      "gunnery": 11,
+      "gunnery": 13,
       "weapon": {
         "accuracy": 5,
         "hitcraft": 0,
@@ -8329,7 +8362,7 @@
       "mass": 600,
       "install_cost": 358260,
       "shipops": 2,
-      "gunnery": 14,
+      "gunnery": 15,
       "weapon": {
         "accuracy": 6,
         "hitcraft": 0,
@@ -8735,6 +8768,38 @@
         "effect_chance": 60
       }
     },
+    "236": {
+      "_id": 236,
+      "faction": "cadar",
+      "img": "ship_comp_weapon_torps",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Cadonya Buster Array",
+      "size": "large",
+      "mass": 600,
+      "install_cost": 448120,
+      "jump_cost": 4,
+      "shipops": 6,
+      "gunnery": 16,
+      "electronics": 6,
+      "weapon": {
+        "accuracy": 16,
+        "hitcraft": 50,
+        "ap": 4,
+        "range": 5,
+        "attack_type": 4,
+        "weapon_type": 7,
+        "crit": 12,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 101,
+        "damage_max": 160,
+        "effect": "void",
+        "effect_min": 25,
+        "effect_max": 80,
+        "effect_chance": 65
+      }
+    },
     "250": {
       "_id": 250,
       "img": "ship_comp_fuel",
@@ -8811,8 +8876,9 @@
     "255": {
       "_id": 255,
       "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
-      "name": "Radi-Pulse Booster",
+      "name": "Radi-Pulse Booster 1",
       "size": "small",
       "mass": 125,
       "install_cost": 18250,
@@ -8820,13 +8886,14 @@
       "jump_cost": 2,
       "shipops": 2,
       "electronics": 2,
-      "rad_res": 20
+      "rad_res": 25
     },
     "256": {
       "_id": 256,
       "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_1",
       "type": "assist",
-      "name": "Void-Pulse Booster",
+      "name": "Void-Pulse Booster 1",
       "size": "small",
       "mass": 125,
       "install_cost": 18250,
@@ -8834,7 +8901,7 @@
       "jump_cost": 2,
       "shipops": 2,
       "electronics": 2,
-      "void_res": 20
+      "void_res": 25
     },
     "257": {
       "_id": 257,
@@ -9255,11 +9322,14 @@
       "type": "assist",
       "name": "Reactor Spike Module 3",
       "size": "small",
-      "mass": 125,
+      "mass": 100,
       "fuel": 25,
-      "install_cost": 45640,
+      "install_cost": 175640,
+      "jump_cost": -5,
       "shipops": 2,
-      "electronics": 4
+      "electronics": 4,
+      "escape": 3,
+      "move": 3
     },
     "289": {
       "_id": 289,
@@ -9268,15 +9338,19 @@
       "type": "assist",
       "name": "Reactor Spike Module 4",
       "size": "small",
-      "mass": 125,
+      "mass": 100,
       "fuel": 35,
-      "install_cost": 77760,
+      "install_cost": 247760,
+      "jump_cost": -6,
       "shipops": 3,
-      "electronics": 4
+      "electronics": 4,
+      "escape": 4,
+      "move": 4
     },
     "290": {
       "_id": 290,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Luxury Suites",
       "base_desc": "Grants a +15% bonus to entire mission payment if empty Luxury Cabin is available when picking up a passenger",
@@ -9554,6 +9628,7 @@
     "309": {
       "_id": 309,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_2",
       "type": "medical",
       "name": "Shielded Medical Chamber",
       "size": "small",
@@ -9567,6 +9642,7 @@
     "310": {
       "_id": 310,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_2",
       "type": "medical",
       "name": "Medical Bay",
       "size": "medium",
@@ -9579,6 +9655,7 @@
     "311": {
       "_id": 311,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_2",
       "type": "medical",
       "name": "Advanced Medical Ward",
       "size": "large",
@@ -9592,6 +9669,7 @@
     "312": {
       "_id": 312,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_3",
       "type": "medical",
       "name": "Combat Medical Ward",
       "size": "large",
@@ -9607,6 +9685,7 @@
     "313": {
       "_id": 313,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_1",
       "type": "cargo",
       "name": "Storage Hold",
       "size": "medium",
@@ -9618,6 +9697,7 @@
     "314": {
       "_id": 314,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_2",
       "type": "cargo",
       "name": "Armored Storage",
       "size": "medium",
@@ -9632,6 +9712,7 @@
     "315": {
       "_id": 315,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_2",
       "type": "cargo",
       "name": "Cargo-Fuel Storage",
       "size": "medium",
@@ -9672,6 +9753,7 @@
     "318": {
       "_id": 318,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_6",
       "type": "crew",
       "name": "Barracks 6",
       "size": "large",
@@ -9682,6 +9764,7 @@
     "319": {
       "_id": 319,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_7",
       "type": "crew",
       "name": "Barracks 7",
       "size": "large",
@@ -9692,6 +9775,7 @@
     "320": {
       "_id": 320,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_8",
       "type": "crew",
       "name": "Barracks 8",
       "size": "large",
@@ -9928,6 +10012,7 @@
     "354": {
       "_id": 354,
       "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_2",
       "type": "crew",
       "name": "Reinforced Officer Cabin",
       "size": "small",
@@ -9958,7 +10043,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 100,
+        "safety": 60,
         "speed": 30,
         "agility": 27
       },
@@ -10007,7 +10092,7 @@
         "ap_cost": 4,
         "fuel_map": 1,
         "fuel_combat": 0,
-        "safety": 120,
+        "safety": 110,
         "speed": 20,
         "agility": 18
       },
@@ -10029,8 +10114,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
-        "safety": 120,
+        "fuel_combat": 4,
+        "safety": 80,
         "speed": 19,
         "agility": 13
       },
@@ -10053,7 +10138,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 110,
+        "safety": 90,
         "speed": 13,
         "agility": 18
       },
@@ -10075,7 +10160,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
+        "fuel_combat": 2,
         "safety": 100,
         "speed": 12,
         "agility": 11
@@ -10098,7 +10183,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
+        "fuel_combat": 4,
         "safety": 90,
         "speed": 10,
         "agility": 6
@@ -10121,8 +10206,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 150,
+        "fuel_combat": 8,
+        "safety": 70,
         "speed": 15,
         "agility": 8
       },
@@ -10144,10 +10229,10 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 100,
+        "fuel_combat": 2,
+        "safety": 90,
         "speed": 10,
-        "agility": 10
+        "agility": 12
       },
       "shortname": "Chaser"
     },
@@ -10208,6 +10293,7 @@
     "368": {
       "_id": 368,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_8",
       "type": "crew",
       "name": "Reinforced Barracks 8",
       "size": "large",
@@ -10221,6 +10307,7 @@
     "369": {
       "_id": 369,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_3",
       "type": "medical",
       "name": "Reinforced Medical Ward",
       "size": "large",
@@ -10235,6 +10322,7 @@
     "370": {
       "_id": 370,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_3",
       "type": "medical",
       "name": "Advanced Medical Bay",
       "size": "medium",
@@ -10249,6 +10337,7 @@
     "371": {
       "_id": 371,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Passenger Suites",
       "size": "medium",
@@ -10273,7 +10362,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
+        "fuel_combat": 4,
         "safety": 90,
         "speed": 10,
         "agility": 6
@@ -10296,8 +10385,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 150,
+        "fuel_combat": 8,
+        "safety": 60,
         "speed": 15,
         "agility": 8
       },
@@ -10319,7 +10408,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 4,
-        "fuel_combat": 0,
+        "fuel_combat": 3,
         "safety": 100,
         "speed": 10,
         "agility": 10
@@ -10342,8 +10431,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 100,
+        "fuel_combat": 5,
+        "safety": 80,
         "speed": 9,
         "agility": 9
       },
@@ -10405,6 +10494,7 @@
     "380": {
       "_id": 380,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_6",
       "type": "crew",
       "name": "Reinforced Barracks 6",
       "size": "large",
@@ -10439,7 +10529,8 @@
       "install_cost": 17650,
       "shipops": 4,
       "navigation": 2,
-      "escape": 4,
+      "res_craft": 2,
+      "escape": 5,
       "void_res": 3
     },
     "383": {
@@ -10453,7 +10544,8 @@
       "install_cost": 34420,
       "shipops": 4,
       "navigation": 2,
-      "escape": 5,
+      "res_craft": 4,
+      "escape": 6,
       "void_res": 6
     },
     "384": {
@@ -10467,7 +10559,8 @@
       "install_cost": 56500,
       "shipops": 4,
       "navigation": 3,
-      "escape": 5,
+      "res_craft": 6,
+      "escape": 7,
       "void_res": 9
     },
     "385": {
@@ -10481,8 +10574,9 @@
       "mass": 125,
       "install_cost": 94000,
       "shipops": 4,
-      "navigation": 3,
-      "escape": 6,
+      "navigation": 4,
+      "res_craft": 8,
+      "escape": 8,
       "void_res": 12
     },
     "386": {
@@ -10548,7 +10642,7 @@
       "name": "Defense Pattern Matrix 2",
       "size": "small",
       "mass": 125,
-      "install_cost": 34420,
+      "install_cost": 54420,
       "jump_cost": 2,
       "pilot": 2,
       "shipops": 2,
@@ -10562,7 +10656,7 @@
       "name": "Defense Pattern Matrix 3",
       "size": "small",
       "mass": 125,
-      "install_cost": 56500,
+      "install_cost": 86500,
       "jump_cost": 3,
       "pilot": 3,
       "shipops": 3,
@@ -10577,12 +10671,11 @@
       "name": "Defense Pattern Matrix 4",
       "size": "small",
       "mass": 125,
-      "install_cost": 94000,
+      "install_cost": 154000,
       "jump_cost": 4,
       "pilot": 3,
       "shipops": 3,
-      "electronics": 4,
-      "init": 1
+      "electronics": 4
     },
     "392": {
       "_id": 392,
@@ -10633,9 +10726,10 @@
     "395": {
       "_id": 395,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_1",
       "type": "plating",
       "name": "Magnamech Plating",
-      "base_desc": "Reduces crew damage by 20% during Spying, Blockade or Patrol (does not stack, damaged on use)",
+      "base_desc": "Reduces crew damage by 20% during Patrol, Spy, Blockade or Orbital Salvage (does not stack, damaged on use)",
       "size": "small",
       "mass": 100,
       "install_cost": 37000,
@@ -10646,9 +10740,10 @@
     "396": {
       "_id": 396,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_2",
       "type": "plating",
       "name": "Centurion Radiation Array",
-      "base_desc": "Reduces crew damage by 25% during Spying, Blockade or Patrol (does not stack, damaged on use)",
+      "base_desc": "Reduces crew damage by 25% during Patrol, Spy, Blockade or Orbital Salvage (does not stack, damaged on use)",
       "size": "small",
       "mass": 100,
       "install_cost": 72000,
@@ -10659,6 +10754,7 @@
     "397": {
       "_id": 397,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_3",
       "type": "plating",
       "name": "Ferrochromium Plating",
       "base_desc": "Reduces crew damage by 40% and 20% fewer crew are harmed during Spying, Blockade or Patrol (does not stack, damaged on use)",
@@ -10672,9 +10768,10 @@
     "399": {
       "_id": 399,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_1",
       "type": "coating",
       "name": "Duranium Coating",
-      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 20% (does not stack, damaged on use)",
+      "base_desc": "Reduces ship damage during Patrol, Spy, Blockade or Orbital Salvage by 20% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "install_cost": 45000,
@@ -10685,9 +10782,10 @@
     "400": {
       "_id": 400,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_2",
       "type": "coating",
-      "name": "Ferrochromium Mesh",
-      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 25% (does not stack, damaged on use)",
+      "name": "Ferrochromium Coating",
+      "base_desc": "Reduces ship damage during Patrol, Spy, Blockade or Orbital Salvage by 25% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "install_cost": 85000,
@@ -10698,9 +10796,10 @@
     "401": {
       "_id": 401,
       "img": "ship_comp_seals",
+      "imgmod": "ship_comp_over_3",
       "type": "coating",
-      "name": "Iridlaentine Weave",
-      "base_desc": "Reduces ship damage during Spying, Blockade, or Patrol by 40% (does not stack, damaged on use)",
+      "name": "Iridlaentine Weave-Coating",
+      "base_desc": "Reduces ship damage during Patrol, Spy, Blockade or Orbital Salvage by 40% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "install_cost": 118000,
@@ -10891,6 +10990,7 @@
     "426": {
       "_id": 426,
       "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_1",
       "type": "crew",
       "name": "Officer Suites",
       "size": "medium",
@@ -10901,6 +11001,7 @@
     "427": {
       "_id": 427,
       "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_2",
       "type": "crew",
       "name": "Shielded Officer Suites",
       "size": "medium",
@@ -10912,7 +11013,8 @@
     "428": {
       "_id": 428,
       "faction": "alta_mesa",
-      "img": "ship_comp_cargo",
+      "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_5",
       "type": "fuel",
       "name": "Reinforced Fuel Tank",
       "size": "medium",
@@ -11048,6 +11150,7 @@
       "_id": 436,
       "faction": "zenrin",
       "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_2",
       "type": "crew",
       "name": "Armored Officer Suites",
       "size": "medium",
@@ -11126,6 +11229,7 @@
     "441": {
       "_id": 441,
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_2",
       "type": "cargo",
       "name": "Cargo-Fuel Pod",
       "size": "small",
@@ -11138,7 +11242,8 @@
     "442": {
       "_id": 442,
       "faction": "alta_mesa",
-      "img": "ship_comp_cargo",
+      "img": "ship_comp_fuel",
+      "imgmod": "ship_comp_over_1",
       "type": "fuel",
       "name": "Reinforced Fuel Pod",
       "size": "small",
@@ -11224,7 +11329,7 @@
       "imgmod": "ship_comp_over_1",
       "type": "salvage_bay",
       "name": "Salvage Bay 1",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 15% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 15% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 10,
@@ -11239,7 +11344,7 @@
       "imgmod": "ship_comp_over_2",
       "type": "salvage_bay",
       "name": "Salvage Bay 2",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 25% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 25% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 15,
@@ -11254,7 +11359,7 @@
       "imgmod": "ship_comp_over_3",
       "type": "salvage_bay",
       "name": "Salvage Bay 3",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 35% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 35% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 20,
@@ -11270,7 +11375,7 @@
       "imgmod": "ship_comp_over_4",
       "type": "salvage_bay",
       "name": "Salvage Bay 4",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 49% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 25,
@@ -11314,9 +11419,9 @@
         "ap_cost": 3,
         "fuel_map": 3,
         "fuel_combat": 0,
-        "safety": 50,
+        "safety": 70,
         "speed": 27,
-        "agility": 27
+        "agility": 28
       },
       "shortname": "Warhammer"
     },
@@ -11341,9 +11446,9 @@
         "ap_cost": 3,
         "fuel_map": 3,
         "fuel_combat": 0,
-        "safety": 40,
+        "safety": 70,
         "speed": 24,
-        "agility": 24
+        "agility": 26
       },
       "shortname": "Warhammer"
     },
@@ -11367,10 +11472,10 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
+        "fuel_combat": 4,
         "safety": 60,
         "speed": 19,
-        "agility": 19
+        "agility": 20
       },
       "shortname": "Warhammer"
     },
@@ -11394,10 +11499,10 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 70,
+        "fuel_combat": 4,
+        "safety": 60,
         "speed": 15,
-        "agility": 15
+        "agility": 16
       },
       "shortname": "Warhammer"
     },
@@ -11421,10 +11526,10 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 8,
+        "safety": 60,
         "speed": 12,
-        "agility": 12
+        "agility": 13
       },
       "shortname": "Warhammer"
     },
@@ -11448,10 +11553,10 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 8,
+        "safety": 50,
         "speed": 9,
-        "agility": 9
+        "agility": 11
       },
       "shortname": "Warhammer"
     },
@@ -11475,10 +11580,10 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 8,
+        "safety": 40,
         "speed": 9,
-        "agility": 9
+        "agility": 10
       },
       "shortname": "Warhammer"
     },
@@ -11504,8 +11609,8 @@
         "ap_cost": 3,
         "fuel_map": 3,
         "fuel_combat": 0,
-        "safety": 60,
-        "speed": 28,
+        "safety": 70,
+        "speed": 29,
         "agility": 27
       },
       "shortname": "Behemoth"
@@ -11532,8 +11637,8 @@
         "ap_cost": 3,
         "fuel_map": 3,
         "fuel_combat": 0,
-        "safety": 50,
-        "speed": 25,
+        "safety": 70,
+        "speed": 27,
         "agility": 24
       },
       "shortname": "Behemoth"
@@ -11559,9 +11664,9 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 70,
-        "speed": 20,
+        "fuel_combat": 5,
+        "safety": 60,
+        "speed": 21,
         "agility": 19
       },
       "shortname": "Behemoth"
@@ -11587,10 +11692,10 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 80,
-        "speed": 16,
-        "agility": 15
+        "fuel_combat": 5,
+        "safety": 60,
+        "speed": 17,
+        "agility": 14
       },
       "shortname": "Behemoth"
     },
@@ -11615,10 +11720,10 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 90,
-        "speed": 13,
-        "agility": 12
+        "fuel_combat": 10,
+        "safety": 60,
+        "speed": 14,
+        "agility": 11
       },
       "shortname": "Behemoth"
     },
@@ -11643,9 +11748,9 @@
         "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 80,
-        "speed": 10,
+        "fuel_combat": 10,
+        "safety": 50,
+        "speed": 12,
         "agility": 9
       },
       "shortname": "Behemoth"
@@ -11671,9 +11776,9 @@
         "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 0,
-        "safety": 80,
-        "speed": 10,
+        "fuel_combat": 10,
+        "safety": 40,
+        "speed": 11,
         "agility": 9
       },
       "shortname": "Behemoth"
@@ -11824,6 +11929,7 @@
       "_id": 478,
       "faction": "alta_mesa",
       "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_1",
       "type": "bridge",
       "name": "Battle Bridge",
       "size": "medium",
@@ -11961,7 +12067,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 60,
+        "safety": 120,
         "speed": 27,
         "agility": 27
       },
@@ -11987,7 +12093,7 @@
         "ap_cost": 3,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 50,
+        "safety": 120,
         "speed": 24,
         "agility": 24
       },
@@ -12011,7 +12117,7 @@
         "ap_cost": 4,
         "fuel_map": 2,
         "fuel_combat": 0,
-        "safety": 70,
+        "safety": 100,
         "speed": 19,
         "agility": 19
       },
@@ -12034,8 +12140,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 0,
-        "safety": 80,
+        "fuel_combat": 5,
+        "safety": 100,
         "speed": 15,
         "agility": 15
       },
@@ -12058,7 +12164,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
+        "fuel_combat": 5,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -12082,8 +12188,8 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 0,
-        "safety": 100,
+        "fuel_combat": 5,
+        "safety": 90,
         "speed": 9,
         "agility": 9
       },
@@ -12092,6 +12198,7 @@
     "491": {
       "_id": 491,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_1",
       "type": "medical",
       "name": "Medical Clinic",
       "size": "large",
@@ -12106,6 +12213,7 @@
     "492": {
       "_id": 492,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_2",
       "type": "medical",
       "name": "Advanced Medical Clinic",
       "size": "large",
@@ -12120,6 +12228,7 @@
     "493": {
       "_id": 493,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_4",
       "type": "medical",
       "name": "Combat Medical Clinic",
       "size": "medium",
@@ -12135,6 +12244,7 @@
     "494": {
       "_id": 494,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_1",
       "type": "hangar2",
       "name": "Hangar Bay",
       "size": "medium",
@@ -12149,6 +12259,7 @@
     "495": {
       "_id": 495,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_1",
       "type": "hangar",
       "name": "Micro Launch Bay",
       "size": "medium",
@@ -12162,6 +12273,7 @@
     "496": {
       "_id": 496,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_2",
       "type": "hangar",
       "name": "Reinforced Launch Bay",
       "size": "large",
@@ -12177,6 +12289,7 @@
     "497": {
       "_id": 497,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_3",
       "type": "hangar",
       "name": "Advanced Launch Bay",
       "size": "large",
@@ -12192,6 +12305,7 @@
     "498": {
       "_id": 498,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_2",
       "type": "hangar2",
       "name": "Shielded Hangar Bay",
       "size": "medium",
@@ -12207,6 +12321,7 @@
     "499": {
       "_id": 499,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_2",
       "type": "hangar2",
       "name": "Reinforced Hangar Bay",
       "size": "medium",
@@ -12252,6 +12367,7 @@
     "503": {
       "_id": 503,
       "img": "ship_comp_medical",
+      "imgmod": "ship_comp_over_5",
       "type": "medical",
       "name": "Plague Ward",
       "size": "medium",
@@ -12273,7 +12389,7 @@
       "size": "medium",
       "mass": 325,
       "fuel": 32,
-      "install_cost": 65660,
+      "install_cost": 85660,
       "jump_cost": -12,
       "shipops": 6,
       "navigation": 2,
@@ -12283,6 +12399,7 @@
       "_id": 519,
       "faction": "steel_song",
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
       "type": "passenger",
       "name": "Interrogation Chamber",
       "base_desc": "Creates up to 10 Intel when empty Interrogation Cell is available when picking up a prisoner during a mission",
@@ -12297,6 +12414,7 @@
       "_id": 520,
       "faction": "steel_song",
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "passenger",
       "name": "Interrogation Ward",
       "base_desc": "Creates up to 10 Intel when empty Interrogation Cell is available when picking up a prisoner during a mission",
@@ -12362,6 +12480,7 @@
     "524": {
       "_id": 524,
       "img": "ship_comp_defensive",
+      "imgmod": "ship_comp_over_1",
       "type": "sensors",
       "name": "Sig Concealment Field",
       "size": "medium",
@@ -12380,6 +12499,7 @@
       "_id": 525,
       "faction": "de_valtos",
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
       "type": "passenger",
       "name": "Grand Lux Suites",
       "base_desc": "Grants a +22% bonus to entire mission payment if empty Luxury Cabin is available when picking up a passenger",
@@ -12393,6 +12513,7 @@
     "526": {
       "_id": 526,
       "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
       "type": "crew",
       "name": "Compact Barracks",
       "size": "small",
@@ -12404,9 +12525,10 @@
       "_id": 527,
       "faction": "de_valtos",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_1",
       "type": "signal_array",
       "name": "Quad-Goltha Scanner",
-      "base_desc": "Increases Data Records gathered when Spying by 42% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 42% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 225,
       "install_cost": 130000,
@@ -12420,9 +12542,10 @@
       "_id": 528,
       "faction": "rychart",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_2",
       "type": "signal_array",
       "name": "Redlight Goltha Scanner",
-      "base_desc": "Increases Data Records gathered when Spying by 42% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 42% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 225,
       "install_cost": 140000,
@@ -12438,9 +12561,10 @@
       "_id": 529,
       "faction": "rychart",
       "img": "ship_comp_intel_bonus",
+      "imgmod": "ship_comp_over_2",
       "type": "signal_array",
       "name": "Redlance Goltha Scanner",
-      "base_desc": "Increases Data Records gathered when Spying by 42% (does not stack, damaged on use)",
+      "base_desc": "Increases Intel gathered when Spying by 42% (does not stack, damaged on use)",
       "size": "medium",
       "mass": 225,
       "install_cost": 175000,
@@ -12518,6 +12642,7 @@
       "_id": 532,
       "faction": "javat",
       "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_5",
       "type": "cargo",
       "name": "Hauler Hold",
       "size": "large",
@@ -12621,7 +12746,7 @@
       "install_cost": 222860,
       "shipops": 4,
       "navigation": 5,
-      "res_craft": 5,
+      "res_craft": 10,
       "escape": 10,
       "void_res": 16
     },
@@ -12647,6 +12772,7 @@
       "_id": 567,
       "faction": "thulun",
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_3",
       "type": "hangar2",
       "name": "Reactive Hangar Bay",
       "size": "medium",
@@ -12906,6 +13032,7 @@
     "582": {
       "_id": 582,
       "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_4",
       "type": "hangar",
       "name": "Hyperion Launch Bay",
       "size": "large",
@@ -12961,7 +13088,7 @@
       "imgmod": "ship_comp_over_5",
       "type": "salvage_bay",
       "name": "Salvage Bay 5",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 54% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 54% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 30,
@@ -12978,7 +13105,7 @@
       "imgmod": "ship_comp_over_5",
       "type": "salvage_bay",
       "name": "Armored Salvage Bay 5",
-      "base_desc": "Increases Rewards salvaging enemy ship or orbital by 54% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 15,
@@ -13059,7 +13186,7 @@
       "img": "ship_comp_boosters_aggro",
       "imgmod": "ship_comp_over_5",
       "type": "boosters_aggro",
-      "name": "Targeting Matrix 5",
+      "name": "Targetlock Matrix 5",
       "size": "small",
       "mass": 100,
       "install_cost": 184000,
@@ -13079,7 +13206,7 @@
       "img": "ship_comp_boosters_aggro",
       "imgmod": "ship_comp_over_5",
       "type": "boosters_aggro",
-      "name": "Interlocking Sensor Matrix 5",
+      "name": "Interlock Matrix 5",
       "size": "small",
       "mass": 100,
       "install_cost": 184000,
@@ -13089,6 +13216,161 @@
       "dmg": 14,
       "crit": 14,
       "void_dmg": 10
+    },
+    "592": {
+      "_id": 592,
+      "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_2",
+      "type": "assist",
+      "name": "Radi-Pulse Booster 2",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 112480,
+      "armor": 2,
+      "jump_cost": 2,
+      "shipops": 3,
+      "electronics": 4,
+      "rad_res": 35
+    },
+    "593": {
+      "_id": 593,
+      "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_2",
+      "type": "assist",
+      "name": "Void-Pulse Booster 2",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 112480,
+      "armor": 2,
+      "jump_cost": 2,
+      "shipops": 3,
+      "electronics": 4,
+      "void_res": 35
+    },
+    "594": {
+      "_id": 594,
+      "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_3",
+      "type": "assist",
+      "name": "Radi-Pulse Booster 3",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 298820,
+      "armor": 3,
+      "jump_cost": 3,
+      "shipops": 4,
+      "electronics": 6,
+      "rad_res": 45
+    },
+    "595": {
+      "_id": 595,
+      "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_3",
+      "type": "assist",
+      "name": "Void-Pulse Booster 3",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 298820,
+      "armor": 3,
+      "jump_cost": 3,
+      "shipops": 4,
+      "electronics": 6,
+      "void_res": 45
+    },
+    "596": {
+      "_id": 596,
+      "faction": "javat",
+      "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_3",
+      "type": "fuel",
+      "name": "Water-Fuel Reclamation 3",
+      "size": "medium",
+      "mass": 325,
+      "fuel": 40,
+      "install_cost": 183680,
+      "jump_cost": -14,
+      "shipops": 6,
+      "navigation": 4,
+      "electronics": 4
+    },
+    "597": {
+      "_id": 597,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_5",
+      "type": "crew",
+      "name": "Shielded Barracks 5",
+      "size": "medium",
+      "mass": 275,
+      "crew": 36,
+      "install_cost": 321340,
+      "shield": 4,
+      "jump_cost": 5
+    },
+    "598": {
+      "_id": 598,
+      "faction": "moklumnue",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
+      "type": "bridge",
+      "name": "Capital Freighter Bridge",
+      "size": "large",
+      "mass": 600,
+      "officers": 1,
+      "cargo": 25,
+      "fuel": 25,
+      "install_cost": 850320,
+      "jump_cost": -5,
+      "pilot": 9,
+      "shipops": 5,
+      "navigation": 9,
+      "electronics": 9
+    },
+    "599": {
+      "_id": 599,
+      "faction": "alta_mesa",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_2",
+      "type": "bridge",
+      "name": "Capital Carrier Bridge",
+      "size": "large",
+      "mass": 600,
+      "officers": 1,
+      "install_cost": 550320,
+      "jump_cost": 10,
+      "pilot": 9,
+      "shipops": 5,
+      "navigation": 9,
+      "electronics": 11
+    },
+    "600": {
+      "_id": 600,
+      "faction": "zenrin",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_3",
+      "type": "bridge",
+      "name": "Compact Capital Bridge",
+      "size": "large",
+      "mass": 480,
+      "officers": 1,
+      "install_cost": 627320,
+      "pilot": 9,
+      "shipops": 6,
+      "navigation": 8,
+      "electronics": 10
+    },
+    "601": {
+      "_id": 601,
+      "faction": "de_valtos",
+      "img": "ship_comp_cargo",
+      "imgmod": "ship_comp_over_4",
+      "type": "cargo",
+      "name": "Fuel-Cargo Hold 5",
+      "size": "large",
+      "mass": 625,
+      "cargo": 35,
+      "fuel": 120,
+      "install_cost": 314000,
+      "shipops": 5
     }
   },
   "ships": {
@@ -13443,7 +13725,7 @@
         7,
         7,
         11,
-        5,
+        12,
         40,
         30
       ],
@@ -14961,6 +15243,7 @@
         258,
         28,
         28,
+        7,
         367,
         25,
         427,
@@ -15140,6 +15423,50 @@
       "shield": 10,
       "fuel": 60,
       "max_craft": 4,
+      "max_crew": 36,
+      "max_officers": 7
+    },
+    "56": {
+      "_id": 56,
+      "faction": null,
+      "name": "Neutiquam Cruiser",
+      "skin_name": "Horizon_White",
+      "hullpoints": 1950,
+      "basemass": 6000,
+      "smallslots": 11,
+      "mediumslots": 9,
+      "largeslots": 5,
+      "components": [
+        94,
+        94,
+        436,
+        535,
+        432,
+        600,
+        252,
+        252,
+        252,
+        382,
+        482,
+        351,
+        582,
+        488,
+        258,
+        258,
+        28,
+        27,
+        12,
+        597,
+        427,
+        427,
+        4,
+        4,
+        30
+      ],
+      "armor": 10,
+      "shield": 10,
+      "fuel": 150,
+      "max_craft": 2,
       "max_crew": 36,
       "max_officers": 7
     },
@@ -15346,6 +15673,8 @@
         9,
         9,
         9,
+        9,
+        9,
         23,
         351,
         490,
@@ -15370,6 +15699,51 @@
       "shield": 11,
       "fuel": 95,
       "max_craft": 3,
+      "max_crew": 36,
+      "max_officers": 7
+    },
+    "62": {
+      "_id": 62,
+      "faction": null,
+      "name": "Tempus Freighter",
+      "skin_name": "Aegis_Blue",
+      "hullpoints": 2900,
+      "basemass": 8000,
+      "smallslots": 9,
+      "mediumslots": 11,
+      "largeslots": 8,
+      "components": [
+        35,
+        35,
+        436,
+        598,
+        381,
+        434,
+        23,
+        584,
+        482,
+        351,
+        490,
+        105,
+        105,
+        7,
+        7,
+        581,
+        288,
+        288,
+        40,
+        40,
+        597,
+        427,
+        95,
+        4,
+        4,
+        30
+      ],
+      "armor": 6,
+      "shield": 10,
+      "fuel": 150,
+      "max_craft": 2,
       "max_crew": 36,
       "max_officers": 7
     },
@@ -15451,6 +15825,48 @@
       "armor": 5,
       "shield": 8,
       "fuel": 80,
+      "max_craft": 4,
+      "max_crew": 36,
+      "max_officers": 7
+    },
+    "68": {
+      "_id": 68,
+      "faction": null,
+      "name": "Vark Carrier",
+      "skin_name": "Mace_Yellow",
+      "hullpoints": 2500,
+      "basemass": 6000,
+      "smallslots": 8,
+      "mediumslots": 10,
+      "largeslots": 5,
+      "components": [
+        94,
+        94,
+        436,
+        436,
+        535,
+        599,
+        432,
+        252,
+        601,
+        494,
+        488,
+        258,
+        258,
+        28,
+        5,
+        496,
+        597,
+        36,
+        427,
+        4,
+        4,
+        4,
+        30
+      ],
+      "armor": 9,
+      "shield": 6,
+      "fuel": 100,
       "max_craft": 4,
       "max_crew": 36,
       "max_officers": 7
@@ -15586,6 +16002,54 @@
       "fuel": 130,
       "max_craft": 4,
       "max_crew": 36,
+      "max_officers": 7
+    },
+    "72": {
+      "_id": 72,
+      "faction": null,
+      "name": "Mortifor Carrier",
+      "skin_name": "Claymore_Blue",
+      "hullpoints": 2275,
+      "basemass": 8000,
+      "smallslots": 15,
+      "mediumslots": 8,
+      "largeslots": 6,
+      "components": [
+        94,
+        94,
+        436,
+        436,
+        535,
+        599,
+        252,
+        601,
+        494,
+        494,
+        21,
+        351,
+        20,
+        362,
+        105,
+        105,
+        28,
+        28,
+        27,
+        5,
+        5,
+        354,
+        40,
+        597,
+        4,
+        4,
+        4,
+        577,
+        30
+      ],
+      "armor": 10,
+      "shield": 6,
+      "fuel": 60,
+      "max_craft": 5,
+      "max_crew": 42,
       "max_officers": 7
     },
     "73": {
@@ -16070,7 +16534,8 @@
       "8": [
         156,
         163,
-        396
+        396,
+        616
       ],
       "11": [
         157,
@@ -16117,7 +16582,8 @@
       ],
       "8": [
         177,
-        178
+        178,
+        617
       ],
       "11": [
         179
@@ -16140,7 +16606,8 @@
       "8": [
         186,
         187,
-        328
+        328,
+        614
       ],
       "11": [
         188
@@ -16600,12 +17067,14 @@
       "5": [
         488,
         489,
-        490
+        490,
+        618
       ],
       "8": [
         491,
         492,
-        493
+        493,
+        619
       ],
       "11": [
         494
@@ -16650,7 +17119,8 @@
       "8": [
         537,
         540,
-        541
+        541,
+        615
       ],
       "11": [
         542,
@@ -20664,6 +21134,54 @@
       "cool": 2,
       "type": -1,
       "icon": "talent_bd_1000dance"
+    },
+    "614": {
+      "_id": 614,
+      "name": "Greaser Reaction",
+      "desc": "Prevents Ship Ops failures.",
+      "cool": 30,
+      "type": 1,
+      "icon": "talent_skill_shipops"
+    },
+    "615": {
+      "_id": 615,
+      "name": "Thorough Service",
+      "desc": "Prevents Ship Ops failures.",
+      "cool": 30,
+      "type": 1,
+      "icon": "talent_skill_shipops"
+    },
+    "616": {
+      "_id": 616,
+      "name": "Conduit Thought",
+      "desc": "Prevent Electronics Failures.",
+      "cool": 30,
+      "type": 3,
+      "icon": "talent_skill_eletrconics"
+    },
+    "617": {
+      "_id": 617,
+      "name": "Transitory Fix",
+      "desc": "Prevent Electronics Failures.",
+      "cool": 30,
+      "type": 3,
+      "icon": "talent_skill_eletrconics"
+    },
+    "618": {
+      "_id": 618,
+      "name": "Technical Refit",
+      "desc": "Prevents Ship Ops failures.",
+      "cool": 30,
+      "type": 1,
+      "icon": "talent_skill_shipops"
+    },
+    "619": {
+      "_id": 619,
+      "name": "Improvised Patch",
+      "desc": "Prevent Electronics Failures.",
+      "cool": 30,
+      "type": 3,
+      "icon": "talent_skill_eletrconics"
     }
   },
   "crafts": {
