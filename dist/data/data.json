@@ -13164,7 +13164,7 @@
       "faction": "zenrin",
       "img": "ship_comp_bridge",
       "imgmod": "ship_comp_over_5",
-      "type": "mass",
+      "type": "bridge",
       "name": "Scout-Hauler Bridge 5",
       "size": "small",
       "mass": -100,
