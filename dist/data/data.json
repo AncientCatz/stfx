@@ -168,6 +168,26 @@
           9,
           11,
           22
+        ],
+        [
+          10,
+          11,
+          23
+        ],
+        [
+          10,
+          12,
+          23
+        ],
+        [
+          10,
+          13,
+          23
+        ],
+        [
+          10,
+          14,
+          24
         ]
       ]
     },
@@ -339,6 +359,26 @@
           9,
           22,
           11
+        ],
+        [
+          10,
+          22,
+          12
+        ],
+        [
+          10,
+          23,
+          12
+        ],
+        [
+          11,
+          23,
+          12
+        ],
+        [
+          12,
+          24,
+          12
         ]
       ]
     },
@@ -510,6 +550,26 @@
           22,
           9,
           11
+        ],
+        [
+          22,
+          10,
+          12
+        ],
+        [
+          23,
+          10,
+          12
+        ],
+        [
+          24,
+          10,
+          12
+        ],
+        [
+          24,
+          11,
+          13
         ]
       ]
     },
@@ -681,6 +741,26 @@
           27,
           6,
           9
+        ],
+        [
+          28,
+          6,
+          10
+        ],
+        [
+          28,
+          7,
+          10
+        ],
+        [
+          29,
+          7,
+          10
+        ],
+        [
+          30,
+          7,
+          11
         ]
       ]
     },
@@ -819,6 +899,22 @@
         [
           15,
           27
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          17,
+          28
+        ],
+        [
+          18,
+          28
+        ],
+        [
+          19,
+          29
         ]
       ]
     },
@@ -957,6 +1053,22 @@
         [
           15,
           27
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          30
         ]
       ]
     },
@@ -1128,6 +1240,26 @@
           9,
           22,
           11
+        ],
+        [
+          10,
+          22,
+          12
+        ],
+        [
+          11,
+          22,
+          12
+        ],
+        [
+          11,
+          22,
+          13
+        ],
+        [
+          11,
+          23,
+          14
         ]
       ]
     },
@@ -1266,6 +1398,22 @@
         [
           15,
           27
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          17,
+          28
+        ],
+        [
+          18,
+          28
+        ],
+        [
+          19,
+          29
         ]
       ]
     },
@@ -1470,6 +1618,30 @@
           13,
           13,
           6
+        ],
+        [
+          10,
+          14,
+          14,
+          6
+        ],
+        [
+          11,
+          14,
+          14,
+          6
+        ],
+        [
+          12,
+          14,
+          14,
+          6
+        ],
+        [
+          12,
+          15,
+          15,
+          6
         ]
       ]
     },
@@ -1641,6 +1813,26 @@
           7,
           13,
           22
+        ],
+        [
+          8,
+          14,
+          22
+        ],
+        [
+          8,
+          15,
+          22
+        ],
+        [
+          9,
+          15,
+          22
+        ],
+        [
+          10,
+          16,
+          22
         ]
       ]
     },
@@ -1779,6 +1971,22 @@
         [
           27,
           15
+        ],
+        [
+          28,
+          16
+        ],
+        [
+          29,
+          16
+        ],
+        [
+          30,
+          16
+        ],
+        [
+          31,
+          17
         ]
       ]
     },
@@ -1950,6 +2158,26 @@
           10,
           27,
           5
+        ],
+        [
+          11,
+          27,
+          6
+        ],
+        [
+          12,
+          27,
+          6
+        ],
+        [
+          12,
+          28,
+          6
+        ],
+        [
+          13,
+          28,
+          7
         ]
       ]
     },
@@ -2088,6 +2316,22 @@
         [
           15,
           27
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          17,
+          28
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          30
         ]
       ]
     },
@@ -2259,6 +2503,26 @@
           17,
           16,
           9
+        ],
+        [
+          18,
+          16,
+          10
+        ],
+        [
+          18,
+          17,
+          10
+        ],
+        [
+          18,
+          18,
+          10
+        ],
+        [
+          19,
+          18,
+          11
         ]
       ]
     },
@@ -2430,6 +2694,26 @@
           16,
           17,
           9
+        ],
+        [
+          17,
+          17,
+          10
+        ],
+        [
+          17,
+          17,
+          11
+        ],
+        [
+          17,
+          18,
+          11
+        ],
+        [
+          17,
+          19,
+          12
         ]
       ]
     },
@@ -2601,6 +2885,26 @@
           9,
           27,
           6
+        ],
+        [
+          10,
+          27,
+          7
+        ],
+        [
+          10,
+          28,
+          7
+        ],
+        [
+          10,
+          29,
+          7
+        ],
+        [
+          11,
+          29,
+          8
         ]
       ]
     },
@@ -2772,6 +3076,26 @@
           18,
           15,
           9
+        ],
+        [
+          19,
+          15,
+          10
+        ],
+        [
+          19,
+          15,
+          11
+        ],
+        [
+          19,
+          15,
+          12
+        ],
+        [
+          20,
+          15,
+          13
         ]
       ]
     },
@@ -2943,6 +3267,26 @@
           9,
           16,
           17
+        ],
+        [
+          10,
+          17,
+          17
+        ],
+        [
+          11,
+          17,
+          17
+        ],
+        [
+          12,
+          17,
+          17
+        ],
+        [
+          12,
+          18,
+          18
         ]
       ]
     },
@@ -3114,6 +3458,26 @@
           9,
           17,
           16
+        ],
+        [
+          10,
+          18,
+          16
+        ],
+        [
+          10,
+          18,
+          17
+        ],
+        [
+          10,
+          18,
+          18
+        ],
+        [
+          10,
+          19,
+          19
         ]
       ]
     },
@@ -3285,6 +3649,26 @@
           9,
           17,
           16
+        ],
+        [
+          10,
+          18,
+          16
+        ],
+        [
+          11,
+          18,
+          16
+        ],
+        [
+          12,
+          18,
+          16
+        ],
+        [
+          12,
+          19,
+          17
         ]
       ]
     },
@@ -3456,6 +3840,217 @@
           17,
           16,
           9
+        ],
+        [
+          18,
+          16,
+          10
+        ],
+        [
+          18,
+          17,
+          10
+        ],
+        [
+          18,
+          18,
+          10
+        ],
+        [
+          19,
+          18,
+          11
+        ]
+      ]
+    },
+    "22": {
+      "_id": 22,
+      "name": "Scientist",
+      "skills": [
+        "command",
+        "doctor",
+        "explorer"
+      ],
+      "levels": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          4
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          3,
+          6,
+          5
+        ],
+        [
+          4,
+          6,
+          5
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          4,
+          8,
+          6
+        ],
+        [
+          5,
+          8,
+          6
+        ],
+        [
+          5,
+          8,
+          7
+        ],
+        [
+          5,
+          9,
+          8
+        ],
+        [
+          5,
+          10,
+          8
+        ],
+        [
+          5,
+          10,
+          9
+        ],
+        [
+          5,
+          10,
+          10
+        ],
+        [
+          5,
+          11,
+          10
+        ],
+        [
+          6,
+          11,
+          10
+        ],
+        [
+          6,
+          12,
+          10
+        ],
+        [
+          6,
+          13,
+          11
+        ],
+        [
+          6,
+          13,
+          12
+        ],
+        [
+          6,
+          13,
+          13
+        ],
+        [
+          6,
+          14,
+          13
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          14,
+          14
+        ],
+        [
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          15
+        ],
+        [
+          8,
+          16,
+          15
+        ],
+        [
+          8,
+          17,
+          15
+        ],
+        [
+          9,
+          17,
+          16
+        ],
+        [
+          10,
+          18,
+          16
+        ],
+        [
+          10,
+          18,
+          17
+        ],
+        [
+          10,
+          18,
+          18
+        ],
+        [
+          11,
+          19,
+          18
         ]
       ]
     },
@@ -3627,6 +4222,26 @@
           22,
           11,
           9
+        ],
+        [
+          22,
+          12,
+          10
+        ],
+        [
+          23,
+          12,
+          10
+        ],
+        [
+          24,
+          12,
+          10
+        ],
+        [
+          24,
+          13,
+          11
         ]
       ]
     },
@@ -3798,6 +4413,26 @@
           11,
           22,
           9
+        ],
+        [
+          12,
+          22,
+          10
+        ],
+        [
+          12,
+          23,
+          10
+        ],
+        [
+          12,
+          24,
+          10
+        ],
+        [
+          13,
+          24,
+          11
         ]
       ]
     },
@@ -3969,6 +4604,26 @@
           11,
           22,
           9
+        ],
+        [
+          12,
+          22,
+          10
+        ],
+        [
+          13,
+          22,
+          10
+        ],
+        [
+          13,
+          22,
+          11
+        ],
+        [
+          14,
+          22,
+          12
         ]
       ]
     },
@@ -4140,6 +4795,26 @@
           11,
           22,
           9
+        ],
+        [
+          12,
+          22,
+          10
+        ],
+        [
+          12,
+          23,
+          10
+        ],
+        [
+          12,
+          24,
+          10
+        ],
+        [
+          13,
+          24,
+          11
         ]
       ]
     },
@@ -4311,6 +4986,26 @@
           15,
           18,
           9
+        ],
+        [
+          15,
+          19,
+          10
+        ],
+        [
+          15,
+          20,
+          10
+        ],
+        [
+          15,
+          21,
+          10
+        ],
+        [
+          16,
+          22,
+          10
         ]
       ]
     },
@@ -4482,6 +5177,26 @@
           9,
           11,
           22
+        ],
+        [
+          10,
+          12,
+          22
+        ],
+        [
+          10,
+          12,
+          23
+        ],
+        [
+          10,
+          12,
+          24
+        ],
+        [
+          11,
+          13,
+          24
         ]
       ]
     },
@@ -4653,6 +5368,26 @@
           9,
           11,
           22
+        ],
+        [
+          10,
+          12,
+          22
+        ],
+        [
+          11,
+          12,
+          22
+        ],
+        [
+          11,
+          13,
+          22
+        ],
+        [
+          11,
+          14,
+          23
         ]
       ]
     },
@@ -4824,6 +5559,26 @@
           22,
           11,
           9
+        ],
+        [
+          22,
+          12,
+          10
+        ],
+        [
+          23,
+          12,
+          10
+        ],
+        [
+          24,
+          12,
+          10
+        ],
+        [
+          24,
+          13,
+          11
         ]
       ]
     },
@@ -4995,6 +5750,26 @@
           11,
           22,
           9
+        ],
+        [
+          11,
+          23,
+          10
+        ],
+        [
+          11,
+          24,
+          10
+        ],
+        [
+          11,
+          25,
+          10
+        ],
+        [
+          12,
+          26,
+          10
         ]
       ]
     },
@@ -5166,6 +5941,26 @@
           18,
           9,
           15
+        ],
+        [
+          18,
+          10,
+          16
+        ],
+        [
+          19,
+          10,
+          16
+        ],
+        [
+          19,
+          11,
+          16
+        ],
+        [
+          19,
+          12,
+          17
         ]
       ]
     },
@@ -5304,6 +6099,22 @@
         [
           15,
           27
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          30
         ]
       ]
     },
@@ -5474,6 +6285,26 @@
         [
           10,
           22,
+          10
+        ],
+        [
+          11,
+          23,
+          10
+        ],
+        [
+          12,
+          23,
+          10
+        ],
+        [
+          13,
+          23,
+          10
+        ],
+        [
+          14,
+          24,
           10
         ]
       ]
@@ -5646,6 +6477,26 @@
           18,
           15,
           9
+        ],
+        [
+          19,
+          16,
+          9
+        ],
+        [
+          19,
+          16,
+          10
+        ],
+        [
+          20,
+          16,
+          10
+        ],
+        [
+          20,
+          17,
+          11
         ]
       ]
     },
@@ -5817,6 +6668,26 @@
           9,
           15,
           18
+        ],
+        [
+          10,
+          16,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ],
+        [
+          10,
+          16,
+          20
+        ],
+        [
+          11,
+          17,
+          20
         ]
       ]
     }
@@ -9359,6 +10230,7 @@
       "passengers": 3,
       "install_cost": 172080,
       "shield": 2,
+      "jump_cost": 4,
       "shipops": 4
     },
     "291": {
@@ -10344,6 +11216,7 @@
       "mass": 325,
       "passengers": 2,
       "install_cost": 36750,
+      "jump_cost": 5,
       "shipops": 3
     },
     "372": {
@@ -12296,7 +13169,7 @@
       "mass": 650,
       "fuel": 60,
       "craft": 1,
-      "install_cost": 425000,
+      "install_cost": 618000,
       "armor": 1,
       "jump_cost": 8,
       "shipops": 5,
@@ -12408,21 +13281,23 @@
       "prisoners": 1,
       "install_cost": 85000,
       "shield": 2,
+      "jump_cost": 5,
       "shipops": 4
     },
     "520": {
       "_id": 520,
       "faction": "steel_song",
       "img": "ship_comp_barracks",
-      "imgmod": "ship_comp_over_1",
+      "imgmod": "ship_comp_over_2",
       "type": "passenger",
       "name": "Interrogation Ward",
       "base_desc": "Creates up to 10 Intel when empty Interrogation Cell is available when picking up a prisoner during a mission",
       "size": "large",
       "mass": 500,
-      "prisoners": 3,
-      "install_cost": 175000,
+      "prisoners": 4,
+      "install_cost": 295000,
       "shield": 4,
+      "jump_cost": 8,
       "shipops": 4
     },
     "521": {
@@ -12508,6 +13383,7 @@
       "passengers": 3,
       "install_cost": 202800,
       "shield": 2,
+      "jump_cost": 6,
       "shipops": 5
     },
     "526": {
@@ -13310,15 +14186,15 @@
       "_id": 598,
       "faction": "moklumnue",
       "img": "ship_comp_bridge",
-      "imgmod": "ship_comp_over_2",
+      "imgmod": "ship_comp_over_5",
       "type": "bridge",
-      "name": "Capital Freighter Bridge",
+      "name": "Capital Freighter Bridge 5",
       "size": "large",
       "mass": 600,
       "officers": 1,
       "cargo": 25,
       "fuel": 25,
-      "install_cost": 850320,
+      "install_cost": 951120,
       "jump_cost": -5,
       "pilot": 9,
       "shipops": 5,
@@ -13329,30 +14205,31 @@
       "_id": 599,
       "faction": "alta_mesa",
       "img": "ship_comp_bridge",
-      "imgmod": "ship_comp_over_2",
+      "imgmod": "ship_comp_over_5",
       "type": "bridge",
-      "name": "Capital Carrier Bridge",
+      "name": "Capital Carrier Bridge 5",
       "size": "large",
       "mass": 600,
       "officers": 1,
-      "install_cost": 550320,
-      "jump_cost": 10,
+      "install_cost": 761120,
+      "jump_cost": 5,
       "pilot": 9,
       "shipops": 5,
       "navigation": 9,
-      "electronics": 11
+      "electronics": 11,
+      "res_craft": 15
     },
     "600": {
       "_id": 600,
       "faction": "zenrin",
       "img": "ship_comp_bridge",
-      "imgmod": "ship_comp_over_3",
+      "imgmod": "ship_comp_over_4",
       "type": "bridge",
-      "name": "Compact Capital Bridge",
+      "name": "Compact Capital Bridge 4",
       "size": "large",
       "mass": 480,
       "officers": 1,
-      "install_cost": 627320,
+      "install_cost": 438480,
       "pilot": 9,
       "shipops": 6,
       "navigation": 8,
@@ -13362,7 +14239,7 @@
       "_id": 601,
       "faction": "de_valtos",
       "img": "ship_comp_cargo",
-      "imgmod": "ship_comp_over_4",
+      "imgmod": "ship_comp_over_5",
       "type": "cargo",
       "name": "Fuel-Cargo Hold 5",
       "size": "large",
@@ -13371,6 +14248,318 @@
       "fuel": 120,
       "install_cost": 314000,
       "shipops": 5
+    },
+    "602": {
+      "_id": 602,
+      "faction": "alta_mesa",
+      "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_3",
+      "type": "crew",
+      "name": "Navigation Annex",
+      "size": "medium",
+      "mass": 150,
+      "officers": 1,
+      "install_cost": 176000,
+      "jump_cost": -10,
+      "pilot": 1,
+      "shipops": 2,
+      "navigation": 6
+    },
+    "603": {
+      "_id": 603,
+      "faction": "zenrin",
+      "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_3",
+      "type": "crew",
+      "name": "Engineering Annex",
+      "size": "medium",
+      "mass": 150,
+      "officers": 1,
+      "install_cost": 176000,
+      "shipops": 4,
+      "electronics": 4
+    },
+    "604": {
+      "_id": 604,
+      "faction": "steel_song",
+      "img": "ship_comp_bridge",
+      "imgmod": "ship_comp_over_5",
+      "type": "bridge",
+      "name": "Scout-Vanguard Bridge 5",
+      "size": "small",
+      "mass": 100,
+      "officers": 3,
+      "install_cost": 1347420,
+      "armor": 2,
+      "shield": 2,
+      "jump_cost": 2,
+      "pilot": 6,
+      "shipops": 5,
+      "navigation": 6,
+      "electronics": 8,
+      "res_craft": 30
+    },
+    "605": {
+      "_id": 605,
+      "faction": "alta_mesa",
+      "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_4",
+      "type": "hangar",
+      "name": "Warhawk Launch Bay",
+      "size": "large",
+      "mass": 600,
+      "officers": 1,
+      "fuel": 50,
+      "craft": 1,
+      "install_cost": 4180000,
+      "armor": 3,
+      "shield": 1,
+      "jump_cost": 20,
+      "shipops": 7,
+      "electronics": 6
+    },
+    "606": {
+      "_id": 606,
+      "faction": "de_valtos",
+      "img": "ship_comp_fighterbay",
+      "imgmod": "ship_comp_over_3",
+      "type": "hangar",
+      "name": "Battle Launch Bay",
+      "size": "large",
+      "mass": 600,
+      "fuel": 20,
+      "craft": 1,
+      "install_cost": 626000,
+      "jump_cost": 8,
+      "shipops": 6,
+      "electronics": 5
+    },
+    "607": {
+      "_id": 607,
+      "faction": "steel_song",
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M2400 Performance Hyperwarp Drive",
+      "size": "medium",
+      "mass": 190,
+      "drive_mass": 2400,
+      "install_cost": 172000,
+      "jump_cost": 24,
+      "navigation": 7,
+      "electronics": 5,
+      "shortname": "Performance"
+    },
+    "608": {
+      "_id": 608,
+      "faction": "javat",
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M3400 Performance Hyperwarp Drive",
+      "size": "medium",
+      "mass": 215,
+      "drive_mass": 3400,
+      "install_cost": 184000,
+      "jump_cost": 26,
+      "navigation": 8,
+      "electronics": 5,
+      "shortname": "Performance"
+    },
+    "609": {
+      "_id": 609,
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M5000 Performance Hyperwarp Drive",
+      "size": "medium",
+      "mass": 215,
+      "drive_mass": 5000,
+      "install_cost": 196000,
+      "jump_cost": 31,
+      "navigation": 8,
+      "electronics": 6,
+      "shortname": "Performance"
+    },
+    "610": {
+      "_id": 610,
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M6000 Performance Hyperwarp Drive",
+      "size": "medium",
+      "mass": 290,
+      "drive_mass": 6000,
+      "install_cost": 212000,
+      "jump_cost": 35,
+      "navigation": 10,
+      "electronics": 7,
+      "shortname": "Performance"
+    },
+    "611": {
+      "_id": 611,
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M7000 Performance Hyperwarp Drive",
+      "size": "large",
+      "mass": 480,
+      "drive_mass": 7000,
+      "install_cost": 216000,
+      "jump_cost": 38,
+      "navigation": 11,
+      "electronics": 7,
+      "shortname": "Performance"
+    },
+    "612": {
+      "_id": 612,
+      "faction": "zenrin",
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M8000 Performance Hyperwarp Drive",
+      "size": "large",
+      "mass": 525,
+      "drive_mass": 8000,
+      "install_cost": 330000,
+      "jump_cost": 42,
+      "navigation": 13,
+      "electronics": 8,
+      "shortname": "Performance"
+    },
+    "613": {
+      "_id": 613,
+      "faction": "moklumnue",
+      "img": "ship_comp_hyperwarp_combat",
+      "type": "hyperwarp",
+      "name": "M9000 Performance Hyperwarp Drive",
+      "size": "large",
+      "mass": 725,
+      "drive_mass": 9000,
+      "install_cost": 378000,
+      "jump_cost": 50,
+      "navigation": 15,
+      "electronics": 9,
+      "shortname": "Performance"
+    },
+    "614": {
+      "_id": 614,
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_1",
+      "type": "boosters_aggro",
+      "name": "Joint Precision Launch System 1",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 44480,
+      "shipops": 2,
+      "electronics": 2
+    },
+    "615": {
+      "_id": 615,
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_2",
+      "type": "boosters_aggro",
+      "name": "Joint Precision Launch System 2",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 116800,
+      "shipops": 3,
+      "electronics": 3
+    },
+    "616": {
+      "_id": 616,
+      "faction": "alta_mesa",
+      "img": "ship_comp_boosters_aggro",
+      "imgmod": "ship_comp_over_3",
+      "type": "boosters_aggro",
+      "name": "Joint Precision Launch System 3",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 360800,
+      "shipops": 4,
+      "electronics": 4
+    },
+    "617": {
+      "_id": 617,
+      "faction": "javat",
+      "img": "ship_comp_fuelscoop",
+      "imgmod": "ship_comp_over_4",
+      "type": "fuel",
+      "name": "Water-Fuel Reclamation 4",
+      "size": "medium",
+      "mass": 325,
+      "fuel": 30,
+      "install_cost": 256000,
+      "jump_cost": -12,
+      "shipops": 6,
+      "navigation": 2,
+      "electronics": 6
+    },
+    "618": {
+      "_id": 618,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
+      "type": "passenger",
+      "name": "Reinforced Passenger Cabin",
+      "size": "small",
+      "mass": 125,
+      "passengers": 1,
+      "install_cost": 33000,
+      "armor": 1,
+      "jump_cost": 2,
+      "shipops": 3
+    },
+    "619": {
+      "_id": 619,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
+      "type": "passenger",
+      "name": "Reinforced Prison Cell",
+      "size": "small",
+      "mass": 125,
+      "prisoners": 1,
+      "install_cost": 38300,
+      "armor": 1,
+      "jump_cost": 2,
+      "shipops": 3
+    },
+    "620": {
+      "_id": 620,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
+      "type": "passenger",
+      "name": "Shielded Passenger Cabin",
+      "size": "small",
+      "mass": 125,
+      "passengers": 1,
+      "install_cost": 35000,
+      "shield": 1,
+      "jump_cost": 2,
+      "shipops": 2,
+      "electronics": 1
+    },
+    "621": {
+      "_id": 621,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_2",
+      "type": "passenger",
+      "name": "Shielded Prison Cell",
+      "size": "small",
+      "mass": 125,
+      "prisoners": 1,
+      "install_cost": 40500,
+      "shield": 1,
+      "jump_cost": 2,
+      "shipops": 2,
+      "electronics": 1
+    },
+    "622": {
+      "_id": 622,
+      "img": "ship_comp_barracks",
+      "imgmod": "ship_comp_over_1",
+      "type": "passenger",
+      "name": "Prison Ward",
+      "size": "large",
+      "mass": 500,
+      "prisoners": 4,
+      "install_cost": 175000,
+      "shield": 2,
+      "jump_cost": 4,
+      "shipops": 4
     }
   },
   "ships": {
@@ -15428,12 +16617,12 @@
     },
     "56": {
       "_id": 56,
-      "faction": null,
+      "faction": "steel_song",
       "name": "Neutiquam Cruiser",
       "skin_name": "Horizon_White",
-      "hullpoints": 1950,
+      "hullpoints": 2050,
       "basemass": 6000,
-      "smallslots": 11,
+      "smallslots": 12,
       "mediumslots": 9,
       "largeslots": 5,
       "components": [
@@ -15456,8 +16645,9 @@
         28,
         27,
         12,
+        354,
+        272,
         597,
-        427,
         427,
         4,
         4,
@@ -15673,8 +16863,6 @@
         9,
         9,
         9,
-        9,
-        9,
         23,
         351,
         490,
@@ -15704,7 +16892,7 @@
     },
     "62": {
       "_id": 62,
-      "faction": null,
+      "faction": "de_valtos",
       "name": "Tempus Freighter",
       "skin_name": "Aegis_Blue",
       "hullpoints": 2900,
@@ -15717,6 +16905,8 @@
         35,
         436,
         598,
+        381,
+        381,
         381,
         434,
         23,
@@ -15831,7 +17021,7 @@
     },
     "68": {
       "_id": 68,
-      "faction": null,
+      "faction": "zenrin",
       "name": "Vark Carrier",
       "skin_name": "Mace_Yellow",
       "hullpoints": 2500,
@@ -15840,6 +17030,8 @@
       "mediumslots": 10,
       "largeslots": 5,
       "components": [
+        287,
+        287,
         94,
         94,
         436,
@@ -15850,9 +17042,7 @@
         252,
         601,
         494,
-        488,
-        258,
-        258,
+        358,
         28,
         5,
         496,
@@ -15865,9 +17055,9 @@
         30
       ],
       "armor": 9,
-      "shield": 6,
-      "fuel": 100,
-      "max_craft": 4,
+      "shield": 10,
+      "fuel": 90,
+      "max_craft": 5,
       "max_crew": 36,
       "max_officers": 7
     },
@@ -16006,17 +17196,15 @@
     },
     "72": {
       "_id": 72,
-      "faction": null,
+      "faction": "javat",
       "name": "Mortifor Carrier",
       "skin_name": "Claymore_Blue",
-      "hullpoints": 2275,
+      "hullpoints": 2350,
       "basemass": 8000,
       "smallslots": 15,
       "mediumslots": 8,
       "largeslots": 6,
       "components": [
-        94,
-        94,
         436,
         436,
         535,
@@ -16025,20 +17213,22 @@
         601,
         494,
         494,
-        21,
-        351,
-        20,
         362,
         105,
-        105,
+        277,
         28,
         28,
         27,
         5,
         5,
+        380,
+        496,
+        354,
         354,
         40,
-        597,
+        188,
+        95,
+        95,
         4,
         4,
         4,
@@ -16535,7 +17725,8 @@
         156,
         163,
         396,
-        616
+        616,
+        638
       ],
       "11": [
         157,
@@ -16801,10 +17992,12 @@
       ],
       "8": [
         260,
-        261
+        261,
+        639
       ],
       "11": [
-        262
+        262,
+        637
       ]
     },
     "13": {
@@ -16849,6 +18042,9 @@
       "11": [
         280,
         306
+      ],
+      "15": [
+        636
       ]
     },
     "15": {
@@ -17155,6 +18351,34 @@
       ],
       "15": [
         613
+      ]
+    },
+    "22": {
+      "1": [
+        620,
+        621,
+        622,
+        623,
+        630
+      ],
+      "5": [
+        624,
+        625,
+        628
+      ],
+      "11": [
+        626,
+        632,
+        634
+      ],
+      "8": [
+        627,
+        629,
+        631,
+        635
+      ],
+      "15": [
+        633
       ]
     }
   },
@@ -20068,7 +21292,7 @@
       "name": "Macabre Harvest",
       "desc": "Upon victory in crew combat against xeno, xenobiological expertise allows harvesting a number of Xeno Artifacts up to Explorer Skill",
       "cool": 90,
-      "type": 78,
+      "type": 123,
       "icon": "talent_xeno_hunter_harvest"
     },
     "432": {
@@ -21182,6 +22406,166 @@
       "cool": 30,
       "type": 3,
       "icon": "talent_skill_eletrconics"
+    },
+    "620": {
+      "_id": 620,
+      "name": "Experimental Treatments",
+      "desc": "Prevent Doctor Failures.",
+      "cool": 30,
+      "type": 8,
+      "icon": "talent_skill_doctor"
+    },
+    "621": {
+      "_id": 621,
+      "name": "Mitigation Protocols",
+      "desc": "When Exploring a Wild Zone, reroll any card",
+      "cool": 30,
+      "type": 51,
+      "icon": "talent_explorer_reroll"
+    },
+    "622": {
+      "_id": 622,
+      "name": "Sample Analysis",
+      "desc": "Upon landing in a Wild Zone, 10% + Doctor Skill chance to generate Scientific Intel equal to Danger rating, or up to Explore Skill whichever is greater",
+      "cool": 180,
+      "type": 47,
+      "icon": "talent_science_wildland_intel"
+    },
+    "623": {
+      "_id": 623,
+      "name": "Dissected Scrutiny",
+      "desc": "When Exploring a Wild Zone, increase all rewards by 10% + Doctor Skill",
+      "cool": 60,
+      "type": 52,
+      "icon": "talent_science_explore_intelboost"
+    },
+    "624": {
+      "_id": 624,
+      "name": "Trace Analysis",
+      "desc": "While Salvaging at an Orbital, replace a risk card with Thesis Traces or Scientific Lead reward card",
+      "cool": 60,
+      "type": 101,
+      "icon": "talent_science_salvage_intelboost"
+    },
+    "625": {
+      "_id": 625,
+      "name": "Accurate Predictions",
+      "desc": "While Salvaging at an Orbital, remove a risk card",
+      "cool": 90,
+      "type": 101,
+      "icon": "talent_salvage_remove"
+    },
+    "626": {
+      "_id": 626,
+      "name": "Signature Recording",
+      "desc": "When encountering a xeno ship, scientific analysis of the scanner data points to new findings and grants Scientific Intel",
+      "cool": 130,
+      "type": 19,
+      "icon": "talent_science_xeno_preamble"
+    },
+    "627": {
+      "_id": 627,
+      "name": "Certain Knowledge",
+      "desc": "When Exploring a Wild Zone, remove a risk card",
+      "cool": 30,
+      "type": 51,
+      "icon": "talent_explorer_remove"
+    },
+    "628": {
+      "_id": 628,
+      "name": "Field Distortion Survey",
+      "desc": "When flying through Radiation Storms (quadrant) and Ion Storms (system) generate Scientific Intel up to your Command Skill",
+      "cool": 90,
+      "type": 20,
+      "icon": "talent_science_radstorm_intel"
+    },
+    "629": {
+      "_id": 629,
+      "name": "Amplified Assay",
+      "desc": "When flying through Radiation Storms (quadrant) and Ion Storms (system) generate a large Experience reward",
+      "cool": 60,
+      "type": 20,
+      "icon": "talent_science_radstorm_xp"
+    },
+    "630": {
+      "_id": 630,
+      "name": "Empirical Tell",
+      "desc": "When landing in a Wild Zone, 10% + Explore Skill chance of discovering a previously unknown Rumor ",
+      "cool": 90,
+      "type": 47,
+      "icon": "talent_science_wildland_rumor"
+    },
+    "631": {
+      "_id": 631,
+      "name": "Genetic Sequencing",
+      "desc": "Upon victory in crew combat against xeno, vivisection and genetic sequencing produces up to Doctor Skill in Scientific Intel",
+      "cool": 90,
+      "type": 123,
+      "icon": "talent_science_xeno_harvest"
+    },
+    "632": {
+      "_id": 632,
+      "name": "Behavioral Analysis",
+      "desc": "When salvaging a destroyed xeno ship in the void, gain up to Explorer Skill in Scientific Intel",
+      "cool": 30,
+      "type": 106,
+      "icon": "talent_science_xeno_salvage"
+    },
+    "633": {
+      "_id": 633,
+      "name": "Value Analysis",
+      "desc": "Increases price for sold Scientific Records by 30% + Doctor Skill and Contact Influence gains are increased by Wisdom %",
+      "cool": 30,
+      "type": 122,
+      "icon": "talent_science_intel_profit"
+    },
+    "634": {
+      "_id": 634,
+      "name": "Laboratory Triage",
+      "desc": "Saves a life during ship combat, blockade, spying, patrol, salvage or black market. Crew member is restored to HP equal to Doctor Skill + 3 x Medical Rating of onboard medical components",
+      "cool": 180,
+      "type": 49,
+      "icon": "talent_science_lifesaver"
+    },
+    "635": {
+      "_id": 635,
+      "name": "Magnetic Clarity",
+      "desc": "",
+      "cool": 30,
+      "type": 7,
+      "icon": "talent_skill_command"
+    },
+    "636": {
+      "_id": 636,
+      "name": "Earned Revelations",
+      "desc": "While Exploring a Wild Zone, replace a risk card with Xenoform Traces or Abandoned Lab reward card",
+      "cool": 90,
+      "type": 51,
+      "icon": "talent_exoscout_science"
+    },
+    "637": {
+      "_id": 637,
+      "name": "Sawbones Seeker",
+      "desc": "While Exploring a Wild Zone, replace a risk card with Xenoform Traces or Abandoned Lab reward card",
+      "cool": 60,
+      "type": 51,
+      "icon": "talent_exoscout_science"
+    },
+    "638": {
+      "_id": 638,
+      "name": "Contemplative View",
+      "desc": "Increases price for sold Scientific Records by 30% + Electronics Skill and Contact Influence gains are increased by Wisdom %",
+      "cool": 30,
+      "type": 122,
+      "icon": "talent_engineer_science_intel_profilt"
+    },
+    "639": {
+      "_id": 639,
+      "name": "Professional Respect",
+      "desc": "Prevent Doctor Failures.",
+      "cool": 30,
+      "type": 7,
+      "icon": "talent_skill_command"
     }
   },
   "crafts": {
