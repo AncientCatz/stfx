@@ -167,7 +167,7 @@ export function comp_parse_extra_props(component: types.Component) {
         return [
             {'val': `${engine.speed} Speed`, 'img': img('speed')},
             {'val': `${engine.agility} Agility`, 'img': img('agility')},
-            {'val': `${engine.ap} AP / ${engine.ap_cost} Change Range`, 'img': img('engine')}
+            {'val': `${engine.ap} RP / ${engine.ap_cost} Change Range`, 'img': img('engine')}
         ]
 
     }
@@ -241,7 +241,7 @@ function process_description(component:types.Component) {
         'bridge':           (c:any) => c.officers == 1 ? "Ship's Command Center; includes Captain's quarters" : '',
         'weaponslocker':    (c:any) => "Provides weaponry and armor for all crew",
         "hyperwarp":        (c:any) => `Enables Hyperwarp Jump of a ${c.drive_mass} Mass Ship for ${c.jump_cost} Fuel`,
-        "engine":           (c:any) => `Burns ${c.engine.fuel_map} Fuel per AU at ${c.engine.safety}% safety`,
+        "engine":           (c:any) => `Burns ${c.engine.fuel_map} Fuel per AU at ${c.engine.safety/10} safety`,
         'weapon':           (c:any) => `lvl ${c.weapon.level} ${c.weapon._weapon_type_text}; +${c.weapon.accuracy} Accuracy at Optimal Range of ${c.weapon.range}; Strikes with ${c.weapon.crit}% Critical and ${c.weapon.effect_chance}% Crippling Chance`,
         'mass':             (c:any) => `Reduces mass to allow for other types.Components,`,
         'medical':          (c:any) => `${c.medical} Medical Rating`,
