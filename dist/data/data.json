@@ -6690,6 +6690,425 @@
           20
         ]
       ]
+    },
+    "38": {
+      "_id": 38,
+      "name": "Saboteur",
+      "skills": [
+        "evasion",
+        "light_firearms",
+        "pilot",
+        "stealth"
+      ],
+      "levels": [
+        [
+          2,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          6,
+          0,
+          2
+        ],
+        [
+          5,
+          6,
+          0,
+          3
+        ],
+        [
+          6,
+          6,
+          0,
+          3
+        ],
+        [
+          6,
+          6,
+          1,
+          3
+        ],
+        [
+          6,
+          7,
+          1,
+          3
+        ],
+        [
+          6,
+          8,
+          1,
+          3
+        ],
+        [
+          6,
+          9,
+          1,
+          3
+        ],
+        [
+          6,
+          9,
+          2,
+          3
+        ],
+        [
+          6,
+          10,
+          2,
+          4
+        ],
+        [
+          7,
+          10,
+          2,
+          4
+        ],
+        [
+          7,
+          11,
+          2,
+          4
+        ],
+        [
+          8,
+          11,
+          2,
+          4
+        ],
+        [
+          8,
+          12,
+          2,
+          4
+        ],
+        [
+          8,
+          12,
+          3,
+          5
+        ],
+        [
+          9,
+          13,
+          3,
+          5
+        ],
+        [
+          10,
+          13,
+          3,
+          5
+        ],
+        [
+          10,
+          14,
+          3,
+          5
+        ],
+        [
+          10,
+          14,
+          3,
+          6
+        ],
+        [
+          11,
+          14,
+          3,
+          6
+        ],
+        [
+          11,
+          15,
+          3,
+          6
+        ],
+        [
+          12,
+          15,
+          3,
+          6
+        ],
+        [
+          12,
+          16,
+          3,
+          6
+        ],
+        [
+          12,
+          17,
+          3,
+          7
+        ],
+        [
+          13,
+          17,
+          3,
+          7
+        ],
+        [
+          13,
+          18,
+          3,
+          8
+        ],
+        [
+          13,
+          18,
+          4,
+          9
+        ],
+        [
+          13,
+          18,
+          4,
+          10
+        ],
+        [
+          13,
+          18,
+          4,
+          11
+        ],
+        [
+          13,
+          19,
+          4,
+          12
+        ]
+      ]
+    },
+    "39": {
+      "_id": 39,
+      "name": "Shock Trooper",
+      "skills": [
+        "command",
+        "evasion",
+        "heavy_firearms"
+      ],
+      "levels": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          3,
+          5,
+          6
+        ],
+        [
+          3,
+          6,
+          6
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          6,
+          8
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          3,
+          6,
+          10
+        ],
+        [
+          3,
+          6,
+          11
+        ],
+        [
+          4,
+          6,
+          12
+        ],
+        [
+          4,
+          7,
+          12
+        ],
+        [
+          4,
+          7,
+          13
+        ],
+        [
+          4,
+          8,
+          13
+        ],
+        [
+          4,
+          8,
+          14
+        ],
+        [
+          5,
+          8,
+          15
+        ],
+        [
+          5,
+          9,
+          16
+        ],
+        [
+          5,
+          10,
+          16
+        ],
+        [
+          5,
+          10,
+          17
+        ],
+        [
+          6,
+          10,
+          17
+        ],
+        [
+          6,
+          11,
+          17
+        ],
+        [
+          6,
+          11,
+          18
+        ],
+        [
+          6,
+          12,
+          18
+        ],
+        [
+          6,
+          12,
+          19
+        ],
+        [
+          6,
+          13,
+          20
+        ],
+        [
+          6,
+          13,
+          21
+        ],
+        [
+          6,
+          14,
+          22
+        ],
+        [
+          7,
+          14,
+          23
+        ],
+        [
+          8,
+          14,
+          23
+        ],
+        [
+          8,
+          14,
+          24
+        ],
+        [
+          9,
+          14,
+          25
+        ]
+      ]
     }
   },
   "components": {
@@ -7518,7 +7937,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 2,
-        "fuel_combat": 2,
+        "fuel_combat": 3,
         "safety": 110,
         "speed": 15,
         "agility": 15
@@ -7564,8 +7983,8 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 3,
-        "fuel_combat": 1,
-        "safety": 100,
+        "fuel_combat": 5,
+        "safety": 70,
         "speed": 10,
         "agility": 14
       },
@@ -7610,7 +8029,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 5,
+        "fuel_combat": 6,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -7816,7 +8235,7 @@
       "imgmod": "ship_comp_over_3",
       "type": "ship_exploration",
       "name": "Radiation Seals",
-      "base_desc": "Reduces ship damage 35% during Exploration (does not stack, damaged on use)",
+      "base_desc": "Reduces ship damage by 35% during Exploration (does not stack, damaged on use)",
       "size": "medium",
       "mass": 300,
       "install_cost": 30560,
@@ -7831,7 +8250,7 @@
       "imgmod": "ship_comp_over_4",
       "type": "ship_exploration",
       "name": "Mesa Radiate-Seal",
-      "base_desc": "Reduces ship damage 40% during Exploration (does not stack, damaged on use)",
+      "base_desc": "Reduces ship damage by 40% during Exploration (does not stack, damaged on use)",
       "size": "medium",
       "mass": 300,
       "install_cost": 37250,
@@ -8497,6 +8916,32 @@
       },
       "res_craft": 5
     },
+    "113": {
+      "_id": 113,
+      "img": "ship_comp_weapon_autocannon",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "M101 Tracker Cannon",
+      "size": "small",
+      "mass": 100,
+      "install_cost": 370000,
+      "shipops": 3,
+      "gunnery": 11,
+      "weapon": {
+        "accuracy": 12,
+        "hitcraft": 70,
+        "ap": 1,
+        "range": 1,
+        "attack_type": 1,
+        "weapon_type": 1,
+        "crit": 15,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 96,
+        "damage_max": 160,
+        "effect_chance": 40
+      }
+    },
     "127": {
       "_id": 127,
       "img": "ship_comp_weapon_lance",
@@ -8675,6 +9120,68 @@
         "effect_min": 12,
         "effect_max": 40,
         "effect_chance": 30
+      }
+    },
+    "133": {
+      "_id": 133,
+      "faction": "steel_song",
+      "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Hazuk Duo-Arc",
+      "size": "medium",
+      "mass": 350,
+      "install_cost": 430740,
+      "shipops": 4,
+      "gunnery": 13,
+      "electronics": 3,
+      "weapon": {
+        "accuracy": 10,
+        "hitcraft": 15,
+        "ap": 3,
+        "range": 2,
+        "attack_type": 2,
+        "weapon_type": 2,
+        "crit": 10,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 281,
+        "damage_max": 320,
+        "effect": "rad",
+        "effect_min": 8,
+        "effect_max": 25,
+        "effect_chance": 55
+      }
+    },
+    "134": {
+      "_id": 134,
+      "faction": "cadar",
+      "img": "ship_comp_weapon_lance",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Cerulean Tri-Arc",
+      "size": "medium",
+      "mass": 350,
+      "install_cost": 438750,
+      "shipops": 4,
+      "gunnery": 13,
+      "electronics": 3,
+      "weapon": {
+        "accuracy": 11,
+        "hitcraft": 15,
+        "ap": 3,
+        "range": 2,
+        "attack_type": 2,
+        "weapon_type": 2,
+        "crit": 20,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 311,
+        "damage_max": 350,
+        "effect": "rad",
+        "effect_min": 11,
+        "effect_max": 35,
+        "effect_chance": 65
       }
     },
     "147": {
@@ -9065,6 +9572,66 @@
         "effect_min": 59,
         "effect_max": 190,
         "effect_chance": 45
+      }
+    },
+    "174": {
+      "_id": 174,
+      "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Demon-X Heavy Rail",
+      "size": "medium",
+      "mass": 300,
+      "install_cost": 530080,
+      "shipops": 5,
+      "gunnery": 11,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 15,
+        "hitcraft": 60,
+        "ap": 4,
+        "range": 3,
+        "attack_type": 5,
+        "weapon_type": 4,
+        "crit": 20,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 241,
+        "damage_max": 280,
+        "effect": "void",
+        "effect_min": 62,
+        "effect_max": 200,
+        "effect_chance": 55
+      }
+    },
+    "175": {
+      "_id": 175,
+      "img": "ship_comp_weapon_railgun",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Demon-X Fast Rail",
+      "size": "medium",
+      "mass": 300,
+      "install_cost": 722001,
+      "shipops": 4,
+      "gunnery": 10,
+      "electronics": 2,
+      "weapon": {
+        "accuracy": 11,
+        "hitcraft": 50,
+        "ap": 3,
+        "range": 3,
+        "attack_type": 5,
+        "weapon_type": 4,
+        "crit": 25,
+        "level": 8,
+        "priority": 1,
+        "damage_min": 201,
+        "damage_max": 230,
+        "effect": "void",
+        "effect_min": 62,
+        "effect_max": 200,
+        "effect_chance": 40
       }
     },
     "188": {
@@ -9459,6 +10026,36 @@
         "effect_chance": 30
       }
     },
+    "216": {
+      "_id": 216,
+      "img": "ship_comp_weapon_missiles",
+      "imgmod": "ship_comp_over_8",
+      "type": "weapon",
+      "name": "Gargoyle Missile Battery",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 410000,
+      "shipops": 2,
+      "gunnery": 12,
+      "electronics": 1,
+      "weapon": {
+        "accuracy": 17,
+        "hitcraft": 35,
+        "ap": 3,
+        "range": 4,
+        "attack_type": 3,
+        "weapon_type": 6,
+        "crit": 15,
+        "level": 8,
+        "priority": 2,
+        "damage_min": 151,
+        "damage_max": 250,
+        "effect": "rad",
+        "effect_min": 16,
+        "effect_max": 50,
+        "effect_chance": 40
+      }
+    },
     "230": {
       "_id": 230,
       "img": "ship_comp_weapon_torps",
@@ -9734,7 +10331,7 @@
       "img": "ship_comp_boosters",
       "imgmod": "ship_comp_over_1",
       "type": "assist",
-      "name": "Peak Velocity Matrix",
+      "name": "Peak Velocity Matrix 1",
       "size": "medium",
       "mass": 350,
       "install_cost": 42410,
@@ -10023,7 +10620,7 @@
       "name": "Deflector Array 4",
       "size": "medium",
       "mass": 350,
-      "install_cost": 186710,
+      "install_cost": 236710,
       "shield": 11,
       "jump_cost": 7,
       "shipops": 3,
@@ -10306,8 +10903,8 @@
       "name": "Fuel Tank 4",
       "size": "medium",
       "mass": 325,
-      "fuel": 64,
-      "install_cost": 65660,
+      "fuel": 84,
+      "install_cost": 101560,
       "shipops": 3,
       "electronics": 4
     },
@@ -10319,7 +10916,7 @@
       "name": "Large Fuel Tank 2",
       "size": "large",
       "mass": 620,
-      "fuel": 90,
+      "fuel": 95,
       "install_cost": 76200,
       "shipops": 2,
       "electronics": 3
@@ -10332,7 +10929,7 @@
       "name": "Large Fuel Tank 3",
       "size": "large",
       "mass": 620,
-      "fuel": 105,
+      "fuel": 135,
       "install_cost": 93440,
       "shipops": 3,
       "electronics": 3
@@ -10345,7 +10942,7 @@
       "name": "Large Fuel Tank 4",
       "size": "large",
       "mass": 620,
-      "fuel": 130,
+      "fuel": 160,
       "install_cost": 115760,
       "shipops": 3,
       "electronics": 4
@@ -10533,7 +11130,6 @@
       "size": "large",
       "mass": 650,
       "install_cost": 110640,
-      "jump_cost": 5,
       "medical": 9,
       "shipops": 5,
       "electronics": 3
@@ -10826,7 +11422,7 @@
       "name": "Battle Prow 3",
       "size": "large",
       "mass": 650,
-      "install_cost": 261280,
+      "install_cost": 281280,
       "armor": 14,
       "jump_cost": 10,
       "shipops": 1,
@@ -10857,7 +11453,7 @@
       "name": "Hull Plating 2",
       "size": "large",
       "mass": 620,
-      "install_cost": 201360,
+      "install_cost": 221360,
       "shield": 12,
       "jump_cost": 7,
       "shipops": 2,
@@ -10873,7 +11469,7 @@
       "name": "Hull Plating 3",
       "size": "large",
       "mass": 620,
-      "install_cost": 263240,
+      "install_cost": 331240,
       "shield": 14,
       "jump_cost": 8,
       "shipops": 2,
@@ -10941,7 +11537,7 @@
         "ap_cost": 2,
         "fuel_map": 1,
         "fuel_combat": 0,
-        "safety": 80,
+        "safety": 100,
         "speed": 27,
         "agility": 30
       },
@@ -11009,8 +11605,8 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 2,
-        "fuel_combat": 0,
-        "safety": 90,
+        "fuel_combat": 4,
+        "safety": 70,
         "speed": 13,
         "agility": 18
       },
@@ -11032,7 +11628,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 2,
+        "fuel_combat": 4,
         "safety": 100,
         "speed": 12,
         "agility": 11
@@ -11102,7 +11698,7 @@
         "ap_cost": 3,
         "fuel_map": 4,
         "fuel_combat": 2,
-        "safety": 90,
+        "safety": 60,
         "speed": 10,
         "agility": 12
       },
@@ -11201,7 +11797,6 @@
       "mass": 325,
       "install_cost": 277330,
       "shield": 1,
-      "jump_cost": 2,
       "medical": 6,
       "shipops": 3,
       "electronics": 4
@@ -11282,7 +11877,7 @@
         "ap_cost": 3,
         "fuel_map": 4,
         "fuel_combat": 3,
-        "safety": 100,
+        "safety": 60,
         "speed": 10,
         "agility": 10
       },
@@ -12041,7 +12636,7 @@
       "name": "Battle Prow 4",
       "size": "large",
       "mass": 635,
-      "install_cost": 381280,
+      "install_cost": 431280,
       "armor": 15,
       "shield": 2,
       "jump_cost": 9,
@@ -12135,7 +12730,7 @@
       "imgmod": "ship_comp_over_1",
       "type": "eva_deck",
       "name": "EVA Deck 1",
-      "base_desc": "Reduces crew damage by 25% during Orbital Salvage, reduces Turns used",
+      "base_desc": "Reduces crew damage by 25% during Orbital Salvage, reduces Turns used (does not stack, damaged on use)",
       "size": "medium",
       "mass": 275,
       "fuel": 5,
@@ -12202,7 +12797,7 @@
       "imgmod": "ship_comp_over_1",
       "type": "salvage_bay",
       "name": "Salvage Bay 1",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 15% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 15% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 10,
@@ -12217,7 +12812,7 @@
       "imgmod": "ship_comp_over_2",
       "type": "salvage_bay",
       "name": "Salvage Bay 2",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 25% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 25% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 15,
@@ -12232,7 +12827,7 @@
       "imgmod": "ship_comp_over_3",
       "type": "salvage_bay",
       "name": "Salvage Bay 3",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 35% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 35% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 20,
@@ -12248,7 +12843,7 @@
       "imgmod": "ship_comp_over_4",
       "type": "salvage_bay",
       "name": "Salvage Bay 4",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 25,
@@ -12266,7 +12861,7 @@
       "size": "medium",
       "mass": 275,
       "crew": 24,
-      "install_cost": 43920,
+      "install_cost": 153920,
       "armor": 3,
       "shield": 3,
       "jump_cost": 2
@@ -12372,7 +12967,7 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 4,
+        "fuel_combat": 6,
         "safety": 60,
         "speed": 15,
         "agility": 16
@@ -12426,7 +13021,7 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 8,
+        "fuel_combat": 10,
         "safety": 50,
         "speed": 9,
         "agility": 11
@@ -12453,7 +13048,7 @@
         "ap": 10,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 8,
+        "fuel_combat": 12,
         "safety": 40,
         "speed": 9,
         "agility": 10
@@ -12565,7 +13160,7 @@
         "ap": 9,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 5,
+        "fuel_combat": 8,
         "safety": 60,
         "speed": 17,
         "agility": 14
@@ -12621,7 +13216,7 @@
         "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 10,
+        "fuel_combat": 12,
         "safety": 50,
         "speed": 12,
         "agility": 9
@@ -12649,7 +13244,7 @@
         "ap": 11,
         "ap_cost": 4,
         "fuel_map": 5,
-        "fuel_combat": 10,
+        "fuel_combat": 14,
         "safety": 40,
         "speed": 11,
         "agility": 9
@@ -12828,7 +13423,7 @@
       "name": "Battle Prow 5",
       "size": "large",
       "mass": 635,
-      "install_cost": 406280,
+      "install_cost": 736280,
       "armor": 16,
       "shield": 3,
       "jump_cost": 12,
@@ -13037,7 +13632,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 4,
-        "fuel_combat": 5,
+        "fuel_combat": 6,
         "safety": 90,
         "speed": 12,
         "agility": 12
@@ -13248,7 +13843,6 @@
       "prisoners": 1,
       "install_cost": 340750,
       "shield": 2,
-      "jump_cost": 5,
       "medical": 7,
       "shipops": 3
     },
@@ -13395,7 +13989,7 @@
       "size": "small",
       "mass": 150,
       "crew": 6,
-      "install_cost": 19500
+      "install_cost": 69500
     },
     "527": {
       "_id": 527,
@@ -13964,7 +14558,7 @@
       "imgmod": "ship_comp_over_5",
       "type": "salvage_bay",
       "name": "Salvage Bay 5",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 54% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 54% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 30,
@@ -13981,7 +14575,7 @@
       "imgmod": "ship_comp_over_5",
       "type": "salvage_bay",
       "name": "Armored Salvage Bay 5",
-      "base_desc": "Increases rewards salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
+      "base_desc": "Increases rewards from salvaging enemy ship or Orbital Salvage by 49% (does not stack, damaged on use)",
       "size": "large",
       "mass": 500,
       "cargo": 15,
@@ -14259,7 +14853,7 @@
       "size": "medium",
       "mass": 150,
       "officers": 1,
-      "install_cost": 176000,
+      "install_cost": 276000,
       "jump_cost": -10,
       "pilot": 1,
       "shipops": 2,
@@ -14275,7 +14869,7 @@
       "size": "medium",
       "mass": 150,
       "officers": 1,
-      "install_cost": 176000,
+      "install_cost": 276000,
       "shipops": 4,
       "electronics": 4
     },
@@ -14314,7 +14908,7 @@
       "install_cost": 4180000,
       "armor": 3,
       "shield": 1,
-      "jump_cost": 20,
+      "jump_cost": 25,
       "shipops": 7,
       "electronics": 6
     },
@@ -14560,6 +15154,59 @@
       "shield": 2,
       "jump_cost": 4,
       "shipops": 4
+    },
+    "623": {
+      "_id": 623,
+      "img": "ship_comp_weaponslocker",
+      "imgmod": "ship_comp_over_6",
+      "type": "weaponlocker",
+      "name": "Weapons Locker A6",
+      "base_desc": "Provides improved Phoenix-class weaponry and armor for all crew. Includes Heavy Guns plus Heavy and Stealth armor options",
+      "size": "small",
+      "mass": 125,
+      "install_cost": 344000
+    },
+    "624": {
+      "_id": 624,
+      "faction": "rychart",
+      "img": "ship_comp_boosters",
+      "imgmod": "ship_comp_over_4",
+      "type": "assist",
+      "name": "Peak Velocity Matrix 4",
+      "size": "medium",
+      "mass": 350,
+      "install_cost": 336800,
+      "jump_cost": 5,
+      "pilot": 6,
+      "shipops": 6,
+      "electronics": 3,
+      "boarding": 6,
+      "init": 1,
+      "move": 15
+    },
+    "625": {
+      "_id": 625,
+      "img": "ship_comp_engine",
+      "type": "engine",
+      "name": "M9000 Void Engine: Dual-Field",
+      "size": "large",
+      "mass": 1100,
+      "drive_mass": 9000,
+      "install_cost": 1441000,
+      "jump_cost": 12,
+      "pilot": 14,
+      "shipops": 12,
+      "electronics": 10,
+      "engine": {
+        "ap": 8,
+        "ap_cost": 4,
+        "fuel_map": 4,
+        "fuel_combat": 5,
+        "safety": 80,
+        "speed": 9,
+        "agility": 9
+      },
+      "shortname": "Dual-Field"
     }
   },
   "ships": {
@@ -17451,6 +18098,57 @@
       "max_craft": 4,
       "max_crew": 42,
       "max_officers": 7
+    },
+    "82": {
+      "_id": 82,
+      "faction": "de_valtos",
+      "name": "Dreadnought Battlecarrier",
+      "skin_name": "Titan_Green",
+      "hullpoints": 2500,
+      "basemass": 9000,
+      "smallslots": 12,
+      "mediumslots": 12,
+      "largeslots": 8,
+      "components": [
+        287,
+        287,
+        94,
+        318,
+        43,
+        41,
+        2,
+        2,
+        252,
+        23,
+        21,
+        21,
+        21,
+        625,
+        108,
+        257,
+        28,
+        426,
+        426,
+        426,
+        254,
+        254,
+        27,
+        5,
+        5,
+        5,
+        496,
+        40,
+        36,
+        4,
+        578,
+        30
+      ],
+      "armor": 8,
+      "shield": 8,
+      "fuel": 135,
+      "max_craft": 6,
+      "max_crew": 42,
+      "max_officers": 7
     }
   },
   "job_talents": {
@@ -18016,7 +18714,8 @@
       "8": [
         269,
         270,
-        511
+        511,
+        679
       ],
       "11": [
         271,
@@ -18379,6 +19078,58 @@
       ],
       "15": [
         633
+      ]
+    },
+    "38": {
+      "1": [
+        664,
+        670,
+        672,
+        673,
+        677
+      ],
+      "5": [
+        665,
+        669,
+        674
+      ],
+      "8": [
+        666,
+        675,
+        678
+      ],
+      "15": [
+        667
+      ],
+      "11": [
+        668,
+        671,
+        676
+      ]
+    },
+    "39": {
+      "8": [
+        680,
+        690,
+        694
+      ],
+      "1": [
+        681,
+        683,
+        687,
+        689,
+        691,
+        693
+      ],
+      "5": [
+        682,
+        686,
+        688,
+        692
+      ],
+      "11": [
+        684,
+        695
       ]
     }
   },
@@ -19875,7 +20626,7 @@
       "_id": 223,
       "name": "Concussion Grenade",
       "desc": "In crew combat, Crippling Grenade Attack hits 2 targets with 20-30 Morale Dmg and Causes 50% Stun, -4 Initiative for 3 Turns",
-      "cool": 16,
+      "cool": 14,
       "type": -1,
       "icon": "talent_soldier_grenade_concuss"
     },
@@ -21515,7 +22266,7 @@
       "_id": 460,
       "name": "Vanguard Scan",
       "desc": "When piloting a launched Bomber in ship combat, Buffs launched friendly Craft with +10% Hit Chance, +25% Dmg, +5% Critical for next 3 Turns",
-      "cool": 30,
+      "cool": 10,
       "type": -2,
       "icon": "talent_bomber_vanguard"
     },
@@ -21523,7 +22274,7 @@
       "_id": 461,
       "name": "Synchronized Strikes",
       "desc": "When piloting a launched Bomber in ship combat, Buffs launched friendly Craft with +50% Hit Chance, +5% Critical for next 3 Turns",
-      "cool": 30,
+      "cool": 10,
       "type": -2,
       "icon": "talent_leader_synchronize"
     },
@@ -21627,7 +22378,7 @@
       "_id": 474,
       "name": "Bolstering Fly-By",
       "desc": "When piloting a launched Interdictor in ship combat, Purges your Ship's Crew of any Crippling Effects",
-      "cool": 30,
+      "cool": 10,
       "type": -2,
       "icon": "talent_wingleader_flyover"
     },
@@ -22145,8 +22896,8 @@
     },
     "539": {
       "_id": 539,
-      "name": "Meticulous Care",
-      "desc": "Automatically passes a failed Repair test in any situation, including wild zone repairs or deep space travel",
+      "name": "Meticulous Checklist",
+      "desc": "",
       "cool": 90,
       "type": 6,
       "icon": "talent_skill_repair"
@@ -22426,7 +23177,7 @@
     "622": {
       "_id": 622,
       "name": "Sample Analysis",
-      "desc": "Upon landing in a Wild Zone, 10% + Doctor Skill chance to generate Scientific Intel equal to Danger rating, or up to Explore Skill whichever is greater",
+      "desc": "Upon landing in a Wild Zone, 10% + Doctor Skill chance to generate Scientific Intel up to the Zone's Danger rating or your Explore Skill, whichever is greater",
       "cool": 180,
       "type": 47,
       "icon": "talent_science_wildland_intel"
@@ -22498,7 +23249,7 @@
     "631": {
       "_id": 631,
       "name": "Genetic Sequencing",
-      "desc": "Upon victory in crew combat against xeno, vivisection and genetic sequencing produces up to Doctor Skill in Scientific Intel",
+      "desc": "Upon victory in crew combat against xeno, vivisection and genetic sequencing produces up to Doctor Skill in Scientific Intel but max 10",
       "cool": 90,
       "type": 123,
       "icon": "talent_science_xeno_harvest"
@@ -22566,6 +23317,254 @@
       "cool": 30,
       "type": 7,
       "icon": "talent_skill_command"
+    },
+    "664": {
+      "_id": 664,
+      "name": "Wrecking Ball",
+      "desc": "a skillful attack on the enemy's comms leaves their crew in general disarray",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_sabo_wrecking"
+    },
+    "665": {
+      "_id": 665,
+      "name": "Chain Reaction",
+      "desc": "expertly chained explosions leave a wake of death and fires, causing Stealth Skill damage to 1 component",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_sabo_chain"
+    },
+    "666": {
+      "_id": 666,
+      "name": "Afterthought Murder",
+      "desc": "leaves the corridors and decks rigged with deadly traps; 4 enemy crew suffer 30 - 50 Damage plus Stealth Skill",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_sabo_afterthought"
+    },
+    "667": {
+      "_id": 667,
+      "name": "Engine Disruption",
+      "desc": "radiation bomb disrupts engine containment field causing Stealth Damage to ship's Engine if it is prevoiusly undamaged",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_sabo_engine"
+    },
+    "668": {
+      "_id": 668,
+      "name": "Demolition Joy",
+      "desc": "destructive rampage increases the number of Boarding Talents that can be used from 2 to 3",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_sabo_demojoy"
+    },
+    "669": {
+      "_id": 669,
+      "name": "Razor-Sharp Tongue",
+      "desc": "When accessing a Black Market, remove a risk card",
+      "cool": 30,
+      "type": 79,
+      "icon": "talent_blackmarket_remove"
+    },
+    "670": {
+      "_id": 670,
+      "name": "Raiders Away",
+      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (launch, close, board, land) to make a boarding run against the enemy ship",
+      "cool": 0,
+      "type": 113,
+      "icon": "talent_plan_shuttle_raiders"
+    },
+    "671": {
+      "_id": 671,
+      "name": "Hull Slicer",
+      "desc": "Launch a Shuttle craft with a 4 Turn flight plan (launch, close, board, land) to make a boarding run against the enemy ship",
+      "cool": 0,
+      "type": 113,
+      "icon": "talent_plan_shuttle_hull_slice"
+    },
+    "672": {
+      "_id": 672,
+      "name": "Skullshot",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_sabo_skullshot"
+    },
+    "673": {
+      "_id": 673,
+      "name": "Duck and Go",
+      "desc": "",
+      "cool": 8,
+      "type": -1,
+      "icon": "talent_sabo_duck"
+    },
+    "674": {
+      "_id": 674,
+      "name": "Deadsights",
+      "desc": "",
+      "cool": 3,
+      "type": -1,
+      "icon": "talent_sabo_deadsights"
+    },
+    "675": {
+      "_id": 675,
+      "name": "Ricochet Rain",
+      "desc": "",
+      "cool": 2,
+      "type": -1,
+      "icon": "talent_sabo_richochet"
+    },
+    "676": {
+      "_id": 676,
+      "name": "Preemptive Assault",
+      "desc": "",
+      "cool": 0,
+      "type": 29,
+      "icon": "talent_sabo_preempt"
+    },
+    "677": {
+      "_id": 677,
+      "name": "Blackcat",
+      "desc": "Prevent Stealth Failures.",
+      "cool": 30,
+      "type": 25,
+      "icon": "talent_skill_stealth"
+    },
+    "678": {
+      "_id": 678,
+      "name": "Smile of Guile",
+      "desc": "When completing steps in a Mission with Stealth Skill, your carefully established cover mitigates your Reputation loss by up to Stealth Skill",
+      "cool": 180,
+      "type": 11,
+      "icon": "talent_sabo_reduce_rep_loss"
+    },
+    "679": {
+      "_id": 679,
+      "name": "Vindication Pact",
+      "desc": "Discount price of Contact Pardon by Negotiate Skill up to maximum of 30%",
+      "cool": 260,
+      "type": 125,
+      "icon": "talent_diplomat_pact"
+    },
+    "680": {
+      "_id": 680,
+      "name": "Frag Shell",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_strooper_frag"
+    },
+    "681": {
+      "_id": 681,
+      "name": "Rapid Bandage",
+      "desc": "",
+      "cool": 6,
+      "type": -1,
+      "icon": "talent_strooper_bandage"
+    },
+    "682": {
+      "_id": 682,
+      "name": "Shock and Awe",
+      "desc": "",
+      "cool": 0,
+      "type": 29,
+      "icon": "talent_strooper_shockawe"
+    },
+    "683": {
+      "_id": 683,
+      "name": "Dragonfire Shell",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_strooper_dragon"
+    },
+    "684": {
+      "_id": 684,
+      "name": "Execution Shell",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_strooper_titan"
+    },
+    "686": {
+      "_id": 686,
+      "name": "Seamless Coordination",
+      "desc": "",
+      "cool": 30,
+      "type": 7,
+      "icon": "talent_skill_command"
+    },
+    "687": {
+      "_id": 687,
+      "name": "Single-Minded Strike",
+      "desc": "",
+      "cool": 90,
+      "type": -2,
+      "icon": "talent_strooper_singlemind"
+    },
+    "688": {
+      "_id": 688,
+      "name": "Hota-Cored Shells",
+      "desc": "fires explosive shells into already damaged areas of the ship, disabling up to 3 components which have at least 40% but less than 60% damage with up to 20% + Rifle Damage",
+      "cool": 90,
+      "type": 77,
+      "icon": "talent_strooper_breacher"
+    },
+    "689": {
+      "_id": 689,
+      "name": "Deepstrike Grenade",
+      "desc": "",
+      "cool": 14,
+      "type": -1,
+      "icon": "talent_strooper_deepstrike"
+    },
+    "690": {
+      "_id": 690,
+      "name": "To the Front",
+      "desc": "",
+      "cool": 10,
+      "type": -1,
+      "icon": "talent_strooper_front"
+    },
+    "691": {
+      "_id": 691,
+      "name": "Stand Strong",
+      "desc": "",
+      "cool": 8,
+      "type": -1,
+      "icon": "talent_strooper_standstrong"
+    },
+    "692": {
+      "_id": 692,
+      "name": "Braced Fire",
+      "desc": "",
+      "cool": 1,
+      "type": -1,
+      "icon": "talent_strooper_braced"
+    },
+    "693": {
+      "_id": 693,
+      "name": "Retaliation",
+      "desc": "",
+      "cool": 3,
+      "type": -1,
+      "icon": "talent_strooper_retal"
+    },
+    "694": {
+      "_id": 694,
+      "name": "Unconventional Tactics",
+      "desc": "While Salvaging at an Orbital, remove a risk card",
+      "cool": 30,
+      "type": 101,
+      "icon": "talent_salvage_remove"
+    },
+    "695": {
+      "_id": 695,
+      "name": "Titan Shell",
+      "desc": "",
+      "cool": 2,
+      "type": -1,
+      "icon": "talent_strooper_lancer"
     }
   },
   "crafts": {
@@ -22578,7 +23577,7 @@
       "hull": 480,
       "armor": 10,
       "shield": 8,
-      "lcost": 1,
+      "lcost": 2,
       "pilot": 4,
       "electronics": 1,
       "gunnery": 3,
@@ -22599,7 +23598,7 @@
       "hull": 380,
       "armor": 6,
       "shield": 12,
-      "lcost": 2,
+      "lcost": 6,
       "pilot": 2,
       "electronics": 4,
       "gunnery": 0,
@@ -22641,7 +23640,7 @@
       "hull": 490,
       "armor": 11,
       "shield": 9,
-      "lcost": 1,
+      "lcost": 2,
       "pilot": 5,
       "electronics": 2,
       "gunnery": 4,
@@ -22662,7 +23661,7 @@
       "hull": 385,
       "armor": 8,
       "shield": 14,
-      "lcost": 2,
+      "lcost": 6,
       "pilot": 5,
       "electronics": 5,
       "gunnery": 0,
@@ -22704,7 +23703,7 @@
       "hull": 500,
       "armor": 14,
       "shield": 10,
-      "lcost": 1,
+      "lcost": 2,
       "pilot": 10,
       "electronics": 4,
       "gunnery": 6,
@@ -22725,7 +23724,7 @@
       "hull": 390,
       "armor": 9,
       "shield": 15,
-      "lcost": 2,
+      "lcost": 6,
       "pilot": 7,
       "electronics": 7,
       "gunnery": 0,
@@ -22767,7 +23766,7 @@
       "hull": 510,
       "armor": 15,
       "shield": 11,
-      "lcost": 2,
+      "lcost": 3,
       "pilot": 11,
       "electronics": 4,
       "gunnery": 8,
@@ -22788,7 +23787,7 @@
       "hull": 395,
       "armor": 11,
       "shield": 17,
-      "lcost": 3,
+      "lcost": 7,
       "pilot": 8,
       "electronics": 9,
       "gunnery": 0,
@@ -22830,7 +23829,7 @@
       "hull": 520,
       "armor": 16,
       "shield": 12,
-      "lcost": 2,
+      "lcost": 3,
       "pilot": 12,
       "electronics": 6,
       "gunnery": 10,
@@ -22851,7 +23850,7 @@
       "hull": 400,
       "armor": 12,
       "shield": 18,
-      "lcost": 3,
+      "lcost": 7,
       "pilot": 10,
       "electronics": 14,
       "gunnery": 0,
@@ -22893,7 +23892,7 @@
       "hull": 520,
       "armor": 20,
       "shield": 14,
-      "lcost": 3,
+      "lcost": 4,
       "pilot": 14,
       "electronics": 6,
       "gunnery": 10,
@@ -22914,7 +23913,7 @@
       "hull": 400,
       "armor": 14,
       "shield": 20,
-      "lcost": 4,
+      "lcost": 8,
       "pilot": 10,
       "electronics": 16,
       "gunnery": 0,
@@ -22932,7 +23931,7 @@
       "desc": "Shuttle (Class 6)",
       "img": "craft_shuttle_1W",
       "cost": 84200,
-      "hull": 380,
+      "hull": 400,
       "armor": 20,
       "shield": 18,
       "lcost": 3,
@@ -22956,7 +23955,7 @@
       "hull": 500,
       "armor": 14,
       "shield": 10,
-      "lcost": 1,
+      "lcost": 3,
       "pilot": 8,
       "electronics": 4,
       "gunnery": 8,
@@ -22977,7 +23976,7 @@
       "hull": 510,
       "armor": 14,
       "shield": 10,
-      "lcost": 2,
+      "lcost": 4,
       "pilot": 10,
       "electronics": 4,
       "gunnery": 10,
@@ -22998,7 +23997,7 @@
       "hull": 520,
       "armor": 16,
       "shield": 12,
-      "lcost": 2,
+      "lcost": 5,
       "pilot": 10,
       "electronics": 6,
       "gunnery": 12,
@@ -23019,7 +24018,7 @@
       "hull": 520,
       "armor": 20,
       "shield": 16,
-      "lcost": 4,
+      "lcost": 5,
       "pilot": 14,
       "electronics": 7,
       "gunnery": 10,
@@ -23040,7 +24039,7 @@
       "hull": 400,
       "armor": 14,
       "shield": 22,
-      "lcost": 5,
+      "lcost": 9,
       "pilot": 10,
       "electronics": 17,
       "gunnery": 0,
@@ -23058,7 +24057,7 @@
       "desc": "Shuttle (Class 7)",
       "img": "craft_shuttle_3W",
       "cost": 84200,
-      "hull": 380,
+      "hull": 425,
       "armor": 20,
       "shield": 20,
       "lcost": 4,
