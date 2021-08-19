@@ -9148,9 +9148,9 @@
         "damage_min": 281,
         "damage_max": 320,
         "effect": "rad",
-        "effect_min": 8,
-        "effect_max": 25,
-        "effect_chance": 55
+        "effect_min": 14,
+        "effect_max": 45,
+        "effect_chance": 60
       }
     },
     "134": {
@@ -9162,13 +9162,13 @@
       "name": "Cerulean Tri-Arc",
       "size": "medium",
       "mass": 350,
-      "install_cost": 438750,
+      "install_cost": 538250,
       "shipops": 4,
       "gunnery": 13,
       "electronics": 3,
       "weapon": {
         "accuracy": 11,
-        "hitcraft": 15,
+        "hitcraft": 50,
         "ap": 3,
         "range": 2,
         "attack_type": 2,
@@ -11830,7 +11830,7 @@
         "ap": 8,
         "ap_cost": 4,
         "fuel_map": 3,
-        "fuel_combat": 4,
+        "fuel_combat": 6,
         "safety": 90,
         "speed": 10,
         "agility": 6
@@ -11876,7 +11876,7 @@
         "ap": 8,
         "ap_cost": 3,
         "fuel_map": 4,
-        "fuel_combat": 3,
+        "fuel_combat": 5,
         "safety": 60,
         "speed": 10,
         "agility": 10
@@ -15207,6 +15207,41 @@
         "agility": 9
       },
       "shortname": "Dual-Field"
+    },
+    "626": {
+      "_id": 626,
+      "faction": "steel_song",
+      "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_3",
+      "type": "crew",
+      "name": "Warden's Annex",
+      "size": "medium",
+      "mass": 150,
+      "officers": 1,
+      "prisoners": 1,
+      "install_cost": 298000,
+      "armor": 1,
+      "shield": 1,
+      "medical": 2,
+      "shipops": 4
+    },
+    "627": {
+      "_id": 627,
+      "faction": "thulun",
+      "img": "ship_comp_cabin",
+      "imgmod": "ship_comp_over_3",
+      "type": "crew",
+      "name": "Tactician's Annex",
+      "size": "medium",
+      "mass": 150,
+      "officers": 1,
+      "install_cost": 284000,
+      "shipops": 2,
+      "electronics": 4,
+      "acc": 10,
+      "acc_craft": 10,
+      "res_craft": 10,
+      "dmg": 10
     }
   },
   "ships": {
@@ -23169,7 +23204,7 @@
     "621": {
       "_id": 621,
       "name": "Mitigation Protocols",
-      "desc": "When Exploring a Wild Zone, reroll any card",
+      "desc": "When Exploring a Wild Zone, reroll any risk card",
       "cool": 30,
       "type": 51,
       "icon": "talent_explorer_reroll"
@@ -23345,7 +23380,7 @@
     "667": {
       "_id": 667,
       "name": "Engine Disruption",
-      "desc": "radiation bomb disrupts engine containment field causing Stealth Damage to ship's Engine if it is prevoiusly undamaged",
+      "desc": "radiation bomb disrupts engine containment field causing Stealth Damage to ship's Engine if it has less than 25% Damage",
       "cool": 90,
       "type": 77,
       "icon": "talent_sabo_engine"
